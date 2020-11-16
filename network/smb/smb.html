@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Server Message Block Protocol</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../images/favicon/site.webmanifest">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="../../assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="../../assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+	<!-- Menu -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="../../index.html">Home</a></li>
+			<li><a href="../../tools_landing.html">Hacking Tools</a></li>
+			<li><a href="../../linux_landing.html">Vulnerabilities on Linux</a></li>
+			<li><a href="../../windows_landing.html">Vulnerabilities on Windows</a></li>
+			<li><a href="../../web_landing.html">Vulnerabilities on Web</a></li>
+			<li><a href="../../malware_analyses_landing.html">Malware Analysis</a></li>
+			<li><a href="../../network_services_landing.html">Network Services</a></li>
+			<li><a href="../../ctf_landing.html">Capture the Flag</a></li>
+			<li><a href="../../miscellaneous_landing.html">Miscellaneous</a></li>
+			<li><a href="https://github.com/martinkubecka"><img alt="Github" src="../../images/github_logo.png"/></a></li>
+		</ul>
+	</nav>
+
+    <!-- Main -->
+    <div id="main" class="alt">
+
+        <!-- One -->
+        <section id="one">
+            <div class="inner">
+                <header class="major">
+                    <h1>SMB</h1>
+                </header>
+
+                <span style="font-size: 16pt">2020/10/10</span><br><br>
+
+
+                </u></b>
+                <ul>
+                    <li><b><u>Server Message Block Protocol</u></b></li>
+                    <li style="list-style-type: none">
+                        <ul>
+                            <li>client-server communication protocol used for sharing access to files, printers, serial
+                                ports and other resources on a network
+                            </li>
+                            <li>known as a response-request protocol, meaning that it transmits multiple messages
+                                between the client and server to establish a connection
+                            </li>
+                            <li>clients connect to servers using TCP/IP</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li style="list-style-type: none"><img src="image.png"/></li>
+                    <li style="list-style-type: none"></li>
+                    <br>
+                    <li style="list-style-type: none"><b><i>smbclient //[IP]/[SHARE]"</i></b></li>
+                    <li style="list-style-type: none"></li>
+                    <br>
+                    <li style="list-style-type: none">Followed by the tags:</li>
+                    <li style="list-style-type: none"></li>
+                    <li style="list-style-type: none">
+                        <ul>
+                            <li style="list-style-type: none"><i>-U</i>[name] : to specify the user</li>
+                        </ul>
+                    </li>
+                    <li style="list-style-type: none"></li>
+                    <li style="list-style-type: none">
+                        <ul>
+                            <li style="list-style-type: none"><i>-p</i>[port] : to specify the port</li>
+                        </ul>
+                    </li>
+                    <li style="list-style-type: none"></li>
+                </ul>
+                <hr/>
+                <ul>
+                    <li style="list-style-type: none"></li>
+                    <b><u>
+                        <div style="text-align: left"><span style="font-size: 14pt"><li style="list-style-type: none">Enumeration</li>
+<li style="list-style-type: none"></li>
+<li style="list-style-type: none"></li>
+</span><br></div>
+                    </u></b>
+                    <li>Typically, there are SMB share drives on a server that can be connected to and used to view or
+                        transfer files
+                    </li>
+                    <li>SMB can often be a great starting point for an attacker looking to discover sensitive
+                        information
+                    </li>
+                </ul>
+                <ul>
+                    <li style="list-style-type: none"></li>
+                    <li style="list-style-type: none"><img src="image 2.png"/></li>
+                    <li style="list-style-type: none"></li>
+                </ul>
+                <img src="image 3.png"/><br/>
+                <hr/>
+                <ul><span style="font-size: 14pt"><u><b><li style="list-style-type: none">Exploitation</li>
+<li style="list-style-type: none"></li>
+<li style="list-style-type: none"></li>
+</b></u></span><br>
+                    <li>we're going to be exploiting anonymous SMB share access- a common misconfiguration that can
+                        allow us to gain information that will lead to a shell
+                    </li>
+                </ul>
+                <ul>
+                    <li style="list-style-type: none"><img src="image 4.png"/></li>
+                    <li style="list-style-type: none"></li>
+                    <li style="list-style-type: none"><img src="image 5.png"/></li>
+                    <li style="list-style-type: none"></li>
+                    <li style="list-style-type: none"><img src="image 6.png"/></li>
+                </ul>
+                <ul>
+                    <li style="list-style-type: none"><img src="image 7.png"/></li>
+                    <li style="list-style-type: none"></li>
+                </ul>
+
+                <ul>
+                    <li style="list-style-type: none"><img src="image 8.png"/></li>
+                    <li style="list-style-type: none"></li>
+                </ul>
+                <br/>
+
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="inner">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+        </div>
+    </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="../../assets/js/jquery.min.js"></script>
+<script src="../../assets/js/jquery.scrolly.min.js"></script>
+<script src="../../assets/js/jquery.scrollex.min.js"></script>
+<script src="../../assets/js/browser.min.js"></script>
+<script src="../../assets/js/breakpoints.min.js"></script>
+<script src="../../assets/js/util.js"></script>
+<script src="../../assets/js/main.js"></script>
+
+</body>
+
+</html>

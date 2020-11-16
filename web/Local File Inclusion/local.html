@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Local File Inclusion</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="../../images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="../../images/favicon/site.webmanifest">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="../../assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="../../index.html">Home</a></li>
+				<li><a href="../../tools_landing.html">Hacking Tools</a></li>
+				<li><a href="../../linux_landing.html">Vulnerabilities on Linux</a></li>
+				<li><a href="../../windows_landing.html">Vulnerabilities on Windows</a></li>
+				<li><a href="../../web_landing.html">Vulnerabilities on Web</a></li>
+				<li><a href="../../malware_analyses_landing.html">Malware Analysis</a></li>
+				<li><a href="../../network_services_landing.html">Network Services</a></li>
+				<li><a href="../../ctf_landing.html">Capture the Flag</a></li>
+				<li><a href="../../miscellaneous_landing.html">Miscellaneous</a></li>
+				<li><a href="https://github.com/martinkubecka"><img alt="Github" src="../../images/github_logo.png"/></a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main" class="alt">
+
+			<!-- One -->
+			<section id="one">
+				<div class="inner">
+					<header class="major">
+						<h1>Local File Inclusion</h1>
+					</header>
+
+					<span style="font-size: 16pt">2020/10/12</span><br><br>
+
+					<ul>
+						<li>vulnerability that is mostly found in web servers</li>
+						<li>exploited when a user input contains a certain path to the file which might be present on
+							the server and will be included in the output</li>
+						<li>can be used to read files containing sensitive and confidential data from the vulnerable
+							system</li>
+					</ul>
+					<ul>
+						<li>the main cause of this type of Vulnerability is that whatever user input should be checked
+							and it should be made sure that only the expected values are passed and nothing suspicious
+							is given in input</li>
+						<li>it is a type of Vulnerability commonly found in PHP based websites but isn't restricted to
+							them</li>
+					</ul>
+					<ul>
+						<li>to test for LFI what we need is a parameter on any URL or any other input fields like
+							request body etc.</li>
+						<li>for example, if the website is tryhackme.com then a parameter in the URL can look
+							like<i>&nbsp;https://tryhackme.com/?file=robots.txt</i></li>
+						<li style="list-style-type: none">
+							<ul>
+								<li>Here file is the name of the parameter and robots.txt is the value that we are
+									passing (include the file robots.txt).</li>
+							</ul>
+						</li>
+					</ul>
+					<hr />
+					<ul>
+						<li style="list-style-type: none">&nbsp;<img src="image.png" /></li>
+						<li style="list-style-type: none"></li>
+						<li style="list-style-type: none">&nbsp;<img src="image 2.png" /></li>
+						<li style="list-style-type: none"></li>
+						<li style="list-style-type: none">&nbsp;<img src="image 3.png" /></li>
+						<li style="list-style-type: none"></li>
+					</ul>
+					&nbsp;&#09;<img src="image 4.png" />&nbsp; &nbsp; <span style="font-size: 56pt"><b>/ </b></span><img
+						src="image 5.png" /><br />
+					&nbsp;&#09;<img src="image 6.png" /><br />
+					<br />
+					&nbsp;&#09;<img src="image 7.png" /><br />
+					<ul>
+						<li style="list-style-type: none"><img src="image 8.png" /></li>
+						<li style="list-style-type: none"></li>
+						<li style="list-style-type: none"><img src="image 9.png" /></li>
+						<li style="list-style-type: none"></li>
+						<li style="list-style-type: none"><b><span style="font-size: 22pt">. . .</span></b></li>
+						<li style="list-style-type: none"></li>
+						<li style="list-style-type: none"><img src="image 10.png" /></li>
+						<li style="list-style-type: none"></li>
+						<li style="list-style-type: none"><img src="image 11.png" /></li>
+						<li style="list-style-type: none"></li>
+						<li style="list-style-type: none"></li>
+						<li style="list-style-type: none"></li>
+					</ul>
+
+				</div>
+			</section>
+		</div>
+
+		<!-- Contact -->
+		<section id="contact">
+			<div class="inner">
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="../../assets/js/jquery.min.js"></script>
+	<script src="../../assets/js/jquery.scrolly.min.js"></script>
+	<script src="../../assets/js/jquery.scrollex.min.js"></script>
+	<script src="../../assets/js/browser.min.js"></script>
+	<script src="../../assets/js/breakpoints.min.js"></script>
+	<script src="../../assets/js/util.js"></script>
+	<script src="../../assets/js/main.js"></script>
+
+</body>
+
+</html>
