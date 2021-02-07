@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>brute force on Blog</title>
+    <link>https://martinkubecka.github.io/en/tags/brute-force/</link>
+    <description>Recent content in brute force on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 05 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://martinkubecka.github.io/en/tags/brute-force/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Archangel [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/archangel/</link>
+        <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 05 Feb 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/archangel/</guid>
+        <description>Title Archangel     Info Boot2root, Web exploitation, Privilege escalation, LFI   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15  nmap -A -T4 10.10.226.24 Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-05 01:08 CST Nmap scan report for 10.10.226.24 Host is up (0.077s latency). Not shown: 998 closed ports PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/archangel/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>decoding</category>
+            
+          
+            
+              <category>brute force</category>
+            
+          
+            
+              <category>lfi</category>
+            
+          
+            
+              <category>log poisoning</category>
+            
+          
+            
+              <category>exploitation</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>ColddBox [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/colddbox/</link>
+        <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sun, 10 Jan 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/colddbox/</guid>
+        <description>Title ColddBox     Info An easy level machine with multiple ways to escalate privileges.   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap 1 2 3 4 5 6 7 8 9 10  nmap -v -p- {TARGET MACHINE IP} Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-10 03:55 CST Completed SYN Stealth Scan at 04:03, 486.51s elapsed (65535 total ports) Nmap scan report for 10.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/colddbox/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>exploitation</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+            
+              <category>brute force</category>
+            
+          
+            
+              <category>wordpress</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Jack-of-All-Trades [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/jack-of-all-trades/</link>
+        <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Tue, 05 Jan 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/jack-of-all-trades/</guid>
+        <description>Title Jack-of-All-Trades     Info Boot-to-root originally designed for Securi-Tay 2020   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20  nmap -A -T4 {TARGET MACHINE IP} Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-05 12:33 CST Stats: 0:00:35 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan NSE Timing: About 99.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/jack-of-all-trades/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+            
+              <category>steganography</category>
+            
+          
+            
+              <category>command injection</category>
+            
+          
+            
+              <category>brute force</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>GoldenEye [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/goldeneye/</link>
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 18 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/goldeneye/</guid>
+        <description>Title GoldenEye     Info Bond, James Bond. A guided CTF.   Difficulty Medium    Scanning &amp;amp; Enumeration Nmap Use nmap to scan the network for all ports.
+How many ports are open?
+
+Website Take a look on the website, take a dive into the source code too and remember to inspect all scripts!
+Who needs to make sure they update their default password?</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/goldeneye/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>decoding</category>
+            
+          
+            
+              <category>telnet</category>
+            
+          
+            
+              <category>pop3</category>
+            
+          
+            
+              <category>brute force</category>
+            
+          
+            
+              <category>python</category>
+            
+          
+            
+              <category>exploitation</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Fowsniff CTF [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/fowsniff-ctf/</link>
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sun, 15 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/fowsniff-ctf/</guid>
+        <description>Title Fowsniff CTF     Info Hack this machine and get the flag. There are lots of hints along the way and is perfect for beginners!   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap Using nmap, scan this machine. What ports are open?
+Using the information from the open ports. Look around. What can you find?
+
+POP3 Using Google, can you find any public information about them?</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/fowsniff-ctf/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>exploitation</category>
+            
+          
+            
+              <category>pop3</category>
+            
+          
+            
+              <category>brute force</category>
+            
+          
+            
+              <category>python</category>
+            
+          
+            
+              <category>metasploit</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Brute It [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/brute-it/</link>
+        <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Tue, 10 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/brute-it/</guid>
+        <description>Title Brute It     Info Learn how to brute, hash cracking and escalate privileges in this box!   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap 
+Directory Brute-Forcing 
+
+Note found in the source code.
+
+Brute-Forcing SSH credentials 
+
+
+Save RSA PRIVATE KEY into admin_id_rsa file and convert it for john.
+Then crack the passphrase.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/brute-it/icon.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>brute force</category>
+            
+          
+            
+              <category>hash cracking</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

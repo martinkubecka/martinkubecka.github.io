@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>images on Blog</title>
+    <link>https://martinkubecka.github.io/en/tags/images/</link>
+    <description>Recent content in images on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://martinkubecka.github.io/en/tags/images/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Searchlight [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/searchlight/</link>
+        <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 18 Dec 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/searchlight/</guid>
+        <description>Title Searchlight     Info OSINT challenges in the imagery intelligence category   Difficulty N/A    Your first challenge! There are 5 elements of IMINT that you should consider when looking at an image:
+Context
+Foreground
+Background
+Map markings
+Trial and error
+
+ What is the name of the street where this image was taken?
+sl{carnaby street}
+ Just Google it!</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/searchlight/searchlight.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>OSINT</category>
+            
+          
+            
+              <category>images</category>
+            
+          
+            
+              <category>geolocation</category>
+            
+          
+        
+        
+          
+            
+              <category>OSINT</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

