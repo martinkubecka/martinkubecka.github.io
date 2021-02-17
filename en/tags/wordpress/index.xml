@@ -25,7 +25,7 @@
         
         <atom:modified>Sat, 06 Feb 2021 00:00:00 +0000</atom:modified>
         <guid>https://martinkubecka.github.io/en/posts/thm/mr-robot-ctf/</guid>
-        <description>Title Mr Robot CTF     Info Based on the Mr. Robot show, can you root this box?   Difficulty Medium    Scanning &amp;amp; Enumeration 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  nmap -sV -sC 10.10.43.138 -oN initial.nmap Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-06 11:50 CST Nmap scan report for 10.</description>
+        <description>Title Mr Robot CTF     Info Based on the Mr. Robot show, can you root this box?   Difficulty Medium    Scanning &amp;amp; Enumeration Nmap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  nmap -sV -sC 10.10.43.138 -oN initial.nmap Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-06 11:50 CST Nmap scan report for 10.</description>
         
         <dc:creator>Martin Kubecka</dc:creator>
         <media:content url="https://martinkubecka.github.io/images/thm/mr-robot-ctf/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
