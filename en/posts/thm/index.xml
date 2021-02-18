@@ -12,11 +12,66 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/posts/thm/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Watcher [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/watcher/</link>
+        <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 17 Feb 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/watcher/</guid>
+        <description>Title  Watcher     Info  A boot2root Linux machine utilizing web exploits along with some common privilege escalation techniques.   Difficulty  Medium   Date 2021/02/17    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.142.217
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The output of the scan can be seen below:</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/watcher/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>brute force</category>
+            
+          
+            
+              <category>decoding</category>
+            
+          
+            
+              <category>cron job</category>
+            
+          
+            
+              <category>python</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Inferno [TryHackMe]</title>
