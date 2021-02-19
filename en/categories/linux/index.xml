@@ -12,11 +12,62 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 17 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Dogcat [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/dogcat/</link>
+        <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 19 Feb 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/dogcat/</guid>
+        <description>Title  Dogcat     Info  I made a website where you can look at pictures of dogs and/or cats! Exploit a PHP application via LFI and break out of a docker container.   Difficulty  Medium   Date 2021/02/19    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.19.192
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/dogcat/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>lfi</category>
+            
+          
+            
+              <category>docker</category>
+            
+          
+            
+              <category>cron job</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Watcher [TryHackMe]</title>
@@ -44,6 +95,10 @@ Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The ou
           
             
               <category>decoding</category>
+            
+          
+            
+              <category>lfi</category>
             
           
             

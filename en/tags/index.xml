@@ -12,11 +12,101 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 17 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>cron job</title>
+        <link>https://martinkubecka.github.io/en/tags/cron-job/</link>
+        <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/cron-job/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>docker</title>
+        <link>https://martinkubecka.github.io/en/tags/docker/</link>
+        <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/docker/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>enumeration</title>
+        <link>https://martinkubecka.github.io/en/tags/enumeration/</link>
+        <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/enumeration/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>lfi</title>
+        <link>https://martinkubecka.github.io/en/tags/lfi/</link>
+        <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/lfi/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>privilege escalation</title>
+        <link>https://martinkubecka.github.io/en/tags/privilege-escalation/</link>
+        <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/privilege-escalation/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>brute force</title>
@@ -37,66 +127,12 @@
       </item>
       
       <item>
-        <title>cron job</title>
-        <link>https://martinkubecka.github.io/en/tags/cron-job/</link>
-        <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://martinkubecka.github.io/en/tags/cron-job/</guid>
-        <description></description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>decoding</title>
         <link>https://martinkubecka.github.io/en/tags/decoding/</link>
         <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
         
         
         <guid>https://martinkubecka.github.io/en/tags/decoding/</guid>
-        <description></description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>enumeration</title>
-        <link>https://martinkubecka.github.io/en/tags/enumeration/</link>
-        <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://martinkubecka.github.io/en/tags/enumeration/</guid>
-        <description></description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>privilege escalation</title>
-        <link>https://martinkubecka.github.io/en/tags/privilege-escalation/</link>
-        <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://martinkubecka.github.io/en/tags/privilege-escalation/</guid>
         <description></description>
         
         <dc:creator>Martin Kubecka</dc:creator>
@@ -223,24 +259,6 @@
         
         
         <guid>https://martinkubecka.github.io/en/tags/exploitation/</guid>
-        <description></description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>lfi</title>
-        <link>https://martinkubecka.github.io/en/tags/lfi/</link>
-        <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://martinkubecka.github.io/en/tags/lfi/</guid>
         <description></description>
         
         <dc:creator>Martin Kubecka</dc:creator>
