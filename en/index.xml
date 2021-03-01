@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     
@@ -38,6 +38,98 @@
         
       
 
+      
+      <item>
+        <title>JPGChat [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/jpgchat/</link>
+        <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Mon, 01 Mar 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/jpgchat/</guid>
+        <description>Title  JPGChat     Info  Exploiting poorly made custom chatting service written in a certain language.   Difficulty  Easy   Date 2021/03/01    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.252.52
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The output of the scan can be seen below:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19  nmap -p- -A -T4 10.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/jpgchat/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>python</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Magician [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/magician/</link>
+        <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Thu, 25 Feb 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/magician/</guid>
+        <description>Title  Magician     Info  This magical website lets you convert image file formats.   Difficulty  Easy   Date 2021/02/25    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.50.10
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The output of the scan can be seen below:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50  Nmap scan report for 10.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/magician/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>ftp</category>
+            
+          
+            
+              <category>reverse SSH</category>
+            
+          
+            
+              <category>decoding</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Dogcat [TryHackMe]</title>
@@ -344,34 +436,6 @@ Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The ou
           
             
               <category>Linux</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>Penetration Testing Cheat Sheet</title>
-        <link>https://martinkubecka.github.io/en/posts/general/pentest-cheat-sheet/</link>
-        <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
-        
-        <atom:modified>Fri, 05 Feb 2021 00:00:00 +0000</atom:modified>
-        <guid>https://martinkubecka.github.io/en/posts/general/pentest-cheat-sheet/</guid>
-        <description>DISCLAIMER
-All information and software available on this site are for educational purposes only. Use these at your own discretion, the site owners cannot be held responsible for any damages caused. The views expressed on this site are our own and do not necessarily reflect those of our employers.
-Usage of all tools on this site for attacking targets without prior mutual consent is illegal. It is the end user’s responsibility to obey all applicable local, state and federal laws.</description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        <media:content url="https://martinkubecka.github.io/images/general/pentest-cheat-sheet/icon.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-          
-        
-        
-          
             
           
         
@@ -1439,6 +1503,34 @@ Privilege Escalation</description>
           
             
               <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Penetration Testing Cheat Sheet</title>
+        <link>https://martinkubecka.github.io/en/posts/general/pentest-cheat-sheet/</link>
+        <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 25 Sep 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/general/pentest-cheat-sheet/</guid>
+        <description>DISCLAIMER
+All information and software available on this site are for educational purposes only. Use these at your own discretion, the site owners cannot be held responsible for any damages caused. The views expressed on this site are our own and do not necessarily reflect those of our employers.
+Usage of all tools on this site for attacking targets without prior mutual consent is illegal. It is the end user’s responsibility to obey all applicable local, state and federal laws.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/general/pentest-cheat-sheet/icon.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
             
           
         

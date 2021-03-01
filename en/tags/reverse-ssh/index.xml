@@ -12,11 +12,59 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/tags/reverse-ssh/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Magician [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/magician/</link>
+        <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Thu, 25 Feb 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/magician/</guid>
+        <description>Title  Magician     Info  This magical website lets you convert image file formats.   Difficulty  Easy   Date 2021/02/25    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.50.10
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The output of the scan can be seen below:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50  Nmap scan report for 10.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/magician/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>ftp</category>
+            
+          
+            
+              <category>reverse SSH</category>
+            
+          
+            
+              <category>decoding</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Game Zone [TryHackMe]</title>

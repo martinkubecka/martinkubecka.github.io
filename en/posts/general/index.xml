@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 05 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/posts/general/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,9 +21,9 @@
       <item>
         <title>Penetration Testing Cheat Sheet</title>
         <link>https://martinkubecka.github.io/en/posts/general/pentest-cheat-sheet/</link>
-        <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
         
-        <atom:modified>Fri, 05 Feb 2021 00:00:00 +0000</atom:modified>
+        <atom:modified>Fri, 25 Sep 2020 00:00:00 +0000</atom:modified>
         <guid>https://martinkubecka.github.io/en/posts/general/pentest-cheat-sheet/</guid>
         <description>DISCLAIMER
 All information and software available on this site are for educational purposes only. Use these at your own discretion, the site owners cannot be held responsible for any damages caused. The views expressed on this site are our own and do not necessarily reflect those of our employers.

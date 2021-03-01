@@ -12,11 +12,119 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>enumeration</title>
+        <link>https://martinkubecka.github.io/en/tags/enumeration/</link>
+        <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/enumeration/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>privilege escalation</title>
+        <link>https://martinkubecka.github.io/en/tags/privilege-escalation/</link>
+        <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/privilege-escalation/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>python</title>
+        <link>https://martinkubecka.github.io/en/tags/python/</link>
+        <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/python/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>decoding</title>
+        <link>https://martinkubecka.github.io/en/tags/decoding/</link>
+        <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/decoding/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>ftp</title>
+        <link>https://martinkubecka.github.io/en/tags/ftp/</link>
+        <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/ftp/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>reverse SSH</title>
+        <link>https://martinkubecka.github.io/en/tags/reverse-ssh/</link>
+        <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/reverse-ssh/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>cron job</title>
@@ -55,24 +163,6 @@
       </item>
       
       <item>
-        <title>enumeration</title>
-        <link>https://martinkubecka.github.io/en/tags/enumeration/</link>
-        <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://martinkubecka.github.io/en/tags/enumeration/</guid>
-        <description></description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>lfi</title>
         <link>https://martinkubecka.github.io/en/tags/lfi/</link>
         <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
@@ -91,66 +181,12 @@
       </item>
       
       <item>
-        <title>privilege escalation</title>
-        <link>https://martinkubecka.github.io/en/tags/privilege-escalation/</link>
-        <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://martinkubecka.github.io/en/tags/privilege-escalation/</guid>
-        <description></description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>brute force</title>
         <link>https://martinkubecka.github.io/en/tags/brute-force/</link>
         <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
         
         
         <guid>https://martinkubecka.github.io/en/tags/brute-force/</guid>
-        <description></description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>decoding</title>
-        <link>https://martinkubecka.github.io/en/tags/decoding/</link>
-        <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://martinkubecka.github.io/en/tags/decoding/</guid>
-        <description></description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>python</title>
-        <link>https://martinkubecka.github.io/en/tags/python/</link>
-        <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://martinkubecka.github.io/en/tags/python/</guid>
         <description></description>
         
         <dc:creator>Martin Kubecka</dc:creator>
@@ -307,24 +343,6 @@
       </item>
       
       <item>
-        <title>reverse SSH</title>
-        <link>https://martinkubecka.github.io/en/tags/reverse-ssh/</link>
-        <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://martinkubecka.github.io/en/tags/reverse-ssh/</guid>
-        <description></description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>sql</title>
         <link>https://martinkubecka.github.io/en/tags/sql/</link>
         <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
@@ -403,24 +421,6 @@
         
         
         <guid>https://martinkubecka.github.io/en/tags/steganography/</guid>
-        <description></description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>ftp</title>
-        <link>https://martinkubecka.github.io/en/tags/ftp/</link>
-        <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://martinkubecka.github.io/en/tags/ftp/</guid>
         <description></description>
         
         <dc:creator>Martin Kubecka</dc:creator>
