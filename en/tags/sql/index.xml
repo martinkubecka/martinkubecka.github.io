@@ -12,74 +12,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     
 
-      
-      <item>
-        <title>Game Zone [TryHackMe]</title>
-        <link>https://martinkubecka.github.io/en/posts/thm/game-zone/</link>
-        <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
-        
-        <atom:modified>Thu, 07 Jan 2021 00:00:00 +0000</atom:modified>
-        <guid>https://martinkubecka.github.io/en/posts/thm/game-zone/</guid>
-        <description>Title Game Zone     Info Learn to hack into this machine. Understand how to use SQLMap, crack passwords, reveal services using a reverse SSH tunnel and escalate your privileges to root!   Difficulty Easy    Reconnaissance Deploy the machine and access its web server.
- What is the name of the large cartoon avatar holding a sniper on the forum?</description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        <media:content url="https://martinkubecka.github.io/images/thm/game-zone/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>enumeration</category>
-            
-          
-            
-              <category>sql</category>
-            
-          
-            
-              <category>hash cracking</category>
-            
-          
-            
-              <category>exploitation</category>
-            
-          
-            
-              <category>reverse SSH</category>
-            
-          
-            
-              <category>metasploit</category>
-            
-          
-            
-              <category>webmin</category>
-            
-          
-            
-              <category>privilege escalation</category>
-            
-          
-        
-        
-          
-            
-              <category>Web</category>
-            
-          
-            
-              <category>Linux</category>
-            
-          
-        
-        
-      </item>
       
       <item>
         <title>Linux Strength Training [TryHackMe]</title>

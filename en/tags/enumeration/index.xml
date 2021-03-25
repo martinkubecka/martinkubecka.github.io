@@ -12,11 +12,107 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/tags/enumeration/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Wekor [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/wekor/</link>
+        <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Tue, 09 Mar 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/wekor/</guid>
+        <description>Title  Wekor     Info  CTF challenge involving Sqli, WordPress, vhost enumeration and recognizing internal services.   Difficulty  Medium   Date 2021/03/09    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.14.2
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The output of the scan can be seen below:
+1 2 3 4 5 6 7 8 9  nmap -sS -sV -T4 wekor.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/wekor/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>sqli</category>
+            
+          
+            
+              <category>wordpress</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Team [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/team/</link>
+        <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Mon, 08 Mar 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/team/</guid>
+        <description>Title  Team     Info   Beginner friendly boot2root machine   Difficulty   Easy   Date 2021/03/08    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.135.37
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The output of the scan can be seen below:
+1 2 3 4 5 6 7 8 9 10  PORT STATE SERVICE VERSION 21/tcp open ftp vsftpd 3.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/team/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>ftp</category>
+            
+          
+            
+              <category>lfi</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>JPGChat [TryHackMe]</title>
@@ -442,7 +538,7 @@ Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The ou
             
           
             
-              <category>sql</category>
+              <category>sqli</category>
             
           
             
