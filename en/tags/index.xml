@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,7 +21,7 @@
       <item>
         <title>enumeration</title>
         <link>https://martinkubecka.github.io/en/tags/enumeration/</link>
-        <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
         
         
         <guid>https://martinkubecka.github.io/en/tags/enumeration/</guid>
@@ -37,12 +37,66 @@
       </item>
       
       <item>
+        <title>exploitation</title>
+        <link>https://martinkubecka.github.io/en/tags/exploitation/</link>
+        <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/exploitation/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>privilege escalation</title>
         <link>https://martinkubecka.github.io/en/tags/privilege-escalation/</link>
-        <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
         
         
         <guid>https://martinkubecka.github.io/en/tags/privilege-escalation/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>remote code execution</title>
+        <link>https://martinkubecka.github.io/en/tags/remote-code-execution/</link>
+        <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/remote-code-execution/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>sql</title>
+        <link>https://martinkubecka.github.io/en/tags/sql/</link>
+        <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/tags/sql/</guid>
         <description></description>
         
         <dc:creator>Martin Kubecka</dc:creator>
@@ -295,24 +349,6 @@
         
         
         <guid>https://martinkubecka.github.io/en/tags/hash-cracking/</guid>
-        <description></description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>exploitation</title>
-        <link>https://martinkubecka.github.io/en/tags/exploitation/</link>
-        <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://martinkubecka.github.io/en/tags/exploitation/</guid>
         <description></description>
         
         <dc:creator>Martin Kubecka</dc:creator>
@@ -583,24 +619,6 @@
         
         
         <guid>https://martinkubecka.github.io/en/tags/command-line/</guid>
-        <description></description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>sql</title>
-        <link>https://martinkubecka.github.io/en/tags/sql/</link>
-        <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://martinkubecka.github.io/en/tags/sql/</guid>
         <description></description>
         
         <dc:creator>Martin Kubecka</dc:creator>

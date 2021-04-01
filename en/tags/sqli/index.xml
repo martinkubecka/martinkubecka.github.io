@@ -44,6 +44,10 @@ Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The ou
             
           
             
+              <category>remote code execution</category>
+            
+          
+            
               <category>wordpress</category>
             
           

@@ -12,11 +12,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/categories/web/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Lunizz CTF [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/luniz-ctf/</link>
+        <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 31 Mar 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/luniz-ctf/</guid>
+        <description>Title  Lunizz CTF     Info  Lunizz CTF   Difficulty  Medium   Date 2021/03/31    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.97.49
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The output of the scan can be seen below:
+1 2 3 4 5 6 7 8 9 10 11 12  nmap -v -sS -sV 10.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/luniz-ctf/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>sql</category>
+            
+          
+            
+              <category>remote code execution</category>
+            
+          
+            
+              <category>exploitation</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Wekor [TryHackMe]</title>
@@ -41,6 +93,10 @@ Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The ou
           
             
               <category>sqli</category>
+            
+          
+            
+              <category>remote code execution</category>
             
           
             
