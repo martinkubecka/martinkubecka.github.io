@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 03 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,10 +21,28 @@
       <item>
         <title>Linux</title>
         <link>https://martinkubecka.github.io/en/categories/linux/</link>
-        <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
         
         
         <guid>https://martinkubecka.github.io/en/categories/linux/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Web</title>
+        <link>https://martinkubecka.github.io/en/categories/web/</link>
+        <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/en/categories/web/</guid>
         <description></description>
         
         <dc:creator>Martin Kubecka</dc:creator>
@@ -43,24 +61,6 @@
         
         
         <guid>https://martinkubecka.github.io/en/categories/windows/</guid>
-        <description></description>
-        
-        <dc:creator>Martin Kubecka</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Web</title>
-        <link>https://martinkubecka.github.io/en/categories/web/</link>
-        <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
-        
-        
-        <guid>https://martinkubecka.github.io/en/categories/web/</guid>
         <description></description>
         
         <dc:creator>Martin Kubecka</dc:creator>
