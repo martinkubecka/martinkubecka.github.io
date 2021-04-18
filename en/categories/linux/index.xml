@@ -12,11 +12,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Linux Privilege Escalation [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/en/posts/thm/linux-privilege-escalation/</link>
+        <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sat, 17 Apr 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/thm/linux-privilege-escalation/</guid>
+        <description>Title  Linux Privilege Escalation     Info  Practice your Linux Privilege Escalation skills on an intentionally misconfigured Debian VM with multiple ways to get root!   Difficulty  Medium   Date 2021/04/17    This VM was created by Sagi Shahar as part of his local privilege escalation workshop but has been updated by Tib3rius as part of his Linux Privilege Escalation for OSCP and Beyond!</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/linux-privilege-escalation/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>exploitation</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>CMesS [TryHackMe]</title>
