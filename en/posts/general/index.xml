@@ -12,11 +12,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/en/posts/general/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Linux OS Management</title>
+        <link>https://martinkubecka.github.io/en/posts/general/linux-os-management/</link>
+        <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 21 Apr 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/en/posts/general/linux-os-management/</guid>
+        <description>Introduction In this post we will go over foundations of the Linux operating system and its management. Different tasks will be perform on the Ubuntu Server 20.04.2
+ We are an intern at the Department of Parks and Recreation of Pawnee, Indiana. Our task will be to set up a running Ubuntu Server with different users and their permissions, groups of employees based on the tasks they perform etc. We have full access to this server.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/general/linux-os-management/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Penetration Testing Cheat Sheet</title>
