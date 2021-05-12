@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>General on Blog</title>
+    <link>https://martinkubecka.github.io/posts/general/</link>
+    <description>Recent content in General on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://martinkubecka.github.io/posts/general/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Weaponizing Malicious Macros</title>
+        <link>https://martinkubecka.github.io/posts/general/malicious-macros/</link>
+        <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 12 May 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/general/malicious-macros/</guid>
+        <description>Excel Malicious Macro Introduction Microsoft Excel is a very useful program that makes life easier for millions of people and companies around the world. It is a robust tool for data collection and visualization, creation of calculations and more. Unfortunately, software that offers script-based automation capabilities also has its downsides.
+A macro is a script that is used to automate tasks in Excel documents, e.g. calculations. Because macros are part of an Excel document and can run automatically, they are a good tool for an attacker to control a computer.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/general/malicious-macros/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>malware</category>
+            
+          
+        
+        
+          
+            
+              <category>Windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Linux OS Management</title>
+        <link>https://martinkubecka.github.io/posts/general/linux-os-management/</link>
+        <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 21 Apr 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/general/linux-os-management/</guid>
+        <description>Introduction In this post we will go over foundations of the Linux operating system and its management. Different tasks will be perform on the Ubuntu Server 20.04.2
+ We are an intern at the Department of Parks and Recreation of Pawnee, Indiana. Our task will be to set up a running Ubuntu Server with different users and their permissions, groups of employees based on the tasks they perform etc. We have full access to this server.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/general/linux-os-management/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Penetration Testing Cheat Sheet</title>
+        <link>https://martinkubecka.github.io/posts/general/pentest-cheat-sheet/</link>
+        <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 25 Sep 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/general/pentest-cheat-sheet/</guid>
+        <description>DISCLAIMER
+All information and software available on this site are for educational purposes only. Use these at your own discretion, the site owners cannot be held responsible for any damages caused. The views expressed on this site are our own and do not necessarily reflect those of our employers.
+Usage of all tools on this site for attacking targets without prior mutual consent is illegal. It is the end user’s responsibility to obey all applicable local, state and federal laws.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/general/pentest-cheat-sheet/icon.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

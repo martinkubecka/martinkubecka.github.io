@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>remote code execution on Blog</title>
+    <link>https://martinkubecka.github.io/tags/remote-code-execution/</link>
+    <description>Recent content in remote code execution on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://martinkubecka.github.io/tags/remote-code-execution/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>CMesS [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/cmess/</link>
+        <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sun, 11 Apr 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/cmess/</guid>
+        <description>Title  CMesS     Info  Can you root this Gila CMS box?   Difficulty  Medium   Date 2021/04/11    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.93.26. Before performing any scanning or enumeration, we will add 10.10.93.26 cmess.thm to our hosts file located in the /etc directory.
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/cmess/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>cms</category>
+            
+          
+            
+              <category>remote code execution</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Lunizz CTF [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/luniz-ctf/</link>
+        <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 31 Mar 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/luniz-ctf/</guid>
+        <description>Title  Lunizz CTF     Info  Lunizz CTF   Difficulty  Medium   Date 2021/03/31    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.97.49
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The output of the scan can be seen below:
+1 2 3 4 5 6 7 8 9 10 11 12  nmap -v -sS -sV 10.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/luniz-ctf/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>sql</category>
+            
+          
+            
+              <category>remote code execution</category>
+            
+          
+            
+              <category>exploitation</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Wekor [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/wekor/</link>
+        <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Tue, 09 Mar 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/wekor/</guid>
+        <description>Title  Wekor     Info  CTF challenge involving Sqli, WordPress, vhost enumeration and recognizing internal services.   Difficulty  Medium   Date 2021/03/09    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.14.2
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The output of the scan can be seen below:
+1 2 3 4 5 6 7 8 9  nmap -sS -sV -T4 wekor.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/wekor/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>sqli</category>
+            
+          
+            
+              <category>remote code execution</category>
+            
+          
+            
+              <category>wordpress</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

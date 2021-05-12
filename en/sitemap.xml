@@ -3,8 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://martinkubecka.github.io/en/</loc>
-    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
+    <loc>https://martinkubecka.github.io/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -13,13 +13,13 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://martinkubecka.github.io/en/"
+                href="https://martinkubecka.github.io/"
                 />
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/categories/</loc>
-    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
+    <loc>https://martinkubecka.github.io/categories/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -28,33 +28,28 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://martinkubecka.github.io/en/categories/"
+                href="https://martinkubecka.github.io/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/categories/miscellaneous/</loc>
-    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
+    <loc>https://martinkubecka.github.io/posts/general/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/</loc>
-    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
+    <loc>https://martinkubecka.github.io/tags/malware/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/regex/</loc>
-    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
+    <loc>https://martinkubecka.github.io/posts/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/regular-expressions/</loc>
-    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://martinkubecka.github.io/en/tags/</loc>
-    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
+    <loc>https://martinkubecka.github.io/tags/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -63,476 +58,491 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://martinkubecka.github.io/en/tags/"
+                href="https://martinkubecka.github.io/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/</loc>
+    <loc>https://martinkubecka.github.io/posts/general/malicious-macros/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://martinkubecka.github.io/categories/windows/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://martinkubecka.github.io/categories/miscellaneous/</loc>
     <lastmod>2021-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/general/</loc>
+    <loc>https://martinkubecka.github.io/tags/regex/</loc>
+    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://martinkubecka.github.io/posts/thm/regular-expressions/</loc>
+    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://martinkubecka.github.io/posts/thm/</loc>
+    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://martinkubecka.github.io/categories/linux/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/categories/linux/</loc>
+    <loc>https://martinkubecka.github.io/posts/general/linux-os-management/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/general/linux-os-management/</loc>
-    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://martinkubecka.github.io/en/tags/exploitation/</loc>
+    <loc>https://martinkubecka.github.io/tags/exploitation/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/linux-privilege-escalation/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/linux-privilege-escalation/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/privilege-escalation/</loc>
+    <loc>https://martinkubecka.github.io/tags/privilege-escalation/</loc>
     <lastmod>2021-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/cmess/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/cmess/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/cms/</loc>
+    <loc>https://martinkubecka.github.io/tags/cms/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/enumeration/</loc>
+    <loc>https://martinkubecka.github.io/tags/enumeration/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/remote-code-execution/</loc>
+    <loc>https://martinkubecka.github.io/tags/remote-code-execution/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/categories/web/</loc>
+    <loc>https://martinkubecka.github.io/categories/web/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/ghizer/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/ghizer/</loc>
     <lastmod>2021-04-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/wordpress/</loc>
+    <loc>https://martinkubecka.github.io/tags/wordpress/</loc>
     <lastmod>2021-04-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/poster/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/poster/</loc>
     <lastmod>2021-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/postgres/</loc>
+    <loc>https://martinkubecka.github.io/tags/postgres/</loc>
     <lastmod>2021-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/sql/</loc>
+    <loc>https://martinkubecka.github.io/tags/sql/</loc>
     <lastmod>2021-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/active-directory/</loc>
+    <loc>https://martinkubecka.github.io/tags/active-directory/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/attacktive-directory/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/attacktive-directory/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/kerberos/</loc>
+    <loc>https://martinkubecka.github.io/tags/kerberos/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/categories/windows/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/luniz-ctf/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/luniz-ctf/</loc>
     <lastmod>2021-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/sqli/</loc>
+    <loc>https://martinkubecka.github.io/tags/sqli/</loc>
     <lastmod>2021-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/wekor/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/wekor/</loc>
     <lastmod>2021-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/ftp/</loc>
+    <loc>https://martinkubecka.github.io/tags/ftp/</loc>
     <lastmod>2021-03-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/lfi/</loc>
+    <loc>https://martinkubecka.github.io/tags/lfi/</loc>
     <lastmod>2021-03-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/team/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/team/</loc>
     <lastmod>2021-03-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/jpgchat/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/jpgchat/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/python/</loc>
+    <loc>https://martinkubecka.github.io/tags/python/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/decoding/</loc>
+    <loc>https://martinkubecka.github.io/tags/decoding/</loc>
     <lastmod>2021-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/magician/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/magician/</loc>
     <lastmod>2021-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/reverse-ssh/</loc>
+    <loc>https://martinkubecka.github.io/tags/reverse-ssh/</loc>
     <lastmod>2021-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/cron-job/</loc>
+    <loc>https://martinkubecka.github.io/tags/cron-job/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/docker/</loc>
+    <loc>https://martinkubecka.github.io/tags/docker/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/dogcat/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/dogcat/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/brute-force/</loc>
+    <loc>https://martinkubecka.github.io/tags/brute-force/</loc>
     <lastmod>2021-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/watcher/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/watcher/</loc>
     <lastmod>2021-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/codiad/</loc>
+    <loc>https://martinkubecka.github.io/tags/codiad/</loc>
     <lastmod>2021-02-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/inferno/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/inferno/</loc>
     <lastmod>2021-02-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/en-pass/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/en-pass/</loc>
     <lastmod>2021-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/fuzzing/</loc>
+    <loc>https://martinkubecka.github.io/tags/fuzzing/</loc>
     <lastmod>2021-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/yaml/</loc>
+    <loc>https://martinkubecka.github.io/tags/yaml/</loc>
     <lastmod>2021-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/hash-cracking/</loc>
+    <loc>https://martinkubecka.github.io/tags/hash-cracking/</loc>
     <lastmod>2021-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/mr-robot-ctf/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/mr-robot-ctf/</loc>
     <lastmod>2021-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/archangel/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/archangel/</loc>
     <lastmod>2021-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/log-poisoning/</loc>
+    <loc>https://martinkubecka.github.io/tags/log-poisoning/</loc>
     <lastmod>2021-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/colddbox/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/colddbox/</loc>
     <lastmod>2021-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/game-zone/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/game-zone/</loc>
     <lastmod>2021-01-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/metasploit/</loc>
+    <loc>https://martinkubecka.github.io/tags/metasploit/</loc>
     <lastmod>2021-01-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/webmin/</loc>
+    <loc>https://martinkubecka.github.io/tags/webmin/</loc>
     <lastmod>2021-01-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/ha-joker-ctf/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/ha-joker-ctf/</loc>
     <lastmod>2021-01-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/lxd/</loc>
+    <loc>https://martinkubecka.github.io/tags/lxd/</loc>
     <lastmod>2021-01-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/command-injection/</loc>
+    <loc>https://martinkubecka.github.io/tags/command-injection/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/jack-of-all-trades/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/jack-of-all-trades/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/steganography/</loc>
+    <loc>https://martinkubecka.github.io/tags/steganography/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/anonforce/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/anonforce/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/gpg/</loc>
+    <loc>https://martinkubecka.github.io/tags/gpg/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/pgp/</loc>
+    <loc>https://martinkubecka.github.io/tags/pgp/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/gaming-server/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/gaming-server/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/dav/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/dav/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/wgel/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/wgel/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/mnemonic/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/mnemonic/</loc>
     <lastmod>2020-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/zip-cracking/</loc>
+    <loc>https://martinkubecka.github.io/tags/zip-cracking/</loc>
     <lastmod>2020-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/geolocation/</loc>
+    <loc>https://martinkubecka.github.io/tags/geolocation/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/images/</loc>
+    <loc>https://martinkubecka.github.io/tags/images/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/osint/</loc>
+    <loc>https://martinkubecka.github.io/tags/osint/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/categories/osint/</loc>
+    <loc>https://martinkubecka.github.io/categories/osint/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/searchlight/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/searchlight/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/cron/</loc>
+    <loc>https://martinkubecka.github.io/tags/cron/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/enumeration-scripts/</loc>
+    <loc>https://martinkubecka.github.io/tags/enumeration-scripts/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/overpass/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/overpass/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/command-line/</loc>
+    <loc>https://martinkubecka.github.io/tags/command-line/</loc>
     <lastmod>2020-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/linux-strength-training/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/linux-strength-training/</loc>
     <lastmod>2020-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/anthem/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/anthem/</loc>
     <lastmod>2020-11-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/ignite/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/ignite/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/goldeneye/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/goldeneye/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/pop3/</loc>
+    <loc>https://martinkubecka.github.io/tags/pop3/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/telnet/</loc>
+    <loc>https://martinkubecka.github.io/tags/telnet/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/lfi-basics/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/lfi-basics/</loc>
     <lastmod>2020-11-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/fowsniff-ctf/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/fowsniff-ctf/</loc>
     <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/skynet/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/skynet/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/smb/</loc>
+    <loc>https://martinkubecka.github.io/tags/smb/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/brute-it/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/brute-it/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/enumaration/</loc>
+    <loc>https://martinkubecka.github.io/tags/enumaration/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/linux-local-enumeration/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/linux-local-enumeration/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/shell-stabilization/</loc>
+    <loc>https://martinkubecka.github.io/tags/shell-stabilization/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/startup/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/startup/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/exploit/</loc>
+    <loc>https://martinkubecka.github.io/tags/exploit/</loc>
     <lastmod>2020-09-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/thm/sudo-security-bypass/</loc>
+    <loc>https://martinkubecka.github.io/posts/thm/sudo-security-bypass/</loc>
     <lastmod>2020-09-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/posts/general/pentest-cheat-sheet/</loc>
+    <loc>https://martinkubecka.github.io/posts/general/pentest-cheat-sheet/</loc>
     <lastmod>2020-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/archive/</loc>
+    <loc>https://martinkubecka.github.io/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/about/</loc>
+    <loc>https://martinkubecka.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/tags/index/</loc>
+    <loc>https://martinkubecka.github.io/tags/index/</loc>
   </url>
   
   <url>
-    <loc>https://martinkubecka.github.io/en/series/</loc>
+    <loc>https://martinkubecka.github.io/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -541,7 +551,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://martinkubecka.github.io/en/series/"
+                href="https://martinkubecka.github.io/series/"
                 />
   </url>
   

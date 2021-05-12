@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>cron job on Blog</title>
+    <link>https://martinkubecka.github.io/tags/cron-job/</link>
+    <description>Recent content in cron job on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://martinkubecka.github.io/tags/cron-job/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Dogcat [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/dogcat/</link>
+        <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 19 Feb 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/dogcat/</guid>
+        <description>Title  Dogcat     Info  I made a website where you can look at pictures of dogs and/or cats! Exploit a PHP application via LFI and break out of a docker container.   Difficulty  Medium   Date 2021/02/19    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.19.192
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/dogcat/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>lfi</category>
+            
+          
+            
+              <category>docker</category>
+            
+          
+            
+              <category>cron job</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Watcher [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/watcher/</link>
+        <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 17 Feb 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/watcher/</guid>
+        <description>Title  Watcher     Info  A boot2root Linux machine utilizing web exploits along with some common privilege escalation techniques.   Difficulty  Medium   Date 2021/02/17    Scanning &amp;amp; Enumeration We are given a host with IP address 10.10.142.217
+Nmap Let&amp;rsquo;s start by running a port scan on the host using nmap. The output of the scan can be seen below:</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/watcher/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>brute force</category>
+            
+          
+            
+              <category>decoding</category>
+            
+          
+            
+              <category>lfi</category>
+            
+          
+            
+              <category>cron job</category>
+            
+          
+            
+              <category>python</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>pop3 on Blog</title>
+    <link>https://martinkubecka.github.io/tags/pop3/</link>
+    <description>Recent content in pop3 on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://martinkubecka.github.io/tags/pop3/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>GoldenEye [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/goldeneye/</link>
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 18 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/goldeneye/</guid>
+        <description>Title GoldenEye     Info Bond, James Bond. A guided CTF.   Difficulty Medium    Scanning &amp;amp; Enumeration Nmap Use nmap to scan the network for all ports.
+How many ports are open?
+
+Website Take a look on the website, take a dive into the source code too and remember to inspect all scripts!
+Who needs to make sure they update their default password?</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/goldeneye/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>decoding</category>
+            
+          
+            
+              <category>telnet</category>
+            
+          
+            
+              <category>pop3</category>
+            
+          
+            
+              <category>brute force</category>
+            
+          
+            
+              <category>python</category>
+            
+          
+            
+              <category>exploitation</category>
+            
+          
+            
+              <category>privilege escalation</category>
+            
+          
+        
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Fowsniff CTF [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/fowsniff-ctf/</link>
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Sun, 15 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/fowsniff-ctf/</guid>
+        <description>Title Fowsniff CTF     Info Hack this machine and get the flag. There are lots of hints along the way and is perfect for beginners!   Difficulty Easy    Scanning &amp;amp; Enumeration Nmap Using nmap, scan this machine. What ports are open?
+Using the information from the open ports. Look around. What can you find?
+
+POP3 Using Google, can you find any public information about them?</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/fowsniff-ctf/icon.jpeg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>enumeration</category>
+            
+          
+            
+              <category>exploitation</category>
+            
+          
+            
+              <category>pop3</category>
+            
+          
+            
+              <category>brute force</category>
+            
+          
+            
+              <category>python</category>
+            
+          
+            
+              <category>metasploit</category>
+            
+          
+        
+        
+          
+            
+              <category>Linux</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
