@@ -12,11 +12,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/categories/windows/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Memory Forensics [TryHackMe]</title>
+        <link>https://martinkubecka.github.io/posts/thm/memory-forensics/</link>
+        <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <atom:modified>Thu, 22 Jul 2021 00:00:00 +0000</atom:modified>
+        <guid>https://martinkubecka.github.io/posts/thm/memory-forensics/</guid>
+        <description>Title  Memory Forensics     Info  Perform memory forensics to find the flags.   Difficulty  Easy   Date 2021/07/22    Login  The forensic investigator on-site has performed the initial forensic analysis of John&amp;rsquo;s computer and handed you the memory dump he generated on the computer. As the secondary forensic investigator, it is up to you to find all the required information in the memory dump.</description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        <media:content url="https://martinkubecka.github.io/images/thm/memory-forensics/icon.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>forensics</category>
+            
+          
+            
+              <category>volatility</category>
+            
+          
+        
+        
+          
+            
+              <category>Windows</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Weaponizing Malicious Macros</title>
