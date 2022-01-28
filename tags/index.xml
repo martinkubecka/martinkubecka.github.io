@@ -12,11 +12,65 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>pi-hole</title>
+        <link>https://martinkubecka.github.io/tags/pi-hole/</link>
+        <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/tags/pi-hole/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>privacy</title>
+        <link>https://martinkubecka.github.io/tags/privacy/</link>
+        <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/tags/privacy/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>unbound</title>
+        <link>https://martinkubecka.github.io/tags/unbound/</link>
+        <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/tags/unbound/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>forensics</title>

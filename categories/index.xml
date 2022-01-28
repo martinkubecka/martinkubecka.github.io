@@ -12,11 +12,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://martinkubecka.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Homelab</title>
+        <link>https://martinkubecka.github.io/categories/homelab/</link>
+        <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://martinkubecka.github.io/categories/homelab/</guid>
+        <description></description>
+        
+        <dc:creator>Martin Kubecka</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Windows</title>
@@ -57,7 +75,7 @@
       <item>
         <title>Linux</title>
         <link>https://martinkubecka.github.io/categories/linux/</link>
-        <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
         
         
         <guid>https://martinkubecka.github.io/categories/linux/</guid>
