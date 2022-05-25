@@ -665,7 +665,7 @@
     
     var enableSearchHighlight = JSON.parse("true");
     
-    var searchResultPosition = JSON.parse("\"main\"");
+    var searchResultPosition = JSON.parse("\"side\"");
     
     var sectionType = JSON.parse("\"page\"");
     
@@ -1447,11 +1447,7 @@
         </a>
         
         <a href="#" class="dropdown-item select-theme__item ">
-          hacker
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
-          kimbie
+          light
         </a>
         
       
@@ -1505,18 +1501,6 @@
       
 
       
-        <li class="navbarm__menu--item ">
-          <a href="/archive">Archive</a>
-        </li>
-      
-      
-    
-      
-      
-      
-      
-
-      
         <li class="navbarm__menu--item active">
           <a href="/">
             Posts
@@ -1544,7 +1528,31 @@
 
       
         <li class="navbarm__menu--item ">
+          <a href="/resources">Resources</a>
+        </li>
+      
+      
+    
+      
+      
+      
+      
+
+      
+        <li class="navbarm__menu--item ">
           <a href="/tags">Tags</a>
+        </li>
+      
+      
+    
+      
+      
+      
+      
+
+      
+        <li class="navbarm__menu--item ">
+          <a href="/archive">Archive</a>
         </li>
       
       
@@ -1561,6 +1569,16 @@
 </div>
   <div class="navbar__menu">
   
+    <div class="theme">
+  <div class="dropdown">
+    <button class="dropdown-trigger navbar__slide-down navbar-search" aria-label="Search Button" data-ani="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+    </button>
+    <div class="dropdown-content">
+    </div>
+  </div>
+</div>
+  
   
   
 <div class="theme" data-ani="true">
@@ -1576,11 +1594,7 @@
         </a>
         
         <a href="#" class="dropdown-item select-theme__item ">
-          hacker
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
-          kimbie
+          light
         </a>
         
       
@@ -1596,14 +1610,6 @@
   
   
   <a href="/about" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">About</a>
-  
-  
-  
-  
-  
-  
-  
-  <a href="/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Archive</a>
   
   
   
@@ -1632,7 +1638,23 @@
   
   
   
+  <a href="/resources" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Resources</a>
+  
+  
+  
+  
+  
+  
+  
   <a href="/tags" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Tags</a>
+  
+  
+  
+  
+  
+  
+  
+  <a href="/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Archive</a>
   
   
 </div>
@@ -1645,7 +1667,7 @@
     
   
     
-      <div class="site-header basicflex-column site-header__align-center" data-ani="true" style="width: 100%; height: 200px; padding: 0px 50px;">
+      <div class="site-header basicflex-column site-header__align-center" data-ani="true" style="width: 100%; height: 125px; padding: 0px 50px;">
         
                     
           
@@ -1660,7 +1682,7 @@
         
            
           <div class="site-header__subtitle" style="font-size: 22px; " data-cursive="">
-            martin@security-blog:~/posts$: ls -alt
+            martin@blog:~/posts$: ls -alt
           </div>
                 
         
@@ -1676,10 +1698,12 @@
 </header>
 
             
-<main class="main inner" data-sidebar-position="left">
-    <div class="list__main mr">
+<main class="main inner" data-sidebar-position="right">
+    <div class="list__main lm">
         <div class="summary__container" data-display="block">
             
+            
+                
             
                 
             
@@ -1705,8 +1729,14 @@
             
                 
   <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
+  <div class="summary-classic__flex-box" >
 
+    
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://martinkubecka.github.io/posts/thm/dav/">
+        <img data-src="/images/thm/dav/icon.jpeg" alt="Dav [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
+    </div>
     
 
     <div class="summary-classic__content">
@@ -1729,12 +1759,6 @@
     </div>
 
     
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="left" data-hwm="">
-      <a href="https://martinkubecka.github.io/posts/thm/dav/">
-        <img data-src="/images/thm/dav/icon.jpeg" alt="Dav [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" style=""/>
-      </a>
-    </div>
-    
     
   </div>
   <hr />
@@ -1744,8 +1768,14 @@
             
                 
   <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
+  <div class="summary-classic__flex-box" >
 
+    
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://martinkubecka.github.io/posts/thm/wgel/">
+        <img data-src="/images/thm/wgel/icon.png" alt="Wgel [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
+    </div>
     
 
     <div class="summary-classic__content">
@@ -1768,12 +1798,6 @@
     </div>
 
     
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="left" data-hwm="">
-      <a href="https://martinkubecka.github.io/posts/thm/wgel/">
-        <img data-src="/images/thm/wgel/icon.png" alt="Wgel [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" style=""/>
-      </a>
-    </div>
-    
     
   </div>
   <hr />
@@ -1783,8 +1807,14 @@
             
                 
   <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
+  <div class="summary-classic__flex-box" >
 
+    
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://martinkubecka.github.io/posts/thm/mnemonic/">
+        <img data-src="/images/thm/mnemonic/icon.png" alt="Mnemonic [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
+    </div>
     
 
     <div class="summary-classic__content">
@@ -1807,12 +1837,6 @@
     </div>
 
     
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="left" data-hwm="">
-      <a href="https://martinkubecka.github.io/posts/thm/mnemonic/">
-        <img data-src="/images/thm/mnemonic/icon.png" alt="Mnemonic [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" style=""/>
-      </a>
-    </div>
-    
     
   </div>
   <hr />
@@ -1822,8 +1846,14 @@
             
                 
   <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
+  <div class="summary-classic__flex-box" >
 
+    
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://martinkubecka.github.io/posts/thm/searchlight/">
+        <img data-src="/images/thm/searchlight/searchlight.png" alt="Searchlight [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
+    </div>
     
 
     <div class="summary-classic__content">
@@ -1846,12 +1876,6 @@
     </div>
 
     
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="left" data-hwm="">
-      <a href="https://martinkubecka.github.io/posts/thm/searchlight/">
-        <img data-src="/images/thm/searchlight/searchlight.png" alt="Searchlight [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" style=""/>
-      </a>
-    </div>
-    
     
   </div>
   <hr />
@@ -1861,8 +1885,14 @@
             
                 
   <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
+  <div class="summary-classic__flex-box" >
 
+    
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://martinkubecka.github.io/posts/thm/overpass/">
+        <img data-src="/images/thm/overpass/icon.png" alt="Overpass [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
+    </div>
     
 
     <div class="summary-classic__content">
@@ -1885,12 +1915,6 @@
     </div>
 
     
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="left" data-hwm="">
-      <a href="https://martinkubecka.github.io/posts/thm/overpass/">
-        <img data-src="/images/thm/overpass/icon.png" alt="Overpass [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" style=""/>
-      </a>
-    </div>
-    
     
   </div>
   <hr />
@@ -1900,8 +1924,14 @@
             
                 
   <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
+  <div class="summary-classic__flex-box" >
 
+    
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://martinkubecka.github.io/posts/thm/linux-strength-training/">
+        <img data-src="/images/thm/linux-strength-training/icon.png" alt="Linux Strength Training [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
+    </div>
     
 
     <div class="summary-classic__content">
@@ -1924,12 +1954,6 @@
     </div>
 
     
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="left" data-hwm="">
-      <a href="https://martinkubecka.github.io/posts/thm/linux-strength-training/">
-        <img data-src="/images/thm/linux-strength-training/icon.png" alt="Linux Strength Training [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" style=""/>
-      </a>
-    </div>
-    
     
   </div>
   <hr />
@@ -1939,8 +1963,14 @@
             
                 
   <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
+  <div class="summary-classic__flex-box" >
 
+    
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://martinkubecka.github.io/posts/thm/anthem/">
+        <img data-src="/images/thm/anthem/icon.png" alt="Anthem [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
+    </div>
     
 
     <div class="summary-classic__content">
@@ -1963,12 +1993,6 @@
     </div>
 
     
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="left" data-hwm="">
-      <a href="https://martinkubecka.github.io/posts/thm/anthem/">
-        <img data-src="/images/thm/anthem/icon.png" alt="Anthem [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" style=""/>
-      </a>
-    </div>
-    
     
   </div>
   <hr />
@@ -1978,8 +2002,14 @@
             
                 
   <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
+  <div class="summary-classic__flex-box" >
 
+    
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://martinkubecka.github.io/posts/thm/ignite/">
+        <img data-src="/images/thm/ignite/icon.png" alt="Ignite [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
+    </div>
     
 
     <div class="summary-classic__content">
@@ -2002,12 +2032,6 @@
     </div>
 
     
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="left" data-hwm="">
-      <a href="https://martinkubecka.github.io/posts/thm/ignite/">
-        <img data-src="/images/thm/ignite/icon.png" alt="Ignite [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" style=""/>
-      </a>
-    </div>
-    
     
   </div>
   <hr />
@@ -2017,8 +2041,14 @@
             
                 
   <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
+  <div class="summary-classic__flex-box" >
 
+    
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://martinkubecka.github.io/posts/thm/goldeneye/">
+        <img data-src="/images/thm/goldeneye/icon.png" alt="GoldenEye [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
+    </div>
     
 
     <div class="summary-classic__content">
@@ -2041,12 +2071,6 @@
     </div>
 
     
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="left" data-hwm="">
-      <a href="https://martinkubecka.github.io/posts/thm/goldeneye/">
-        <img data-src="/images/thm/goldeneye/icon.png" alt="GoldenEye [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" style=""/>
-      </a>
-    </div>
-    
     
   </div>
   <hr />
@@ -2056,8 +2080,14 @@
             
                 
   <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
+  <div class="summary-classic__flex-box" >
 
+    
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://martinkubecka.github.io/posts/thm/lfi-basics/">
+        <img data-src="/images/thm/lfi-basics/icon.png" alt="LFI Basics [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
+    </div>
     
 
     <div class="summary-classic__content">
@@ -2080,12 +2110,6 @@
     </div>
 
     
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="left" data-hwm="">
-      <a href="https://martinkubecka.github.io/posts/thm/lfi-basics/">
-        <img data-src="/images/thm/lfi-basics/icon.png" alt="LFI Basics [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" style=""/>
-      </a>
-    </div>
-    
     
   </div>
   <hr />
@@ -2095,8 +2119,14 @@
             
                 
   <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
+  <div class="summary-classic__flex-box" >
 
+    
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://martinkubecka.github.io/posts/thm/fowsniff-ctf/">
+        <img data-src="/images/thm/fowsniff-ctf/icon.jpeg" alt="Fowsniff CTF [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
+    </div>
     
 
     <div class="summary-classic__content">
@@ -2119,12 +2149,6 @@
     </div>
 
     
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="left" data-hwm="">
-      <a href="https://martinkubecka.github.io/posts/thm/fowsniff-ctf/">
-        <img data-src="/images/thm/fowsniff-ctf/icon.jpeg" alt="Fowsniff CTF [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" style=""/>
-      </a>
-    </div>
-    
     
   </div>
   <hr />
@@ -2134,8 +2158,14 @@
             
                 
   <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
+  <div class="summary-classic__flex-box" >
 
+    
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://martinkubecka.github.io/posts/thm/skynet/">
+        <img data-src="/images/thm/skynet/icon.jpeg" alt="Skynet [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
+    </div>
     
 
     <div class="summary-classic__content">
@@ -2158,12 +2188,6 @@
     </div>
 
     
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="left" data-hwm="">
-      <a href="https://martinkubecka.github.io/posts/thm/skynet/">
-        <img data-src="/images/thm/skynet/icon.jpeg" alt="Skynet [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" style=""/>
-      </a>
-    </div>
-    
     
   </div>
   <hr />
@@ -2173,8 +2197,14 @@
             
                 
   <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" data-position="left">
+  <div class="summary-classic__flex-box" >
 
+    
+    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="right" data-hwm="">
+      <a href="https://martinkubecka.github.io/posts/thm/brute-it/">
+        <img data-src="/images/thm/brute-it/icon.jpg" alt="Brute It [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" data-hwm="" style=""/>
+      </a>
+    </div>
     
 
     <div class="summary-classic__content">
@@ -2196,12 +2226,6 @@
       </div>
     </div>
 
-    
-    <div class="summary-classic__image-container summary-classic__image-wrapper" data-position="left" data-hwm="">
-      <a href="https://martinkubecka.github.io/posts/thm/brute-it/">
-        <img data-src="/images/thm/brute-it/icon.jpg" alt="Brute It [TryHackMe]" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload summary-classic__image" data-ani="true" style=""/>
-      </a>
-    </div>
     
     
   </div>
@@ -2264,7 +2288,7 @@
     </div>
 
     
-        <aside class="list__sidebar l" data-dir="ltr">
+        <aside class="list__sidebar r" data-dir="ltr">
             
 <div class="sidebar">
     
@@ -2309,7 +2333,7 @@
     <div class="bio__info--icon">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm8.94 3c-.46-4.17-3.77-7.48-7.94-7.94V2c0-.55-.45-1-1-1s-1 .45-1 1v1.06C6.83 3.52 3.52 6.83 3.06 11H2c-.55 0-1 .45-1 1s.45 1 1 1h1.06c.46 4.17 3.77 7.48 7.94 7.94V22c0 .55.45 1 1 1s1-.45 1-1v-1.06c4.17-.46 7.48-3.77 7.94-7.94H22c.55 0 1-.45 1-1s-.45-1-1-1h-1.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"/></svg>
     </div>
-    Slovakia
+    Slovak Republic
   </div>
   
 
@@ -2503,7 +2527,7 @@
 </main>
 <script>
     
-    var sidebarPosition = JSON.parse("\"left\"");
+    var sidebarPosition = JSON.parse("\"right\"");
     
     var enableSidebar = JSON.parse("true");
 
