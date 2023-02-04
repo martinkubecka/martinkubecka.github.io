@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Anonforce [TryHackMe] – Blog</title>
+    <title>Anonforce [TryHackMe] – Martin Kubecka | Blog</title>
     
 
 
@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1335,7 +1335,7 @@
 <meta name="author" content="Martin Kubecka">
 
 
-<meta property="og:site_name" content="Blog">
+<meta property="og:site_name" content="Martin Kubecka | Blog">
 <meta property="og:title" content="Anonforce [TryHackMe]">
 <meta property="og:url" content="https://martinkubecka.github.io/posts/thm/anonforce/">
 <meta property="og:type" content="article">
@@ -1345,12 +1345,12 @@
     <meta property="og:image" content="https://martinkubecka.github.io/images/thm/anonforce/icon.png">
     <meta property="og:image:url" content="https://martinkubecka.github.io/images/thm/anonforce/icon.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:app:name:iphone" content="Blog">
+    <meta name="twitter:app:name:iphone" content="Martin Kubecka | Blog">
     <meta property="twitter:title" content="Anonforce [TryHackMe]">
     <meta property="twitter:description" content="Boot2root machine for FIT and bsides guatemala CTF">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.93.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1398,7 +1398,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Blog",
+      "name": "Martin Kubecka | Blog",
       "url": "https://martinkubecka.github.io/"
     }
   }
@@ -1690,7 +1690,7 @@
   
   <li >
     
-      <a href="https://martinkubecka.github.io/" class="capitalize">Blog</a>
+      <a href="https://martinkubecka.github.io/" class="capitalize">Martin Kubecka | Blog</a>
     
   </li>
   
@@ -1810,7 +1810,7 @@
 <h4 id="nmap">Nmap</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1859,54 +1859,54 @@
 </span><span class="lnt">47
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nmap -A -T4 <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
-Starting Nmap 7.91 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2021-01-04 03:05 CST
-Nmap scan report <span class="k">for</span> 10.10.21.216
-Host is up <span class="o">(</span>0.070s latency<span class="o">)</span>.
-Not shown: <span class="m">998</span> closed ports
-PORT   	STATE 	SERVICE 	VERSION
-21/tcp 	open  	ftp     		vsftpd 3.0.3
-<span class="p">|</span> ftp-anon: Anonymous FTP login allowed <span class="o">(</span>FTP code 230<span class="o">)</span>
-<span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> bin
-<span class="p">|</span> drwxr-xr-x    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> boot
-<span class="p">|</span> drwxr-xr-x   <span class="m">17</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">3700</span> Jan <span class="m">04</span> 01:03 dev
-<span class="p">|</span> drwxr-xr-x   <span class="m">85</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">13</span>  <span class="m">2019</span> etc
-<span class="p">|</span> drwxr-xr-x    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> home
-<span class="p">|</span> lrwxrwxrwx    <span class="m">1</span> <span class="m">0</span>        <span class="m">0</span>              <span class="m">33</span> Aug <span class="m">11</span>  <span class="m">2019</span> initrd.img -&gt; boot/initrd.img-4.4.0-157-generic
-<span class="p">|</span> lrwxrwxrwx    <span class="m">1</span> <span class="m">0</span>        <span class="m">0</span>              <span class="m">33</span> Aug <span class="m">11</span>  <span class="m">2019</span> initrd.img.old -&gt; boot/initrd.img-4.4.0-142-generic
-<span class="p">|</span> drwxr-xr-x   <span class="m">19</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> lib
-<span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> lib64
-<span class="p">|</span> drwx------    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>           <span class="m">16384</span> Aug <span class="m">11</span>  <span class="m">2019</span> lost+found
-<span class="p">|</span> drwxr-xr-x    <span class="m">4</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> media
-<span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Feb <span class="m">26</span>  <span class="m">2019</span> mnt
-<span class="p">|</span> drwxrwxrwx    <span class="m">2</span> <span class="m">1000</span>     <span class="m">1000</span>         <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> notread <span class="o">[</span>NSE: writeable<span class="o">]</span>
-<span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> opt
-<span class="p">|</span> dr-xr-xr-x  <span class="m">102</span> <span class="m">0</span>        <span class="m">0</span>               <span class="m">0</span> Jan <span class="m">04</span> 01:03 proc
-<span class="p">|</span> drwx------    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> root
-<span class="p">|</span> drwxr-xr-x   <span class="m">18</span> <span class="m">0</span>        <span class="m">0</span>             <span class="m">540</span> Jan <span class="m">04</span> 01:03 run
-<span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>           <span class="m">12288</span> Aug <span class="m">11</span>  <span class="m">2019</span> sbin
-<span class="p">|</span> drwxr-xr-x    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> srv
-<span class="p">|</span> dr-xr-xr-x   <span class="m">13</span> <span class="m">0</span>        <span class="m">0</span>               <span class="m">0</span> Jan <span class="m">04</span> 01:03 sys
-<span class="p">|</span>_Only <span class="m">20</span> shown. Use --script-args ftp-anon.maxlist<span class="o">=</span>-1 to see all.
-<span class="p">|</span> ftp-syst: 
-<span class="p">|</span>   STAT: 
-<span class="p">|</span> FTP server status:
-<span class="p">|</span>      Connected to ::ffff:10.9.140.180
-<span class="p">|</span>      Logged in as ftp
-<span class="p">|</span>      TYPE: ASCII
-<span class="p">|</span>      No session bandwidth limit
-<span class="p">|</span>      Session timeout in seconds is <span class="m">300</span>
-<span class="p">|</span>      Control connection is plain text
-<span class="p">|</span>      Data connections will be plain text
-<span class="p">|</span>      At session startup, client count was <span class="m">3</span>
-<span class="p">|</span>      vsFTPd 3.0.3 - secure, fast, stable
-<span class="p">|</span>_End of status
-22/tcp 	open  	ssh     		OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
-<span class="p">|</span> ssh-hostkey: 
-<span class="p">|</span>   <span class="m">2048</span> 8a:f9:48:3e:11:a1:aa:fc:b7:86:71:d0:2a:f6:24:e7 <span class="o">(</span>RSA<span class="o">)</span>
-<span class="p">|</span>   <span class="m">256</span> 73:5d:de:9a:88:6e:64:7a:e1:87:ec:65:ae:11:93:e3 <span class="o">(</span>ECDSA<span class="o">)</span>
-<span class="p">|</span>_  <span class="m">256</span> 56:f9:9f:24:f1:52:fc:16:b7:7b:a3:e2:4f:17:b4:ea <span class="o">(</span>ED25519<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nmap -A -T4 <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
+</span></span><span class="line"><span class="cl">Starting Nmap 7.91 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2021-01-04 03:05 CST
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.10.21.216
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.070s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">998</span> closed ports
+</span></span><span class="line"><span class="cl">PORT   	STATE 	SERVICE 	VERSION
+</span></span><span class="line"><span class="cl">21/tcp 	open  	ftp     		vsftpd 3.0.3
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ftp-anon: Anonymous FTP login allowed <span class="o">(</span>FTP code 230<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> bin
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> boot
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x   <span class="m">17</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">3700</span> Jan <span class="m">04</span> 01:03 dev
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x   <span class="m">85</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">13</span>  <span class="m">2019</span> etc
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> home
+</span></span><span class="line"><span class="cl"><span class="p">|</span> lrwxrwxrwx    <span class="m">1</span> <span class="m">0</span>        <span class="m">0</span>              <span class="m">33</span> Aug <span class="m">11</span>  <span class="m">2019</span> initrd.img -&gt; boot/initrd.img-4.4.0-157-generic
+</span></span><span class="line"><span class="cl"><span class="p">|</span> lrwxrwxrwx    <span class="m">1</span> <span class="m">0</span>        <span class="m">0</span>              <span class="m">33</span> Aug <span class="m">11</span>  <span class="m">2019</span> initrd.img.old -&gt; boot/initrd.img-4.4.0-142-generic
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x   <span class="m">19</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> lib
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> lib64
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwx------    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>           <span class="m">16384</span> Aug <span class="m">11</span>  <span class="m">2019</span> lost+found
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">4</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> media
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Feb <span class="m">26</span>  <span class="m">2019</span> mnt
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxrwxrwx    <span class="m">2</span> <span class="m">1000</span>     <span class="m">1000</span>         <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> notread <span class="o">[</span>NSE: writeable<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> opt
+</span></span><span class="line"><span class="cl"><span class="p">|</span> dr-xr-xr-x  <span class="m">102</span> <span class="m">0</span>        <span class="m">0</span>               <span class="m">0</span> Jan <span class="m">04</span> 01:03 proc
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwx------    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> root
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x   <span class="m">18</span> <span class="m">0</span>        <span class="m">0</span>             <span class="m">540</span> Jan <span class="m">04</span> 01:03 run
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">2</span> <span class="m">0</span>        <span class="m">0</span>           <span class="m">12288</span> Aug <span class="m">11</span>  <span class="m">2019</span> sbin
+</span></span><span class="line"><span class="cl"><span class="p">|</span> drwxr-xr-x    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> srv
+</span></span><span class="line"><span class="cl"><span class="p">|</span> dr-xr-xr-x   <span class="m">13</span> <span class="m">0</span>        <span class="m">0</span>               <span class="m">0</span> Jan <span class="m">04</span> 01:03 sys
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_Only <span class="m">20</span> shown. Use --script-args ftp-anon.maxlist<span class="o">=</span>-1 to see all.
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ftp-syst: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   STAT: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span> FTP server status:
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      Connected to ::ffff:10.9.140.180
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      Logged in as ftp
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      TYPE: ASCII
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      No session bandwidth limit
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      Session timeout in seconds is <span class="m">300</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      Control connection is plain text
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      Data connections will be plain text
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      At session startup, client count was <span class="m">3</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>      vsFTPd 3.0.3 - secure, fast, stable
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_End of status
+</span></span><span class="line"><span class="cl">22/tcp 	open  	ssh     		OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">2048</span> 8a:f9:48:3e:11:a1:aa:fc:b7:86:71:d0:2a:f6:24:e7 <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> 73:5d:de:9a:88:6e:64:7a:e1:87:ec:65:ae:11:93:e3 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> 56:f9:9f:24:f1:52:fc:16:b7:7b:a3:e2:4f:17:b4:ea <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="ftp">FTP</h4>
 <p>Based on <strong>nmap</strong> scan we are allowed to use <em>anonymous</em> authentication.<br />
@@ -1914,7 +1914,7 @@ Looking around we can find two interesting files in the <em>/notread</em> direct
 Download both <em>backup.pgp</em> and <em>private.asc</em> to your local machine with <em>get</em> command.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1949,46 +1949,46 @@ Download both <em>backup.pgp</em> and <em>private.asc</em> to your local machine
 </span><span class="lnt">33
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">ftp <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
-Connected to 10.10.21.216.
-<span class="m">220</span> <span class="o">(</span>vsFTPd 3.0.3<span class="o">)</span>
-Name <span class="o">(</span>10.10.21.216:root<span class="o">)</span>: anonymous
-<span class="m">331</span> Please specify the password.
-Password:
-<span class="m">230</span> Login successful.
-Remote system <span class="nb">type</span> is UNIX.
-Using binary mode to transfer files.
-ftp&gt;
-
-ftp&gt; <span class="nb">cd</span> notread
-<span class="m">250</span> Directory successfully changed.
-ftp&gt; ls -la
-<span class="m">200</span> PORT <span class="nb">command</span> successful. Consider using PASV.
-<span class="m">150</span> Here comes the directory listing.
-drwxrwxrwx    <span class="m">2</span> <span class="m">1000</span>     <span class="m">1000</span>         <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> .
-drwxr-xr-x   <span class="m">23</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> ..
--rwxrwxrwx    <span class="m">1</span> <span class="m">1000</span>     <span class="m">1000</span>          <span class="m">524</span> Aug <span class="m">11</span>  <span class="m">2019</span> backup.pgp
--rwxrwxrwx    <span class="m">1</span> <span class="m">1000</span>     <span class="m">1000</span>         <span class="m">3762</span> Aug <span class="m">11</span>  <span class="m">2019</span> private.asc
-<span class="m">226</span> Directory send OK.
-ftp&gt; get backup.pgp
-local: backup.pgp remote: backup.pgp
-<span class="m">200</span> PORT <span class="nb">command</span> successful. Consider using PASV.
-<span class="m">150</span> Opening BINARY mode data connection <span class="k">for</span> backup.pgp <span class="o">(</span><span class="m">524</span> bytes<span class="o">)</span>.
-<span class="m">226</span> Transfer complete.
-<span class="m">524</span> bytes received in 0.00 secs <span class="o">(</span>563.5669 kB/s<span class="o">)</span>
-ftp&gt; get private.asc
-local: private.asc remote: private.asc
-<span class="m">200</span> PORT <span class="nb">command</span> successful. Consider using PASV.
-<span class="m">150</span> Opening BINARY mode data connection <span class="k">for</span> private.asc <span class="o">(</span><span class="m">3762</span> bytes<span class="o">)</span>.
-<span class="m">226</span> Transfer complete.
-<span class="m">3762</span> bytes received in 0.00 secs <span class="o">(</span>1.1955 MB/s<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ftp <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
+</span></span><span class="line"><span class="cl">Connected to 10.10.21.216.
+</span></span><span class="line"><span class="cl"><span class="m">220</span> <span class="o">(</span>vsFTPd 3.0.3<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Name <span class="o">(</span>10.10.21.216:root<span class="o">)</span>: anonymous
+</span></span><span class="line"><span class="cl"><span class="m">331</span> Please specify the password.
+</span></span><span class="line"><span class="cl">Password:
+</span></span><span class="line"><span class="cl"><span class="m">230</span> Login successful.
+</span></span><span class="line"><span class="cl">Remote system <span class="nb">type</span> is UNIX.
+</span></span><span class="line"><span class="cl">Using binary mode to transfer files.
+</span></span><span class="line"><span class="cl">ftp&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ftp&gt; <span class="nb">cd</span> notread
+</span></span><span class="line"><span class="cl"><span class="m">250</span> Directory successfully changed.
+</span></span><span class="line"><span class="cl">ftp&gt; ls -la
+</span></span><span class="line"><span class="cl"><span class="m">200</span> PORT <span class="nb">command</span> successful. Consider using PASV.
+</span></span><span class="line"><span class="cl"><span class="m">150</span> Here comes the directory listing.
+</span></span><span class="line"><span class="cl">drwxrwxrwx    <span class="m">2</span> <span class="m">1000</span>     <span class="m">1000</span>         <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> .
+</span></span><span class="line"><span class="cl">drwxr-xr-x   <span class="m">23</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> ..
+</span></span><span class="line"><span class="cl">-rwxrwxrwx    <span class="m">1</span> <span class="m">1000</span>     <span class="m">1000</span>          <span class="m">524</span> Aug <span class="m">11</span>  <span class="m">2019</span> backup.pgp
+</span></span><span class="line"><span class="cl">-rwxrwxrwx    <span class="m">1</span> <span class="m">1000</span>     <span class="m">1000</span>         <span class="m">3762</span> Aug <span class="m">11</span>  <span class="m">2019</span> private.asc
+</span></span><span class="line"><span class="cl"><span class="m">226</span> Directory send OK.
+</span></span><span class="line"><span class="cl">ftp&gt; get backup.pgp
+</span></span><span class="line"><span class="cl">local: backup.pgp remote: backup.pgp
+</span></span><span class="line"><span class="cl"><span class="m">200</span> PORT <span class="nb">command</span> successful. Consider using PASV.
+</span></span><span class="line"><span class="cl"><span class="m">150</span> Opening BINARY mode data connection <span class="k">for</span> backup.pgp <span class="o">(</span><span class="m">524</span> bytes<span class="o">)</span>.
+</span></span><span class="line"><span class="cl"><span class="m">226</span> Transfer complete.
+</span></span><span class="line"><span class="cl"><span class="m">524</span> bytes received in 0.00 secs <span class="o">(</span>563.5669 kB/s<span class="o">)</span>
+</span></span><span class="line"><span class="cl">ftp&gt; get private.asc
+</span></span><span class="line"><span class="cl">local: private.asc remote: private.asc
+</span></span><span class="line"><span class="cl"><span class="m">200</span> PORT <span class="nb">command</span> successful. Consider using PASV.
+</span></span><span class="line"><span class="cl"><span class="m">150</span> Opening BINARY mode data connection <span class="k">for</span> private.asc <span class="o">(</span><span class="m">3762</span> bytes<span class="o">)</span>.
+</span></span><span class="line"><span class="cl"><span class="m">226</span> Transfer complete.
+</span></span><span class="line"><span class="cl"><span class="m">3762</span> bytes received in 0.00 secs <span class="o">(</span>1.1955 MB/s<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="user-flag">User flag</h4>
 <p>Proceeding with enumeration we can find user flag in <strong>melodias</strong> folder.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2016,38 +2016,38 @@ local: private.asc remote: private.asc
 </span><span class="lnt">26
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">ftp&gt; <span class="nb">cd</span> home
-<span class="m">250</span> Directory successfully changed.
-ftp&gt; ls -la
-<span class="m">200</span> PORT <span class="nb">command</span> successful. Consider using PASV.
-<span class="m">150</span> Here comes the directory listing.
-drwxr-xr-x    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> .
-drwxr-xr-x   <span class="m">23</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> ..
-drwxr-xr-x    <span class="m">4</span> <span class="m">1000</span>     <span class="m">1000</span>         <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> melodias
-<span class="m">226</span> Directory send OK.
-ftp&gt; <span class="nb">cd</span> melodias
-<span class="m">250</span> Directory successfully changed.
-ftp&gt; ls
-<span class="m">200</span> PORT <span class="nb">command</span> successful. Consider using PASV.
-<span class="m">150</span> Here comes the directory listing.
--rw-rw-r--    <span class="m">1</span> <span class="m">1000</span>     <span class="m">1000</span>           <span class="m">33</span> Aug <span class="m">11</span>  <span class="m">2019</span> user.txt
-<span class="m">226</span> Directory send OK.
-ftp&gt; get user.txt
-local: user.txt remote: user.txt
-<span class="m">200</span> PORT <span class="nb">command</span> successful. Consider using PASV.
-<span class="m">150</span> Opening BINARY mode data connection <span class="k">for</span> user.txt <span class="o">(</span><span class="m">33</span> bytes<span class="o">)</span>.
-<span class="m">226</span> Transfer complete.
-<span class="m">33</span> bytes received in 0.00 secs <span class="o">(</span>8.7075 kB/s<span class="o">)</span>
-ftp&gt; 
-
-cat user.txt <span class="p">|</span> wc -c
-<span class="m">40</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ftp&gt; <span class="nb">cd</span> home
+</span></span><span class="line"><span class="cl"><span class="m">250</span> Directory successfully changed.
+</span></span><span class="line"><span class="cl">ftp&gt; ls -la
+</span></span><span class="line"><span class="cl"><span class="m">200</span> PORT <span class="nb">command</span> successful. Consider using PASV.
+</span></span><span class="line"><span class="cl"><span class="m">150</span> Here comes the directory listing.
+</span></span><span class="line"><span class="cl">drwxr-xr-x    <span class="m">3</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> .
+</span></span><span class="line"><span class="cl">drwxr-xr-x   <span class="m">23</span> <span class="m">0</span>        <span class="m">0</span>            <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> ..
+</span></span><span class="line"><span class="cl">drwxr-xr-x    <span class="m">4</span> <span class="m">1000</span>     <span class="m">1000</span>         <span class="m">4096</span> Aug <span class="m">11</span>  <span class="m">2019</span> melodias
+</span></span><span class="line"><span class="cl"><span class="m">226</span> Directory send OK.
+</span></span><span class="line"><span class="cl">ftp&gt; <span class="nb">cd</span> melodias
+</span></span><span class="line"><span class="cl"><span class="m">250</span> Directory successfully changed.
+</span></span><span class="line"><span class="cl">ftp&gt; ls
+</span></span><span class="line"><span class="cl"><span class="m">200</span> PORT <span class="nb">command</span> successful. Consider using PASV.
+</span></span><span class="line"><span class="cl"><span class="m">150</span> Here comes the directory listing.
+</span></span><span class="line"><span class="cl">-rw-rw-r--    <span class="m">1</span> <span class="m">1000</span>     <span class="m">1000</span>           <span class="m">33</span> Aug <span class="m">11</span>  <span class="m">2019</span> user.txt
+</span></span><span class="line"><span class="cl"><span class="m">226</span> Directory send OK.
+</span></span><span class="line"><span class="cl">ftp&gt; get user.txt
+</span></span><span class="line"><span class="cl">local: user.txt remote: user.txt
+</span></span><span class="line"><span class="cl"><span class="m">200</span> PORT <span class="nb">command</span> successful. Consider using PASV.
+</span></span><span class="line"><span class="cl"><span class="m">150</span> Opening BINARY mode data connection <span class="k">for</span> user.txt <span class="o">(</span><span class="m">33</span> bytes<span class="o">)</span>.
+</span></span><span class="line"><span class="cl"><span class="m">226</span> Transfer complete.
+</span></span><span class="line"><span class="cl"><span class="m">33</span> bytes received in 0.00 secs <span class="o">(</span>8.7075 kB/s<span class="o">)</span>
+</span></span><span class="line"><span class="cl">ftp&gt; 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">cat user.txt <span class="p">|</span> wc -c
+</span></span><span class="line"><span class="cl"><span class="m">40</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="gpg">GPG</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2056,19 +2056,19 @@ cat user.txt <span class="p">|</span> wc -c
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">ls
-total 20K
--rw-r--r--  <span class="m">1</span> root root  <span class="m">524</span> Jan  <span class="m">4</span> 03:22 backup.pgp
--rw-r--r--  <span class="m">1</span> root root 3.7K Jan  <span class="m">4</span> 03:22 private.asc
--rw-r--r--  <span class="m">1</span> root root   <span class="m">33</span> Jan  <span class="m">4</span> 03:22 user.txt
-drwxr-xr-x <span class="m">16</span> root root 4.0K Jan  <span class="m">4</span> 03:25 ..
-drwxr-xr-x  <span class="m">2</span> root root 4.0K Jan  <span class="m">4</span> 03:27 .
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls
+</span></span><span class="line"><span class="cl">total 20K
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root  <span class="m">524</span> Jan  <span class="m">4</span> 03:22 backup.pgp
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root 3.7K Jan  <span class="m">4</span> 03:22 private.asc
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root   <span class="m">33</span> Jan  <span class="m">4</span> 03:22 user.txt
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">16</span> root root 4.0K Jan  <span class="m">4</span> 03:25 ..
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root root 4.0K Jan  <span class="m">4</span> 03:27 .
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Prepare found key file for decryption with <strong>gpg2john</strong> and then crack the passphrase.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2084,26 +2084,26 @@ drwxr-xr-x  <span class="m">2</span> root root 4.0K Jan  <span class="m">4</span
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">gpg2john private.asc &gt; <span class="nb">hash</span>
-
-john --format<span class="o">=</span>gpg <span class="nb">hash</span> --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt
-Using default input encoding: UTF-8
-Loaded <span class="m">1</span> password <span class="nb">hash</span> <span class="o">(</span>gpg, OpenPGP / GnuPG Secret Key <span class="o">[</span>32/64<span class="o">])</span>
-Cost <span class="m">1</span> <span class="o">(</span>s2k-count<span class="o">)</span> is <span class="m">65536</span> <span class="k">for</span> all loaded hashes
-Cost <span class="m">2</span> <span class="o">(</span><span class="nb">hash</span> algorithm <span class="o">[</span>1:MD5 2:SHA1 3:RIPEMD160 8:SHA256 9:SHA384 10:SHA512 11:SHA224<span class="o">])</span> is <span class="m">2</span> <span class="k">for</span> all loaded hashes
-Cost <span class="m">3</span> <span class="o">(</span>cipher algorithm <span class="o">[</span>1:IDEA 2:3DES 3:CAST5 4:Blowfish 7:AES128 8:AES192 9:AES256 10:Twofish 11:Camellia128 12:Camellia192 13:Camellia256<span class="o">])</span> is <span class="m">9</span> <span class="k">for</span> all loaded hashes
-Will run <span class="m">2</span> OpenMP threads
-Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
-xbox360          <span class="o">(</span>anonforce<span class="o">)</span>
-1g 0:00:00:00 DONE <span class="o">(</span>2021-01-04 03:30<span class="o">)</span> 4.545g/s 4227p/s 4227c/s 4227C/s xbox360..sheena
-Use the <span class="s2">&#34;--show&#34;</span> option to display all of the cracked passwords reliably
-Session completed
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gpg2john private.asc &gt; <span class="nb">hash</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">john --format<span class="o">=</span>gpg <span class="nb">hash</span> --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt
+</span></span><span class="line"><span class="cl">Using default input encoding: UTF-8
+</span></span><span class="line"><span class="cl">Loaded <span class="m">1</span> password <span class="nb">hash</span> <span class="o">(</span>gpg, OpenPGP / GnuPG Secret Key <span class="o">[</span>32/64<span class="o">])</span>
+</span></span><span class="line"><span class="cl">Cost <span class="m">1</span> <span class="o">(</span>s2k-count<span class="o">)</span> is <span class="m">65536</span> <span class="k">for</span> all loaded hashes
+</span></span><span class="line"><span class="cl">Cost <span class="m">2</span> <span class="o">(</span><span class="nb">hash</span> algorithm <span class="o">[</span>1:MD5 2:SHA1 3:RIPEMD160 8:SHA256 9:SHA384 10:SHA512 11:SHA224<span class="o">])</span> is <span class="m">2</span> <span class="k">for</span> all loaded hashes
+</span></span><span class="line"><span class="cl">Cost <span class="m">3</span> <span class="o">(</span>cipher algorithm <span class="o">[</span>1:IDEA 2:3DES 3:CAST5 4:Blowfish 7:AES128 8:AES192 9:AES256 10:Twofish 11:Camellia128 12:Camellia192 13:Camellia256<span class="o">])</span> is <span class="m">9</span> <span class="k">for</span> all loaded hashes
+</span></span><span class="line"><span class="cl">Will run <span class="m">2</span> OpenMP threads
+</span></span><span class="line"><span class="cl">Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
+</span></span><span class="line"><span class="cl">xbox360          <span class="o">(</span>anonforce<span class="o">)</span>
+</span></span><span class="line"><span class="cl">1g 0:00:00:00 DONE <span class="o">(</span>2021-01-04 03:30<span class="o">)</span> 4.545g/s 4227p/s 4227c/s 4227C/s xbox360..sheena
+</span></span><span class="line"><span class="cl">Use the <span class="s2">&#34;--show&#34;</span> option to display all of the cracked passwords reliably
+</span></span><span class="line"><span class="cl">Session completed
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Now we are able to import previously downloaded private key with the cracked passphrase.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2114,22 +2114,22 @@ Session completed
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">gpg --import private.asc 
-gpg: key B92CD1F280AD82C2: public key <span class="s2">&#34;anonforce &lt;melodias@anonforce.nsa&gt;&#34;</span> imported
-gpg: key B92CD1F280AD82C2: secret key imported
-gpg: key B92CD1F280AD82C2: <span class="s2">&#34;anonforce &lt;melodias@anonforce.nsa&gt;&#34;</span> not changed
-gpg: Total number processed: <span class="m">2</span>
-gpg:               imported: <span class="m">1</span>
-gpg:              unchanged: <span class="m">1</span>
-gpg:       secret keys read: <span class="m">1</span>
-gpg:   secret keys imported: <span class="m">1</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gpg --import private.asc 
+</span></span><span class="line"><span class="cl">gpg: key B92CD1F280AD82C2: public key <span class="s2">&#34;anonforce &lt;melodias@anonforce.nsa&gt;&#34;</span> imported
+</span></span><span class="line"><span class="cl">gpg: key B92CD1F280AD82C2: secret key imported
+</span></span><span class="line"><span class="cl">gpg: key B92CD1F280AD82C2: <span class="s2">&#34;anonforce &lt;melodias@anonforce.nsa&gt;&#34;</span> not changed
+</span></span><span class="line"><span class="cl">gpg: Total number processed: <span class="m">2</span>
+</span></span><span class="line"><span class="cl">gpg:               imported: <span class="m">1</span>
+</span></span><span class="line"><span class="cl">gpg:              unchanged: <span class="m">1</span>
+</span></span><span class="line"><span class="cl">gpg:       secret keys read: <span class="m">1</span>
+</span></span><span class="line"><span class="cl">gpg:   secret keys imported: <span class="m">1</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="gaining-access">Gaining Access</h3>
 <p>Backup decryption revealed that it is an actually copy of the <strong>shadow file</strong> with the root password hash.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2164,47 +2164,47 @@ gpg:   secret keys imported: <span class="m">1</span>
 </span><span class="lnt">33
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">gpg --decrypt backup.pgp 
-gpg: WARNING: cipher algorithm CAST5 not found in recipient preferences
-gpg: encrypted with 512-bit ELG key, ID AA6268D1E6612967, created 2019-08-12
-      <span class="s2">&#34;anonforce &lt;melodias@anonforce.nsa&gt;&#34;</span>
-root:<span class="nv">$6$07</span>nYFaYf<span class="nv">$F4VMaegmz7dKjsTukBLh6cP01iMmL7CiQDt1ycIm6a</span>.bsOIBp0DwXVb9XI2EtULXJzBtaMZMNd2tV4uob5RVM0:18120:0:99999:7:::
-daemon:*:17953:0:99999:7:::
-bin:*:17953:0:99999:7:::
-sys:*:17953:0:99999:7:::
-sync:*:17953:0:99999:7:::
-games:*:17953:0:99999:7:::
-man:*:17953:0:99999:7:::
-lp:*:17953:0:99999:7:::
-mail:*:17953:0:99999:7:::
-news:*:17953:0:99999:7:::
-uucp:*:17953:0:99999:7:::
-proxy:*:17953:0:99999:7:::
-www-data:*:17953:0:99999:7:::
-backup:*:17953:0:99999:7:::
-list:*:17953:0:99999:7:::
-irc:*:17953:0:99999:7:::
-gnats:*:17953:0:99999:7:::
-nobody:*:17953:0:99999:7:::
-systemd-timesync:*:17953:0:99999:7:::
-systemd-network:*:17953:0:99999:7:::
-systemd-resolve:*:17953:0:99999:7:::
-systemd-bus-proxy:*:17953:0:99999:7:::
-syslog:*:17953:0:99999:7:::
-_apt:*:17953:0:99999:7:::
-messagebus:*:18120:0:99999:7:::
-uuidd:*:18120:0:99999:7:::
-melodias:<span class="nv">$1$xDhc6S6G$IQHUW5ZtMkBQ5pUMjEQtL1</span>:18120:0:99999:7:::
-sshd:*:18120:0:99999:7:::
-ftp:*:18120:0:99999:7:::
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gpg --decrypt backup.pgp 
+</span></span><span class="line"><span class="cl">gpg: WARNING: cipher algorithm CAST5 not found in recipient preferences
+</span></span><span class="line"><span class="cl">gpg: encrypted with 512-bit ELG key, ID AA6268D1E6612967, created 2019-08-12
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;anonforce &lt;melodias@anonforce.nsa&gt;&#34;</span>
+</span></span><span class="line"><span class="cl">root:<span class="nv">$6$07</span>nYFaYf<span class="nv">$F4VMaegmz7dKjsTukBLh6cP01iMmL7CiQDt1ycIm6a</span>.bsOIBp0DwXVb9XI2EtULXJzBtaMZMNd2tV4uob5RVM0:18120:0:99999:7:::
+</span></span><span class="line"><span class="cl">daemon:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">bin:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">sys:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">sync:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">games:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">man:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">lp:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">mail:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">news:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">uucp:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">proxy:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">www-data:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">backup:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">list:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">irc:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">gnats:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">nobody:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">systemd-timesync:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">systemd-network:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">systemd-resolve:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">systemd-bus-proxy:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">syslog:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">_apt:*:17953:0:99999:7:::
+</span></span><span class="line"><span class="cl">messagebus:*:18120:0:99999:7:::
+</span></span><span class="line"><span class="cl">uuidd:*:18120:0:99999:7:::
+</span></span><span class="line"><span class="cl">melodias:<span class="nv">$1$xDhc6S6G$IQHUW5ZtMkBQ5pUMjEQtL1</span>:18120:0:99999:7:::
+</span></span><span class="line"><span class="cl">sshd:*:18120:0:99999:7:::
+</span></span><span class="line"><span class="cl">ftp:*:18120:0:99999:7:::
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="root-flag">Root flag</h4>
 <p>Root password hash: <em>$6$07nYFaYf$F4VMaegmz7dKjsTukBLh6cP01iMmL7CiQDt1ycIm6a.bsOIBp0DwXVb9XI2EtULXJzBtaMZMNd2tV4uob5RVM0</em><br />
 Saved to rootHash and analysed with <strong>hash-identifier</strong>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2213,19 +2213,19 @@ Saved to rootHash and analysed with <strong>hash-identifier</strong>.</p>
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">hash-identifier 
--------------------------------------------------
-HASH: <span class="nv">$6$07</span>nYFaYf<span class="nv">$F4VMaegmz7dKjsTukBLh6cP01iMmL7CiQDt1ycIm6a</span>.bsOIBp0DwXVb9XI2EtULXJzBtaMZMNd2tV4uob5RVM0
-
-Possible Hashs:
-<span class="o">[</span>+<span class="o">]</span> SHA-256
---------------------------------------------------
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hash-identifier 
+</span></span><span class="line"><span class="cl">-------------------------------------------------
+</span></span><span class="line"><span class="cl">HASH: <span class="nv">$6$07</span>nYFaYf<span class="nv">$F4VMaegmz7dKjsTukBLh6cP01iMmL7CiQDt1ycIm6a</span>.bsOIBp0DwXVb9XI2EtULXJzBtaMZMNd2tV4uob5RVM0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Possible Hashs:
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> SHA-256
+</span></span><span class="line"><span class="cl">--------------------------------------------------
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Now as we know the hash format we can crack it with <strong>john</strong> and then authenticate with ssh as root.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2237,21 +2237,21 @@ Possible Hashs:
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">john --format<span class="o">=</span>sha512crypt rootHash --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt 
-Using default input encoding: UTF-8
-Loaded <span class="m">1</span> password <span class="nb">hash</span> <span class="o">(</span>sha512crypt, crypt<span class="o">(</span>3<span class="o">)</span> <span class="nv">$6</span>$ <span class="o">[</span>SHA512 128/128 AVX 2x<span class="o">])</span>
-Cost <span class="m">1</span> <span class="o">(</span>iteration count<span class="o">)</span> is <span class="m">5000</span> <span class="k">for</span> all loaded hashes
-Will run <span class="m">2</span> OpenMP threads
-Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
-hikari           <span class="o">(</span>?<span class="o">)</span>
-1g 0:00:00:06 DONE <span class="o">(</span>2021-01-04 03:35<span class="o">)</span> 0.1545g/s 1048p/s 1048c/s 1048C/s 98765432..random1
-Use the <span class="s2">&#34;--show&#34;</span> option to display all of the cracked passwords reliably
-Session completed
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">john --format<span class="o">=</span>sha512crypt rootHash --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt 
+</span></span><span class="line"><span class="cl">Using default input encoding: UTF-8
+</span></span><span class="line"><span class="cl">Loaded <span class="m">1</span> password <span class="nb">hash</span> <span class="o">(</span>sha512crypt, crypt<span class="o">(</span>3<span class="o">)</span> <span class="nv">$6</span>$ <span class="o">[</span>SHA512 128/128 AVX 2x<span class="o">])</span>
+</span></span><span class="line"><span class="cl">Cost <span class="m">1</span> <span class="o">(</span>iteration count<span class="o">)</span> is <span class="m">5000</span> <span class="k">for</span> all loaded hashes
+</span></span><span class="line"><span class="cl">Will run <span class="m">2</span> OpenMP threads
+</span></span><span class="line"><span class="cl">Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
+</span></span><span class="line"><span class="cl">hikari           <span class="o">(</span>?<span class="o">)</span>
+</span></span><span class="line"><span class="cl">1g 0:00:00:06 DONE <span class="o">(</span>2021-01-04 03:35<span class="o">)</span> 0.1545g/s 1048p/s 1048c/s 1048C/s 98765432..random1
+</span></span><span class="line"><span class="cl">Use the <span class="s2">&#34;--show&#34;</span> option to display all of the cracked passwords reliably
+</span></span><span class="line"><span class="cl">Session completed
+</span></span></code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2276,30 +2276,30 @@ Session completed
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">ssh root@<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
-The authenticity of host <span class="s1">&#39;10.10.21.216 (10.10.21.216)&#39;</span> can<span class="s1">&#39;t be established.
-</span><span class="s1">ECDSA key fingerprint is SHA256:5evbK4JjQatGFwpn/RYHt5C3A6banBkqnngz4IVXyz0.
-</span><span class="s1">Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-</span><span class="s1">Warning: Permanently added &#39;</span>10.10.21.216<span class="s1">&#39; (ECDSA) to the list of known hosts.
-</span><span class="s1">root@10.10.21.216&#39;</span>s password: 
-Welcome to Ubuntu 16.04.6 LTS <span class="o">(</span>GNU/Linux 4.4.0-157-generic x86_64<span class="o">)</span>
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/advantage
-
-The programs included with the Ubuntu system are free software<span class="p">;</span>
-the exact distribution terms <span class="k">for</span> each program are described in the
-individual files in /usr/share/doc/*/copyright.
-
-Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
-applicable law.
-
-root@ubuntu:~# ls
-root.txt
-root@ubuntu:~# cat root.txt <span class="p">|</span> wc -c
-<span class="m">33</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh root@<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
+</span></span><span class="line"><span class="cl">The authenticity of host <span class="s1">&#39;10.10.21.216 (10.10.21.216)&#39;</span> can<span class="s1">&#39;t be established.
+</span></span></span><span class="line"><span class="cl"><span class="s1">ECDSA key fingerprint is SHA256:5evbK4JjQatGFwpn/RYHt5C3A6banBkqnngz4IVXyz0.
+</span></span></span><span class="line"><span class="cl"><span class="s1">Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+</span></span></span><span class="line"><span class="cl"><span class="s1">Warning: Permanently added &#39;</span>10.10.21.216<span class="s1">&#39; (ECDSA) to the list of known hosts.
+</span></span></span><span class="line"><span class="cl"><span class="s1">root@10.10.21.216&#39;</span>s password: 
+</span></span><span class="line"><span class="cl">Welcome to Ubuntu 16.04.6 LTS <span class="o">(</span>GNU/Linux 4.4.0-157-generic x86_64<span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> * Documentation:  https://help.ubuntu.com
+</span></span><span class="line"><span class="cl"> * Management:     https://landscape.canonical.com
+</span></span><span class="line"><span class="cl"> * Support:        https://ubuntu.com/advantage
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">The programs included with the Ubuntu system are free software<span class="p">;</span>
+</span></span><span class="line"><span class="cl">the exact distribution terms <span class="k">for</span> each program are described in the
+</span></span><span class="line"><span class="cl">individual files in /usr/share/doc/*/copyright.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+</span></span><span class="line"><span class="cl">applicable law.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">root@ubuntu:~# ls
+</span></span><span class="line"><span class="cl">root.txt
+</span></span><span class="line"><span class="cl">root@ubuntu:~# cat root.txt <span class="p">|</span> wc -c
+</span></span><span class="line"><span class="cl"><span class="m">33</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div>
     </article>
@@ -2491,29 +2491,6 @@ root@ubuntu:~# cat root.txt <span class="p">|</span> wc -c
   
 </script>
     
-<div class="donation">
-  <div class="donation__message">
-    Share on
-  </div>
-  <div class="donation__icons">
-    
-    
-    
-      
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fanonforce%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/intent/tweet?text=Anonforce%20%5bTryHackMe%5d&url=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fanonforce%2f&hashtags=ftp%2cpgp%2cgpg%2chash%20cracking&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
-        </a>
-      
-    
-  </div>
-</div>
-
 
     
     
@@ -2539,7 +2516,7 @@ root@ubuntu:~# cat root.txt <span class="p">|</span> wc -c
     </div>
     <div class="whoami__desc">
       
-        Computer Science student interested in Penetration Testing, Cyber Defense, OSINT and Social Engineering
+        Cyber Security Analyst | Master&#39;s student of Computer Science
       
     </div>
     <div class="whoami__social">
@@ -2726,7 +2703,7 @@ root@ubuntu:~# cat root.txt <span class="p">|</span> wc -c
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.9d61b979db5cc2a1ff3a5d410e881547a61b9d28bc23e811c49061d47df07ef3.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3748,7 +3725,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2022, All Rights Reserved
+                    ©2023, All Rights Reserved
                 
             </p>
         

