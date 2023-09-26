@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Martin Kubečka</title>
+    <link>https://martinkubecka.sk/tags/</link>
+    <description>Recent content in Tags on Martin Kubečka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>privacy</title>
+      <link>https://martinkubecka.sk/tags/privacy/</link>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self-hosting</title>
+      <link>https://martinkubecka.sk/tags/self-hosting/</link>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/self-hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pi-hole</title>
+      <link>https://martinkubecka.sk/tags/pi-hole/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/pi-hole/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unbound</title>
+      <link>https://martinkubecka.sk/tags/unbound/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/unbound/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C2</title>
+      <link>https://martinkubecka.sk/tags/c2/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/c2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>malware</title>
+      <link>https://martinkubecka.sk/tags/malware/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/malware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Basic</title>
+      <link>https://martinkubecka.sk/tags/visual-basic/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/visual-basic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

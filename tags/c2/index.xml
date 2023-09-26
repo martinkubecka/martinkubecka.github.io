@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>C2 on Martin Kubečka</title>
+    <link>https://martinkubecka.sk/tags/c2/</link>
+    <description>Recent content in C2 on Martin Kubečka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/tags/c2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weaponizing Malicious Macros</title>
+      <link>https://martinkubecka.sk/posts/malicious-macros/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/posts/malicious-macros/</guid>
+      <description>Learn about crafting and analyzing Microsoft Excel malicious macros.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>pi-hole on Martin Kubečka</title>
+    <link>https://martinkubecka.sk/tags/pi-hole/</link>
+    <description>Recent content in pi-hole on Martin Kubečka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/tags/pi-hole/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up your own Recursive DNS Server</title>
+      <link>https://martinkubecka.sk/posts/resursive_dns/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/posts/resursive_dns/</guid>
+      <description>Learn how to set up your own Recursive DNS Server at home on a Raspberry Pi 4.</description>
+    </item>
+    
+  </channel>
+</rss>
