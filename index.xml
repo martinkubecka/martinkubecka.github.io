@@ -7,51 +7,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 23 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Self Hosting News Aggregator</title>
-      <link>https://martinkubecka.sk/posts/news_aggregator/</link>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://martinkubecka.sk/posts/news_aggregator/</guid>
-      <description>Enhance your digital privacy with self-hosted news aggregator.</description>
-    </item>
-    
-    <item>
-      <title>Setting Up Your Own Recursive DNS Server</title>
-      <link>https://martinkubecka.sk/posts/resursive_dns/</link>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://martinkubecka.sk/posts/resursive_dns/</guid>
-      <description>Learn how to set up your own Recursive DNS Server at home on a Raspberry Pi 4.</description>
-    </item>
-    
-    <item>
-      <title>Weaponizing Malicious Macros</title>
-      <link>https://martinkubecka.sk/posts/malicious-macros/</link>
-      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://martinkubecka.sk/posts/malicious-macros/</guid>
-      <description>Learn about crafting and analyzing Microsoft Excel malicious macros.</description>
-    </item>
-    
-    <item>
       <title>About Me</title>
       <link>https://martinkubecka.sk/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://martinkubecka.sk/about/</guid>
       <description>I am a Cybersecurity Analyst with main interest in Cyber Defense, Cyber Threat Intelligence, Open-Source Intelligence Techniques and Social Engineering. I completed my Master&amp;rsquo;s degree at the Faculty of Electrical Engineering and Information Technology of the Slovak University of Technology in Bratislava, where I pursued Computer Science with a focus on the security of information technologies.
 In my spare time, I make the Internet a safer place by reporting application and system vulnerabilities to local and foreign companies.</description>
     </item>
     
-    
     <item>
       <title>My Latest Reading List</title>
       <link>https://martinkubecka.sk/library/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://martinkubecka.sk/library/</guid>
-      <description>#18 : Advanced Penetration Testing  Subtitle: Hacking the World&amp;rsquo;s Most Secure Networks Author: Wil Allsopp Publication Date: February 22, 2017 Length: 288 Pages ISBN: 9781119367680 Publisher: Wiley  #17 : How to Hack Like a Legend  Subtitle: Breaking Windows Author: Sparc Flow Publication Date: October 25, 2022 Length: 216 Pages ISBN: 9781718501508 Publisher: No Starch Press  #16 : Practical Vulnerability Management  Subtitle: A Strategic Approach to Managing Cyber Risk Author: Andrew Magnusson Publication Date: September 29, 2020 Length: 192 Pages ISBN: 9781593279882 Publisher: No Starch Press  #15 : Intrusion Detection Honeypots  Subtitle: Detection through Deception Author: Chris Sanders Publish Date: September 11, 2020 Length: 238 Pages ISBN: 9781735188300 Publisher: Applied Network Defense  #14 : Cyber Warfare  Subtitle: Truth, Tactics, and Strategies Author: Chase Cunningham Publication Date: February 25, 2020 Length: 330 Pages ISBN: 9781839216992 Publisher: Packt  #13 : The Art of Cyberwarfare  Subtitle: An Investigator&amp;rsquo;s Guide to Espionage, Ransomware, and Organized Cybercrime Author: Jon DiMaggio Publication Date: April 26, 2022 Length: 272 Pages ISBN: 9781718502147 Publisher: No Starch Press  #12 : How to Hack Like a Ghost  Subtitle: Breaching the Cloud Author: Sparc Flow Publication Date: May 3, 2021 Length: 264 Pages ISBN: 9781718501263 Publisher: No Starch Press  #11 : Sandworm  Subtitle: A New Era of Cyberwar and the Hunt for the Kremlin&amp;rsquo;s Most Dangerous Hackers Author: Andy Greenberg Publication Date: November 5, 2019 Length: 348 Pages ISBN: 0385544405 Publisher: Doubleday  #10 : The Art of Deception  Subtitle: Controlling the Human Element of Security Author: Kevin D.</description>
+      <description>#19 : We Are Bellingcat  Subtitle: An Intelligence Agency for the People Author: Eliot Higgins Publication Date: March 2, 2021 Length: 272 Pages ISBN: 9781635577303 Publisher: Bloomsbury Publishing Inc  #18 : Advanced Penetration Testing  Subtitle: Hacking the World&amp;rsquo;s Most Secure Networks Author: Wil Allsopp Publication Date: February 22, 2017 Length: 288 Pages ISBN: 9781119367680 Publisher: Wiley  #17 : How to Hack Like a Legend  Subtitle: Breaking Windows Author: Sparc Flow Publication Date: October 25, 2022 Length: 216 Pages ISBN: 9781718501508 Publisher: No Starch Press  #16 : Practical Vulnerability Management  Subtitle: A Strategic Approach to Managing Cyber Risk Author: Andrew Magnusson Publication Date: September 29, 2020 Length: 192 Pages ISBN: 9781593279882 Publisher: No Starch Press  #15 : Intrusion Detection Honeypots  Subtitle: Detection through Deception Author: Chris Sanders Publish Date: September 11, 2020 Length: 238 Pages ISBN: 9781735188300 Publisher: Applied Network Defense  #14 : Cyber Warfare  Subtitle: Truth, Tactics, and Strategies Author: Chase Cunningham Publication Date: February 25, 2020 Length: 330 Pages ISBN: 9781839216992 Publisher: Packt  #13 : The Art of Cyberwarfare  Subtitle: An Investigator&amp;rsquo;s Guide to Espionage, Ransomware, and Organized Cybercrime Author: Jon DiMaggio Publication Date: April 26, 2022 Length: 272 Pages ISBN: 9781718502147 Publisher: No Starch Press  #12 : How to Hack Like a Ghost  Subtitle: Breaching the Cloud Author: Sparc Flow Publication Date: May 3, 2021 Length: 264 Pages ISBN: 9781718501263 Publisher: No Starch Press  #11 : Sandworm  Subtitle: A New Era of Cyberwar and the Hunt for the Kremlin&amp;rsquo;s Most Dangerous Hackers Author: Andy Greenberg Publication Date: November 5, 2019 Length: 348 Pages ISBN: 0385544405 Publisher: Doubleday  #10 : The Art of Deception  Subtitle: Controlling the Human Element of Security Author: Kevin D.</description>
     </item>
+    
+    <item>
+      <title>Self Hosting News Aggregator</title>
+      <link>https://martinkubecka.sk/posts/2023-09-23-news-aggregator/</link>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/posts/2023-09-23-news-aggregator/</guid>
+      <description>Enhance your digital privacy with self-hosted news aggregator.</description>
+    </item>
+    
+    <item>
+      <title>Setting Up Your Own Recursive DNS Server</title>
+      <link>https://martinkubecka.sk/posts/2022-01-28-resursive-dns/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/posts/2022-01-28-resursive-dns/</guid>
+      <description>Learn how to set up your own Recursive DNS Server at home on a Raspberry Pi 4.</description>
+    </item>
+    
+    <item>
+      <title>Weaponizing Malicious Macros</title>
+      <link>https://martinkubecka.sk/posts/2021-05-12-malicious-macros/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/posts/2021-05-12-malicious-macros/</guid>
+      <description>Learn about crafting and analyzing Microsoft Excel malicious macros.</description>
+    </item>
+    
     
     
   </channel>

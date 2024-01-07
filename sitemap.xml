@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://martinkubecka.sk/about/</loc>
+    <lastmod>2023-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/library/</loc>
+    <lastmod>2023-09-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://martinkubecka.sk/categories/</loc>
     <lastmod>2023-09-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,7 +23,7 @@
     <loc>https://martinkubecka.sk/tags/privacy/</loc>
     <lastmod>2023-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinkubecka.sk/posts/news_aggregator/</loc>
+    <loc>https://martinkubecka.sk/posts/2023-09-23-news-aggregator/</loc>
     <lastmod>2023-09-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/tags/self-hosting/</loc>
@@ -29,7 +35,7 @@
     <loc>https://martinkubecka.sk/tags/pi-hole/</loc>
     <lastmod>2022-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinkubecka.sk/posts/resursive_dns/</loc>
+    <loc>https://martinkubecka.sk/posts/2022-01-28-resursive-dns/</loc>
     <lastmod>2022-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/tags/unbound/</loc>
@@ -47,14 +53,10 @@
     <loc>https://martinkubecka.sk/tags/visual-basic/</loc>
     <lastmod>2021-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinkubecka.sk/posts/malicious-macros/</loc>
+    <loc>https://martinkubecka.sk/posts/2021-05-12-malicious-macros/</loc>
     <lastmod>2021-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinkubecka.sk/about/</loc>
-  </url><url>
     <loc>https://martinkubecka.sk/archives/</loc>
-  </url><url>
-    <loc>https://martinkubecka.sk/library/</loc>
   </url><url>
     <loc>https://martinkubecka.sk/search/</loc>
   </url>

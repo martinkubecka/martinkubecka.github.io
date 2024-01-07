@@ -8,19 +8,19 @@
     <lastBuildDate>Sat, 23 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self Hosting News Aggregator</title>
-      <link>https://martinkubecka.sk/posts/news_aggregator/</link>
+      <link>https://martinkubecka.sk/posts/2023-09-23-news-aggregator/</link>
       <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://martinkubecka.sk/posts/news_aggregator/</guid>
+      <guid>https://martinkubecka.sk/posts/2023-09-23-news-aggregator/</guid>
       <description>Enhance your digital privacy with self-hosted news aggregator.</description>
     </item>
     
     <item>
       <title>Setting Up Your Own Recursive DNS Server</title>
-      <link>https://martinkubecka.sk/posts/resursive_dns/</link>
+      <link>https://martinkubecka.sk/posts/2022-01-28-resursive-dns/</link>
       <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://martinkubecka.sk/posts/resursive_dns/</guid>
+      <guid>https://martinkubecka.sk/posts/2022-01-28-resursive-dns/</guid>
       <description>Learn how to set up your own Recursive DNS Server at home on a Raspberry Pi 4.</description>
     </item>
     
