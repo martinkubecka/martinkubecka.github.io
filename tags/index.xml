@@ -4,8 +4,58 @@
     <title>Tags on Martin Kubečka</title>
     <link>https://martinkubecka.sk/tags/</link>
     <description>Recent content in Tags on Martin Kubečka</description>
+    <image>
+      <title>Martin Kubečka</title>
+      <url>https://martinkubecka.sk/images/avatar_transparent.png</url>
+      <link>https://martinkubecka.sk/images/avatar_transparent.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Combodo</title>
+      <link>https://martinkubecka.sk/tags/combodo/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/combodo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-47622</title>
+      <link>https://martinkubecka.sk/tags/cve-2023-47622/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/cve-2023-47622/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iTop</title>
+      <link>https://martinkubecka.sk/tags/itop/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/itop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reflected XSS</title>
+      <link>https://martinkubecka.sk/tags/reflected-xss/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/reflected-xss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XSS</title>
+      <link>https://martinkubecka.sk/tags/xss/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/xss/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>privacy</title>
       <link>https://martinkubecka.sk/tags/privacy/</link>
@@ -25,6 +75,78 @@
     </item>
     
     <item>
+      <title>CVE-2021-41434</title>
+      <link>https://martinkubecka.sk/tags/cve-2021-41434/</link>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/cve-2021-41434/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expense Management System</title>
+      <link>https://martinkubecka.sk/tags/expense-management-system/</link>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/expense-management-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stored XSS</title>
+      <link>https://martinkubecka.sk/tags/stored-xss/</link>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/stored-xss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Authentication Bypass</title>
+      <link>https://martinkubecka.sk/tags/authentication-bypass/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/authentication-bypass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CVE-2021-41433</title>
+      <link>https://martinkubecka.sk/tags/cve-2021-41433/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/cve-2021-41433/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EGavilan Media</title>
+      <link>https://martinkubecka.sk/tags/egavilan-media/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/egavilan-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL Injection</title>
+      <link>https://martinkubecka.sk/tags/sql-injection/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/sql-injection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FlatPress</title>
+      <link>https://martinkubecka.sk/tags/flatpress/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/flatpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>pi-hole</title>
       <link>https://martinkubecka.sk/tags/pi-hole/</link>
       <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
@@ -39,6 +161,15 @@
       <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://martinkubecka.sk/tags/unbound/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CVE-2021-37413</title>
+      <link>https://martinkubecka.sk/tags/cve-2021-37413/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/cve-2021-37413/</guid>
       <description></description>
     </item>
     

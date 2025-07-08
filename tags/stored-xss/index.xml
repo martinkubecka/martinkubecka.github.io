@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Stored XSS on Martin Kubečka</title>
+    <link>https://martinkubecka.sk/tags/stored-xss/</link>
+    <description>Recent content in Stored XSS on Martin Kubečka</description>
+    <image>
+      <title>Martin Kubečka</title>
+      <url>https://martinkubecka.sk/images/avatar_transparent.png</url>
+      <link>https://martinkubecka.sk/images/avatar_transparent.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 24 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/tags/stored-xss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE-2021-41434: Stored Cross-Site Scripting Vulnerability in Expense Management System by EGavilan Media</title>
+      <link>https://martinkubecka.sk/security-advisories/cve-2021-41434/</link>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/security-advisories/cve-2021-41434/</guid>
+      <description>Stored XSS in EGavilan Media&amp;#39;s Expense Management System allows arbitrary JavaScript execution via expense description.</description>
+    </item>
+    
+    <item>
+      <title>CVE-2021-41432: Stored Cross-Site Scripting Vulnerability in the Blog Content in FlatPress</title>
+      <link>https://martinkubecka.sk/security-advisories/cve-2021-41432/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/security-advisories/cve-2021-41432/</guid>
+      <description>Stored XSS vulnerability in FlatPress 1.2.1 allows arbitrary JavaScript execution via crafted post content.</description>
+    </item>
+    
+  </channel>
+</rss>

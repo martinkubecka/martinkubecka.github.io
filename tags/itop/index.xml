@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>iTop on Martin Kubečka</title>
+    <link>https://martinkubecka.sk/tags/itop/</link>
+    <description>Recent content in iTop on Martin Kubečka</description>
+    <image>
+      <title>Martin Kubečka</title>
+      <url>https://martinkubecka.sk/images/avatar_transparent.png</url>
+      <link>https://martinkubecka.sk/images/avatar_transparent.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/tags/itop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE-2023-47622: Multiple Reflected Cross-Site Scripting Vulnerabilities in IT Service Management platform iTop</title>
+      <link>https://martinkubecka.sk/security-advisories/cve-2023-47622/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/security-advisories/cve-2023-47622/</guid>
+      <description>Reflected XSS in Combodo iTop&amp;#39;s render endpoint allows arbitrary JavaScript execution via multiple query parameters.</description>
+    </item>
+    
+  </channel>
+</rss>
