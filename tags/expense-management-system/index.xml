@@ -10,14 +10,14 @@
       <link>https://martinkubecka.sk/images/avatar_transparent.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/tags/expense-management-system/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/tags/expense-management-system/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CVE-2021-41434: Stored Cross-Site Scripting Vulnerability in Expense Management System by EGavilan Media</title>
       <link>https://martinkubecka.sk/security-advisories/cve-2021-41434/</link>
-      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://martinkubecka.sk/security-advisories/cve-2021-41434/</guid>
-      <description>Stored XSS in EGavilan Media&amp;#39;s Expense Management System allows arbitrary JavaScript execution via expense description.</description>
+      <description>Stored XSS vulnerability in Expense Management System 1.0 allows arbitrary JavaScript execution via expense description input.</description>
     </item>
     
   </channel>

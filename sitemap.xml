@@ -3,7 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://martinkubecka.sk/categories/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/tags/cve-2025-56683/</loc>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/security-advisories/cve-2025-56683/</loc>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/tags/dom-based-xss/</loc>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/tags/logseq/</loc>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/</loc>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/categories/security-advisories/</loc>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/security-advisories/</loc>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/tags/</loc>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/tags/xss/</loc>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/tags/combodo/</loc>
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
@@ -17,22 +44,7 @@
     <loc>https://martinkubecka.sk/tags/itop/</loc>
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinkubecka.sk/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://martinkubecka.sk/tags/reflected-xss/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://martinkubecka.sk/categories/security-advisories/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://martinkubecka.sk/security-advisories/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://martinkubecka.sk/tags/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://martinkubecka.sk/tags/xss/</loc>
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/about/</loc>
@@ -56,37 +68,37 @@
     <loc>https://martinkubecka.sk/tags/self-hosting/</loc>
     <lastmod>2023-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinkubecka.sk/tags/cve-2021-41434/</loc>
-    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://martinkubecka.sk/security-advisories/cve-2021-41434/</loc>
-    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://martinkubecka.sk/tags/expense-management-system/</loc>
-    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://martinkubecka.sk/tags/stored-xss/</loc>
-    <lastmod>2022-06-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://martinkubecka.sk/tags/authentication-bypass/</loc>
-    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-22T00:00:01+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/tags/cve-2021-41433/</loc>
-    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-22T00:00:01+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/security-advisories/cve-2021-41433/</loc>
-    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-22T00:00:01+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/tags/egavilan-media/</loc>
-    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-22T00:00:01+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/tags/sql-injection/</loc>
-    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-22T00:00:01+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/security-advisories/cve-2021-41432/</loc>
     <lastmod>2022-06-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://martinkubecka.sk/tags/cve-2021-41434/</loc>
+    <lastmod>2022-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/security-advisories/cve-2021-41434/</loc>
+    <lastmod>2022-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/tags/expense-management-system/</loc>
+    <lastmod>2022-06-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://martinkubecka.sk/tags/flatpress/</loc>
+    <lastmod>2022-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/tags/stored-xss/</loc>
     <lastmod>2022-06-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/tags/pi-hole/</loc>

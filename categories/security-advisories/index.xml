@@ -10,32 +10,32 @@
       <link>https://martinkubecka.sk/images/avatar_transparent.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/categories/security-advisories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/categories/security-advisories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE-2025-56683: DOM-based Cross-Site Scripting Leading to Remote Code Execution in Logseq application</title>
+      <link>https://martinkubecka.sk/security-advisories/cve-2025-56683/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/security-advisories/cve-2025-56683/</guid>
+      <description>A DOM-based XSS vulnerability in Logseq version 0.10.9 allows Remote Code Execution by injecting malicious JavaScript through unsanitized plugin README content combined with insufficient protocol validation.</description>
+    </item>
+    
     <item>
       <title>CVE-2023-47622: Multiple Reflected Cross-Site Scripting Vulnerabilities in IT Service Management platform iTop</title>
       <link>https://martinkubecka.sk/security-advisories/cve-2023-47622/</link>
       <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://martinkubecka.sk/security-advisories/cve-2023-47622/</guid>
-      <description>Reflected XSS in Combodo iTop&amp;#39;s render endpoint allows arbitrary JavaScript execution via multiple query parameters.</description>
-    </item>
-    
-    <item>
-      <title>CVE-2021-41434: Stored Cross-Site Scripting Vulnerability in Expense Management System by EGavilan Media</title>
-      <link>https://martinkubecka.sk/security-advisories/cve-2021-41434/</link>
-      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://martinkubecka.sk/security-advisories/cve-2021-41434/</guid>
-      <description>Stored XSS in EGavilan Media&amp;#39;s Expense Management System allows arbitrary JavaScript execution via expense description.</description>
+      <description>Reflected XSS vulnerability in multiple query parameters of Combodo iTop’s render endpoint allows JavaScript injection and execution.</description>
     </item>
     
     <item>
       <title>CVE-2021-41433: Authentication Bypass in Resumes Management by EGavilan Media</title>
       <link>https://martinkubecka.sk/security-advisories/cve-2021-41433/</link>
-      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Jun 2022 00:00:01 +0000</pubDate>
       
       <guid>https://martinkubecka.sk/security-advisories/cve-2021-41433/</guid>
-      <description>Unauthenticated SQL injection vulnerability in EGavilan Media&amp;#39;s Job App allows login bypass.</description>
+      <description>SQL injection vulnerability in EGavilan Media&amp;#39;s Resumes Management and Job application allows unauthenticated attackers to bypass login authentication.</description>
     </item>
     
     <item>
@@ -45,6 +45,15 @@
       
       <guid>https://martinkubecka.sk/security-advisories/cve-2021-41432/</guid>
       <description>Stored XSS vulnerability in FlatPress 1.2.1 allows arbitrary JavaScript execution via crafted post content.</description>
+    </item>
+    
+    <item>
+      <title>CVE-2021-41434: Stored Cross-Site Scripting Vulnerability in Expense Management System by EGavilan Media</title>
+      <link>https://martinkubecka.sk/security-advisories/cve-2021-41434/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/security-advisories/cve-2021-41434/</guid>
+      <description>Stored XSS vulnerability in Expense Management System 1.0 allows arbitrary JavaScript execution via expense description input.</description>
     </item>
     
     <item>
