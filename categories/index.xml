@@ -10,7 +10,16 @@
       <link>https://martinkubecka.sk/images/avatar_transparent.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research</title>
+      <link>https://martinkubecka.sk/categories/research/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/categories/research/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Security Advisories</title>
       <link>https://martinkubecka.sk/categories/security-advisories/</link>
@@ -26,15 +35,6 @@
       <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://martinkubecka.sk/categories/homelab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>https://martinkubecka.sk/categories/research/</link>
-      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://martinkubecka.sk/categories/research/</guid>
       <description></description>
     </item>
     

@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/categories/security-advisories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CVE-2025-56683: DOM-based Cross-Site Scripting Leading to Remote Code Execution in Logseq application</title>
+      <title>CVE-2025-56683: DOM-based Cross-Site Scripting Leading to Remote Code Execution in Logseq Application</title>
       <link>https://martinkubecka.sk/security-advisories/cve-2025-56683/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>CVE-2023-47622: Multiple Reflected Cross-Site Scripting Vulnerabilities in IT Service Management platform iTop</title>
+      <title>CVE-2023-47622: Multiple Reflected Cross-Site Scripting Vulnerabilities in IT Service Management Platform iTop</title>
       <link>https://martinkubecka.sk/security-advisories/cve-2023-47622/</link>
       <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
       

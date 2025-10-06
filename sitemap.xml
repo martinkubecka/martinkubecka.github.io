@@ -3,7 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://martinkubecka.sk/categories/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/tags/katz-stealer/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/tags/malware-analysis/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/tags/phishing-campaign/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/posts/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/tags/remcos-rat/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/categories/research/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/tags/steganography/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/tags/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinkubecka.sk/posts/2025-10-02-unsofisticating-phishing-delivering-sofistiacted-malware/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/tags/cve-2025-56683/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
@@ -17,16 +47,10 @@
     <loc>https://martinkubecka.sk/tags/logseq/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://martinkubecka.sk/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://martinkubecka.sk/categories/security-advisories/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/security-advisories/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://martinkubecka.sk/tags/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/tags/xss/</loc>
@@ -54,9 +78,6 @@
     <lastmod>2023-09-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/categories/homelab/</loc>
-    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://martinkubecka.sk/posts/</loc>
     <lastmod>2023-09-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/tags/privacy/</loc>
@@ -120,9 +141,6 @@
     <lastmod>2021-05-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/tags/malware/</loc>
-    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://martinkubecka.sk/categories/research/</loc>
     <lastmod>2021-05-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinkubecka.sk/tags/visual-basic/</loc>
