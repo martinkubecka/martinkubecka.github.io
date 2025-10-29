@@ -10,20 +10,29 @@
       <link>https://martinkubecka.sk/images/avatar_transparent.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://martinkubecka.sk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Katz Stealer</title>
-      <link>https://martinkubecka.sk/tags/katz-stealer/</link>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <title>DLL Sideloading</title>
+      <link>https://martinkubecka.sk/tags/dll-sideloading/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://martinkubecka.sk/tags/katz-stealer/</guid>
+      <guid>https://martinkubecka.sk/tags/dll-sideloading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Korplug</title>
+      <link>https://martinkubecka.sk/tags/korplug/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/korplug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Malware Analysis</title>
       <link>https://martinkubecka.sk/tags/malware-analysis/</link>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
       
       <guid>https://martinkubecka.sk/tags/malware-analysis/</guid>
       <description></description>
@@ -32,9 +41,54 @@
     <item>
       <title>Phishing Campaign</title>
       <link>https://martinkubecka.sk/tags/phishing-campaign/</link>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
       
       <guid>https://martinkubecka.sk/tags/phishing-campaign/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PlugX</title>
+      <link>https://martinkubecka.sk/tags/plugx/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/plugx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SOGU.SEC</title>
+      <link>https://martinkubecka.sk/tags/sogu.sec/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/sogu.sec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Threat Intelligence</title>
+      <link>https://martinkubecka.sk/tags/threat-intelligence/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/threat-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UNC6384</title>
+      <link>https://martinkubecka.sk/tags/unc6384/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/unc6384/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Katz Stealer</title>
+      <link>https://martinkubecka.sk/tags/katz-stealer/</link>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinkubecka.sk/tags/katz-stealer/</guid>
       <description></description>
     </item>
     
